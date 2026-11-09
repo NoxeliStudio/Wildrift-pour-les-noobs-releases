@@ -6004,5 +6004,13 @@
     "patch": "7.3e"
    }
   }
+ },
+ "icons": {
+  "items": "https://jungler.gg/games/wildrift/images/items/",
+  "runes": "https://jungler.gg/games/wildrift/images/runes/",
+  "spells": "https://jungler.gg/games/wildrift/images/summoner-spells/"
+ },
+ "icon_fix": {
+  "Immortal Treads": "immortal-treds"
  }
 }
