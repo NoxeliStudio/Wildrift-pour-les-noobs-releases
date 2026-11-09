@@ -27,15 +27,10 @@
     "enchant": "Armored Advance",
     "runes": [
      "Conqueror",
-     "Grasp of Undying",
      "Courage of the Colossus",
-     "Demolish",
      "Bone Plating",
-     "Second Wind",
      "Overgrowth",
-     "Perseverance",
-     "Sudden Impact",
-     "Cut Down"
+     "Sudden Impact"
     ],
     "spells": [
      "Flash",
@@ -51,7 +46,27 @@
      "Q",
      "E",
      "W"
-    ]
+    ],
+    "runes_popular": [
+     "Conqueror",
+     "Grasp of Undying",
+     "Courage of the Colossus",
+     "Demolish",
+     "Bone Plating",
+     "Second Wind",
+     "Overgrowth",
+     "Perseverance",
+     "Sudden Impact",
+     "Cut Down"
+    ],
+    "runes_alt": [
+     "Grasp of Undying",
+     "Demolish",
+     "Second Wind",
+     "Perseverance"
+    ],
+    "rune_path": "Volonté",
+    "keystone": "Conqueror"
    }
   },
   "ahri": {
@@ -77,9 +92,10 @@
     "enchant": "Spellslinger's Shoes",
     "runes": [
      "Electrocute",
-     "Dark Harvest",
      "Manaflow Band",
-     "Transcendence"
+     "Transcendence",
+     "Scorch",
+     "Coup de Grace"
     ],
     "spells": [
      "Flash",
@@ -97,7 +113,26 @@
      "W",
      "E",
      "R"
-    ]
+    ],
+    "runes_popular": [
+     "Electrocute",
+     "Dark Harvest",
+     "Manaflow Band",
+     "Transcendence",
+     "Scorch",
+     "Coup de Grace",
+     "Bone Plating",
+     "Sudden Impact",
+     "Cut Down"
+    ],
+    "runes_alt": [
+     "Dark Harvest",
+     "Bone Plating",
+     "Sudden Impact",
+     "Cut Down"
+    ],
+    "rune_path": "Sorcellerie",
+    "keystone": "Electrocute"
    }
   },
   "akali": {
@@ -122,6 +157,7 @@
     "boots": "Boots of Mana",
     "enchant": "Spellslinger's Shoes",
     "runes": [
+     "Fleet Footwork",
      "Sudden Impact",
      "Hubris",
      "Eyeball Collection",
@@ -141,7 +177,17 @@
      "Q",
      "E",
      "W"
-    ]
+    ],
+    "runes_popular": [
+     "Fleet Footwork",
+     "Sudden Impact",
+     "Hubris",
+     "Eyeball Collection",
+     "Bone Plating"
+    ],
+    "runes_alt": [],
+    "rune_path": "Domination",
+    "keystone": "Fleet Footwork"
    }
   },
   "akshan": {
@@ -168,11 +214,8 @@
      "Empowerment",
      "Brutal",
      "Coup de Grace",
-     "Cut Down",
      "Legend: Alacrity",
-     "Legend: Bloodline",
-     "Sudden Impact",
-     "Eyeball Collection"
+     "Sudden Impact"
     ],
     "spells": [
      "Flash",
@@ -188,7 +231,24 @@
      "Q",
      "E",
      "W"
-    ]
+    ],
+    "runes_popular": [
+     "Empowerment",
+     "Brutal",
+     "Coup de Grace",
+     "Cut Down",
+     "Legend: Alacrity",
+     "Legend: Bloodline",
+     "Sudden Impact",
+     "Eyeball Collection"
+    ],
+    "runes_alt": [
+     "Cut Down",
+     "Legend: Bloodline",
+     "Eyeball Collection"
+    ],
+    "rune_path": "Précision",
+    "keystone": "Empowerment"
    }
   },
   "alistar": {
@@ -214,15 +274,10 @@
     "enchant": "Armored Advance",
     "runes": [
      "Ice Overlord",
-     "Phase Rush",
      "Unshakeable",
-     "Courage of the Colossus",
      "Second Wind",
-     "Bone Plating",
      "Overgrowth",
-     "Perseverance",
-     "Hextech Flash",
-     "Nimbus Cloak"
+     "Hextech Flash"
     ],
     "spells": [
      "Flash",
@@ -238,7 +293,27 @@
      "Q",
      "W",
      "E"
-    ]
+    ],
+    "runes_popular": [
+     "Ice Overlord",
+     "Phase Rush",
+     "Unshakeable",
+     "Courage of the Colossus",
+     "Second Wind",
+     "Bone Plating",
+     "Overgrowth",
+     "Perseverance",
+     "Hextech Flash",
+     "Nimbus Cloak"
+    ],
+    "runes_alt": [
+     "Phase Rush",
+     "Courage of the Colossus",
+     "Bone Plating",
+     "Perseverance"
+    ],
+    "rune_path": "Volonté",
+    "keystone": "Ice Overlord"
    }
   },
   "ambessa": {
@@ -262,12 +337,9 @@
     "enchant": "Armored Advance",
     "runes": [
      "Grasp of Undying",
-     "Conqueror",
      "Demolish",
      "Second Wind",
-     "Bone Plating",
      "Overgrowth",
-     "Perseverance",
      "Legend: Tenacity"
     ],
     "spells": [
@@ -284,7 +356,24 @@
      "Q",
      "E",
      "W"
-    ]
+    ],
+    "runes_popular": [
+     "Grasp of Undying",
+     "Conqueror",
+     "Demolish",
+     "Second Wind",
+     "Bone Plating",
+     "Overgrowth",
+     "Perseverance",
+     "Legend: Tenacity"
+    ],
+    "runes_alt": [
+     "Conqueror",
+     "Bone Plating",
+     "Perseverance"
+    ],
+    "rune_path": "Volonté",
+    "keystone": "Grasp of Undying"
    }
   },
   "amumu": {
@@ -309,14 +398,9 @@
     "runes": [
      "Ice Overlord",
      "Unshakeable",
-     "Courage of the Colossus",
      "Bone Plating",
-     "Second Wind",
-     "Nullifying Orb",
      "Overgrowth",
-     "Perseverance",
-     "Transcendence",
-     "Sudden Impact"
+     "Transcendence"
     ],
     "spells": [
      "Flash",
@@ -334,7 +418,27 @@
      "W",
      "E",
      "R"
-    ]
+    ],
+    "runes_popular": [
+     "Ice Overlord",
+     "Unshakeable",
+     "Courage of the Colossus",
+     "Bone Plating",
+     "Second Wind",
+     "Nullifying Orb",
+     "Overgrowth",
+     "Perseverance",
+     "Transcendence",
+     "Sudden Impact"
+    ],
+    "runes_alt": [
+     "Courage of the Colossus",
+     "Second Wind",
+     "Nullifying Orb",
+     "Perseverance"
+    ],
+    "rune_path": "Volonté",
+    "keystone": "Ice Overlord"
    }
   },
   "annie": {
@@ -360,12 +464,9 @@
     "enchant": "Spellslinger's Shoes",
     "runes": [
      "Electrocute",
-     "First Strike",
      "Hextech Flash",
-     "Manaflow Band",
      "Transcendence",
      "Nimbus Cloak",
-     "Scorch",
      "Bone Plating"
     ],
     "spells": [
@@ -382,7 +483,24 @@
      "Q",
      "W",
      "E"
-    ]
+    ],
+    "runes_popular": [
+     "Electrocute",
+     "First Strike",
+     "Hextech Flash",
+     "Manaflow Band",
+     "Transcendence",
+     "Nimbus Cloak",
+     "Scorch",
+     "Bone Plating"
+    ],
+    "runes_alt": [
+     "First Strike",
+     "Manaflow Band",
+     "Scorch"
+    ],
+    "rune_path": "Sorcellerie",
+    "keystone": "Electrocute"
    }
   },
   "ashe": {
@@ -409,11 +527,8 @@
      "Lethal Tempo",
      "Brutal",
      "Cut Down",
-     "Coup de Grace",
      "Legend: Alacrity",
-     "Legend: Bloodline",
-     "Nimbus Cloak",
-     "Bone Plating"
+     "Nimbus Cloak"
     ],
     "spells": [
      "Flash",
@@ -429,7 +544,24 @@
      "W",
      "Q",
      "E"
-    ]
+    ],
+    "runes_popular": [
+     "Lethal Tempo",
+     "Brutal",
+     "Cut Down",
+     "Coup de Grace",
+     "Legend: Alacrity",
+     "Legend: Bloodline",
+     "Nimbus Cloak",
+     "Bone Plating"
+    ],
+    "runes_alt": [
+     "Coup de Grace",
+     "Legend: Bloodline",
+     "Bone Plating"
+    ],
+    "rune_path": "Précision",
+    "keystone": "Lethal Tempo"
    }
   },
   "aurelionsol": {
@@ -455,16 +587,10 @@
     "enchant": "Spellslinger's Shoes",
     "runes": [
      "Arcane Comet",
-     "First Strike",
      "Botanist",
-     "Axiom Arcanist",
-     "Manaflow Band",
      "Absolute Focus",
-     "Transcendence",
      "Scorch",
-     "Ixtali Seedjar",
-     "Bone Plating",
-     "Cut Down"
+     "Bone Plating"
     ],
     "spells": [
      "Flash",
@@ -480,7 +606,28 @@
      "Q",
      "E",
      "W"
-    ]
+    ],
+    "runes_popular": [
+     "Arcane Comet",
+     "First Strike",
+     "Botanist",
+     "Axiom Arcanist",
+     "Manaflow Band",
+     "Absolute Focus",
+     "Transcendence",
+     "Scorch",
+     "Ixtali Seedjar",
+     "Bone Plating",
+     "Cut Down"
+    ],
+    "runes_alt": [
+     "First Strike",
+     "Axiom Arcanist",
+     "Manaflow Band",
+     "Transcendence"
+    ],
+    "rune_path": "Sorcellerie",
+    "keystone": "Arcane Comet"
    }
   },
   "aurora": {
@@ -509,9 +656,7 @@
      "Sudden Impact",
      "Chain Assault",
      "Eyeball Collection",
-     "Bone Plating",
-     "Transcendence",
-     "Cut Down"
+     "Bone Plating"
     ],
     "spells": [
      "Flash",
@@ -527,7 +672,22 @@
      "Q",
      "E",
      "W"
-    ]
+    ],
+    "runes_popular": [
+     "Electrocute",
+     "Sudden Impact",
+     "Chain Assault",
+     "Eyeball Collection",
+     "Bone Plating",
+     "Transcendence",
+     "Cut Down"
+    ],
+    "runes_alt": [
+     "Transcendence",
+     "Cut Down"
+    ],
+    "rune_path": "Domination",
+    "keystone": "Electrocute"
    }
   },
   "bard": {
@@ -556,8 +716,7 @@
      "Empowered Attack",
      "Chain Assault",
      "Zombie Ward",
-     "Bone Plating",
-     "Perseverance"
+     "Bone Plating"
     ],
     "spells": [
      "Flash",
@@ -573,7 +732,20 @@
      "Q",
      "W",
      "E"
-    ]
+    ],
+    "runes_popular": [
+     "Electrocute",
+     "Empowered Attack",
+     "Chain Assault",
+     "Zombie Ward",
+     "Bone Plating",
+     "Perseverance"
+    ],
+    "runes_alt": [
+     "Perseverance"
+    ],
+    "rune_path": "Domination",
+    "keystone": "Electrocute"
    }
   },
   "blitzcrank": {
@@ -599,14 +771,9 @@
     "runes": [
      "Ice Overlord",
      "Font of Life",
-     "Courage of the Colossus",
      "Bone Plating",
-     "Second Wind",
      "Overgrowth",
-     "Perseverance",
-     "Hextech Flash",
-     "Transcendence",
-     "Nimbus Cloak"
+     "Hextech Flash"
     ],
     "spells": [
      "Flash",
@@ -622,7 +789,27 @@
      "Q",
      "E",
      "W"
-    ]
+    ],
+    "runes_popular": [
+     "Ice Overlord",
+     "Font of Life",
+     "Courage of the Colossus",
+     "Bone Plating",
+     "Second Wind",
+     "Overgrowth",
+     "Perseverance",
+     "Hextech Flash",
+     "Transcendence",
+     "Nimbus Cloak"
+    ],
+    "runes_alt": [
+     "Courage of the Colossus",
+     "Second Wind",
+     "Perseverance",
+     "Transcendence"
+    ],
+    "rune_path": "Volonté",
+    "keystone": "Ice Overlord"
    }
   },
   "brand": {
@@ -648,13 +835,10 @@
     "enchant": "Spellslinger's Shoes",
     "runes": [
      "Electrocute",
-     "First Strike",
      "Botanist",
-     "Manaflow Band",
      "Transcendence",
      "Scorch",
-     "Bone Plating",
-     "Cut Down"
+     "Bone Plating"
     ],
     "spells": [
      "Flash",
@@ -670,7 +854,24 @@
      "W",
      "E",
      "Q"
-    ]
+    ],
+    "runes_popular": [
+     "Electrocute",
+     "First Strike",
+     "Botanist",
+     "Manaflow Band",
+     "Transcendence",
+     "Scorch",
+     "Bone Plating",
+     "Cut Down"
+    ],
+    "runes_alt": [
+     "First Strike",
+     "Manaflow Band",
+     "Cut Down"
+    ],
+    "rune_path": "Sorcellerie",
+    "keystone": "Electrocute"
    }
   },
   "braum": {
@@ -696,13 +897,9 @@
     "runes": [
      "Guardian",
      "Font of Life",
-     "Unshakeable",
      "Second Wind",
-     "Bone Plating",
      "Overgrowth",
-     "Perseverance",
-     "Transcendence",
-     "Legend: Tenacity"
+     "Transcendence"
     ],
     "spells": [
      "Flash",
@@ -718,7 +915,26 @@
      "Q",
      "E",
      "W"
-    ]
+    ],
+    "runes_popular": [
+     "Guardian",
+     "Font of Life",
+     "Unshakeable",
+     "Second Wind",
+     "Bone Plating",
+     "Overgrowth",
+     "Perseverance",
+     "Transcendence",
+     "Legend: Tenacity"
+    ],
+    "runes_alt": [
+     "Unshakeable",
+     "Bone Plating",
+     "Perseverance",
+     "Legend: Tenacity"
+    ],
+    "rune_path": "Volonté",
+    "keystone": "Guardian"
    }
   },
   "caitlyn": {
@@ -745,9 +961,7 @@
      "Lethal Tempo",
      "Brutal",
      "Cut Down",
-     "Coup de Grace",
      "Legend: Bloodline",
-     "Legend: Alacrity",
      "Bone Plating"
     ],
     "spells": [
@@ -764,7 +978,22 @@
      "Q",
      "W",
      "E"
-    ]
+    ],
+    "runes_popular": [
+     "Lethal Tempo",
+     "Brutal",
+     "Cut Down",
+     "Coup de Grace",
+     "Legend: Bloodline",
+     "Legend: Alacrity",
+     "Bone Plating"
+    ],
+    "runes_alt": [
+     "Coup de Grace",
+     "Legend: Alacrity"
+    ],
+    "rune_path": "Précision",
+    "keystone": "Lethal Tempo"
    }
   },
   "camille": {
@@ -792,11 +1021,8 @@
      "Grasp of Undying",
      "Demolish",
      "Second Wind",
-     "Bone Plating",
      "Overgrowth",
-     "Perseverance",
-     "Scorch",
-     "Legend: Tenacity"
+     "Scorch"
     ],
     "spells": [
      "Flash",
@@ -812,7 +1038,24 @@
      "Q",
      "E",
      "W"
-    ]
+    ],
+    "runes_popular": [
+     "Grasp of Undying",
+     "Demolish",
+     "Second Wind",
+     "Bone Plating",
+     "Overgrowth",
+     "Perseverance",
+     "Scorch",
+     "Legend: Tenacity"
+    ],
+    "runes_alt": [
+     "Bone Plating",
+     "Perseverance",
+     "Legend: Tenacity"
+    ],
+    "rune_path": "Volonté",
+    "keystone": "Grasp of Undying"
    }
   },
   "chogath": {
@@ -840,12 +1083,8 @@
      "Grasp of Undying",
      "Demolish",
      "Second Wind",
-     "Bone Plating",
      "Perseverance",
-     "Overgrowth",
-     "Axiom Arcanist",
-     "Celerity",
-     "Triumph"
+     "Axiom Arcanist"
     ],
     "spells": [
      "Flash",
@@ -861,7 +1100,26 @@
      "E",
      "Q",
      "W"
-    ]
+    ],
+    "runes_popular": [
+     "Grasp of Undying",
+     "Demolish",
+     "Second Wind",
+     "Bone Plating",
+     "Perseverance",
+     "Overgrowth",
+     "Axiom Arcanist",
+     "Celerity",
+     "Triumph"
+    ],
+    "runes_alt": [
+     "Bone Plating",
+     "Overgrowth",
+     "Celerity",
+     "Triumph"
+    ],
+    "rune_path": "Volonté",
+    "keystone": "Grasp of Undying"
    }
   },
   "corki": {
@@ -889,9 +1147,7 @@
      "Conqueror",
      "Brutal",
      "Coup de Grace",
-     "Cut Down",
      "Legend: Bloodline",
-     "Legend: Alacrity",
      "Bone Plating"
     ],
     "spells": [
@@ -908,7 +1164,22 @@
      "Q",
      "E",
      "W"
-    ]
+    ],
+    "runes_popular": [
+     "Conqueror",
+     "Brutal",
+     "Coup de Grace",
+     "Cut Down",
+     "Legend: Bloodline",
+     "Legend: Alacrity",
+     "Bone Plating"
+    ],
+    "runes_alt": [
+     "Cut Down",
+     "Legend: Alacrity"
+    ],
+    "rune_path": "Précision",
+    "keystone": "Conqueror"
    }
   },
   "darius": {
@@ -935,13 +1206,9 @@
     "runes": [
      "Conqueror",
      "Demolish",
-     "Courage of the Colossus",
      "Bone Plating",
-     "Second Wind",
      "Overgrowth",
-     "Perseverance",
-     "Legend: Tenacity",
-     "Axiom Arcanist"
+     "Legend: Tenacity"
     ],
     "spells": [
      "Flash",
@@ -957,7 +1224,26 @@
      "Q",
      "E",
      "W"
-    ]
+    ],
+    "runes_popular": [
+     "Conqueror",
+     "Demolish",
+     "Courage of the Colossus",
+     "Bone Plating",
+     "Second Wind",
+     "Overgrowth",
+     "Perseverance",
+     "Legend: Tenacity",
+     "Axiom Arcanist"
+    ],
+    "runes_alt": [
+     "Courage of the Colossus",
+     "Second Wind",
+     "Perseverance",
+     "Axiom Arcanist"
+    ],
+    "rune_path": "Volonté",
+    "keystone": "Conqueror"
    }
   },
   "diana": {
@@ -983,12 +1269,10 @@
     "enchant": "Spellslinger's Shoes",
     "runes": [
      "Electrocute",
-     "Dark Harvest",
      "Sudden Impact",
      "Chain Assault",
      "Eyeball Collection",
-     "Bone Plating",
-     "Cut Down"
+     "Bone Plating"
     ],
     "spells": [
      "Flash",
@@ -1004,7 +1288,22 @@
      "Q",
      "W",
      "E"
-    ]
+    ],
+    "runes_popular": [
+     "Electrocute",
+     "Dark Harvest",
+     "Sudden Impact",
+     "Chain Assault",
+     "Eyeball Collection",
+     "Bone Plating",
+     "Cut Down"
+    ],
+    "runes_alt": [
+     "Dark Harvest",
+     "Cut Down"
+    ],
+    "rune_path": "Domination",
+    "keystone": "Electrocute"
    }
   },
   "draven": {
@@ -1032,9 +1331,7 @@
      "Conqueror",
      "Brutal",
      "Coup de Grace",
-     "Cut Down",
      "Legend: Alacrity",
-     "Legend: Bloodline",
      "Bone Plating"
     ],
     "spells": [
@@ -1051,7 +1348,22 @@
      "Q",
      "W",
      "E"
-    ]
+    ],
+    "runes_popular": [
+     "Conqueror",
+     "Brutal",
+     "Coup de Grace",
+     "Cut Down",
+     "Legend: Alacrity",
+     "Legend: Bloodline",
+     "Bone Plating"
+    ],
+    "runes_alt": [
+     "Cut Down",
+     "Legend: Bloodline"
+    ],
+    "rune_path": "Précision",
+    "keystone": "Conqueror"
    }
   },
   "drmundo": {
@@ -1078,11 +1390,9 @@
     "runes": [
      "Conqueror",
      "Unshakeable",
-     "Courage of the Colossus",
      "Second Wind",
      "Overgrowth",
-     "Last Stand",
-     "Legend: Tenacity"
+     "Last Stand"
     ],
     "spells": [
      "Flash",
@@ -1100,7 +1410,22 @@
      "E",
      "W",
      "R"
-    ]
+    ],
+    "runes_popular": [
+     "Conqueror",
+     "Unshakeable",
+     "Courage of the Colossus",
+     "Second Wind",
+     "Overgrowth",
+     "Last Stand",
+     "Legend: Tenacity"
+    ],
+    "runes_alt": [
+     "Courage of the Colossus",
+     "Legend: Tenacity"
+    ],
+    "rune_path": "Volonté",
+    "keystone": "Conqueror"
    }
   },
   "ekko": {
@@ -1129,9 +1454,7 @@
      "Sudden Impact",
      "Chain Assault",
      "Eyeball Collection",
-     "Bone Plating",
-     "Cut Down",
-     "Transcendence"
+     "Bone Plating"
     ],
     "spells": [
      "Flash",
@@ -1147,7 +1470,22 @@
      "Q",
      "E",
      "W"
-    ]
+    ],
+    "runes_popular": [
+     "Fleet Footwork",
+     "Sudden Impact",
+     "Chain Assault",
+     "Eyeball Collection",
+     "Bone Plating",
+     "Cut Down",
+     "Transcendence"
+    ],
+    "runes_alt": [
+     "Cut Down",
+     "Transcendence"
+    ],
+    "rune_path": "Domination",
+    "keystone": "Fleet Footwork"
    }
   },
   "evelynn": {
@@ -1173,12 +1511,10 @@
     "enchant": "Spellslinger's Shoes",
     "runes": [
      "First Strike",
-     "Electrocute",
      "Sudden Impact",
      "Chain Assault",
      "Eyeball Collection",
-     "Cut Down",
-     "Transcendence"
+     "Cut Down"
     ],
     "spells": [
      "Flash",
@@ -1194,7 +1530,22 @@
      "Q",
      "E",
      "W"
-    ]
+    ],
+    "runes_popular": [
+     "First Strike",
+     "Electrocute",
+     "Sudden Impact",
+     "Chain Assault",
+     "Eyeball Collection",
+     "Cut Down",
+     "Transcendence"
+    ],
+    "runes_alt": [
+     "Electrocute",
+     "Transcendence"
+    ],
+    "rune_path": "Domination",
+    "keystone": "First Strike"
    }
   },
   "ezreal": {
@@ -1220,10 +1571,8 @@
     "enchant": "Immortal Treads",
     "runes": [
      "Empowerment",
-     "Conqueror",
      "Brutal",
      "Coup de Grace",
-     "Cut Down",
      "Legend: Bloodline",
      "Bone Plating"
     ],
@@ -1241,7 +1590,22 @@
      "Q",
      "E",
      "W"
-    ]
+    ],
+    "runes_popular": [
+     "Empowerment",
+     "Conqueror",
+     "Brutal",
+     "Coup de Grace",
+     "Cut Down",
+     "Legend: Bloodline",
+     "Bone Plating"
+    ],
+    "runes_alt": [
+     "Conqueror",
+     "Cut Down"
+    ],
+    "rune_path": "Précision",
+    "keystone": "Empowerment"
    }
   },
   "fiddlesticks": {
@@ -1270,9 +1634,7 @@
      "Sudden Impact",
      "Chain Assault",
      "Eyeball Collection",
-     "Overgrowth",
-     "Cut Down",
-     "Hextech Flash"
+     "Overgrowth"
     ],
     "spells": [
      "Flash",
@@ -1290,7 +1652,22 @@
      "W",
      "E",
      "R"
-    ]
+    ],
+    "runes_popular": [
+     "First Strike",
+     "Sudden Impact",
+     "Chain Assault",
+     "Eyeball Collection",
+     "Overgrowth",
+     "Cut Down",
+     "Hextech Flash"
+    ],
+    "runes_alt": [
+     "Cut Down",
+     "Hextech Flash"
+    ],
+    "rune_path": "Domination",
+    "keystone": "First Strike"
    }
   },
   "fiora": {
@@ -1316,12 +1693,9 @@
     "enchant": "Armored Advance",
     "runes": [
      "Conqueror",
-     "Grasp of Undying",
      "Demolish",
      "Second Wind",
-     "Bone Plating",
      "Perseverance",
-     "Overgrowth",
      "Sudden Impact"
     ],
     "spells": [
@@ -1338,7 +1712,24 @@
      "Q",
      "E",
      "W"
-    ]
+    ],
+    "runes_popular": [
+     "Conqueror",
+     "Grasp of Undying",
+     "Demolish",
+     "Second Wind",
+     "Bone Plating",
+     "Perseverance",
+     "Overgrowth",
+     "Sudden Impact"
+    ],
+    "runes_alt": [
+     "Grasp of Undying",
+     "Bone Plating",
+     "Overgrowth"
+    ],
+    "rune_path": "Volonté",
+    "keystone": "Conqueror"
    }
   },
   "fizz": {
@@ -1364,13 +1755,10 @@
     "enchant": "Spellslinger's Shoes",
     "runes": [
      "Fleet Footwork",
-     "Electrocute",
      "Sudden Impact",
      "Chain Assault",
      "Eyeball Collection",
-     "Bone Plating",
-     "Transcendence",
-     "Cut Down"
+     "Bone Plating"
     ],
     "spells": [
      "Flash",
@@ -1386,7 +1774,24 @@
      "E",
      "W",
      "Q"
-    ]
+    ],
+    "runes_popular": [
+     "Fleet Footwork",
+     "Electrocute",
+     "Sudden Impact",
+     "Chain Assault",
+     "Eyeball Collection",
+     "Bone Plating",
+     "Transcendence",
+     "Cut Down"
+    ],
+    "runes_alt": [
+     "Electrocute",
+     "Transcendence",
+     "Cut Down"
+    ],
+    "rune_path": "Domination",
+    "keystone": "Fleet Footwork"
    }
   },
   "galio": {
@@ -1415,8 +1820,7 @@
      "Sudden Impact",
      "Chain Assault",
      "Eyeball Collection",
-     "Bone Plating",
-     "Transcendence"
+     "Bone Plating"
     ],
     "spells": [
      "Flash",
@@ -1432,7 +1836,20 @@
      "Q",
      "W",
      "E"
-    ]
+    ],
+    "runes_popular": [
+     "Electrocute",
+     "Sudden Impact",
+     "Chain Assault",
+     "Eyeball Collection",
+     "Bone Plating",
+     "Transcendence"
+    ],
+    "runes_alt": [
+     "Transcendence"
+    ],
+    "rune_path": "Domination",
+    "keystone": "Electrocute"
    }
   },
   "garen": {
@@ -1458,13 +1875,9 @@
     "runes": [
      "Conqueror",
      "Demolish",
-     "Unshakeable",
      "Second Wind",
-     "Bone Plating",
      "Overgrowth",
-     "Perseverance",
-     "Axiom Arcanist",
-     "Legend: Tenacity"
+     "Axiom Arcanist"
     ],
     "spells": [
      "Flash",
@@ -1480,7 +1893,26 @@
      "E",
      "Q",
      "W"
-    ]
+    ],
+    "runes_popular": [
+     "Conqueror",
+     "Demolish",
+     "Unshakeable",
+     "Second Wind",
+     "Bone Plating",
+     "Overgrowth",
+     "Perseverance",
+     "Axiom Arcanist",
+     "Legend: Tenacity"
+    ],
+    "runes_alt": [
+     "Unshakeable",
+     "Bone Plating",
+     "Perseverance",
+     "Legend: Tenacity"
+    ],
+    "rune_path": "Volonté",
+    "keystone": "Conqueror"
    }
   },
   "gnar": {
@@ -1506,14 +1938,10 @@
     "enchant": "",
     "runes": [
      "Grasp of Undying",
-     "Fleet Footwork",
      "Demolish",
      "Bone Plating",
-     "Second Wind",
      "Overgrowth",
-     "Perseverance",
-     "Cut Down",
-     "Brutal"
+     "Cut Down"
     ],
     "spells": [
      "Flash",
@@ -1529,7 +1957,26 @@
      "Q",
      "W",
      "E"
-    ]
+    ],
+    "runes_popular": [
+     "Grasp of Undying",
+     "Fleet Footwork",
+     "Demolish",
+     "Bone Plating",
+     "Second Wind",
+     "Overgrowth",
+     "Perseverance",
+     "Cut Down",
+     "Brutal"
+    ],
+    "runes_alt": [
+     "Fleet Footwork",
+     "Second Wind",
+     "Perseverance",
+     "Brutal"
+    ],
+    "rune_path": "Volonté",
+    "keystone": "Grasp of Undying"
    }
   },
   "gragas": {
@@ -1555,12 +2002,10 @@
     "enchant": "Spellslinger's Shoes",
     "runes": [
      "Electrocute",
-     "First Strike",
      "Sudden Impact",
      "Chain Assault",
      "Eyeball Collection",
-     "Bone Plating",
-     "Transcendence"
+     "Bone Plating"
     ],
     "spells": [
      "Flash",
@@ -1576,7 +2021,22 @@
      "Q",
      "E",
      "W"
-    ]
+    ],
+    "runes_popular": [
+     "Electrocute",
+     "First Strike",
+     "Sudden Impact",
+     "Chain Assault",
+     "Eyeball Collection",
+     "Bone Plating",
+     "Transcendence"
+    ],
+    "runes_alt": [
+     "First Strike",
+     "Transcendence"
+    ],
+    "rune_path": "Domination",
+    "keystone": "Electrocute"
    }
   },
   "graves": {
@@ -1602,13 +2062,10 @@
     "enchant": "Immortal Treads",
     "runes": [
      "Fleet Footwork",
-     "Conqueror",
      "Brutal",
      "Coup de Grace",
-     "Cut Down",
      "Legend: Alacrity",
-     "Sudden Impact",
-     "Overgrowth"
+     "Sudden Impact"
     ],
     "spells": [
      "Flash",
@@ -1624,7 +2081,24 @@
      "Q",
      "E",
      "W"
-    ]
+    ],
+    "runes_popular": [
+     "Fleet Footwork",
+     "Conqueror",
+     "Brutal",
+     "Coup de Grace",
+     "Cut Down",
+     "Legend: Alacrity",
+     "Sudden Impact",
+     "Overgrowth"
+    ],
+    "runes_alt": [
+     "Conqueror",
+     "Cut Down",
+     "Overgrowth"
+    ],
+    "rune_path": "Précision",
+    "keystone": "Fleet Footwork"
    }
   },
   "gwen": {
@@ -1650,12 +2124,9 @@
     "enchant": "Spellslinger's Shoes",
     "runes": [
      "Conqueror",
-     "Grasp of Undying",
      "Demolish",
      "Bone Plating",
-     "Second Wind",
      "Perseverance",
-     "Overgrowth",
      "Sudden Impact"
     ],
     "spells": [
@@ -1672,7 +2143,24 @@
      "Q",
      "E",
      "W"
-    ]
+    ],
+    "runes_popular": [
+     "Conqueror",
+     "Grasp of Undying",
+     "Demolish",
+     "Bone Plating",
+     "Second Wind",
+     "Perseverance",
+     "Overgrowth",
+     "Sudden Impact"
+    ],
+    "runes_alt": [
+     "Grasp of Undying",
+     "Second Wind",
+     "Overgrowth"
+    ],
+    "rune_path": "Volonté",
+    "keystone": "Conqueror"
    }
   },
   "hecarim": {
@@ -1700,12 +2188,8 @@
      "Phase Rush",
      "Battle Zeal",
      "Coup de Grace",
-     "Cut Down",
      "Legend: Bloodline",
-     "Legend: Alacrity",
-     "Celerity",
-     "Overgrowth",
-     "Transcendence"
+     "Celerity"
     ],
     "spells": [
      "Ghost",
@@ -1723,7 +2207,26 @@
      "W",
      "E",
      "R"
-    ]
+    ],
+    "runes_popular": [
+     "Phase Rush",
+     "Battle Zeal",
+     "Coup de Grace",
+     "Cut Down",
+     "Legend: Bloodline",
+     "Legend: Alacrity",
+     "Celerity",
+     "Overgrowth",
+     "Transcendence"
+    ],
+    "runes_alt": [
+     "Cut Down",
+     "Legend: Alacrity",
+     "Overgrowth",
+     "Transcendence"
+    ],
+    "rune_path": "Précision",
+    "keystone": "Phase Rush"
    }
   },
   "heimerdinger": {
@@ -1749,13 +2252,10 @@
     "enchant": "Spellslinger's Shoes",
     "runes": [
      "Arcane Comet",
-     "First Strike",
      "Manaflow Band",
-     "Botanist",
      "Transcendence",
      "Scorch",
-     "Cut Down",
-     "Bone Plating"
+     "Cut Down"
     ],
     "spells": [
      "Flash",
@@ -1771,7 +2271,24 @@
      "Q",
      "W",
      "E"
-    ]
+    ],
+    "runes_popular": [
+     "Arcane Comet",
+     "First Strike",
+     "Manaflow Band",
+     "Botanist",
+     "Transcendence",
+     "Scorch",
+     "Cut Down",
+     "Bone Plating"
+    ],
+    "runes_alt": [
+     "First Strike",
+     "Botanist",
+     "Bone Plating"
+    ],
+    "rune_path": "Sorcellerie",
+    "keystone": "Arcane Comet"
    }
   },
   "irelia": {
@@ -1799,11 +2316,8 @@
      "Conqueror",
      "Demolish",
      "Bone Plating",
-     "Second Wind",
      "Overgrowth",
-     "Perseverance",
-     "Sudden Impact",
-     "Cut Down"
+     "Sudden Impact"
     ],
     "spells": [
      "Flash",
@@ -1819,7 +2333,24 @@
      "Q",
      "W",
      "E"
-    ]
+    ],
+    "runes_popular": [
+     "Conqueror",
+     "Demolish",
+     "Bone Plating",
+     "Second Wind",
+     "Overgrowth",
+     "Perseverance",
+     "Sudden Impact",
+     "Cut Down"
+    ],
+    "runes_alt": [
+     "Second Wind",
+     "Perseverance",
+     "Cut Down"
+    ],
+    "rune_path": "Volonté",
+    "keystone": "Conqueror"
    }
   },
   "janna": {
@@ -1847,10 +2378,8 @@
      "Aery",
      "Font of Life",
      "Bone Plating",
-     "Second Wind",
      "Revitalize",
-     "Transcendence",
-     "Manaflow Band"
+     "Transcendence"
     ],
     "spells": [
      "Flash",
@@ -1866,7 +2395,22 @@
      "W",
      "E",
      "Q"
-    ]
+    ],
+    "runes_popular": [
+     "Aery",
+     "Font of Life",
+     "Bone Plating",
+     "Second Wind",
+     "Revitalize",
+     "Transcendence",
+     "Manaflow Band"
+    ],
+    "runes_alt": [
+     "Second Wind",
+     "Manaflow Band"
+    ],
+    "rune_path": "Volonté",
+    "keystone": "Aery"
    }
   },
   "jarvaniv": {
@@ -1894,10 +2438,7 @@
      "Conqueror",
      "Unshakeable",
      "Bone Plating",
-     "Second Wind",
-     "Nullifying Orb",
      "Perseverance",
-     "Overgrowth",
      "Triumph"
     ],
     "spells": [
@@ -1914,7 +2455,24 @@
      "Q",
      "E",
      "W"
-    ]
+    ],
+    "runes_popular": [
+     "Conqueror",
+     "Unshakeable",
+     "Bone Plating",
+     "Second Wind",
+     "Nullifying Orb",
+     "Perseverance",
+     "Overgrowth",
+     "Triumph"
+    ],
+    "runes_alt": [
+     "Second Wind",
+     "Nullifying Orb",
+     "Overgrowth"
+    ],
+    "rune_path": "Volonté",
+    "keystone": "Conqueror"
    }
   },
   "jax": {
@@ -1940,12 +2498,9 @@
     "enchant": "Armored Advance",
     "runes": [
      "Grasp of Undying",
-     "Conqueror",
      "Demolish",
      "Bone Plating",
-     "Second Wind",
      "Overgrowth",
-     "Perseverance",
      "Sudden Impact"
     ],
     "spells": [
@@ -1962,7 +2517,24 @@
      "W",
      "E",
      "Q"
-    ]
+    ],
+    "runes_popular": [
+     "Grasp of Undying",
+     "Conqueror",
+     "Demolish",
+     "Bone Plating",
+     "Second Wind",
+     "Overgrowth",
+     "Perseverance",
+     "Sudden Impact"
+    ],
+    "runes_alt": [
+     "Conqueror",
+     "Second Wind",
+     "Perseverance"
+    ],
+    "rune_path": "Volonté",
+    "keystone": "Grasp of Undying"
    }
   },
   "jayce": {
@@ -1990,11 +2562,8 @@
      "Conqueror",
      "Brutal",
      "Coup de Grace",
-     "Cut Down",
      "Legend: Alacrity",
-     "Sudden Impact",
-     "Bone Plating",
-     "Second Wind"
+     "Sudden Impact"
     ],
     "spells": [
      "Flash",
@@ -2010,7 +2579,24 @@
      "Q",
      "W",
      "E"
-    ]
+    ],
+    "runes_popular": [
+     "Conqueror",
+     "Brutal",
+     "Coup de Grace",
+     "Cut Down",
+     "Legend: Alacrity",
+     "Sudden Impact",
+     "Bone Plating",
+     "Second Wind"
+    ],
+    "runes_alt": [
+     "Cut Down",
+     "Bone Plating",
+     "Second Wind"
+    ],
+    "rune_path": "Précision",
+    "keystone": "Conqueror"
    }
   },
   "jhin": {
@@ -2035,15 +2621,10 @@
     "enchant": "Immortal Treads",
     "runes": [
      "Dark Harvest",
-     "Fleet Footwork",
      "Brutal",
-     "Battle Zeal",
      "Coup de Grace",
-     "Cut Down",
      "Legend: Bloodline",
-     "Nimbus Cloak",
-     "Bone Plating",
-     "Celerity"
+     "Nimbus Cloak"
     ],
     "spells": [
      "Flash",
@@ -2061,7 +2642,27 @@
      "W",
      "E",
      "R"
-    ]
+    ],
+    "runes_popular": [
+     "Dark Harvest",
+     "Fleet Footwork",
+     "Brutal",
+     "Battle Zeal",
+     "Coup de Grace",
+     "Cut Down",
+     "Legend: Bloodline",
+     "Nimbus Cloak",
+     "Bone Plating",
+     "Celerity"
+    ],
+    "runes_alt": [
+     "Fleet Footwork",
+     "Battle Zeal",
+     "Cut Down",
+     "Bone Plating"
+    ],
+    "rune_path": "Précision",
+    "keystone": "Dark Harvest"
    }
   },
   "jinx": {
@@ -2088,7 +2689,6 @@
      "Lethal Tempo",
      "Brutal",
      "Coup de Grace",
-     "Cut Down",
      "Legend: Alacrity",
      "Bone Plating"
     ],
@@ -2106,7 +2706,20 @@
      "Q",
      "W",
      "E"
-    ]
+    ],
+    "runes_popular": [
+     "Lethal Tempo",
+     "Brutal",
+     "Coup de Grace",
+     "Cut Down",
+     "Legend: Alacrity",
+     "Bone Plating"
+    ],
+    "runes_alt": [
+     "Cut Down"
+    ],
+    "rune_path": "Précision",
+    "keystone": "Lethal Tempo"
    }
   },
   "kaisa": {
@@ -2134,9 +2747,7 @@
      "Lethal Tempo",
      "Brutal",
      "Coup de Grace",
-     "Cut Down",
      "Legend: Alacrity",
-     "Legend: Bloodline",
      "Bone Plating"
     ],
     "spells": [
@@ -2153,7 +2764,22 @@
      "Q",
      "E",
      "W"
-    ]
+    ],
+    "runes_popular": [
+     "Lethal Tempo",
+     "Brutal",
+     "Coup de Grace",
+     "Cut Down",
+     "Legend: Alacrity",
+     "Legend: Bloodline",
+     "Bone Plating"
+    ],
+    "runes_alt": [
+     "Cut Down",
+     "Legend: Bloodline"
+    ],
+    "rune_path": "Précision",
+    "keystone": "Lethal Tempo"
    }
   },
   "kalista": {
@@ -2180,10 +2806,8 @@
      "Lethal Tempo",
      "Brutal",
      "Cut Down",
-     "Coup de Grace",
      "Legend: Alacrity",
-     "Sudden Impact",
-     "Bone Plating"
+     "Sudden Impact"
     ],
     "spells": [
      "Flash",
@@ -2199,7 +2823,22 @@
      "E",
      "Q",
      "W"
-    ]
+    ],
+    "runes_popular": [
+     "Lethal Tempo",
+     "Brutal",
+     "Cut Down",
+     "Coup de Grace",
+     "Legend: Alacrity",
+     "Sudden Impact",
+     "Bone Plating"
+    ],
+    "runes_alt": [
+     "Coup de Grace",
+     "Bone Plating"
+    ],
+    "rune_path": "Précision",
+    "keystone": "Lethal Tempo"
    }
   },
   "karma": {
@@ -2226,7 +2865,6 @@
     "runes": [
      "Arcane Comet",
      "Botanist",
-     "Manaflow Band",
      "Transcendence",
      "Scorch",
      "Bone Plating"
@@ -2245,7 +2883,20 @@
      "Q",
      "E",
      "W"
-    ]
+    ],
+    "runes_popular": [
+     "Arcane Comet",
+     "Botanist",
+     "Manaflow Band",
+     "Transcendence",
+     "Scorch",
+     "Bone Plating"
+    ],
+    "runes_alt": [
+     "Manaflow Band"
+    ],
+    "rune_path": "Sorcellerie",
+    "keystone": "Arcane Comet"
    }
   },
   "kassadin": {
@@ -2271,14 +2922,10 @@
     "enchant": "Spellslinger's Shoes",
     "runes": [
      "First Strike",
-     "Phase Rush",
      "Botanist",
-     "Manaflow Band",
      "Absolute Focus",
-     "Transcendence",
      "Nimbus Cloak",
-     "Sudden Impact",
-     "Bone Plating"
+     "Sudden Impact"
     ],
     "spells": [
      "Flash",
@@ -2294,7 +2941,26 @@
      "E",
      "W",
      "Q"
-    ]
+    ],
+    "runes_popular": [
+     "First Strike",
+     "Phase Rush",
+     "Botanist",
+     "Manaflow Band",
+     "Absolute Focus",
+     "Transcendence",
+     "Nimbus Cloak",
+     "Sudden Impact",
+     "Bone Plating"
+    ],
+    "runes_alt": [
+     "Phase Rush",
+     "Manaflow Band",
+     "Transcendence",
+     "Bone Plating"
+    ],
+    "rune_path": "Sorcellerie",
+    "keystone": "First Strike"
    }
   },
   "katarina": {
@@ -2322,9 +2988,7 @@
      "Sudden Impact",
      "Chain Assault",
      "Eyeball Collection",
-     "Bone Plating",
-     "Cut Down",
-     "Transcendence"
+     "Bone Plating"
     ],
     "spells": [
      "Flash",
@@ -2340,7 +3004,22 @@
      "Q",
      "E",
      "W"
-    ]
+    ],
+    "runes_popular": [
+     "First Strike",
+     "Sudden Impact",
+     "Chain Assault",
+     "Eyeball Collection",
+     "Bone Plating",
+     "Cut Down",
+     "Transcendence"
+    ],
+    "runes_alt": [
+     "Cut Down",
+     "Transcendence"
+    ],
+    "rune_path": "Domination",
+    "keystone": "First Strike"
    }
   },
   "kayle": {
@@ -2368,10 +3047,8 @@
      "Lethal Tempo",
      "Brutal",
      "Coup de Grace",
-     "Cut Down",
      "Legend: Alacrity",
-     "Overgrowth",
-     "Bone Plating"
+     "Overgrowth"
     ],
     "spells": [
      "Flash",
@@ -2387,7 +3064,22 @@
      "E",
      "Q",
      "W"
-    ]
+    ],
+    "runes_popular": [
+     "Lethal Tempo",
+     "Brutal",
+     "Coup de Grace",
+     "Cut Down",
+     "Legend: Alacrity",
+     "Overgrowth",
+     "Bone Plating"
+    ],
+    "runes_alt": [
+     "Cut Down",
+     "Bone Plating"
+    ],
+    "rune_path": "Précision",
+    "keystone": "Lethal Tempo"
    }
   },
   "kayn": {
@@ -2415,12 +3107,8 @@
      "First Strike",
      "Sudden Impact",
      "Hubris",
-     "Chain Assault",
      "Eyeball Collection",
-     "Overgrowth",
-     "Perseverance",
-     "Second Wind",
-     "Celerity"
+     "Overgrowth"
     ],
     "spells": [
      "Flash",
@@ -2436,7 +3124,26 @@
      "Q",
      "W",
      "E"
-    ]
+    ],
+    "runes_popular": [
+     "First Strike",
+     "Sudden Impact",
+     "Hubris",
+     "Chain Assault",
+     "Eyeball Collection",
+     "Overgrowth",
+     "Perseverance",
+     "Second Wind",
+     "Celerity"
+    ],
+    "runes_alt": [
+     "Chain Assault",
+     "Perseverance",
+     "Second Wind",
+     "Celerity"
+    ],
+    "rune_path": "Domination",
+    "keystone": "First Strike"
    }
   },
   "kennen": {
@@ -2463,14 +3170,9 @@
     "runes": [
      "Electrocute",
      "Brutal",
-     "Battle Zeal",
      "Coup de Grace",
-     "Cut Down",
      "Legend: Alacrity",
-     "Bone Plating",
-     "Second Wind",
-     "Nimbus Cloak",
-     "Sudden Impact"
+     "Bone Plating"
     ],
     "spells": [
      "Flash",
@@ -2488,7 +3190,27 @@
      "W",
      "E",
      "R"
-    ]
+    ],
+    "runes_popular": [
+     "Electrocute",
+     "Brutal",
+     "Battle Zeal",
+     "Coup de Grace",
+     "Cut Down",
+     "Legend: Alacrity",
+     "Bone Plating",
+     "Second Wind",
+     "Nimbus Cloak",
+     "Sudden Impact"
+    ],
+    "runes_alt": [
+     "Battle Zeal",
+     "Cut Down",
+     "Second Wind",
+     "Nimbus Cloak"
+    ],
+    "rune_path": "Précision",
+    "keystone": "Electrocute"
    }
   },
   "khazix": {
@@ -2514,15 +3236,10 @@
     "enchant": "Immortal Treads",
     "runes": [
      "Electrocute",
-     "First Strike",
-     "Dark Harvest",
      "Sudden Impact",
      "Hubris",
-     "Chain Assault",
      "Eyeball Collection",
-     "Nimbus Cloak",
-     "Transcendence",
-     "Bone Plating"
+     "Nimbus Cloak"
     ],
     "spells": [
      "Flash",
@@ -2538,7 +3255,27 @@
      "Q",
      "W",
      "E"
-    ]
+    ],
+    "runes_popular": [
+     "Electrocute",
+     "First Strike",
+     "Dark Harvest",
+     "Sudden Impact",
+     "Hubris",
+     "Chain Assault",
+     "Eyeball Collection",
+     "Nimbus Cloak",
+     "Transcendence",
+     "Bone Plating"
+    ],
+    "runes_alt": [
+     "First Strike",
+     "Dark Harvest",
+     "Chain Assault",
+     "Transcendence"
+    ],
+    "rune_path": "Domination",
+    "keystone": "Electrocute"
    }
   },
   "kindred": {
@@ -2578,7 +3315,17 @@
      "Q",
      "W",
      "E"
-    ]
+    ],
+    "runes_popular": [
+     "Empowerment",
+     "Brutal",
+     "Coup de Grace",
+     "Legend: Alacrity",
+     "Sudden Impact"
+    ],
+    "runes_alt": [],
+    "rune_path": "Précision",
+    "keystone": "Empowerment"
    }
   },
   "kogmaw": {
@@ -2606,9 +3353,7 @@
      "Lethal Tempo",
      "Brutal",
      "Coup de Grace",
-     "Cut Down",
      "Legend: Alacrity",
-     "Legend: Bloodline",
      "Bone Plating"
     ],
     "spells": [
@@ -2627,7 +3372,22 @@
      "W",
      "E",
      "R"
-    ]
+    ],
+    "runes_popular": [
+     "Lethal Tempo",
+     "Brutal",
+     "Coup de Grace",
+     "Cut Down",
+     "Legend: Alacrity",
+     "Legend: Bloodline",
+     "Bone Plating"
+    ],
+    "runes_alt": [
+     "Cut Down",
+     "Legend: Bloodline"
+    ],
+    "rune_path": "Précision",
+    "keystone": "Lethal Tempo"
    }
   },
   "ksante": {
@@ -2652,14 +3412,10 @@
     "enchant": "Armored Advance",
     "runes": [
      "Grasp of Undying",
-     "Ice Overlord",
      "Unshakeable",
-     "Demolish",
      "Second Wind",
      "Perseverance",
-     "Overgrowth",
-     "Legend: Tenacity",
-     "Last Stand"
+     "Legend: Tenacity"
     ],
     "spells": [
      "Flash",
@@ -2675,7 +3431,26 @@
      "Q",
      "W",
      "E"
-    ]
+    ],
+    "runes_popular": [
+     "Grasp of Undying",
+     "Ice Overlord",
+     "Unshakeable",
+     "Demolish",
+     "Second Wind",
+     "Perseverance",
+     "Overgrowth",
+     "Legend: Tenacity",
+     "Last Stand"
+    ],
+    "runes_alt": [
+     "Ice Overlord",
+     "Demolish",
+     "Overgrowth",
+     "Last Stand"
+    ],
+    "rune_path": "Volonté",
+    "keystone": "Grasp of Undying"
    }
   },
   "leesin": {
@@ -2702,12 +3477,9 @@
     "runes": [
      "Conqueror",
      "Brutal",
-     "Battle Zeal",
      "Coup de Grace",
-     "Cut Down",
      "Legend: Alacrity",
-     "Overgrowth",
-     "Sudden Impact"
+     "Overgrowth"
     ],
     "spells": [
      "Flash",
@@ -2723,7 +3495,24 @@
      "Q",
      "W",
      "E"
-    ]
+    ],
+    "runes_popular": [
+     "Conqueror",
+     "Brutal",
+     "Battle Zeal",
+     "Coup de Grace",
+     "Cut Down",
+     "Legend: Alacrity",
+     "Overgrowth",
+     "Sudden Impact"
+    ],
+    "runes_alt": [
+     "Battle Zeal",
+     "Cut Down",
+     "Sudden Impact"
+    ],
+    "rune_path": "Précision",
+    "keystone": "Conqueror"
    }
   },
   "leona": {
@@ -2750,13 +3539,9 @@
     "runes": [
      "Ice Overlord",
      "Unshakeable",
-     "Font of Life",
      "Second Wind",
-     "Bone Plating",
      "Overgrowth",
-     "Perseverance",
-     "Hextech Flash",
-     "Legend: Tenacity"
+     "Hextech Flash"
     ],
     "spells": [
      "Flash",
@@ -2772,7 +3557,26 @@
      "W",
      "E",
      "Q"
-    ]
+    ],
+    "runes_popular": [
+     "Ice Overlord",
+     "Unshakeable",
+     "Font of Life",
+     "Second Wind",
+     "Bone Plating",
+     "Overgrowth",
+     "Perseverance",
+     "Hextech Flash",
+     "Legend: Tenacity"
+    ],
+    "runes_alt": [
+     "Font of Life",
+     "Bone Plating",
+     "Perseverance",
+     "Legend: Tenacity"
+    ],
+    "rune_path": "Volonté",
+    "keystone": "Ice Overlord"
    }
   },
   "lillia": {
@@ -2799,9 +3603,7 @@
     "runes": [
      "Phase Rush",
      "Brutal",
-     "Battle Zeal",
      "Coup de Grace",
-     "Cut Down",
      "Legend: Bloodline",
      "Transcendence"
     ],
@@ -2819,7 +3621,22 @@
      "Q",
      "W",
      "E"
-    ]
+    ],
+    "runes_popular": [
+     "Phase Rush",
+     "Brutal",
+     "Battle Zeal",
+     "Coup de Grace",
+     "Cut Down",
+     "Legend: Bloodline",
+     "Transcendence"
+    ],
+    "runes_alt": [
+     "Battle Zeal",
+     "Cut Down"
+    ],
+    "rune_path": "Précision",
+    "keystone": "Phase Rush"
    }
   },
   "lissandra": {
@@ -2846,12 +3663,9 @@
     "runes": [
      "Electrocute",
      "Axiom Arcanist",
-     "Botanist",
      "Transcendence",
-     "Absolute Focus",
      "Scorch",
-     "Sudden Impact",
-     "Bone Plating"
+     "Sudden Impact"
     ],
     "spells": [
      "Flash",
@@ -2869,7 +3683,24 @@
      "W",
      "E",
      "R"
-    ]
+    ],
+    "runes_popular": [
+     "Electrocute",
+     "Axiom Arcanist",
+     "Botanist",
+     "Transcendence",
+     "Absolute Focus",
+     "Scorch",
+     "Sudden Impact",
+     "Bone Plating"
+    ],
+    "runes_alt": [
+     "Botanist",
+     "Absolute Focus",
+     "Bone Plating"
+    ],
+    "rune_path": "Sorcellerie",
+    "keystone": "Electrocute"
    }
   },
   "lucian": {
@@ -2896,11 +3727,8 @@
      "Empowerment",
      "Brutal",
      "Coup de Grace",
-     "Cut Down",
      "Legend: Bloodline",
-     "Legend: Alacrity",
-     "Sudden Impact",
-     "Bone Plating"
+     "Sudden Impact"
     ],
     "spells": [
      "Flash",
@@ -2916,7 +3744,24 @@
      "Q",
      "E",
      "W"
-    ]
+    ],
+    "runes_popular": [
+     "Empowerment",
+     "Brutal",
+     "Coup de Grace",
+     "Cut Down",
+     "Legend: Bloodline",
+     "Legend: Alacrity",
+     "Sudden Impact",
+     "Bone Plating"
+    ],
+    "runes_alt": [
+     "Cut Down",
+     "Legend: Alacrity",
+     "Bone Plating"
+    ],
+    "rune_path": "Précision",
+    "keystone": "Empowerment"
    }
   },
   "lulu": {
@@ -2944,7 +3789,6 @@
      "Font of Life",
      "Bone Plating",
      "Revitalize",
-     "Perseverance",
      "Transcendence"
     ],
     "spells": [
@@ -2961,7 +3805,20 @@
      "E",
      "W",
      "Q"
-    ]
+    ],
+    "runes_popular": [
+     "Aery",
+     "Font of Life",
+     "Bone Plating",
+     "Revitalize",
+     "Perseverance",
+     "Transcendence"
+    ],
+    "runes_alt": [
+     "Perseverance"
+    ],
+    "rune_path": "Volonté",
+    "keystone": "Aery"
    }
   },
   "lux": {
@@ -2989,9 +3846,7 @@
      "Cheap Shot",
      "Chain Assault",
      "Eyeball Collection",
-     "Zombie Ward",
-     "Transcendence",
-     "Bone Plating"
+     "Transcendence"
     ],
     "spells": [
      "Flash",
@@ -3007,7 +3862,22 @@
      "E",
      "Q",
      "W"
-    ]
+    ],
+    "runes_popular": [
+     "Arcane Comet",
+     "Cheap Shot",
+     "Chain Assault",
+     "Eyeball Collection",
+     "Zombie Ward",
+     "Transcendence",
+     "Bone Plating"
+    ],
+    "runes_alt": [
+     "Zombie Ward",
+     "Bone Plating"
+    ],
+    "rune_path": "Domination",
+    "keystone": "Arcane Comet"
    }
   },
   "malphite": {
@@ -3034,9 +3904,7 @@
      "Grasp of Undying",
      "Demolish",
      "Second Wind",
-     "Bone Plating",
      "Overgrowth",
-     "Perseverance",
      "Manaflow Band"
     ],
     "spells": [
@@ -3053,7 +3921,22 @@
      "Q",
      "E",
      "W"
-    ]
+    ],
+    "runes_popular": [
+     "Grasp of Undying",
+     "Demolish",
+     "Second Wind",
+     "Bone Plating",
+     "Overgrowth",
+     "Perseverance",
+     "Manaflow Band"
+    ],
+    "runes_alt": [
+     "Bone Plating",
+     "Perseverance"
+    ],
+    "rune_path": "Volonté",
+    "keystone": "Grasp of Undying"
    }
   },
   "maokai": {
@@ -3081,11 +3964,8 @@
      "Ice Overlord",
      "Courage of the Colossus",
      "Bone Plating",
-     "Second Wind",
      "Overgrowth",
-     "Perseverance",
-     "Hextech Flash",
-     "Transcendence"
+     "Hextech Flash"
     ],
     "spells": [
      "Flash",
@@ -3103,7 +3983,24 @@
      "W",
      "E",
      "R"
-    ]
+    ],
+    "runes_popular": [
+     "Ice Overlord",
+     "Courage of the Colossus",
+     "Bone Plating",
+     "Second Wind",
+     "Overgrowth",
+     "Perseverance",
+     "Hextech Flash",
+     "Transcendence"
+    ],
+    "runes_alt": [
+     "Second Wind",
+     "Perseverance",
+     "Transcendence"
+    ],
+    "rune_path": "Volonté",
+    "keystone": "Ice Overlord"
    }
   },
   "masteryi": {
@@ -3130,13 +4027,9 @@
     "runes": [
      "Lethal Tempo",
      "Brutal",
-     "Triumph",
      "Cut Down",
-     "Coup de Grace",
      "Legend: Alacrity",
-     "Overgrowth",
-     "Celerity",
-     "Perseverance"
+     "Overgrowth"
     ],
     "spells": [
      "Flash",
@@ -3152,7 +4045,26 @@
      "Q",
      "E",
      "W"
-    ]
+    ],
+    "runes_popular": [
+     "Lethal Tempo",
+     "Brutal",
+     "Triumph",
+     "Cut Down",
+     "Coup de Grace",
+     "Legend: Alacrity",
+     "Overgrowth",
+     "Celerity",
+     "Perseverance"
+    ],
+    "runes_alt": [
+     "Triumph",
+     "Coup de Grace",
+     "Celerity",
+     "Perseverance"
+    ],
+    "rune_path": "Précision",
+    "keystone": "Lethal Tempo"
    }
   },
   "mel": {
@@ -3178,9 +4090,7 @@
     "enchant": "Spellslinger's Shoes",
     "runes": [
      "Arcane Comet",
-     "Dark Harvest",
      "Manaflow Band",
-     "Botanist",
      "Transcendence",
      "Scorch",
      "Bone Plating"
@@ -3199,7 +4109,22 @@
      "Q",
      "E",
      "W"
-    ]
+    ],
+    "runes_popular": [
+     "Arcane Comet",
+     "Dark Harvest",
+     "Manaflow Band",
+     "Botanist",
+     "Transcendence",
+     "Scorch",
+     "Bone Plating"
+    ],
+    "runes_alt": [
+     "Dark Harvest",
+     "Botanist"
+    ],
+    "rune_path": "Sorcellerie",
+    "keystone": "Arcane Comet"
    }
   },
   "milio": {
@@ -3226,10 +4151,8 @@
      "Aery",
      "Font of Life",
      "Bone Plating",
-     "Nullifying Orb",
      "Revitalize",
-     "Transcendence",
-     "Manaflow Band"
+     "Transcendence"
     ],
     "spells": [
      "Flash",
@@ -3245,7 +4168,22 @@
      "E",
      "W",
      "Q"
-    ]
+    ],
+    "runes_popular": [
+     "Aery",
+     "Font of Life",
+     "Bone Plating",
+     "Nullifying Orb",
+     "Revitalize",
+     "Transcendence",
+     "Manaflow Band"
+    ],
+    "runes_alt": [
+     "Nullifying Orb",
+     "Manaflow Band"
+    ],
+    "rune_path": "Volonté",
+    "keystone": "Aery"
    }
   },
   "missfortune": {
@@ -3273,9 +4211,7 @@
      "Empowerment",
      "Brutal",
      "Cut Down",
-     "Coup de Grace",
      "Legend: Alacrity",
-     "Legend: Bloodline",
      "Bone Plating"
     ],
     "spells": [
@@ -3294,7 +4230,22 @@
      "W",
      "E",
      "R"
-    ]
+    ],
+    "runes_popular": [
+     "Empowerment",
+     "Brutal",
+     "Cut Down",
+     "Coup de Grace",
+     "Legend: Alacrity",
+     "Legend: Bloodline",
+     "Bone Plating"
+    ],
+    "runes_alt": [
+     "Coup de Grace",
+     "Legend: Bloodline"
+    ],
+    "rune_path": "Précision",
+    "keystone": "Empowerment"
    }
   },
   "mordekaiser": {
@@ -3322,9 +4273,7 @@
      "Conqueror",
      "Demolish",
      "Second Wind",
-     "Bone Plating",
      "Perseverance",
-     "Overgrowth",
      "Transcendence"
     ],
     "spells": [
@@ -3341,7 +4290,22 @@
      "Q",
      "E",
      "W"
-    ]
+    ],
+    "runes_popular": [
+     "Conqueror",
+     "Demolish",
+     "Second Wind",
+     "Bone Plating",
+     "Perseverance",
+     "Overgrowth",
+     "Transcendence"
+    ],
+    "runes_alt": [
+     "Bone Plating",
+     "Overgrowth"
+    ],
+    "rune_path": "Volonté",
+    "keystone": "Conqueror"
    }
   },
   "morgana": {
@@ -3367,7 +4331,6 @@
     "enchant": "Spellslinger's Shoes",
     "runes": [
      "Manaflow Band",
-     "Hextech Flash",
      "Transcendence",
      "Scorch",
      "Bone Plating"
@@ -3386,7 +4349,19 @@
      "Q",
      "W",
      "E"
-    ]
+    ],
+    "runes_popular": [
+     "Manaflow Band",
+     "Hextech Flash",
+     "Transcendence",
+     "Scorch",
+     "Bone Plating"
+    ],
+    "runes_alt": [
+     "Hextech Flash"
+    ],
+    "rune_path": "Sorcellerie",
+    "keystone": ""
    }
   },
   "nami": {
@@ -3414,8 +4389,7 @@
      "Font of Life",
      "Bone Plating",
      "Revitalize",
-     "Transcendence",
-     "Manaflow Band"
+     "Transcendence"
     ],
     "spells": [
      "Flash",
@@ -3431,7 +4405,20 @@
      "W",
      "E",
      "Q"
-    ]
+    ],
+    "runes_popular": [
+     "Aery",
+     "Font of Life",
+     "Bone Plating",
+     "Revitalize",
+     "Transcendence",
+     "Manaflow Band"
+    ],
+    "runes_alt": [
+     "Manaflow Band"
+    ],
+    "rune_path": "Volonté",
+    "keystone": "Aery"
    }
   },
   "nasus": {
@@ -3458,14 +4445,9 @@
     "runes": [
      "Grasp of Undying",
      "Unshakeable",
-     "Demolish",
      "Second Wind",
-     "Bone Plating",
      "Overgrowth",
-     "Perseverance",
-     "Transcendence",
-     "Manaflow Band",
-     "Legend: Tenacity"
+     "Transcendence"
     ],
     "spells": [
      "Flash",
@@ -3481,7 +4463,27 @@
      "Q",
      "W",
      "E"
-    ]
+    ],
+    "runes_popular": [
+     "Grasp of Undying",
+     "Unshakeable",
+     "Demolish",
+     "Second Wind",
+     "Bone Plating",
+     "Overgrowth",
+     "Perseverance",
+     "Transcendence",
+     "Manaflow Band",
+     "Legend: Tenacity"
+    ],
+    "runes_alt": [
+     "Demolish",
+     "Bone Plating",
+     "Perseverance",
+     "Manaflow Band"
+    ],
+    "rune_path": "Volonté",
+    "keystone": "Grasp of Undying"
    }
   },
   "nautilus": {
@@ -3509,9 +4511,7 @@
      "Ice Overlord",
      "Courage of the Colossus",
      "Bone Plating",
-     "Second Wind",
      "Overgrowth",
-     "Perseverance",
      "Hextech Flash"
     ],
     "spells": [
@@ -3528,7 +4528,22 @@
      "Q",
      "W",
      "E"
-    ]
+    ],
+    "runes_popular": [
+     "Ice Overlord",
+     "Courage of the Colossus",
+     "Bone Plating",
+     "Second Wind",
+     "Overgrowth",
+     "Perseverance",
+     "Hextech Flash"
+    ],
+    "runes_alt": [
+     "Second Wind",
+     "Perseverance"
+    ],
+    "rune_path": "Volonté",
+    "keystone": "Ice Overlord"
    }
   },
   "nidalee": {
@@ -3554,14 +4569,10 @@
     "enchant": "Spellslinger's Shoes",
     "runes": [
      "Dark Harvest",
-     "Conqueror",
      "Sudden Impact",
      "Hubris",
-     "Chain Assault",
      "Eyeball Collection",
-     "Overgrowth",
-     "Celerity",
-     "Transcendence"
+     "Overgrowth"
     ],
     "spells": [
      "Flash",
@@ -3577,7 +4588,26 @@
      "Q",
      "W",
      "E"
-    ]
+    ],
+    "runes_popular": [
+     "Dark Harvest",
+     "Conqueror",
+     "Sudden Impact",
+     "Hubris",
+     "Chain Assault",
+     "Eyeball Collection",
+     "Overgrowth",
+     "Celerity",
+     "Transcendence"
+    ],
+    "runes_alt": [
+     "Conqueror",
+     "Chain Assault",
+     "Celerity",
+     "Transcendence"
+    ],
+    "rune_path": "Domination",
+    "keystone": "Dark Harvest"
    }
   },
   "nilah": {
@@ -3602,14 +4632,10 @@
     "enchant": "Immortal Treads",
     "runes": [
      "Conqueror",
-     "Fleet Footwork",
      "Brutal",
      "Coup de Grace",
-     "Cut Down",
      "Legend: Alacrity",
-     "Second Wind",
-     "Bone Plating",
-     "Sudden Impact"
+     "Second Wind"
     ],
     "spells": [
      "Flash",
@@ -3625,7 +4651,26 @@
      "Q",
      "E",
      "W"
-    ]
+    ],
+    "runes_popular": [
+     "Conqueror",
+     "Fleet Footwork",
+     "Brutal",
+     "Coup de Grace",
+     "Cut Down",
+     "Legend: Alacrity",
+     "Second Wind",
+     "Bone Plating",
+     "Sudden Impact"
+    ],
+    "runes_alt": [
+     "Fleet Footwork",
+     "Cut Down",
+     "Bone Plating",
+     "Sudden Impact"
+    ],
+    "rune_path": "Précision",
+    "keystone": "Conqueror"
    }
   },
   "nocturne": {
@@ -3650,12 +4695,10 @@
     "enchant": "Gunmetal Greaves",
     "runes": [
      "Conqueror",
-     "First Strike",
      "Sudden Impact",
      "Chain Assault",
      "Eyeball Collection",
-     "Transcendence",
-     "Bone Plating"
+     "Transcendence"
     ],
     "spells": [
      "Flash",
@@ -3671,7 +4714,22 @@
      "Q",
      "E",
      "W"
-    ]
+    ],
+    "runes_popular": [
+     "Conqueror",
+     "First Strike",
+     "Sudden Impact",
+     "Chain Assault",
+     "Eyeball Collection",
+     "Transcendence",
+     "Bone Plating"
+    ],
+    "runes_alt": [
+     "First Strike",
+     "Bone Plating"
+    ],
+    "rune_path": "Domination",
+    "keystone": "Conqueror"
    }
   },
   "norra": {
@@ -3710,7 +4768,17 @@
      "Threads Of Homecoming",
      "Journey To Nowhere"
     ],
-    "patch": "7.2c"
+    "patch": "7.2c",
+    "runes_popular": [
+     "Arcane Comet",
+     "Botanist",
+     "Transcendence",
+     "Scorch",
+     "Bone Plating"
+    ],
+    "runes_alt": [],
+    "rune_path": "Sorcellerie",
+    "keystone": "Arcane Comet"
    }
   },
   "nunuwillump": {
@@ -3737,14 +4805,9 @@
     "runes": [
      "Ice Overlord",
      "Courage of the Colossus",
-     "Unshakeable",
      "Second Wind",
-     "Bone Plating",
      "Perseverance",
-     "Overgrowth",
-     "Legend: Tenacity",
-     "Transcendence",
-     "Hextech Flash"
+     "Legend: Tenacity"
     ],
     "spells": [
      "Flash",
@@ -3762,7 +4825,27 @@
      "W",
      "E",
      "R"
-    ]
+    ],
+    "runes_popular": [
+     "Ice Overlord",
+     "Courage of the Colossus",
+     "Unshakeable",
+     "Second Wind",
+     "Bone Plating",
+     "Perseverance",
+     "Overgrowth",
+     "Legend: Tenacity",
+     "Transcendence",
+     "Hextech Flash"
+    ],
+    "runes_alt": [
+     "Unshakeable",
+     "Bone Plating",
+     "Overgrowth",
+     "Transcendence"
+    ],
+    "rune_path": "Volonté",
+    "keystone": "Ice Overlord"
    }
   },
   "olaf": {
@@ -3790,13 +4873,8 @@
      "Conqueror",
      "Triumph",
      "Last Stand",
-     "Cut Down",
-     "Coup de Grace",
      "Legend: Alacrity",
-     "Legend: Tenacity",
-     "Overgrowth",
-     "Bone Plating",
-     "Perseverance"
+     "Overgrowth"
     ],
     "spells": [
      "Flash",
@@ -3812,7 +4890,27 @@
      "Q",
      "E",
      "W"
-    ]
+    ],
+    "runes_popular": [
+     "Conqueror",
+     "Triumph",
+     "Last Stand",
+     "Cut Down",
+     "Coup de Grace",
+     "Legend: Alacrity",
+     "Legend: Tenacity",
+     "Overgrowth",
+     "Bone Plating",
+     "Perseverance"
+    ],
+    "runes_alt": [
+     "Cut Down",
+     "Coup de Grace",
+     "Legend: Tenacity",
+     "Bone Plating"
+    ],
+    "rune_path": "Précision",
+    "keystone": "Conqueror"
    }
   },
   "orianna": {
@@ -3838,13 +4936,9 @@
     "enchant": "Spellslinger's Shoes",
     "runes": [
      "Arcane Comet",
-     "Conqueror",
      "Axiom Arcanist",
-     "Botanist",
-     "Manaflow Band",
      "Transcendence",
      "Nimbus Cloak",
-     "Scorch",
      "Bone Plating"
     ],
     "spells": [
@@ -3861,7 +4955,26 @@
      "Q",
      "W",
      "E"
-    ]
+    ],
+    "runes_popular": [
+     "Arcane Comet",
+     "Conqueror",
+     "Axiom Arcanist",
+     "Botanist",
+     "Manaflow Band",
+     "Transcendence",
+     "Nimbus Cloak",
+     "Scorch",
+     "Bone Plating"
+    ],
+    "runes_alt": [
+     "Conqueror",
+     "Botanist",
+     "Manaflow Band",
+     "Scorch"
+    ],
+    "rune_path": "Sorcellerie",
+    "keystone": "Arcane Comet"
    }
   },
   "ornn": {
@@ -3888,12 +5001,8 @@
      "Grasp of Undying",
      "Demolish",
      "Second Wind",
-     "Bone Plating",
      "Overgrowth",
-     "Perseverance",
-     "Transcendence",
-     "Legend: Tenacity",
-     "Scorch"
+     "Transcendence"
     ],
     "spells": [
      "Flash",
@@ -3909,7 +5018,26 @@
      "Q",
      "W",
      "E"
-    ]
+    ],
+    "runes_popular": [
+     "Grasp of Undying",
+     "Demolish",
+     "Second Wind",
+     "Bone Plating",
+     "Overgrowth",
+     "Perseverance",
+     "Transcendence",
+     "Legend: Tenacity",
+     "Scorch"
+    ],
+    "runes_alt": [
+     "Bone Plating",
+     "Perseverance",
+     "Legend: Tenacity",
+     "Scorch"
+    ],
+    "rune_path": "Volonté",
+    "keystone": "Grasp of Undying"
    }
   },
   "pantheon": {
@@ -3935,14 +5063,10 @@
     "enchant": "Armorcrusher Boots",
     "runes": [
      "Empowerment",
-     "First Strike",
      "Brutal",
      "Coup de Grace",
-     "Cut Down",
      "Legend: Alacrity",
-     "Legend: Bloodline",
-     "Bone Plating",
-     "Sudden Impact"
+     "Bone Plating"
     ],
     "spells": [
      "Flash",
@@ -3958,7 +5082,26 @@
      "Q",
      "W",
      "E"
-    ]
+    ],
+    "runes_popular": [
+     "Empowerment",
+     "First Strike",
+     "Brutal",
+     "Coup de Grace",
+     "Cut Down",
+     "Legend: Alacrity",
+     "Legend: Bloodline",
+     "Bone Plating",
+     "Sudden Impact"
+    ],
+    "runes_alt": [
+     "First Strike",
+     "Cut Down",
+     "Legend: Bloodline",
+     "Sudden Impact"
+    ],
+    "rune_path": "Précision",
+    "keystone": "Empowerment"
    }
   },
   "poppy": {
@@ -3985,12 +5128,8 @@
     "runes": [
      "Grasp of Undying",
      "Second Wind",
-     "Bone Plating",
      "Overgrowth",
-     "Manaflow Band",
-     "Legend: Tenacity",
-     "Transcendence",
-     "Scorch"
+     "Manaflow Band"
     ],
     "spells": [
      "Flash",
@@ -4006,7 +5145,25 @@
      "Q",
      "E",
      "W"
-    ]
+    ],
+    "runes_popular": [
+     "Grasp of Undying",
+     "Second Wind",
+     "Bone Plating",
+     "Overgrowth",
+     "Manaflow Band",
+     "Legend: Tenacity",
+     "Transcendence",
+     "Scorch"
+    ],
+    "runes_alt": [
+     "Bone Plating",
+     "Legend: Tenacity",
+     "Transcendence",
+     "Scorch"
+    ],
+    "rune_path": "Volonté",
+    "keystone": "Grasp of Undying"
    }
   },
   "pyke": {
@@ -4035,10 +5192,7 @@
      "Sudden Impact",
      "Chain Assault",
      "Zombie Ward",
-     "Eyeball Collection",
-     "Bone Plating",
-     "Second Wind",
-     "Perseverance"
+     "Bone Plating"
     ],
     "spells": [
      "Flash",
@@ -4054,7 +5208,24 @@
      "Q",
      "E",
      "W"
-    ]
+    ],
+    "runes_popular": [
+     "Electrocute",
+     "Sudden Impact",
+     "Chain Assault",
+     "Zombie Ward",
+     "Eyeball Collection",
+     "Bone Plating",
+     "Second Wind",
+     "Perseverance"
+    ],
+    "runes_alt": [
+     "Eyeball Collection",
+     "Second Wind",
+     "Perseverance"
+    ],
+    "rune_path": "Domination",
+    "keystone": "Electrocute"
    }
   },
   "rakan": {
@@ -4082,9 +5253,7 @@
      "Ice Overlord",
      "Unshakeable",
      "Bone Plating",
-     "Second Wind",
      "Overgrowth",
-     "Perseverance",
      "Transcendence"
     ],
     "spells": [
@@ -4101,7 +5270,22 @@
      "W",
      "E",
      "Q"
-    ]
+    ],
+    "runes_popular": [
+     "Ice Overlord",
+     "Unshakeable",
+     "Bone Plating",
+     "Second Wind",
+     "Overgrowth",
+     "Perseverance",
+     "Transcendence"
+    ],
+    "runes_alt": [
+     "Second Wind",
+     "Perseverance"
+    ],
+    "rune_path": "Volonté",
+    "keystone": "Ice Overlord"
    }
   },
   "rammus": {
@@ -4128,9 +5312,7 @@
     "runes": [
      "Ice Overlord",
      "Courage of the Colossus",
-     "Unshakeable",
      "Second Wind",
-     "Bone Plating",
      "Overgrowth",
      "Celerity"
     ],
@@ -4148,7 +5330,22 @@
      "Q",
      "E",
      "W"
-    ]
+    ],
+    "runes_popular": [
+     "Ice Overlord",
+     "Courage of the Colossus",
+     "Unshakeable",
+     "Second Wind",
+     "Bone Plating",
+     "Overgrowth",
+     "Celerity"
+    ],
+    "runes_alt": [
+     "Unshakeable",
+     "Bone Plating"
+    ],
+    "rune_path": "Volonté",
+    "keystone": "Ice Overlord"
    }
   },
   "rell": {
@@ -4175,11 +5372,8 @@
     "runes": [
      "Ice Overlord",
      "Courage of the Colossus",
-     "Font of Life",
      "Bone Plating",
-     "Second Wind",
      "Overgrowth",
-     "Perseverance",
      "Hextech Flash"
     ],
     "spells": [
@@ -4198,7 +5392,24 @@
      "W",
      "E",
      "R"
-    ]
+    ],
+    "runes_popular": [
+     "Ice Overlord",
+     "Courage of the Colossus",
+     "Font of Life",
+     "Bone Plating",
+     "Second Wind",
+     "Overgrowth",
+     "Perseverance",
+     "Hextech Flash"
+    ],
+    "runes_alt": [
+     "Font of Life",
+     "Second Wind",
+     "Perseverance"
+    ],
+    "rune_path": "Volonté",
+    "keystone": "Ice Overlord"
    }
   },
   "renekton": {
@@ -4224,13 +5435,9 @@
     "enchant": "Armored Advance",
     "runes": [
      "Conqueror",
-     "Empowerment",
      "Demolish",
-     "Unshakeable",
      "Second Wind",
-     "Bone Plating",
      "Overgrowth",
-     "Perseverance",
      "Brutal"
     ],
     "spells": [
@@ -4247,7 +5454,26 @@
      "Q",
      "E",
      "W"
-    ]
+    ],
+    "runes_popular": [
+     "Conqueror",
+     "Empowerment",
+     "Demolish",
+     "Unshakeable",
+     "Second Wind",
+     "Bone Plating",
+     "Overgrowth",
+     "Perseverance",
+     "Brutal"
+    ],
+    "runes_alt": [
+     "Empowerment",
+     "Unshakeable",
+     "Bone Plating",
+     "Perseverance"
+    ],
+    "rune_path": "Volonté",
+    "keystone": "Conqueror"
    }
   },
   "rengar": {
@@ -4275,12 +5501,8 @@
      "First Strike",
      "Brutal",
      "Coup de Grace",
-     "Cut Down",
      "Legend: Alacrity",
-     "Sudden Impact",
-     "Overgrowth",
-     "Transcendence",
-     "Celerity"
+     "Sudden Impact"
     ],
     "spells": [
      "Flash",
@@ -4296,7 +5518,26 @@
      "Q",
      "E",
      "W"
-    ]
+    ],
+    "runes_popular": [
+     "First Strike",
+     "Brutal",
+     "Coup de Grace",
+     "Cut Down",
+     "Legend: Alacrity",
+     "Sudden Impact",
+     "Overgrowth",
+     "Transcendence",
+     "Celerity"
+    ],
+    "runes_alt": [
+     "Cut Down",
+     "Overgrowth",
+     "Transcendence",
+     "Celerity"
+    ],
+    "rune_path": "Précision",
+    "keystone": "First Strike"
    }
   },
   "riven": {
@@ -4323,13 +5564,9 @@
     "runes": [
      "Conqueror",
      "Demolish",
-     "Courage of the Colossus",
      "Second Wind",
-     "Bone Plating",
      "Perseverance",
-     "Overgrowth",
-     "Sudden Impact",
-     "Nimbus Cloak"
+     "Sudden Impact"
     ],
     "spells": [
      "Flash",
@@ -4345,7 +5582,26 @@
      "Q",
      "E",
      "W"
-    ]
+    ],
+    "runes_popular": [
+     "Conqueror",
+     "Demolish",
+     "Courage of the Colossus",
+     "Second Wind",
+     "Bone Plating",
+     "Perseverance",
+     "Overgrowth",
+     "Sudden Impact",
+     "Nimbus Cloak"
+    ],
+    "runes_alt": [
+     "Courage of the Colossus",
+     "Bone Plating",
+     "Overgrowth",
+     "Nimbus Cloak"
+    ],
+    "rune_path": "Volonté",
+    "keystone": "Conqueror"
    }
   },
   "rumble": {
@@ -4371,15 +5627,10 @@
     "enchant": "Spellslinger's Shoes",
     "runes": [
      "Arcane Comet",
-     "First Strike",
      "Brutal",
      "Coup de Grace",
-     "Cut Down",
      "Legend: Bloodline",
-     "Bone Plating",
-     "Perseverance",
-     "Transcendence",
-     "Nimbus Cloak"
+     "Bone Plating"
     ],
     "spells": [
      "Flash",
@@ -4395,7 +5646,27 @@
      "Q",
      "E",
      "W"
-    ]
+    ],
+    "runes_popular": [
+     "Arcane Comet",
+     "First Strike",
+     "Brutal",
+     "Coup de Grace",
+     "Cut Down",
+     "Legend: Bloodline",
+     "Bone Plating",
+     "Perseverance",
+     "Transcendence",
+     "Nimbus Cloak"
+    ],
+    "runes_alt": [
+     "First Strike",
+     "Cut Down",
+     "Perseverance",
+     "Transcendence"
+    ],
+    "rune_path": "Précision",
+    "keystone": "Arcane Comet"
    }
   },
   "ryze": {
@@ -4421,14 +5692,9 @@
     "runes": [
      "Phase Rush",
      "Manaflow Band",
-     "Botanist",
      "Absolute Focus",
-     "Transcendence",
      "Scorch",
-     "Nimbus Cloak",
-     "Bone Plating",
-     "Perseverance",
-     "Battle Zeal"
+     "Bone Plating"
     ],
     "spells": [
      "Flash",
@@ -4446,7 +5712,27 @@
      "W",
      "E",
      "R"
-    ]
+    ],
+    "runes_popular": [
+     "Phase Rush",
+     "Manaflow Band",
+     "Botanist",
+     "Absolute Focus",
+     "Transcendence",
+     "Scorch",
+     "Nimbus Cloak",
+     "Bone Plating",
+     "Perseverance",
+     "Battle Zeal"
+    ],
+    "runes_alt": [
+     "Botanist",
+     "Transcendence",
+     "Nimbus Cloak",
+     "Perseverance"
+    ],
+    "rune_path": "Sorcellerie",
+    "keystone": "Phase Rush"
    }
   },
   "samira": {
@@ -4473,10 +5759,8 @@
      "Conqueror",
      "Brutal",
      "Coup de Grace",
-     "Cut Down",
      "Legend: Bloodline",
-     "Bone Plating",
-     "Sudden Impact"
+     "Bone Plating"
     ],
     "spells": [
      "Flash",
@@ -4492,7 +5776,22 @@
      "Q",
      "E",
      "W"
-    ]
+    ],
+    "runes_popular": [
+     "Conqueror",
+     "Brutal",
+     "Coup de Grace",
+     "Cut Down",
+     "Legend: Bloodline",
+     "Bone Plating",
+     "Sudden Impact"
+    ],
+    "runes_alt": [
+     "Cut Down",
+     "Sudden Impact"
+    ],
+    "rune_path": "Précision",
+    "keystone": "Conqueror"
    }
   },
   "senna": {
@@ -4516,12 +5815,10 @@
     "enchant": "Armorcrusher Boots",
     "runes": [
      "Fleet Footwork",
-     "Grasp of Undying",
      "Empowered Attack",
      "Tyrant",
      "Zombie Ward",
-     "Bone Plating",
-     "Second Wind"
+     "Bone Plating"
     ],
     "spells": [
      "Flash",
@@ -4537,7 +5834,22 @@
      "Q",
      "W",
      "E"
-    ]
+    ],
+    "runes_popular": [
+     "Fleet Footwork",
+     "Grasp of Undying",
+     "Empowered Attack",
+     "Tyrant",
+     "Zombie Ward",
+     "Bone Plating",
+     "Second Wind"
+    ],
+    "runes_alt": [
+     "Grasp of Undying",
+     "Second Wind"
+    ],
+    "rune_path": "Domination",
+    "keystone": "Fleet Footwork"
    }
   },
   "seraphine": {
@@ -4565,9 +5877,7 @@
      "Font of Life",
      "Bone Plating",
      "Revitalize",
-     "Perseverance",
-     "Transcendence",
-     "Manaflow Band"
+     "Transcendence"
     ],
     "spells": [
      "Flash",
@@ -4583,7 +5893,22 @@
      "Q",
      "W",
      "E"
-    ]
+    ],
+    "runes_popular": [
+     "Aery",
+     "Font of Life",
+     "Bone Plating",
+     "Revitalize",
+     "Perseverance",
+     "Transcendence",
+     "Manaflow Band"
+    ],
+    "runes_alt": [
+     "Perseverance",
+     "Manaflow Band"
+    ],
+    "rune_path": "Volonté",
+    "keystone": "Aery"
    }
   },
   "sett": {
@@ -4609,12 +5934,8 @@
     "runes": [
      "Grasp of Undying",
      "Demolish",
-     "Courage of the Colossus",
-     "Unshakeable",
      "Second Wind",
-     "Bone Plating",
      "Overgrowth",
-     "Perseverance",
      "Brutal"
     ],
     "spells": [
@@ -4631,7 +5952,26 @@
      "Q",
      "W",
      "E"
-    ]
+    ],
+    "runes_popular": [
+     "Grasp of Undying",
+     "Demolish",
+     "Courage of the Colossus",
+     "Unshakeable",
+     "Second Wind",
+     "Bone Plating",
+     "Overgrowth",
+     "Perseverance",
+     "Brutal"
+    ],
+    "runes_alt": [
+     "Courage of the Colossus",
+     "Unshakeable",
+     "Bone Plating",
+     "Perseverance"
+    ],
+    "rune_path": "Volonté",
+    "keystone": "Grasp of Undying"
    }
   },
   "shen": {
@@ -4658,13 +5998,9 @@
     "runes": [
      "Grasp of Undying",
      "Courage of the Colossus",
-     "Demolish",
      "Second Wind",
-     "Bone Plating",
      "Overgrowth",
-     "Perseverance",
-     "Sudden Impact",
-     "Legend: Tenacity"
+     "Sudden Impact"
     ],
     "spells": [
      "Flash",
@@ -4680,7 +6016,26 @@
      "Q",
      "E",
      "W"
-    ]
+    ],
+    "runes_popular": [
+     "Grasp of Undying",
+     "Courage of the Colossus",
+     "Demolish",
+     "Second Wind",
+     "Bone Plating",
+     "Overgrowth",
+     "Perseverance",
+     "Sudden Impact",
+     "Legend: Tenacity"
+    ],
+    "runes_alt": [
+     "Demolish",
+     "Bone Plating",
+     "Perseverance",
+     "Legend: Tenacity"
+    ],
+    "rune_path": "Volonté",
+    "keystone": "Grasp of Undying"
    }
   },
   "shyvana": {
@@ -4707,13 +6062,9 @@
     "runes": [
      "Conqueror",
      "Triumph",
-     "Brutal",
      "Coup de Grace",
-     "Cut Down",
      "Legend: Bloodline",
-     "Perseverance",
-     "Overgrowth",
-     "Bone Plating"
+     "Perseverance"
     ],
     "spells": [
      "Flash",
@@ -4729,7 +6080,26 @@
      "E",
      "W",
      "Q"
-    ]
+    ],
+    "runes_popular": [
+     "Conqueror",
+     "Triumph",
+     "Brutal",
+     "Coup de Grace",
+     "Cut Down",
+     "Legend: Bloodline",
+     "Perseverance",
+     "Overgrowth",
+     "Bone Plating"
+    ],
+    "runes_alt": [
+     "Brutal",
+     "Cut Down",
+     "Overgrowth",
+     "Bone Plating"
+    ],
+    "rune_path": "Précision",
+    "keystone": "Conqueror"
    }
   },
   "singed": {
@@ -4756,11 +6126,8 @@
      "Phase Rush",
      "Botanist",
      "Transcendence",
-     "Celerity",
      "Nimbus Cloak",
-     "Bone Plating",
-     "Second Wind",
-     "Perseverance"
+     "Bone Plating"
     ],
     "spells": [
      "Flash",
@@ -4776,7 +6143,24 @@
      "Q",
      "E",
      "W"
-    ]
+    ],
+    "runes_popular": [
+     "Phase Rush",
+     "Botanist",
+     "Transcendence",
+     "Celerity",
+     "Nimbus Cloak",
+     "Bone Plating",
+     "Second Wind",
+     "Perseverance"
+    ],
+    "runes_alt": [
+     "Celerity",
+     "Second Wind",
+     "Perseverance"
+    ],
+    "rune_path": "Sorcellerie",
+    "keystone": "Phase Rush"
    }
   },
   "sion": {
@@ -4803,9 +6187,7 @@
      "Grasp of Undying",
      "Demolish",
      "Second Wind",
-     "Bone Plating",
      "Overgrowth",
-     "Perseverance",
      "Transcendence"
     ],
     "spells": [
@@ -4822,7 +6204,22 @@
      "Q",
      "W",
      "E"
-    ]
+    ],
+    "runes_popular": [
+     "Grasp of Undying",
+     "Demolish",
+     "Second Wind",
+     "Bone Plating",
+     "Overgrowth",
+     "Perseverance",
+     "Transcendence"
+    ],
+    "runes_alt": [
+     "Bone Plating",
+     "Perseverance"
+    ],
+    "rune_path": "Volonté",
+    "keystone": "Grasp of Undying"
    }
   },
   "sivir": {
@@ -4848,11 +6245,8 @@
      "Lethal Tempo",
      "Brutal",
      "Cut Down",
-     "Coup de Grace",
      "Legend: Bloodline",
-     "Legend: Alacrity",
-     "Bone Plating",
-     "Nimbus Cloak"
+     "Bone Plating"
     ],
     "spells": [
      "Flash",
@@ -4870,7 +6264,24 @@
      "W",
      "E",
      "R"
-    ]
+    ],
+    "runes_popular": [
+     "Lethal Tempo",
+     "Brutal",
+     "Cut Down",
+     "Coup de Grace",
+     "Legend: Bloodline",
+     "Legend: Alacrity",
+     "Bone Plating",
+     "Nimbus Cloak"
+    ],
+    "runes_alt": [
+     "Coup de Grace",
+     "Legend: Alacrity",
+     "Nimbus Cloak"
+    ],
+    "rune_path": "Précision",
+    "keystone": "Lethal Tempo"
    }
   },
   "skarner": {
@@ -4898,13 +6309,8 @@
      "Ice Overlord",
      "Unshakeable",
      "Bone Plating",
-     "Second Wind",
-     "Nullifying Orb",
      "Perseverance",
-     "Overgrowth",
-     "Nimbus Cloak",
-     "Legend: Tenacity",
-     "Relentless Hunter"
+     "Nimbus Cloak"
     ],
     "spells": [
      "Flash",
@@ -4920,7 +6326,27 @@
      "Q",
      "W",
      "E"
-    ]
+    ],
+    "runes_popular": [
+     "Ice Overlord",
+     "Unshakeable",
+     "Bone Plating",
+     "Second Wind",
+     "Nullifying Orb",
+     "Perseverance",
+     "Overgrowth",
+     "Nimbus Cloak",
+     "Legend: Tenacity",
+     "Relentless Hunter"
+    ],
+    "runes_alt": [
+     "Second Wind",
+     "Nullifying Orb",
+     "Overgrowth",
+     "Legend: Tenacity"
+    ],
+    "rune_path": "Volonté",
+    "keystone": "Ice Overlord"
    }
   },
   "smolder": {
@@ -4948,11 +6374,8 @@
      "Fleet Footwork",
      "Brutal",
      "Coup de Grace",
-     "Cut Down",
      "Legend: Alacrity",
-     "Legend: Bloodline",
-     "Bone Plating",
-     "Transcendence"
+     "Bone Plating"
     ],
     "spells": [
      "Flash",
@@ -4968,7 +6391,24 @@
      "Q",
      "W",
      "E"
-    ]
+    ],
+    "runes_popular": [
+     "Fleet Footwork",
+     "Brutal",
+     "Coup de Grace",
+     "Cut Down",
+     "Legend: Alacrity",
+     "Legend: Bloodline",
+     "Bone Plating",
+     "Transcendence"
+    ],
+    "runes_alt": [
+     "Cut Down",
+     "Legend: Bloodline",
+     "Transcendence"
+    ],
+    "rune_path": "Précision",
+    "keystone": "Fleet Footwork"
    }
   },
   "sona": {
@@ -4995,9 +6435,7 @@
      "Font of Life",
      "Bone Plating",
      "Revitalize",
-     "Perseverance",
-     "Transcendence",
-     "Manaflow Band"
+     "Transcendence"
     ],
     "spells": [
      "Flash",
@@ -5015,7 +6453,22 @@
      "W",
      "E",
      "R"
-    ]
+    ],
+    "runes_popular": [
+     "Aery",
+     "Font of Life",
+     "Bone Plating",
+     "Revitalize",
+     "Perseverance",
+     "Transcendence",
+     "Manaflow Band"
+    ],
+    "runes_alt": [
+     "Perseverance",
+     "Manaflow Band"
+    ],
+    "rune_path": "Volonté",
+    "keystone": "Aery"
    }
   },
   "soraka": {
@@ -5040,13 +6493,10 @@
     "enchant": "Crimson Lucidity",
     "runes": [
      "Aery",
-     "Arcane Comet",
      "Font of Life",
      "Bone Plating",
      "Revitalize",
-     "Perseverance",
-     "Transcendence",
-     "Manaflow Band"
+     "Transcendence"
     ],
     "spells": [
      "Flash",
@@ -5062,7 +6512,24 @@
      "W",
      "Q",
      "E"
-    ]
+    ],
+    "runes_popular": [
+     "Aery",
+     "Arcane Comet",
+     "Font of Life",
+     "Bone Plating",
+     "Revitalize",
+     "Perseverance",
+     "Transcendence",
+     "Manaflow Band"
+    ],
+    "runes_alt": [
+     "Arcane Comet",
+     "Perseverance",
+     "Manaflow Band"
+    ],
+    "rune_path": "Volonté",
+    "keystone": "Aery"
    }
   },
   "swain": {
@@ -5088,14 +6555,10 @@
     "enchant": "Spellslinger's Shoes",
     "runes": [
      "Conqueror",
-     "Phase Rush",
      "Axiom Arcanist",
-     "Botanist",
      "Transcendence",
      "Nimbus Cloak",
-     "Scorch",
-     "Bone Plating",
-     "Perseverance"
+     "Bone Plating"
     ],
     "spells": [
      "Flash",
@@ -5111,7 +6574,26 @@
      "Q",
      "W",
      "E"
-    ]
+    ],
+    "runes_popular": [
+     "Conqueror",
+     "Phase Rush",
+     "Axiom Arcanist",
+     "Botanist",
+     "Transcendence",
+     "Nimbus Cloak",
+     "Scorch",
+     "Bone Plating",
+     "Perseverance"
+    ],
+    "runes_alt": [
+     "Phase Rush",
+     "Botanist",
+     "Scorch",
+     "Perseverance"
+    ],
+    "rune_path": "Sorcellerie",
+    "keystone": "Conqueror"
    }
   },
   "syndra": {
@@ -5137,14 +6619,10 @@
     "enchant": "Spellslinger's Shoes",
     "runes": [
      "First Strike",
-     "Electrocute",
      "Botanist",
-     "Axiom Arcanist",
-     "Manaflow Band",
      "Transcendence",
      "Scorch",
-     "Bone Plating",
-     "Cut Down"
+     "Bone Plating"
     ],
     "spells": [
      "Flash",
@@ -5160,7 +6638,26 @@
      "Q",
      "W",
      "E"
-    ]
+    ],
+    "runes_popular": [
+     "First Strike",
+     "Electrocute",
+     "Botanist",
+     "Axiom Arcanist",
+     "Manaflow Band",
+     "Transcendence",
+     "Scorch",
+     "Bone Plating",
+     "Cut Down"
+    ],
+    "runes_alt": [
+     "Electrocute",
+     "Axiom Arcanist",
+     "Manaflow Band",
+     "Cut Down"
+    ],
+    "rune_path": "Sorcellerie",
+    "keystone": "First Strike"
    }
   },
   "taliyah": {
@@ -5186,14 +6683,10 @@
     "enchant": "Spellslinger's Shoes",
     "runes": [
      "Phase Rush",
-     "Electrocute",
-     "Arcane Comet",
      "Manaflow Band",
-     "Botanist",
      "Transcendence",
      "Scorch",
-     "Bone Plating",
-     "Perseverance"
+     "Bone Plating"
     ],
     "spells": [
      "Flash",
@@ -5209,7 +6702,26 @@
      "Q",
      "E",
      "W"
-    ]
+    ],
+    "runes_popular": [
+     "Phase Rush",
+     "Electrocute",
+     "Arcane Comet",
+     "Manaflow Band",
+     "Botanist",
+     "Transcendence",
+     "Scorch",
+     "Bone Plating",
+     "Perseverance"
+    ],
+    "runes_alt": [
+     "Electrocute",
+     "Arcane Comet",
+     "Botanist",
+     "Perseverance"
+    ],
+    "rune_path": "Sorcellerie",
+    "keystone": "Phase Rush"
    }
   },
   "talon": {
@@ -5236,8 +6748,7 @@
      "Sudden Impact",
      "Chain Assault",
      "Eyeball Collection",
-     "Bone Plating",
-     "Perseverance"
+     "Bone Plating"
     ],
     "spells": [
      "Flash",
@@ -5253,7 +6764,20 @@
      "W",
      "Q",
      "E"
-    ]
+    ],
+    "runes_popular": [
+     "Electrocute",
+     "Sudden Impact",
+     "Chain Assault",
+     "Eyeball Collection",
+     "Bone Plating",
+     "Perseverance"
+    ],
+    "runes_alt": [
+     "Perseverance"
+    ],
+    "rune_path": "Domination",
+    "keystone": "Electrocute"
    }
   },
   "teemo": {
@@ -5281,11 +6805,8 @@
      "Fleet Footwork",
      "Brutal",
      "Coup de Grace",
-     "Cut Down",
      "Legend: Alacrity",
-     "Sudden Impact",
-     "Second Wind",
-     "Bone Plating"
+     "Sudden Impact"
     ],
     "spells": [
      "Flash",
@@ -5296,7 +6817,24 @@
      "Guerilla Warfare",
      "Move Quick"
     ],
-    "patch": "7.3e"
+    "patch": "7.3e",
+    "runes_popular": [
+     "Fleet Footwork",
+     "Brutal",
+     "Coup de Grace",
+     "Cut Down",
+     "Legend: Alacrity",
+     "Sudden Impact",
+     "Second Wind",
+     "Bone Plating"
+    ],
+    "runes_alt": [
+     "Cut Down",
+     "Second Wind",
+     "Bone Plating"
+    ],
+    "rune_path": "Précision",
+    "keystone": "Fleet Footwork"
    }
   },
   "thresh": {
@@ -5323,9 +6861,7 @@
      "Ice Overlord",
      "Font of Life",
      "Second Wind",
-     "Bone Plating",
      "Overgrowth",
-     "Perseverance",
      "Hextech Flash"
     ],
     "spells": [
@@ -5342,7 +6878,22 @@
      "Q",
      "E",
      "W"
-    ]
+    ],
+    "runes_popular": [
+     "Ice Overlord",
+     "Font of Life",
+     "Second Wind",
+     "Bone Plating",
+     "Overgrowth",
+     "Perseverance",
+     "Hextech Flash"
+    ],
+    "runes_alt": [
+     "Bone Plating",
+     "Perseverance"
+    ],
+    "rune_path": "Volonté",
+    "keystone": "Ice Overlord"
    }
   },
   "tristana": {
@@ -5370,10 +6921,8 @@
      "Lethal Tempo",
      "Brutal",
      "Coup de Grace",
-     "Cut Down",
      "Legend: Alacrity",
-     "Bone Plating",
-     "Sudden Impact"
+     "Bone Plating"
     ],
     "spells": [
      "Flash",
@@ -5389,7 +6938,22 @@
      "E",
      "Q",
      "W"
-    ]
+    ],
+    "runes_popular": [
+     "Lethal Tempo",
+     "Brutal",
+     "Coup de Grace",
+     "Cut Down",
+     "Legend: Alacrity",
+     "Bone Plating",
+     "Sudden Impact"
+    ],
+    "runes_alt": [
+     "Cut Down",
+     "Sudden Impact"
+    ],
+    "rune_path": "Précision",
+    "keystone": "Lethal Tempo"
    }
   },
   "tryndamere": {
@@ -5417,11 +6981,8 @@
      "Lethal Tempo",
      "Brutal",
      "Coup de Grace",
-     "Last Stand",
-     "Cut Down",
      "Legend: Alacrity",
-     "Nimbus Cloak",
-     "Bone Plating"
+     "Nimbus Cloak"
     ],
     "spells": [
      "Flash",
@@ -5437,7 +6998,24 @@
      "Q",
      "E",
      "W"
-    ]
+    ],
+    "runes_popular": [
+     "Lethal Tempo",
+     "Brutal",
+     "Coup de Grace",
+     "Last Stand",
+     "Cut Down",
+     "Legend: Alacrity",
+     "Nimbus Cloak",
+     "Bone Plating"
+    ],
+    "runes_alt": [
+     "Last Stand",
+     "Cut Down",
+     "Bone Plating"
+    ],
+    "rune_path": "Précision",
+    "keystone": "Lethal Tempo"
    }
   },
   "twistedfate": {
@@ -5465,10 +7043,8 @@
      "Fleet Footwork",
      "Brutal",
      "Coup de Grace",
-     "Cut Down",
      "Legend: Alacrity",
-     "Bone Plating",
-     "Nimbus Cloak"
+     "Bone Plating"
     ],
     "spells": [
      "Flash",
@@ -5486,7 +7062,22 @@
      "W",
      "E",
      "R"
-    ]
+    ],
+    "runes_popular": [
+     "Fleet Footwork",
+     "Brutal",
+     "Coup de Grace",
+     "Cut Down",
+     "Legend: Alacrity",
+     "Bone Plating",
+     "Nimbus Cloak"
+    ],
+    "runes_alt": [
+     "Cut Down",
+     "Nimbus Cloak"
+    ],
+    "rune_path": "Précision",
+    "keystone": "Fleet Footwork"
    }
   },
   "twitch": {
@@ -5514,10 +7105,8 @@
      "Lethal Tempo",
      "Brutal",
      "Coup de Grace",
-     "Cut Down",
      "Legend: Alacrity",
-     "Bone Plating",
-     "Sudden Impact"
+     "Bone Plating"
     ],
     "spells": [
      "Flash",
@@ -5535,7 +7124,22 @@
      "W",
      "E",
      "R"
-    ]
+    ],
+    "runes_popular": [
+     "Lethal Tempo",
+     "Brutal",
+     "Coup de Grace",
+     "Cut Down",
+     "Legend: Alacrity",
+     "Bone Plating",
+     "Sudden Impact"
+    ],
+    "runes_alt": [
+     "Cut Down",
+     "Sudden Impact"
+    ],
+    "rune_path": "Précision",
+    "keystone": "Lethal Tempo"
    }
   },
   "urgot": {
@@ -5563,9 +7167,7 @@
      "Empowerment",
      "Demolish",
      "Bone Plating",
-     "Second Wind",
      "Perseverance",
-     "Overgrowth",
      "Brutal"
     ],
     "spells": [
@@ -5582,7 +7184,22 @@
      "W",
      "E",
      "Q"
-    ]
+    ],
+    "runes_popular": [
+     "Empowerment",
+     "Demolish",
+     "Bone Plating",
+     "Second Wind",
+     "Perseverance",
+     "Overgrowth",
+     "Brutal"
+    ],
+    "runes_alt": [
+     "Second Wind",
+     "Overgrowth"
+    ],
+    "rune_path": "Volonté",
+    "keystone": "Empowerment"
    }
   },
   "varus": {
@@ -5606,10 +7223,8 @@
     "enchant": "Gunmetal Greaves",
     "runes": [
      "Fleet Footwork",
-     "Lethal Tempo",
      "Brutal",
      "Coup de Grace",
-     "Cut Down",
      "Legend: Alacrity",
      "Bone Plating"
     ],
@@ -5629,7 +7244,22 @@
      "W",
      "E",
      "R"
-    ]
+    ],
+    "runes_popular": [
+     "Fleet Footwork",
+     "Lethal Tempo",
+     "Brutal",
+     "Coup de Grace",
+     "Cut Down",
+     "Legend: Alacrity",
+     "Bone Plating"
+    ],
+    "runes_alt": [
+     "Lethal Tempo",
+     "Cut Down"
+    ],
+    "rune_path": "Précision",
+    "keystone": "Fleet Footwork"
    }
   },
   "vayne": {
@@ -5656,12 +7286,9 @@
     "runes": [
      "Lethal Tempo",
      "Brutal",
-     "Triumph",
      "Coup de Grace",
-     "Cut Down",
      "Legend: Alacrity",
-     "Bone Plating",
-     "Sudden Impact"
+     "Bone Plating"
     ],
     "spells": [
      "Flash",
@@ -5677,7 +7304,24 @@
      "Q",
      "W",
      "E"
-    ]
+    ],
+    "runes_popular": [
+     "Lethal Tempo",
+     "Brutal",
+     "Triumph",
+     "Coup de Grace",
+     "Cut Down",
+     "Legend: Alacrity",
+     "Bone Plating",
+     "Sudden Impact"
+    ],
+    "runes_alt": [
+     "Triumph",
+     "Cut Down",
+     "Sudden Impact"
+    ],
+    "rune_path": "Précision",
+    "keystone": "Lethal Tempo"
    }
   },
   "veigar": {
@@ -5704,11 +7348,9 @@
     "runes": [
      "Electrocute",
      "Botanist",
-     "Manaflow Band",
      "Transcendence",
      "Scorch",
-     "Bone Plating",
-     "Cut Down"
+     "Bone Plating"
     ],
     "spells": [
      "Flash",
@@ -5724,7 +7366,22 @@
      "Q",
      "W",
      "E"
-    ]
+    ],
+    "runes_popular": [
+     "Electrocute",
+     "Botanist",
+     "Manaflow Band",
+     "Transcendence",
+     "Scorch",
+     "Bone Plating",
+     "Cut Down"
+    ],
+    "runes_alt": [
+     "Manaflow Band",
+     "Cut Down"
+    ],
+    "rune_path": "Sorcellerie",
+    "keystone": "Electrocute"
    }
   },
   "velkoz": {
@@ -5750,9 +7407,7 @@
     "enchant": "Spellslinger's Shoes",
     "runes": [
      "Arcane Comet",
-     "First Strike",
      "Manaflow Band",
-     "Botanist",
      "Transcendence",
      "Scorch",
      "Bone Plating"
@@ -5771,7 +7426,22 @@
      "Q",
      "W",
      "E"
-    ]
+    ],
+    "runes_popular": [
+     "Arcane Comet",
+     "First Strike",
+     "Manaflow Band",
+     "Botanist",
+     "Transcendence",
+     "Scorch",
+     "Bone Plating"
+    ],
+    "runes_alt": [
+     "First Strike",
+     "Botanist"
+    ],
+    "rune_path": "Sorcellerie",
+    "keystone": "Arcane Comet"
    }
   },
   "vex": {
@@ -5798,12 +7468,9 @@
     "runes": [
      "Electrocute",
      "Sudden Impact",
-     "Cheap Shot",
      "Chain Assault",
      "Eyeball Collection",
-     "Transcendence",
-     "Cut Down",
-     "Bone Plating"
+     "Transcendence"
     ],
     "spells": [
      "Flash",
@@ -5821,7 +7488,24 @@
      "W",
      "E",
      "R"
-    ]
+    ],
+    "runes_popular": [
+     "Electrocute",
+     "Sudden Impact",
+     "Cheap Shot",
+     "Chain Assault",
+     "Eyeball Collection",
+     "Transcendence",
+     "Cut Down",
+     "Bone Plating"
+    ],
+    "runes_alt": [
+     "Cheap Shot",
+     "Cut Down",
+     "Bone Plating"
+    ],
+    "rune_path": "Domination",
+    "keystone": "Electrocute"
    }
   },
   "vi": {
@@ -5848,14 +7532,9 @@
     "runes": [
      "Conqueror",
      "Brutal",
-     "Triumph",
      "Coup de Grace",
-     "Cut Down",
      "Legend: Alacrity",
-     "Legend: Tenacity",
-     "Perseverance",
-     "Overgrowth",
-     "Bone Plating"
+     "Perseverance"
     ],
     "spells": [
      "Flash",
@@ -5866,7 +7545,27 @@
      "Excessive Force",
      "Blast Shield"
     ],
-    "patch": "7.3e"
+    "patch": "7.3e",
+    "runes_popular": [
+     "Conqueror",
+     "Brutal",
+     "Triumph",
+     "Coup de Grace",
+     "Cut Down",
+     "Legend: Alacrity",
+     "Legend: Tenacity",
+     "Perseverance",
+     "Overgrowth",
+     "Bone Plating"
+    ],
+    "runes_alt": [
+     "Triumph",
+     "Cut Down",
+     "Legend: Tenacity",
+     "Overgrowth"
+    ],
+    "rune_path": "Précision",
+    "keystone": "Conqueror"
    }
   },
   "viego": {
@@ -5893,11 +7592,8 @@
      "Conqueror",
      "Brutal",
      "Coup de Grace",
-     "Cut Down",
      "Legend: Alacrity",
-     "Sudden Impact",
-     "Overgrowth",
-     "Bone Plating"
+     "Sudden Impact"
     ],
     "spells": [
      "Flash",
@@ -5913,7 +7609,24 @@
      "Q",
      "E",
      "W"
-    ]
+    ],
+    "runes_popular": [
+     "Conqueror",
+     "Brutal",
+     "Coup de Grace",
+     "Cut Down",
+     "Legend: Alacrity",
+     "Sudden Impact",
+     "Overgrowth",
+     "Bone Plating"
+    ],
+    "runes_alt": [
+     "Cut Down",
+     "Overgrowth",
+     "Bone Plating"
+    ],
+    "rune_path": "Précision",
+    "keystone": "Conqueror"
    }
   },
   "viktor": {
@@ -5939,13 +7652,10 @@
     "enchant": "Spellslinger's Shoes",
     "runes": [
      "First Strike",
-     "Arcane Comet",
      "Empowered Attack",
      "Chain Assault",
      "Eyeball Collection",
-     "Transcendence",
-     "Cut Down",
-     "Bone Plating"
+     "Transcendence"
     ],
     "spells": [
      "Flash",
@@ -5961,7 +7671,24 @@
      "E",
      "Q",
      "W"
-    ]
+    ],
+    "runes_popular": [
+     "First Strike",
+     "Arcane Comet",
+     "Empowered Attack",
+     "Chain Assault",
+     "Eyeball Collection",
+     "Transcendence",
+     "Cut Down",
+     "Bone Plating"
+    ],
+    "runes_alt": [
+     "Arcane Comet",
+     "Cut Down",
+     "Bone Plating"
+    ],
+    "rune_path": "Domination",
+    "keystone": "First Strike"
    }
   },
   "vladimir": {
@@ -5990,10 +7717,7 @@
      "Botanist",
      "Transcendence",
      "Scorch",
-     "Gathering Storm",
-     "Bone Plating",
-     "Cut Down",
-     "Battle Zeal"
+     "Bone Plating"
     ],
     "spells": [
      "Flash",
@@ -6009,7 +7733,24 @@
      "Q",
      "E",
      "W"
-    ]
+    ],
+    "runes_popular": [
+     "Phase Rush",
+     "Botanist",
+     "Transcendence",
+     "Scorch",
+     "Gathering Storm",
+     "Bone Plating",
+     "Cut Down",
+     "Battle Zeal"
+    ],
+    "runes_alt": [
+     "Gathering Storm",
+     "Cut Down",
+     "Battle Zeal"
+    ],
+    "rune_path": "Sorcellerie",
+    "keystone": "Phase Rush"
    }
   },
   "volibear": {
@@ -6035,13 +7776,9 @@
     "runes": [
      "Grasp of Undying",
      "Demolish",
-     "Unshakeable",
      "Second Wind",
-     "Bone Plating",
      "Perseverance",
-     "Overgrowth",
-     "Brutal",
-     "Last Stand"
+     "Brutal"
     ],
     "spells": [
      "Flash",
@@ -6057,7 +7794,26 @@
      "W",
      "Q",
      "E"
-    ]
+    ],
+    "runes_popular": [
+     "Grasp of Undying",
+     "Demolish",
+     "Unshakeable",
+     "Second Wind",
+     "Bone Plating",
+     "Perseverance",
+     "Overgrowth",
+     "Brutal",
+     "Last Stand"
+    ],
+    "runes_alt": [
+     "Unshakeable",
+     "Bone Plating",
+     "Overgrowth",
+     "Last Stand"
+    ],
+    "rune_path": "Volonté",
+    "keystone": "Grasp of Undying"
    }
   },
   "warwick": {
@@ -6085,11 +7841,8 @@
      "Empowerment",
      "Brutal",
      "Coup de Grace",
-     "Cut Down",
-     "Last Stand",
      "Legend: Alacrity",
-     "Overgrowth",
-     "Sudden Impact"
+     "Overgrowth"
     ],
     "spells": [
      "Flash",
@@ -6105,7 +7858,24 @@
      "W",
      "Q",
      "E"
-    ]
+    ],
+    "runes_popular": [
+     "Empowerment",
+     "Brutal",
+     "Coup de Grace",
+     "Cut Down",
+     "Last Stand",
+     "Legend: Alacrity",
+     "Overgrowth",
+     "Sudden Impact"
+    ],
+    "runes_alt": [
+     "Cut Down",
+     "Last Stand",
+     "Sudden Impact"
+    ],
+    "rune_path": "Précision",
+    "keystone": "Empowerment"
    }
   },
   "wukong": {
@@ -6132,13 +7902,9 @@
     "runes": [
      "Grasp of Undying",
      "Demolish",
-     "Unshakeable",
      "Second Wind",
-     "Bone Plating",
      "Overgrowth",
-     "Perseverance",
-     "Brutal",
-     "Sudden Impact"
+     "Brutal"
     ],
     "spells": [
      "Flash",
@@ -6149,7 +7915,26 @@
      "Nimbus Strike",
      "Warrior Trickster"
     ],
-    "patch": "7.3c"
+    "patch": "7.3c",
+    "runes_popular": [
+     "Grasp of Undying",
+     "Demolish",
+     "Unshakeable",
+     "Second Wind",
+     "Bone Plating",
+     "Overgrowth",
+     "Perseverance",
+     "Brutal",
+     "Sudden Impact"
+    ],
+    "runes_alt": [
+     "Unshakeable",
+     "Bone Plating",
+     "Perseverance",
+     "Sudden Impact"
+    ],
+    "rune_path": "Volonté",
+    "keystone": "Grasp of Undying"
    }
   },
   "xayah": {
@@ -6194,7 +7979,17 @@
      "E",
      "W",
      "Q"
-    ]
+    ],
+    "runes_popular": [
+     "Conqueror",
+     "Brutal",
+     "Coup de Grace",
+     "Legend: Alacrity",
+     "Bone Plating"
+    ],
+    "runes_alt": [],
+    "rune_path": "Précision",
+    "keystone": "Conqueror"
    }
   },
   "xinzhao": {
@@ -6222,11 +8017,8 @@
      "Conqueror",
      "Courage of the Colossus",
      "Second Wind",
-     "Bone Plating",
      "Perseverance",
-     "Overgrowth",
-     "Sudden Impact",
-     "Legend: Tenacity"
+     "Sudden Impact"
     ],
     "spells": [
      "Flash",
@@ -6242,7 +8034,24 @@
      "W",
      "E",
      "Q"
-    ]
+    ],
+    "runes_popular": [
+     "Conqueror",
+     "Courage of the Colossus",
+     "Second Wind",
+     "Bone Plating",
+     "Perseverance",
+     "Overgrowth",
+     "Sudden Impact",
+     "Legend: Tenacity"
+    ],
+    "runes_alt": [
+     "Bone Plating",
+     "Overgrowth",
+     "Legend: Tenacity"
+    ],
+    "rune_path": "Volonté",
+    "keystone": "Conqueror"
    }
   },
   "yasuo": {
@@ -6270,10 +8079,8 @@
      "Lethal Tempo",
      "Brutal",
      "Coup de Grace",
-     "Cut Down",
      "Legend: Alacrity",
-     "Bone Plating",
-     "Second Wind"
+     "Bone Plating"
     ],
     "spells": [
      "Flash",
@@ -6289,7 +8096,22 @@
      "Q",
      "E",
      "W"
-    ]
+    ],
+    "runes_popular": [
+     "Lethal Tempo",
+     "Brutal",
+     "Coup de Grace",
+     "Cut Down",
+     "Legend: Alacrity",
+     "Bone Plating",
+     "Second Wind"
+    ],
+    "runes_alt": [
+     "Cut Down",
+     "Second Wind"
+    ],
+    "rune_path": "Précision",
+    "keystone": "Lethal Tempo"
    }
   },
   "yone": {
@@ -6317,11 +8139,8 @@
      "Lethal Tempo",
      "Brutal",
      "Coup de Grace",
-     "Cut Down",
      "Legend: Alacrity",
-     "Bone Plating",
-     "Overgrowth",
-     "Second Wind"
+     "Bone Plating"
     ],
     "spells": [
      "Flash",
@@ -6339,7 +8158,24 @@
      "W",
      "E",
      "R"
-    ]
+    ],
+    "runes_popular": [
+     "Lethal Tempo",
+     "Brutal",
+     "Coup de Grace",
+     "Cut Down",
+     "Legend: Alacrity",
+     "Bone Plating",
+     "Overgrowth",
+     "Second Wind"
+    ],
+    "runes_alt": [
+     "Cut Down",
+     "Overgrowth",
+     "Second Wind"
+    ],
+    "rune_path": "Précision",
+    "keystone": "Lethal Tempo"
    }
   },
   "yunara": {
@@ -6365,7 +8201,6 @@
      "Lethal Tempo",
      "Brutal",
      "Coup de Grace",
-     "Cut Down",
      "Legend: Alacrity",
      "Bone Plating"
     ],
@@ -6383,7 +8218,20 @@
      "Q",
      "W",
      "E"
-    ]
+    ],
+    "runes_popular": [
+     "Lethal Tempo",
+     "Brutal",
+     "Coup de Grace",
+     "Cut Down",
+     "Legend: Alacrity",
+     "Bone Plating"
+    ],
+    "runes_alt": [
+     "Cut Down"
+    ],
+    "rune_path": "Précision",
+    "keystone": "Lethal Tempo"
    }
   },
   "yuumi": {
@@ -6428,7 +8276,17 @@
      "Q",
      "E",
      "W"
-    ]
+    ],
+    "runes_popular": [
+     "Aery",
+     "Axiom Arcanist",
+     "Transcendence",
+     "Scorch",
+     "Revitalize"
+    ],
+    "runes_alt": [],
+    "rune_path": "Sorcellerie",
+    "keystone": "Aery"
    }
   },
   "zed": {
@@ -6453,12 +8311,10 @@
     "enchant": "Crimson Lucidity",
     "runes": [
      "Conqueror",
-     "First Strike",
      "Sudden Impact",
      "Chain Assault",
      "Eyeball Collection",
-     "Transcendence",
-     "Bone Plating"
+     "Transcendence"
     ],
     "spells": [
      "Flash",
@@ -6474,7 +8330,22 @@
      "Q",
      "E",
      "W"
-    ]
+    ],
+    "runes_popular": [
+     "Conqueror",
+     "First Strike",
+     "Sudden Impact",
+     "Chain Assault",
+     "Eyeball Collection",
+     "Transcendence",
+     "Bone Plating"
+    ],
+    "runes_alt": [
+     "First Strike",
+     "Bone Plating"
+    ],
+    "rune_path": "Domination",
+    "keystone": "Conqueror"
    }
   },
   "zeri": {
@@ -6499,14 +8370,10 @@
     "enchant": "Gunmetal Greaves",
     "runes": [
      "Conqueror",
-     "Lethal Tempo",
      "Brutal",
      "Coup de Grace",
-     "Cut Down",
      "Legend: Alacrity",
-     "Bone Plating",
-     "Sudden Impact",
-     "Axiom Arcanist"
+     "Bone Plating"
     ],
     "spells": [
      "Flash",
@@ -6522,7 +8389,26 @@
      "Q",
      "E",
      "W"
-    ]
+    ],
+    "runes_popular": [
+     "Conqueror",
+     "Lethal Tempo",
+     "Brutal",
+     "Coup de Grace",
+     "Cut Down",
+     "Legend: Alacrity",
+     "Bone Plating",
+     "Sudden Impact",
+     "Axiom Arcanist"
+    ],
+    "runes_alt": [
+     "Lethal Tempo",
+     "Cut Down",
+     "Sudden Impact",
+     "Axiom Arcanist"
+    ],
+    "rune_path": "Précision",
+    "keystone": "Conqueror"
    }
   },
   "ziggs": {
@@ -6548,12 +8434,9 @@
     "enchant": "Spellslinger's Shoes",
     "runes": [
      "Arcane Comet",
-     "First Strike",
      "Botanist",
-     "Manaflow Band",
      "Transcendence",
      "Scorch",
-     "Nimbus Cloak",
      "Bone Plating"
     ],
     "spells": [
@@ -6572,7 +8455,24 @@
      "E",
      "W",
      "R"
-    ]
+    ],
+    "runes_popular": [
+     "Arcane Comet",
+     "First Strike",
+     "Botanist",
+     "Manaflow Band",
+     "Transcendence",
+     "Scorch",
+     "Nimbus Cloak",
+     "Bone Plating"
+    ],
+    "runes_alt": [
+     "First Strike",
+     "Manaflow Band",
+     "Nimbus Cloak"
+    ],
+    "rune_path": "Sorcellerie",
+    "keystone": "Arcane Comet"
    }
   },
   "zilean": {
@@ -6599,8 +8499,7 @@
      "Font of Life",
      "Bone Plating",
      "Revitalize",
-     "Transcendence",
-     "Manaflow Band"
+     "Transcendence"
     ],
     "spells": [
      "Flash",
@@ -6611,7 +8510,20 @@
      "Temporal Mirage",
      "Twisted Timeflow"
     ],
-    "patch": "7.1h"
+    "patch": "7.1h",
+    "runes_popular": [
+     "Aery",
+     "Font of Life",
+     "Bone Plating",
+     "Revitalize",
+     "Transcendence",
+     "Manaflow Band"
+    ],
+    "runes_alt": [
+     "Manaflow Band"
+    ],
+    "rune_path": "Volonté",
+    "keystone": "Aery"
    }
   },
   "zoe": {
@@ -6636,12 +8548,10 @@
     "enchant": "Spellslinger's Shoes",
     "runes": [
      "First Strike",
-     "Electrocute",
      "Sudden Impact",
      "Chain Assault",
      "Eyeball Collection",
-     "Bone Plating",
-     "Nimbus Cloak"
+     "Bone Plating"
     ],
     "spells": [
      "Flash",
@@ -6657,7 +8567,22 @@
      "Q",
      "E",
      "W"
-    ]
+    ],
+    "runes_popular": [
+     "First Strike",
+     "Electrocute",
+     "Sudden Impact",
+     "Chain Assault",
+     "Eyeball Collection",
+     "Bone Plating",
+     "Nimbus Cloak"
+    ],
+    "runes_alt": [
+     "Electrocute",
+     "Nimbus Cloak"
+    ],
+    "rune_path": "Domination",
+    "keystone": "First Strike"
    }
   },
   "zyra": {
@@ -6684,10 +8609,7 @@
      "Cheap Shot",
      "Chain Assault",
      "Eyeball Collection",
-     "Zombie Ward",
-     "Transcendence",
-     "Cut Down",
-     "Bone Plating"
+     "Transcendence"
     ],
     "spells": [
      "Flash",
@@ -6703,7 +8625,24 @@
      "E",
      "Q",
      "W"
-    ]
+    ],
+    "runes_popular": [
+     "Arcane Comet",
+     "Cheap Shot",
+     "Chain Assault",
+     "Eyeball Collection",
+     "Zombie Ward",
+     "Transcendence",
+     "Cut Down",
+     "Bone Plating"
+    ],
+    "runes_alt": [
+     "Zombie Ward",
+     "Cut Down",
+     "Bone Plating"
+    ],
+    "rune_path": "Domination",
+    "keystone": "Arcane Comet"
    }
   }
  },
@@ -6713,7 +8652,8 @@
   "spells": "https://jungler.gg/games/wildrift/images/summoner-spells/"
  },
  "icon_fix": {
-  "Immortal Treads": "immortal-treds"
+  "Immortal Treads": "immortal-treds",
+  "Hextech Flash": "hextech-flashtraption"
  },
  "fr": {
   "Abyssal Mask": "Masque abyssal",
@@ -6896,7 +8836,8 @@
   "Heal": "Soins",
   "Ignite": "Embrasement",
   "Smite": "Châtiment",
-  "Teleport": "Téléportation"
+  "Teleport": "Téléportation",
+  "Legend: Haste": "Légende : hâte"
  },
  "when": {
   "Guardian Angel": "Si tu te fais focus en fin de partie : te ressuscite une fois.",
@@ -6992,5 +8933,18 @@
   "Guinsoo's Rageblade": "Pour la vitesse d'attaque et les effets à l'impact.",
   "Mercury's Treads": "Contre beaucoup de contrôles et de dégâts magiques.",
   "Plated Steelcaps": "Contre beaucoup d'attaques physiques."
+ },
+ "keystone_why": {
+  "Electrocute": "Gros burst après 3 coups ou sorts sur le même champion : idéal pour les assassins et mages qui tuent vite.",
+  "Dark Harvest": "Dégâts bonus sur les cibles basses en PV, qui augmentent à chaque élimination : parfait pour snowball.",
+  "Lethal Tempo": "Ta vitesse d'attaque monte en continu pendant les combats : pour les tireurs et combattants qui tapent longtemps.",
+  "Fleet Footwork": "Soin et vitesse en attaquant : pour gagner les échanges en lane et survivre.",
+  "Conqueror": "Plus tu combats longtemps, plus tu fais de dégâts et te soignes : le choix des combattants.",
+  "Grasp of Undying": "Frappe renforcée qui soigne et augmente tes PV max : pour les tanks et les lanes longues.",
+  "Guardian": "Protège un allié proche avec un bouclier : pour les supports qui restent collés à leur tireur.",
+  "Aery": "Dégâts sur les ennemis ou bouclier sur les alliés à chaque sort : pour les supports qui harcèlent.",
+  "Arcane Comet": "Une comète tombe sur les ennemis touchés par tes sorts : pour harceler de loin.",
+  "Phase Rush": "Gros boost de vitesse après 3 coups : pour coller ou fuir.",
+  "First Strike": "Bonus de dégâts et d'or quand tu frappes en premier : pour les champions qui engagent à distance."
  }
 }
