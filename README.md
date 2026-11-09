@@ -1,8 +1,9 @@
-# Wildrift pour les noobs — releases
+# Wildrift pour les noobs – mises à jour
 
-Dépôt des mises à jour de l'app Android **Wildrift pour les noobs** (méta du serveur chinois de Wild Rift).
+Dépôt public lu par l'appli Android **Wildrift pour les noobs** (méta du serveur chinois de Wild Rift) pour se mettre à jour toute seule.
 
-- L'app vérifie au lancement la dernière release de ce dépôt (tag `vX.Y`) et propose d'installer l'APK joint.
-- `builds.json` (quand il est présent) contient les builds affichés dans les fiches champion.
+- `latest.json` : dernière version publiée (`version`, chemin de l'`apk`, `notes`).
+- `apk/` : les APK de l'appli. Ils sont tous signés avec la même clé (gardée hors de ce dépôt), sinon Android refuse la mise à jour.
+- `builds.json` (quand il est présent) : builds affichés dans les fiches champion.
 
-Pour publier une version : exporter l'APK depuis Godot avec un numéro de version plus élevé, puis créer une release avec le tag `vX.Y` et l'APK en pièce jointe.
+Pour publier une mise à jour : déposer `apk/Wildrift_pour_les_noobs-<version>.apk`, puis mettre à jour `version`, `apk` et `notes` dans `latest.json`.
