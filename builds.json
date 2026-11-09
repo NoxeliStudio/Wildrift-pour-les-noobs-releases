@@ -46,7 +46,12 @@
      "Umbral Dash",
      "Infernal Chains"
     ],
-    "patch": "7.3e"
+    "patch": "7.3e",
+    "keys": [
+     "Q",
+     "E",
+     "W"
+    ]
    }
   },
   "ahri": {
@@ -86,7 +91,13 @@
      "Charm",
      "Spirit Rush"
     ],
-    "patch": "7.3e"
+    "patch": "7.3e",
+    "keys": [
+     "Q",
+     "W",
+     "E",
+     "R"
+    ]
    }
   },
   "akali": {
@@ -125,7 +136,12 @@
      "Shuriken Flip",
      "Twilight Shroud"
     ],
-    "patch": "7.3e"
+    "patch": "7.3e",
+    "keys": [
+     "Q",
+     "E",
+     "W"
+    ]
    }
   },
   "akshan": {
@@ -167,7 +183,12 @@
      "Heroic Swing",
      "Going Rogue"
     ],
-    "patch": "7.3e"
+    "patch": "7.3e",
+    "keys": [
+     "Q",
+     "E",
+     "W"
+    ]
    }
   },
   "alistar": {
@@ -212,7 +233,12 @@
      "Headbutt",
      "Trample"
     ],
-    "patch": "7.3e"
+    "patch": "7.3e",
+    "keys": [
+     "Q",
+     "W",
+     "E"
+    ]
    }
   },
   "ambessa": {
@@ -253,7 +279,12 @@
      "Lacerate",
      "Repudiation"
     ],
-    "patch": "7.3e"
+    "patch": "7.3e",
+    "keys": [
+     "Q",
+     "E",
+     "W"
+    ]
    }
   },
   "amumu": {
@@ -297,7 +328,13 @@
      "Tantrum",
      "Curse of the Sad Mummy"
     ],
-    "patch": "7.2c"
+    "patch": "7.2c",
+    "keys": [
+     "Q",
+     "W",
+     "E",
+     "R"
+    ]
    }
   },
   "annie": {
@@ -340,7 +377,12 @@
      "Incinerate",
      "Molten Shield"
     ],
-    "patch": "7.3c"
+    "patch": "7.3c",
+    "keys": [
+     "Q",
+     "W",
+     "E"
+    ]
    }
   },
   "ashe": {
@@ -382,7 +424,12 @@
      "Ranger's Focus",
      "Hawkshot"
     ],
-    "patch": "7.3e"
+    "patch": "7.3e",
+    "keys": [
+     "W",
+     "Q",
+     "E"
+    ]
    }
   },
   "aurelionsol": {
@@ -428,7 +475,12 @@
      "Singularity",
      "Astral Flight"
     ],
-    "patch": "7.3e"
+    "patch": "7.3e",
+    "keys": [
+     "Q",
+     "E",
+     "W"
+    ]
    }
   },
   "aurora": {
@@ -470,7 +522,12 @@
      "The Weirding",
      "Across The Veil"
     ],
-    "patch": "7.3e"
+    "patch": "7.3e",
+    "keys": [
+     "Q",
+     "E",
+     "W"
+    ]
    }
   },
   "bard": {
@@ -511,7 +568,12 @@
      "Caretaker's Shrine",
      "Magical Journey"
     ],
-    "patch": "7.3e"
+    "patch": "7.3e",
+    "keys": [
+     "Q",
+     "W",
+     "E"
+    ]
    }
   },
   "blitzcrank": {
@@ -555,7 +617,12 @@
      "Power Fist",
      "Overdrive"
     ],
-    "patch": "7.3c"
+    "patch": "7.3c",
+    "keys": [
+     "Q",
+     "E",
+     "W"
+    ]
    }
   },
   "brand": {
@@ -598,7 +665,12 @@
      "Conflagration",
      "Sear"
     ],
-    "patch": "7.3e"
+    "patch": "7.3e",
+    "keys": [
+     "W",
+     "E",
+     "Q"
+    ]
    }
   },
   "braum": {
@@ -641,7 +713,12 @@
      "Unbreakable",
      "Stand Behind Me"
     ],
-    "patch": "7.3e"
+    "patch": "7.3e",
+    "keys": [
+     "Q",
+     "E",
+     "W"
+    ]
    }
   },
   "caitlyn": {
@@ -682,7 +759,12 @@
      "Yordle Snap Trap",
      "90 Caliber Net"
     ],
-    "patch": "7.3e"
+    "patch": "7.3e",
+    "keys": [
+     "Q",
+     "W",
+     "E"
+    ]
    }
   },
   "camille": {
@@ -725,7 +807,12 @@
      "Hookshot",
      "Tactical Sweep"
     ],
-    "patch": "7.3e"
+    "patch": "7.3e",
+    "keys": [
+     "Q",
+     "E",
+     "W"
+    ]
    }
   },
   "chogath": {
@@ -769,7 +856,12 @@
      "Rupture",
      "Feral Scream"
     ],
-    "patch": "7.3e"
+    "patch": "7.3e",
+    "keys": [
+     "E",
+     "Q",
+     "W"
+    ]
    }
   },
   "corki": {
@@ -811,7 +903,12 @@
      "Gatling Gun",
      "Valkyrie"
     ],
-    "patch": "7.3e"
+    "patch": "7.3e",
+    "keys": [
+     "Q",
+     "E",
+     "W"
+    ]
    }
   },
   "darius": {
@@ -855,7 +952,12 @@
      "Apprehend",
      "Crippling Strike"
     ],
-    "patch": "7.3e"
+    "patch": "7.3e",
+    "keys": [
+     "Q",
+     "E",
+     "W"
+    ]
    }
   },
   "diana": {
@@ -897,7 +999,12 @@
      "Pale Cascade",
      "Lunar Rush"
     ],
-    "patch": "7.3e"
+    "patch": "7.3e",
+    "keys": [
+     "Q",
+     "W",
+     "E"
+    ]
    }
   },
   "draven": {
@@ -939,7 +1046,12 @@
      "Blood Rush",
      "Stand Aside"
     ],
-    "patch": "7.3e"
+    "patch": "7.3e",
+    "keys": [
+     "Q",
+     "W",
+     "E"
+    ]
    }
   },
   "drmundo": {
@@ -982,7 +1094,13 @@
      "Heart Zapper",
      "Maximum Dosage"
     ],
-    "patch": "7.3e"
+    "patch": "7.3e",
+    "keys": [
+     "Q",
+     "E",
+     "W",
+     "R"
+    ]
    }
   },
   "ekko": {
@@ -1024,7 +1142,12 @@
      "Phase Dive",
      "Parallel Convergence"
     ],
-    "patch": "7.3e"
+    "patch": "7.3e",
+    "keys": [
+     "Q",
+     "E",
+     "W"
+    ]
    }
   },
   "evelynn": {
@@ -1066,7 +1189,12 @@
      "Whiplash",
      "Allure"
     ],
-    "patch": "7.3e"
+    "patch": "7.3e",
+    "keys": [
+     "Q",
+     "E",
+     "W"
+    ]
    }
   },
   "ezreal": {
@@ -1108,7 +1236,12 @@
      "Arcane Shift",
      "Essence Flux"
     ],
-    "patch": "7.3c"
+    "patch": "7.3c",
+    "keys": [
+     "Q",
+     "E",
+     "W"
+    ]
    }
   },
   "fiddlesticks": {
@@ -1151,7 +1284,13 @@
      "Reap",
      "Crowstorm"
     ],
-    "patch": "7.3e"
+    "patch": "7.3e",
+    "keys": [
+     "Q",
+     "W",
+     "E",
+     "R"
+    ]
    }
   },
   "fiora": {
@@ -1194,7 +1333,12 @@
      "Bladework",
      "Riposte"
     ],
-    "patch": "7.3e"
+    "patch": "7.3e",
+    "keys": [
+     "Q",
+     "E",
+     "W"
+    ]
    }
   },
   "fizz": {
@@ -1237,7 +1381,12 @@
      "Rending Wave",
      "Urchin Strike"
     ],
-    "patch": "7.3c"
+    "patch": "7.3c",
+    "keys": [
+     "E",
+     "W",
+     "Q"
+    ]
    }
   },
   "galio": {
@@ -1278,7 +1427,12 @@
      "Shield Of Durand",
      "Justice Punch"
     ],
-    "patch": "7.3e"
+    "patch": "7.3e",
+    "keys": [
+     "Q",
+     "W",
+     "E"
+    ]
    }
   },
   "garen": {
@@ -1321,7 +1475,12 @@
      "Decisive Strike",
      "Courage"
     ],
-    "patch": "7.3e"
+    "patch": "7.3e",
+    "keys": [
+     "E",
+     "Q",
+     "W"
+    ]
    }
   },
   "gnar": {
@@ -1365,7 +1524,12 @@
      "Hyper / Wallop",
      "Hop / Crunch"
     ],
-    "patch": "7.3e"
+    "patch": "7.3e",
+    "keys": [
+     "Q",
+     "W",
+     "E"
+    ]
    }
   },
   "gragas": {
@@ -1407,7 +1571,12 @@
      "Body Slam",
      "Drunken Rage"
     ],
-    "patch": "7.3e"
+    "patch": "7.3e",
+    "keys": [
+     "Q",
+     "E",
+     "W"
+    ]
    }
   },
   "graves": {
@@ -1450,7 +1619,12 @@
      "Quickdraw",
      "Smoke Screen"
     ],
-    "patch": "7.3c"
+    "patch": "7.3c",
+    "keys": [
+     "Q",
+     "E",
+     "W"
+    ]
    }
   },
   "gwen": {
@@ -1493,7 +1667,12 @@
      "Skip 'n Slash",
      "Hallowed Mist"
     ],
-    "patch": "7.3e"
+    "patch": "7.3e",
+    "keys": [
+     "Q",
+     "E",
+     "W"
+    ]
    }
   },
   "hecarim": {
@@ -1538,7 +1717,13 @@
      "Devastating Charge",
      "Onslaught Of Shadows"
     ],
-    "patch": "7.3e"
+    "patch": "7.3e",
+    "keys": [
+     "Q",
+     "W",
+     "E",
+     "R"
+    ]
    }
   },
   "heimerdinger": {
@@ -1581,7 +1766,12 @@
      "Hextech Micro-rockets",
      "Ch-2 Electron Storm Grenade"
     ],
-    "patch": "7.3c"
+    "patch": "7.3c",
+    "keys": [
+     "Q",
+     "W",
+     "E"
+    ]
    }
   },
   "irelia": {
@@ -1624,7 +1814,12 @@
      "Defiant Dance",
      "Flawless Duet"
     ],
-    "patch": "7.3c"
+    "patch": "7.3c",
+    "keys": [
+     "Q",
+     "W",
+     "E"
+    ]
    }
   },
   "janna": {
@@ -1666,7 +1861,12 @@
      "Eye Of The Storm",
      "Howling Gale"
     ],
-    "patch": "7.3e"
+    "patch": "7.3e",
+    "keys": [
+     "W",
+     "E",
+     "Q"
+    ]
    }
   },
   "jarvaniv": {
@@ -1709,7 +1909,12 @@
      "Demacian Standard",
      "Golden Aegis"
     ],
-    "patch": "7.3c"
+    "patch": "7.3c",
+    "keys": [
+     "Q",
+     "E",
+     "W"
+    ]
    }
   },
   "jax": {
@@ -1752,7 +1957,12 @@
      "Counter Strike",
      "Leap Strike"
     ],
-    "patch": "7.3e"
+    "patch": "7.3e",
+    "keys": [
+     "W",
+     "E",
+     "Q"
+    ]
    }
   },
   "jayce": {
@@ -1795,7 +2005,12 @@
      "Lightning Field / Hyper Charge",
      "Thundering Blow / Acceleration Gate"
     ],
-    "patch": "7.3c"
+    "patch": "7.3c",
+    "keys": [
+     "Q",
+     "W",
+     "E"
+    ]
    }
   },
   "jhin": {
@@ -1840,7 +2055,13 @@
      "Captive Audience",
      "Curtain Call"
     ],
-    "patch": "7.3e"
+    "patch": "7.3e",
+    "keys": [
+     "Q",
+     "W",
+     "E",
+     "R"
+    ]
    }
   },
   "jinx": {
@@ -1880,7 +2101,12 @@
      "Zap!",
      "Flame Chompers!"
     ],
-    "patch": "7.3e"
+    "patch": "7.3e",
+    "keys": [
+     "Q",
+     "W",
+     "E"
+    ]
    }
   },
   "kaisa": {
@@ -1922,7 +2148,12 @@
      "Supercharge",
      "Void Seeker"
     ],
-    "patch": "7.3e"
+    "patch": "7.3e",
+    "keys": [
+     "Q",
+     "E",
+     "W"
+    ]
    }
   },
   "kalista": {
@@ -1963,7 +2194,12 @@
      "Pierce",
      "Sentinel"
     ],
-    "patch": "7.3e"
+    "patch": "7.3e",
+    "keys": [
+     "E",
+     "Q",
+     "W"
+    ]
    }
   },
   "karma": {
@@ -2004,7 +2240,12 @@
      "Inspire",
      "Focused Resolve"
     ],
-    "patch": "7.3c"
+    "patch": "7.3c",
+    "keys": [
+     "Q",
+     "E",
+     "W"
+    ]
    }
   },
   "kassadin": {
@@ -2048,7 +2289,12 @@
      "Nether Blade",
      "Null Sphere"
     ],
-    "patch": "7.3e"
+    "patch": "7.3e",
+    "keys": [
+     "E",
+     "W",
+     "Q"
+    ]
    }
   },
   "katarina": {
@@ -2089,7 +2335,12 @@
      "Shunpo",
      "Preparation"
     ],
-    "patch": "7.3e"
+    "patch": "7.3e",
+    "keys": [
+     "Q",
+     "E",
+     "W"
+    ]
    }
   },
   "kayle": {
@@ -2131,7 +2382,12 @@
      "Radiant Blast",
      "Celestial Blessing"
     ],
-    "patch": "7.3e"
+    "patch": "7.3e",
+    "keys": [
+     "E",
+     "Q",
+     "W"
+    ]
    }
   },
   "kayn": {
@@ -2175,7 +2431,12 @@
      "Blade's Reach",
      "Shadow Step"
     ],
-    "patch": "7.3e"
+    "patch": "7.3e",
+    "keys": [
+     "Q",
+     "W",
+     "E"
+    ]
    }
   },
   "kennen": {
@@ -2221,7 +2482,13 @@
      "Lightning Rush",
      "Slicing Maelstrom"
     ],
-    "patch": "7.3e"
+    "patch": "7.3e",
+    "keys": [
+     "Q",
+     "W",
+     "E",
+     "R"
+    ]
    }
   },
   "khazix": {
@@ -2266,7 +2533,12 @@
      "Void Spike",
      "Leap"
     ],
-    "patch": "7.3e"
+    "patch": "7.3e",
+    "keys": [
+     "Q",
+     "W",
+     "E"
+    ]
    }
   },
   "kindred": {
@@ -2301,7 +2573,12 @@
      "Mounting Dread"
     ],
     "patch": "7.3d",
-    "source": "WR-META"
+    "source": "WR-META",
+    "keys": [
+     "Q",
+     "W",
+     "E"
+    ]
    }
   },
   "kogmaw": {
@@ -2344,7 +2621,13 @@
      "Void Ooze",
      "Living Artillery"
     ],
-    "patch": "7.3c"
+    "patch": "7.3c",
+    "keys": [
+     "Q",
+     "W",
+     "E",
+     "R"
+    ]
    }
   },
   "ksante": {
@@ -2387,7 +2670,12 @@
      "Path Maker",
      "Footwork"
     ],
-    "patch": "7.3c"
+    "patch": "7.3c",
+    "keys": [
+     "Q",
+     "W",
+     "E"
+    ]
    }
   },
   "leesin": {
@@ -2430,7 +2718,12 @@
      "Safeguard / Iron Will",
      "Tempest / Cripple"
     ],
-    "patch": "7.3e"
+    "patch": "7.3e",
+    "keys": [
+     "Q",
+     "W",
+     "E"
+    ]
    }
   },
   "leona": {
@@ -2474,7 +2767,12 @@
      "Zenith Blade",
      "Shield Of Daybreak"
     ],
-    "patch": "7.3c"
+    "patch": "7.3c",
+    "keys": [
+     "W",
+     "E",
+     "Q"
+    ]
    }
   },
   "lillia": {
@@ -2516,7 +2814,12 @@
      "Watch Out! Eep!",
      "Swirlseed"
     ],
-    "patch": "7.2c"
+    "patch": "7.2c",
+    "keys": [
+     "Q",
+     "W",
+     "E"
+    ]
    }
   },
   "lissandra": {
@@ -2560,7 +2863,13 @@
      "Glacial Path",
      "Frozen Tomb"
     ],
-    "patch": "7.3e"
+    "patch": "7.3e",
+    "keys": [
+     "Q",
+     "W",
+     "E",
+     "R"
+    ]
    }
   },
   "lucian": {
@@ -2602,7 +2911,12 @@
      "Relentless Pursuit",
      "Ardent Blaze"
     ],
-    "patch": "7.3c"
+    "patch": "7.3c",
+    "keys": [
+     "Q",
+     "E",
+     "W"
+    ]
    }
   },
   "lulu": {
@@ -2642,7 +2956,12 @@
      "Whimsy",
      "Glitterlance"
     ],
-    "patch": "7.3e"
+    "patch": "7.3e",
+    "keys": [
+     "E",
+     "W",
+     "Q"
+    ]
    }
   },
   "lux": {
@@ -2683,7 +3002,12 @@
      "Light Binding",
      "Prismatic Barrier"
     ],
-    "patch": "7.3c"
+    "patch": "7.3c",
+    "keys": [
+     "E",
+     "Q",
+     "W"
+    ]
    }
   },
   "malphite": {
@@ -2724,7 +3048,12 @@
      "Ground Slam",
      "Thunderclap"
     ],
-    "patch": "7.3e"
+    "patch": "7.3e",
+    "keys": [
+     "Q",
+     "E",
+     "W"
+    ]
    }
   },
   "maokai": {
@@ -2768,7 +3097,13 @@
      "Sapling Toss",
      "Nature's Grasp"
     ],
-    "patch": "7.2c"
+    "patch": "7.2c",
+    "keys": [
+     "Q",
+     "W",
+     "E",
+     "R"
+    ]
    }
   },
   "masteryi": {
@@ -2812,7 +3147,12 @@
      "Wuju Style",
      "Meditate"
     ],
-    "patch": "7.2c"
+    "patch": "7.2c",
+    "keys": [
+     "Q",
+     "E",
+     "W"
+    ]
    }
   },
   "mel": {
@@ -2854,7 +3194,12 @@
      "Solar Snare",
      "Rebuttal"
     ],
-    "patch": "7.3c"
+    "patch": "7.3c",
+    "keys": [
+     "Q",
+     "E",
+     "W"
+    ]
    }
   },
   "milio": {
@@ -2895,7 +3240,12 @@
      "Cozy Campfire",
      "Ultra Mega Fire Kick"
     ],
-    "patch": "7.3e"
+    "patch": "7.3e",
+    "keys": [
+     "E",
+     "W",
+     "Q"
+    ]
    }
   },
   "missfortune": {
@@ -2938,7 +3288,13 @@
      "Make It Rain",
      "Bullet Time"
     ],
-    "patch": "7.3e"
+    "patch": "7.3e",
+    "keys": [
+     "Q",
+     "W",
+     "E",
+     "R"
+    ]
    }
   },
   "mordekaiser": {
@@ -2980,7 +3336,12 @@
      "Death's Grasp",
      "Indestructible"
     ],
-    "patch": "7.3e"
+    "patch": "7.3e",
+    "keys": [
+     "Q",
+     "E",
+     "W"
+    ]
    }
   },
   "morgana": {
@@ -3020,7 +3381,12 @@
      "Tormented Shadow",
      "Black Shield"
     ],
-    "patch": "7.3c"
+    "patch": "7.3c",
+    "keys": [
+     "Q",
+     "W",
+     "E"
+    ]
    }
   },
   "nami": {
@@ -3060,7 +3426,12 @@
      "Tidecaller's Blessing",
      "Aqua Prison"
     ],
-    "patch": "7.3c"
+    "patch": "7.3c",
+    "keys": [
+     "W",
+     "E",
+     "Q"
+    ]
    }
   },
   "nasus": {
@@ -3105,7 +3476,12 @@
      "Wither",
      "Spirit Fire"
     ],
-    "patch": "7.3c"
+    "patch": "7.3c",
+    "keys": [
+     "Q",
+     "W",
+     "E"
+    ]
    }
   },
   "nautilus": {
@@ -3147,7 +3523,12 @@
      "Titan's Wrath",
      "Riptide"
     ],
-    "patch": "7.3e"
+    "patch": "7.3e",
+    "keys": [
+     "Q",
+     "W",
+     "E"
+    ]
    }
   },
   "nidalee": {
@@ -3191,7 +3572,12 @@
      "Bushwhack / Pounce",
      "Primal Surge / Swipe"
     ],
-    "patch": "7.3c"
+    "patch": "7.3c",
+    "keys": [
+     "Q",
+     "W",
+     "E"
+    ]
    }
   },
   "nilah": {
@@ -3234,7 +3620,12 @@
      "Slipstream",
      "Jubilant Veil"
     ],
-    "patch": "7.3e"
+    "patch": "7.3e",
+    "keys": [
+     "Q",
+     "E",
+     "W"
+    ]
    }
   },
   "nocturne": {
@@ -3275,7 +3666,12 @@
      "Unspeakable Horror",
      "Shroud Of Darkness"
     ],
-    "patch": "7.3e"
+    "patch": "7.3e",
+    "keys": [
+     "Q",
+     "E",
+     "W"
+    ]
    }
   },
   "norra": {
@@ -3360,7 +3756,13 @@
      "Snowball Barrage",
      "Absolute Zero"
     ],
-    "patch": "7.3c"
+    "patch": "7.3c",
+    "keys": [
+     "Q",
+     "W",
+     "E",
+     "R"
+    ]
    }
   },
   "olaf": {
@@ -3405,7 +3807,12 @@
      "Reckless Swing",
      "Vicious Strikes"
     ],
-    "patch": "7.3e"
+    "patch": "7.3e",
+    "keys": [
+     "Q",
+     "E",
+     "W"
+    ]
    }
   },
   "orianna": {
@@ -3449,7 +3856,12 @@
      "Command: Dissonance",
      "Command: Protect"
     ],
-    "patch": "7.3e"
+    "patch": "7.3e",
+    "keys": [
+     "Q",
+     "W",
+     "E"
+    ]
    }
   },
   "ornn": {
@@ -3492,7 +3904,12 @@
      "Bellows Breath",
      "Searing Charge"
     ],
-    "patch": "7.3c"
+    "patch": "7.3c",
+    "keys": [
+     "Q",
+     "W",
+     "E"
+    ]
    }
   },
   "pantheon": {
@@ -3536,7 +3953,12 @@
      "Shield Vault",
      "Aegis Assault"
     ],
-    "patch": "7.3e"
+    "patch": "7.3e",
+    "keys": [
+     "Q",
+     "W",
+     "E"
+    ]
    }
   },
   "poppy": {
@@ -3579,7 +4001,12 @@
      "Heroic Charge",
      "Steadfast Presence"
     ],
-    "patch": "7.3c"
+    "patch": "7.3c",
+    "keys": [
+     "Q",
+     "E",
+     "W"
+    ]
    }
   },
   "pyke": {
@@ -3622,7 +4049,12 @@
      "Phantom Undertow",
      "Ghostwater Dive"
     ],
-    "patch": "7.3c"
+    "patch": "7.3c",
+    "keys": [
+     "Q",
+     "E",
+     "W"
+    ]
    }
   },
   "rakan": {
@@ -3664,7 +4096,12 @@
      "Battle Dance",
      "Gleaming Quill"
     ],
-    "patch": "7.3e"
+    "patch": "7.3e",
+    "keys": [
+     "W",
+     "E",
+     "Q"
+    ]
    }
   },
   "rammus": {
@@ -3706,7 +4143,12 @@
      "Frenzying Taunt",
      "Defensive Ball Curl"
     ],
-    "patch": "7.3e"
+    "patch": "7.3e",
+    "keys": [
+     "Q",
+     "E",
+     "W"
+    ]
    }
   },
   "rell": {
@@ -3750,7 +4192,13 @@
      "Full Tilt",
      "Magnet Storm"
     ],
-    "patch": "7.2c"
+    "patch": "7.2c",
+    "keys": [
+     "Q",
+     "W",
+     "E",
+     "R"
+    ]
    }
   },
   "renekton": {
@@ -3794,7 +4242,12 @@
      "Slice And Dice",
      "Ruthless Predator"
     ],
-    "patch": "7.3c"
+    "patch": "7.3c",
+    "keys": [
+     "Q",
+     "E",
+     "W"
+    ]
    }
   },
   "rengar": {
@@ -3838,7 +4291,12 @@
      "Bola Strike",
      "Battle Roar"
     ],
-    "patch": "7.3c"
+    "patch": "7.3c",
+    "keys": [
+     "Q",
+     "E",
+     "W"
+    ]
    }
   },
   "riven": {
@@ -3882,7 +4340,12 @@
      "Valor",
      "Ki Burst"
     ],
-    "patch": "7.3c"
+    "patch": "7.3c",
+    "keys": [
+     "Q",
+     "E",
+     "W"
+    ]
    }
   },
   "rumble": {
@@ -3927,7 +4390,12 @@
      "Electro Harpoon",
      "Scrap Shield"
     ],
-    "patch": "7.3e"
+    "patch": "7.3e",
+    "keys": [
+     "Q",
+     "E",
+     "W"
+    ]
    }
   },
   "ryze": {
@@ -3972,7 +4440,13 @@
      "Spell Flux",
      "Realm Warp"
     ],
-    "patch": "7.3e"
+    "patch": "7.3e",
+    "keys": [
+     "Q",
+     "W",
+     "E",
+     "R"
+    ]
    }
   },
   "samira": {
@@ -4013,7 +4487,12 @@
      "Wild Rush",
      "Blade Whirl"
     ],
-    "patch": "7.3c"
+    "patch": "7.3c",
+    "keys": [
+     "Q",
+     "E",
+     "W"
+    ]
    }
   },
   "senna": {
@@ -4053,7 +4532,12 @@
      "Last Embrace",
      "Curse Of The Black Mist"
     ],
-    "patch": "7.3c"
+    "patch": "7.3c",
+    "keys": [
+     "Q",
+     "W",
+     "E"
+    ]
    }
   },
   "seraphine": {
@@ -4094,7 +4578,12 @@
      "Surround Sound",
      "Beat Drop"
     ],
-    "patch": "7.3c"
+    "patch": "7.3c",
+    "keys": [
+     "Q",
+     "W",
+     "E"
+    ]
    }
   },
   "sett": {
@@ -4137,7 +4626,12 @@
      "Haymaker",
      "Facebreaker"
     ],
-    "patch": "7.3c"
+    "patch": "7.3c",
+    "keys": [
+     "Q",
+     "W",
+     "E"
+    ]
    }
   },
   "shen": {
@@ -4181,7 +4675,12 @@
      "Shadow Dash",
      "Spirit's Refuge"
     ],
-    "patch": "7.3e"
+    "patch": "7.3e",
+    "keys": [
+     "Q",
+     "E",
+     "W"
+    ]
    }
   },
   "shyvana": {
@@ -4225,7 +4724,12 @@
      "Burnout",
      "Twin Bite"
     ],
-    "patch": "7.3e"
+    "patch": "7.3e",
+    "keys": [
+     "E",
+     "W",
+     "Q"
+    ]
    }
   },
   "singed": {
@@ -4267,7 +4771,12 @@
      "Fling",
      "Mega Adhesive"
     ],
-    "patch": "7.3c"
+    "patch": "7.3c",
+    "keys": [
+     "Q",
+     "E",
+     "W"
+    ]
    }
   },
   "sion": {
@@ -4308,7 +4817,12 @@
      "Soul Furnace",
      "Roar Of The Slayer"
     ],
-    "patch": "7.3c"
+    "patch": "7.3c",
+    "keys": [
+     "Q",
+     "W",
+     "E"
+    ]
    }
   },
   "sivir": {
@@ -4350,7 +4864,13 @@
      "Spell Shield",
      "On The Hunt"
     ],
-    "patch": "7.3c"
+    "patch": "7.3c",
+    "keys": [
+     "Q",
+     "W",
+     "E",
+     "R"
+    ]
    }
   },
   "skarner": {
@@ -4395,7 +4915,12 @@
      "Seismic Bastion",
      "Ixtal's Impact"
     ],
-    "patch": "7.3c"
+    "patch": "7.3c",
+    "keys": [
+     "Q",
+     "W",
+     "E"
+    ]
    }
   },
   "smolder": {
@@ -4438,7 +4963,12 @@
      "Achooo!",
      "Flap, Flap, Flap"
     ],
-    "patch": "7.3e"
+    "patch": "7.3e",
+    "keys": [
+     "Q",
+     "W",
+     "E"
+    ]
    }
   },
   "sona": {
@@ -4479,7 +5009,13 @@
      "Song of Celerity",
      "Crescendo"
     ],
-    "patch": "7.3e"
+    "patch": "7.3e",
+    "keys": [
+     "Q",
+     "W",
+     "E",
+     "R"
+    ]
    }
   },
   "soraka": {
@@ -4521,7 +5057,12 @@
      "Starcall",
      "Equinox"
     ],
-    "patch": "7.2c"
+    "patch": "7.2c",
+    "keys": [
+     "W",
+     "Q",
+     "E"
+    ]
    }
   },
   "swain": {
@@ -4565,7 +5106,12 @@
      "Vision of Empire",
      "Nevermove"
     ],
-    "patch": "7.2c"
+    "patch": "7.2c",
+    "keys": [
+     "Q",
+     "W",
+     "E"
+    ]
    }
   },
   "syndra": {
@@ -4609,7 +5155,12 @@
      "Force Of Will",
      "Scatter The Weak"
     ],
-    "patch": "7.3c"
+    "patch": "7.3c",
+    "keys": [
+     "Q",
+     "W",
+     "E"
+    ]
    }
   },
   "taliyah": {
@@ -4653,7 +5204,12 @@
      "Unraveled Earth",
      "Seismic Shove"
     ],
-    "patch": "7.3c"
+    "patch": "7.3c",
+    "keys": [
+     "Q",
+     "E",
+     "W"
+    ]
    }
   },
   "talon": {
@@ -4692,7 +5248,12 @@
      "Noxian Diplomacy",
      "Assassin's Path"
     ],
-    "patch": "7.3e"
+    "patch": "7.3e",
+    "keys": [
+     "W",
+     "Q",
+     "E"
+    ]
    }
   },
   "teemo": {
@@ -4776,7 +5337,12 @@
      "Flay",
      "Dark Passage"
     ],
-    "patch": "7.2c"
+    "patch": "7.2c",
+    "keys": [
+     "Q",
+     "E",
+     "W"
+    ]
    }
   },
   "tristana": {
@@ -4818,7 +5384,12 @@
      "Rapid Fire",
      "Rocket Jump"
     ],
-    "patch": "7.3e"
+    "patch": "7.3e",
+    "keys": [
+     "E",
+     "Q",
+     "W"
+    ]
    }
   },
   "tryndamere": {
@@ -4861,7 +5432,12 @@
      "Spinning Slash",
      "Mocking Shout"
     ],
-    "patch": "7.3c"
+    "patch": "7.3c",
+    "keys": [
+     "Q",
+     "E",
+     "W"
+    ]
    }
   },
   "twistedfate": {
@@ -4904,7 +5480,13 @@
      "Stacked Deck",
      "Destiny"
     ],
-    "patch": "7.2c"
+    "patch": "7.2c",
+    "keys": [
+     "Q",
+     "W",
+     "E",
+     "R"
+    ]
    }
   },
   "twitch": {
@@ -4947,7 +5529,13 @@
      "Contaminate",
      "Spray And Pray"
     ],
-    "patch": "7.3e"
+    "patch": "7.3e",
+    "keys": [
+     "Q",
+     "W",
+     "E",
+     "R"
+    ]
    }
   },
   "urgot": {
@@ -4989,7 +5577,12 @@
      "Disdain",
      "Corrosive Charge"
     ],
-    "patch": "7.3e"
+    "patch": "7.3e",
+    "keys": [
+     "W",
+     "E",
+     "Q"
+    ]
    }
   },
   "varus": {
@@ -5030,7 +5623,13 @@
      "Hail of Arrows",
      "Chain of Corruption"
     ],
-    "patch": "7.2c"
+    "patch": "7.2c",
+    "keys": [
+     "Q",
+     "W",
+     "E",
+     "R"
+    ]
    }
   },
   "vayne": {
@@ -5073,7 +5672,12 @@
      "Silver Bolts",
      "Condemn"
     ],
-    "patch": "7.3e"
+    "patch": "7.3e",
+    "keys": [
+     "Q",
+     "W",
+     "E"
+    ]
    }
   },
   "veigar": {
@@ -5115,7 +5719,12 @@
      "Dark Matter",
      "Event Horizon"
     ],
-    "patch": "7.3c"
+    "patch": "7.3c",
+    "keys": [
+     "Q",
+     "W",
+     "E"
+    ]
    }
   },
   "velkoz": {
@@ -5157,7 +5766,12 @@
      "Void Rift",
      "Tectonic Disruption"
     ],
-    "patch": "7.3c"
+    "patch": "7.3c",
+    "keys": [
+     "Q",
+     "W",
+     "E"
+    ]
    }
   },
   "vex": {
@@ -5201,7 +5815,13 @@
      "Looming Darkness",
      "Shadow Surge"
     ],
-    "patch": "7.3e"
+    "patch": "7.3e",
+    "keys": [
+     "Q",
+     "W",
+     "E",
+     "R"
+    ]
    }
   },
   "vi": {
@@ -5288,7 +5908,12 @@
      "Harrowed Path",
      "Spectral Maw"
     ],
-    "patch": "7.3c"
+    "patch": "7.3c",
+    "keys": [
+     "Q",
+     "E",
+     "W"
+    ]
    }
   },
   "viktor": {
@@ -5331,7 +5956,12 @@
      "Siphon Power",
      "Gravity Field"
     ],
-    "patch": "7.3c"
+    "patch": "7.3c",
+    "keys": [
+     "E",
+     "Q",
+     "W"
+    ]
    }
   },
   "vladimir": {
@@ -5374,7 +6004,12 @@
      "Tides Of Blood",
      "Sanguine Pool"
     ],
-    "patch": "7.3c"
+    "patch": "7.3c",
+    "keys": [
+     "Q",
+     "E",
+     "W"
+    ]
    }
   },
   "volibear": {
@@ -5417,7 +6052,12 @@
      "Thundering Smash",
      "Sky Splitter"
     ],
-    "patch": "7.3c"
+    "patch": "7.3c",
+    "keys": [
+     "W",
+     "Q",
+     "E"
+    ]
    }
   },
   "warwick": {
@@ -5460,7 +6100,12 @@
      "Jaws Of The Beast",
      "Primal Howl"
     ],
-    "patch": "7.3e"
+    "patch": "7.3e",
+    "keys": [
+     "W",
+     "Q",
+     "E"
+    ]
    }
   },
   "wukong": {
@@ -5544,7 +6189,12 @@
      "Deadly Plumage",
      "Double Daggers"
     ],
-    "patch": "7.3e"
+    "patch": "7.3e",
+    "keys": [
+     "E",
+     "W",
+     "Q"
+    ]
    }
   },
   "xinzhao": {
@@ -5587,7 +6237,12 @@
      "Audacious Charge",
      "Three Talon Strike"
     ],
-    "patch": "7.3c"
+    "patch": "7.3c",
+    "keys": [
+     "W",
+     "E",
+     "Q"
+    ]
    }
   },
   "yasuo": {
@@ -5629,7 +6284,12 @@
      "Sweeping Blade",
      "Wind Wall"
     ],
-    "patch": "7.3c"
+    "patch": "7.3c",
+    "keys": [
+     "Q",
+     "E",
+     "W"
+    ]
    }
   },
   "yone": {
@@ -5673,7 +6333,13 @@
      "Soul Unbound",
      "Fate Sealed"
     ],
-    "patch": "7.3c"
+    "patch": "7.3c",
+    "keys": [
+     "Q",
+     "W",
+     "E",
+     "R"
+    ]
    }
   },
   "yunara": {
@@ -5712,7 +6378,12 @@
      "Arc Of Judgment",
      "Kanmei's Steps"
     ],
-    "patch": "7.3e"
+    "patch": "7.3e",
+    "keys": [
+     "Q",
+     "W",
+     "E"
+    ]
    }
   },
   "yuumi": {
@@ -5752,7 +6423,12 @@
      "Zoomies",
      "You And Me!"
     ],
-    "patch": "7.3c"
+    "patch": "7.3c",
+    "keys": [
+     "Q",
+     "E",
+     "W"
+    ]
    }
   },
   "zed": {
@@ -5793,7 +6469,12 @@
      "Shadow Slash",
      "Living Shadow"
     ],
-    "patch": "7.3c"
+    "patch": "7.3c",
+    "keys": [
+     "Q",
+     "E",
+     "W"
+    ]
    }
   },
   "zeri": {
@@ -5836,7 +6517,12 @@
      "Spark Surge",
      "Ultrashock Laser"
     ],
-    "patch": "7.3c"
+    "patch": "7.3c",
+    "keys": [
+     "Q",
+     "E",
+     "W"
+    ]
    }
   },
   "ziggs": {
@@ -5880,7 +6566,13 @@
      "Satchel Charge",
      "Mega Inferno Bomb"
     ],
-    "patch": "7.2c"
+    "patch": "7.2c",
+    "keys": [
+     "Q",
+     "E",
+     "W",
+     "R"
+    ]
    }
   },
   "zilean": {
@@ -5960,7 +6652,12 @@
      "Sleepy Trouble Bubble",
      "Spell Thief"
     ],
-    "patch": "7.3e"
+    "patch": "7.3e",
+    "keys": [
+     "Q",
+     "E",
+     "W"
+    ]
    }
   },
   "zyra": {
@@ -6001,7 +6698,12 @@
      "Deadly Spines",
      "Rampant Growth"
     ],
-    "patch": "7.3e"
+    "patch": "7.3e",
+    "keys": [
+     "E",
+     "Q",
+     "W"
+    ]
    }
   }
  },
@@ -6012,5 +6714,283 @@
  },
  "icon_fix": {
   "Immortal Treads": "immortal-treds"
+ },
+ "fr": {
+  "Abyssal Mask": "Masque abyssal",
+  "Amaranth's Twinguard": "Garde jumelle d'Amaranth",
+  "Amplifying Tome": "Tome d'amplification",
+  "Ardent Censer": "Encensoir ardent",
+  "Armorcrusher Boots": "Bottes brise-armure",
+  "Armored Advance": "Avancée blindée",
+  "Banshee's Veil": "Voile de la banshee",
+  "Berserker's Greaves": "Jambières du berzerker",
+  "Black Cleaver": "Couperet noir",
+  "Black Mist Scythe": "Faux de Brume noire",
+  "Blackfire Torch": "Torche noire",
+  "Blade of the Ruined King": "Lame du roi déchu",
+  "Bloodletter's Curse": "Malédiction du sanguinaire",
+  "Bloodthirster": "Soif-de-sang",
+  "Boots of Dynamism": "Bottes de dynamisme",
+  "Boots of Mana": "Bottes de mana",
+  "Bulwark of the Mountain": "Pavois de la montagne",
+  "Chainlaced Crushers": "Broyeuses à chaînes",
+  "Chempunk Chainsword": "Épée dentelée chimico-punk",
+  "Cosmic Drive": "Volonté cosmique",
+  "Crimson Lucidity": "Lucidité pourpre",
+  "Crown of the Shattered Queen": "Couronne de la Reine brisée",
+  "Cryptbloom": "Fleur de crypte",
+  "Dagger": "Dague",
+  "Dawnshroud": "Linceul de l'aube",
+  "Dead Man's Plate": "Plaque du mort",
+  "Death's Dance": "Danse de la mort",
+  "Divine Sunderer": "Pourfendeur divin",
+  "Dusk and Dawn": "Aube et crépuscule",
+  "Duskblade of Draktharr": "Épée vespérale de Draktharr",
+  "Eclipse": "Éclipse",
+  "Edge of Night": "Manteau de la nuit",
+  "Essence Reaver": "Faucheuse d'essence",
+  "Experimental Hexplate": "Hexplaque expérimentale",
+  "Force of Nature": "Force de la nature",
+  "Frozen Heart": "Cœur gelé",
+  "Galeforce": "Force du vent",
+  "Gargoyle Stoneplate": "Lithoplastron de gargouille",
+  "Gluttonous Greaves": "Jambières gloutonnes",
+  "Goredrinker": "Buveuse de sang",
+  "Guardian Angel": "Ange gardien",
+  "Guinsoo's Rageblade": "Lame enragée de Guinsoo",
+  "Gunmetal Greaves": "Jambières de métal",
+  "Harmonic Echo": "Écho harmonique",
+  "Heartsteel": "Cœuracier",
+  "Hextech Rocketbelt": "Ceinture-roquette Hextech",
+  "Hollow Radiance": "Rayonnement creux",
+  "Horizon Focus": "Concentration lointaine",
+  "Hullbreaker": "Brise-coques",
+  "Iceborn Gauntlet": "Gantelet givré",
+  "Immortal Treads": "Pas immortels",
+  "Imperial Mandate": "Mandat impérial",
+  "Infinity Edge": "Lame d'infini",
+  "Infinity Orb": "Orbe d'infinité",
+  "Ionian Boots of Lucidity": "Bottes de lucidité",
+  "Kaenic Rookern": "Rookern kaénique",
+  "Knight's Vow": "Vœu du chevalier",
+  "Kraken Slayer": "Tueur de krakens",
+  "Liandry's Torment": "Affliction de Liandry",
+  "Lich Bane": "Fléau de liche",
+  "Locket of the Iron Solaris": "Médaillon de l'Iron Solari",
+  "Long Sword": "Épée longue",
+  "Lord Dominik's Regards": "Salutations de Dominik",
+  "Luden's Echo": "Écho de Luden",
+  "Magnetic Blaster": "Blaster magnétique",
+  "Malignance": "Malfaisance",
+  "Mantle of the Twelfth Hour": "Manteau de la douzième heure",
+  "Maw of Malmortius": "Gueule de Malmortius",
+  "Mercurial Scimitar": "Cimeterre mercuriel",
+  "Mercury's Treads": "Sandales de Mercure",
+  "Mikael's Blessing": "Bénédiction de Mikael",
+  "Morellonomicon": "Morellonomicon",
+  "Mortal Reminder": "Rappel mortel",
+  "Muramana": "Muramana",
+  "Nashor's Tooth": "Dent de Nashor",
+  "Navori Quickblades": "Lames rapides de Navori",
+  "Oceanid's Trident": "Trident de l'océanide",
+  "Overlord's Bloodmail": "Armure sanguine",
+  "Phantom Dancer": "Danseur fantôme",
+  "Plated Steelcaps": "Coques en acier",
+  "Rabadon's Deathcap": "Coiffe de Rabadon",
+  "Radiant Virtue": "Vertu radieuse",
+  "Randuin's Omen": "Présage de Randuin",
+  "Redemption": "Rédemption",
+  "Relic Shield": "Bouclier relique",
+  "Riftmaker": "Créateur de failles",
+  "Rod of Ages": "Bâton séculaire",
+  "Ruby Crystal": "Cristal de rubis",
+  "Runaan's Hurricane": "Ouragan de Runaan",
+  "Rylai's Crystal Scepter": "Sceptre de Rylai",
+  "Sapphire Crystal": "Cristal de saphir",
+  "Searing Crown": "Couronne ardente",
+  "Seraph's Embrace": "Étreinte du séraphin",
+  "Serpent's Fang": "Crochet de serpent",
+  "Serylda's Grudge": "Rancune de Serylda",
+  "Shimmering Spark": "Étincelle chatoyante",
+  "Shurelya's Battlesong": "Chant de guerre de Shurelya",
+  "Soul Transfer": "Transfert d'âme",
+  "Spear of Shojin": "Lance de Shojin",
+  "Spectral Sickle": "Faucille spectrale",
+  "Spellslinger's Shoes": "Chaussures de lanceur de sorts",
+  "Staff of Flowing Waters": "Bâton des flots",
+  "Sterak's Gage": "Gage de Sterak",
+  "Stridebreaker": "Estropieur",
+  "Sundered Sky": "Ciel éventré",
+  "Sunfire Aegis": "Égide solaire",
+  "Tear of the Goddess": "Larme de la déesse",
+  "Terminus": "Terminus",
+  "The Collector": "Percepteur",
+  "Thornmail": "Cotte épineuse",
+  "Titanic Hydra": "Hydre titanesque",
+  "Trinity Force": "Force de la trinité",
+  "Unending Despair": "Désespoir infini",
+  "Veil Enchant": "Enchantement voile",
+  "Void Staff": "Bâton du vide",
+  "Warmog's Armor": "Armure de Warmog",
+  "Wit's End": "Fin de la raison",
+  "Youmuu's Ghostblade": "Lame spectre de Youmuu",
+  "Zeke's Convergence": "Convergence de Zeke",
+  "Zhonya's Hourglass": "Sablier de Zhonya",
+  "Absolute Focus": "Concentration absolue",
+  "Aery": "Invocation d'Aery",
+  "Arcane Comet": "Comète arcanique",
+  "Axiom Arcanist": "Arcaniste axiomatique",
+  "Battle Zeal": "Zèle de combat",
+  "Bone Plating": "Plaque d'os",
+  "Botanist": "Botaniste",
+  "Brutal": "Brutal",
+  "Celerity": "Célérité",
+  "Chain Assault": "Assaut en chaîne",
+  "Cheap Shot": "Coup bas",
+  "Conqueror": "Conquérant",
+  "Coup de Grace": "Coup de grâce",
+  "Courage of the Colossus": "Courage du colosse",
+  "Cut Down": "Abattre",
+  "Dark Harvest": "Moisson noire",
+  "Demolish": "Démolition",
+  "Electrocute": "Électrocution",
+  "Empowered Attack": "Attaque renforcée",
+  "Empowerment": "Renforcement",
+  "Eyeball Collection": "Collection de globes oculaires",
+  "First Strike": "Frappe préventive",
+  "Fleet Footwork": "Jeu de jambes",
+  "Font of Life": "Source de vie",
+  "Gathering Storm": "Tempête menaçante",
+  "Grasp of Undying": "Poigne de l'immortel",
+  "Guardian": "Gardien",
+  "Hextech Flash": "Saut éclair hextech",
+  "Hubris": "Orgueil",
+  "Ice Overlord": "Suzerain de glace",
+  "Ixtali Seedjar": "Jarre de graines ixtalie",
+  "Last Stand": "Au bout du rouleau",
+  "Legend: Alacrity": "Légende : alacrité",
+  "Legend: Bloodline": "Légende : lignée",
+  "Legend: Tenacity": "Légende : ténacité",
+  "Lethal Tempo": "Tempo mortel",
+  "Manaflow Band": "Bande de flux de mana",
+  "Nimbus Cloak": "Cape de nimbe",
+  "Nullifying Orb": "Orbe annulant",
+  "Overgrowth": "Surcroissance",
+  "Perseverance": "Persévérance",
+  "Phase Rush": "Rush de phase",
+  "Relentless Hunter": "Chasseur implacable",
+  "Revitalize": "Revitalisation",
+  "Scorch": "Brûlure",
+  "Second Wind": "Second souffle",
+  "Sudden Impact": "Impact soudain",
+  "Transcendence": "Transcendance",
+  "Triumph": "Triomphe",
+  "Tyrant": "Tyran",
+  "Unshakeable": "Inébranlable",
+  "Zombie Ward": "Balise zombie",
+  "Barrier": "Barrière",
+  "Cleanse": "Purge",
+  "Exhaust": "Fatigue",
+  "Flash": "Saut éclair",
+  "Ghost": "Fantôme",
+  "Heal": "Soins",
+  "Ignite": "Embrasement",
+  "Smite": "Châtiment",
+  "Teleport": "Téléportation"
+ },
+ "when": {
+  "Guardian Angel": "Si tu te fais focus en fin de partie : te ressuscite une fois.",
+  "Mortal Reminder": "Contre beaucoup de soins (Soraka, Aatrox, Vladimir, Dr. Mundo…).",
+  "Chempunk Chainsword": "Contre beaucoup de soins, version combattant.",
+  "Morellonomicon": "Contre beaucoup de soins, version mage.",
+  "Thornmail": "Contre des tireurs ou des champions qui se soignent en tapant.",
+  "Lord Dominik's Regards": "Contre des tanks avec beaucoup d'armure.",
+  "Serylda's Grudge": "Contre plusieurs ennemis qui stackent de l'armure.",
+  "Black Cleaver": "Contre beaucoup d'armure : réduit l'armure pour toute ton équipe.",
+  "Void Staff": "Contre des ennemis qui ont acheté de la résistance magique.",
+  "Cryptbloom": "Contre de la résistance magique, et soigne ton équipe.",
+  "Bloodletter's Curse": "Contre plusieurs tanks : réduit leur résistance magique.",
+  "Liandry's Torment": "Contre des tanks : dégâts en % des PV.",
+  "Blade of the Ruined King": "Contre des tanks avec beaucoup de PV.",
+  "Kraken Slayer": "Contre des tanks : dégâts bonus toutes les 3 attaques.",
+  "Divine Sunderer": "Contre des tanks : dégâts selon les PV max.",
+  "Terminus": "Contre une équipe qui mélange armure et résistance magique.",
+  "Serpent's Fang": "Contre des boucliers (Lulu, Karma, Janna, Sett…).",
+  "Oceanid's Trident": "Contre des boucliers, version mage.",
+  "Edge of Night": "Contre un gros contrôle ou un ulti à esquiver (bouclier anti-sort).",
+  "Banshee's Veil": "Contre un gros contrôle ou du burst magique.",
+  "Mercurial Scimitar": "Contre des étourdissements ou des ultis qui te bloquent.",
+  "Mikael's Blessing": "Pour libérer ton carry d'un contrôle.",
+  "Maw of Malmortius": "Contre beaucoup de dégâts magiques (bouclier anti-burst AP).",
+  "Wit's End": "Contre beaucoup de dégâts magiques en duel.",
+  "Kaenic Rookern": "Contre une équipe AP : gros bouclier magique.",
+  "Force of Nature": "Contre une équipe très AP.",
+  "Abyssal Mask": "Contre une équipe AP, et augmente les dégâts magiques alliés.",
+  "Hollow Radiance": "Contre une équipe AP, nettoie les vagues.",
+  "Death's Dance": "Contre du burst physique (assassins AD, tireurs).",
+  "Randuin's Omen": "Contre des critiques (tireurs, Yasuo, Yone…).",
+  "Frozen Heart": "Contre des tireurs et des attaques rapides.",
+  "Zhonya's Hourglass": "Contre des assassins AD : stase de 2,5 s pour esquiver.",
+  "Gargoyle Stoneplate": "En combat d'équipe quand tu prends tout le focus.",
+  "Amaranth's Twinguard": "Pour tenir en fin de partie (résistances mixtes).",
+  "Unending Despair": "Pour les combats longs au contact.",
+  "Warmog's Armor": "Pour un maximum de PV et de régénération.",
+  "Dead Man's Plate": "Pour aller vite et engager.",
+  "Sterak's Gage": "Pour encaisser le burst en combat d'équipe.",
+  "Bloodthirster": "Pour plus de vol de vie et un bouclier.",
+  "Infinity Edge": "Quand tu as déjà du critique : gros dégâts.",
+  "Rabadon's Deathcap": "Quand tu es en avance : énorme puissance.",
+  "Shurelya's Battlesong": "Pour engager ou fuir avec toute l'équipe.",
+  "Hextech Rocketbelt": "Pour plus de mobilité et de burst.",
+  "Cosmic Drive": "Pour plus de vitesse et de réduction de recharge.",
+  "Malignance": "Pour lancer ton ulti plus souvent.",
+  "Lich Bane": "Pour plus de burst entre deux sorts.",
+  "Infinity Orb": "Pour achever les cibles basses en PV.",
+  "Rylai's Crystal Scepter": "Pour ralentir les ennemis avec tes sorts.",
+  "Riftmaker": "Pour les combats longs (vol de vie sur les sorts).",
+  "Runaan's Hurricane": "Pour toucher plusieurs cibles en combat d'équipe.",
+  "The Collector": "Pour achever les cibles basses en PV.",
+  "Essence Reaver": "Pour relancer tes sorts plus souvent.",
+  "Navori Quickblades": "Pour relancer tes sorts plus souvent avec le critique.",
+  "Spear of Shojin": "Pour relancer tes sorts plus souvent.",
+  "Phantom Dancer": "Pour gagner les duels contre d'autres tireurs.",
+  "Galeforce": "Pour une ruée de plus (fuir ou achever).",
+  "Duskblade of Draktharr": "Pour éliminer les cibles isolées.",
+  "Youmuu's Ghostblade": "Pour plus de vitesse et surprendre les ennemis.",
+  "Eclipse": "Pour plus de burst et un bouclier.",
+  "Trinity Force": "Pour plus de dégâts en duel.",
+  "Sundered Sky": "Pour tenir en duel : tes coups soignent.",
+  "Hullbreaker": "Pour pousser seul ta lane et prendre des tours.",
+  "Goredrinker": "Pour te soigner au milieu des combats.",
+  "Stridebreaker": "Pour ralentir et coller tes cibles.",
+  "Overlord's Bloodmail": "Pour plus de PV et de dégâts.",
+  "Experimental Hexplate": "Pour renforcer ton ulti.",
+  "Titanic Hydra": "Pour nettoyer les vagues et frapper selon tes PV.",
+  "Iceborn Gauntlet": "Pour ralentir en combat.",
+  "Heartsteel": "Pour devenir un énorme tank sur la durée.",
+  "Sunfire Aegis": "Pour des dégâts de zone en tank.",
+  "Mantle of the Twelfth Hour": "Pour survivre quand tu passes sous la moitié des PV.",
+  "Knight's Vow": "Pour protéger ton tireur.",
+  "Zeke's Convergence": "Pour booster ton tireur en combat.",
+  "Locket of the Iron Solaris": "Pour protéger toute l'équipe en combat.",
+  "Redemption": "Pour soigner l'équipe en combat.",
+  "Ardent Censer": "Avec un tireur qui attaque vite.",
+  "Staff of Flowing Waters": "Pour booster les mages alliés.",
+  "Harmonic Echo": "Pour soigner en continu.",
+  "Imperial Mandate": "Pour augmenter les dégâts de ton équipe.",
+  "Radiant Virtue": "Pour tenir les combats longs.",
+  "Crown of the Shattered Queen": "Contre du burst : bouclier anti-dégâts.",
+  "Blackfire Torch": "Pour brûler les ennemis sur la durée.",
+  "Luden's Echo": "Pour un gros burst.",
+  "Horizon Focus": "Pour les dégâts à longue portée.",
+  "Seraph's Embrace": "Pour un bouclier et beaucoup de mana.",
+  "Muramana": "Quand ta Larme est chargée.",
+  "Nashor's Tooth": "Pour les champions AP qui attaquent beaucoup.",
+  "Dusk and Dawn": "Pour enchaîner sorts et attaques.",
+  "Rod of Ages": "Pour devenir solide en restant mage.",
+  "Magnetic Blaster": "Pour plus de dégâts à distance.",
+  "Guinsoo's Rageblade": "Pour la vitesse d'attaque et les effets à l'impact.",
+  "Mercury's Treads": "Contre beaucoup de contrôles et de dégâts magiques.",
+  "Plated Steelcaps": "Contre beaucoup d'attaques physiques."
  }
 }
