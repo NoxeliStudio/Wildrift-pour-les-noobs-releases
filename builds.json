@@ -1,5 +1,5 @@
 {
- "source": "JunglerGG",
+ "source": "JunglerGG + WR-META",
  "patch": "7.3e",
  "updated": "2026-11-09",
  "note": "Builds les plus joués par lane principale de chaque champion.",
@@ -2267,6 +2267,41 @@
      "Leap"
     ],
     "patch": "7.3e"
+   }
+  },
+  "kindred": {
+   "jungle": {
+    "start": [
+     "Long Sword"
+    ],
+    "items": [
+     "Kraken Slayer",
+     "The Collector",
+     "Lord Dominik's Regards",
+     "Infinity Edge",
+     "Guardian Angel"
+    ],
+    "situational": [],
+    "boots": "Berserker's Greaves",
+    "enchant": "",
+    "runes": [
+     "Empowerment",
+     "Brutal",
+     "Coup de Grace",
+     "Legend: Alacrity",
+     "Sudden Impact"
+    ],
+    "spells": [
+     "Flash",
+     "Smite"
+    ],
+    "skills": [
+     "Dance of Arrows",
+     "Wolf's Frenzy",
+     "Mounting Dread"
+    ],
+    "patch": "7.3d",
+    "source": "WR-META"
    }
   },
   "kogmaw": {
