@@ -18354,5 +18354,626 @@
   "zoe": "zoe",
   "zyra": "zyra",
   "kindred": "kindred"
- }
+ },
+ "vals": {
+  "Abyssal Mask": {
+   "cout": 2400,
+   "stats": "10 hâte de capacité, 350 PV, 45 résistance magique",
+   "effet": "Défaire : les champions ennemis proches sont maudits, leur résistance magique baisse de 5 (+1,2 % de tes PV max), jusqu'à 25 RM. Tu gagnes 9 RM bonus par malédiction active."
+  },
+  "Amaranth's Twinguard": {
+   "cout": 3200,
+   "stats": "300 PV, 50 armure, 50 résistance magique",
+   "effet": "Endurance : 1 cumul par seconde en combat contre des champions (max 5). Au maximum : +20 % de taille, +20 % de ténacité et +30 % d'armure et de RM bonus jusqu'à la fin du combat."
+  },
+  "Ardent Censer": {
+   "cout": 2400,
+   "stats": "50 puissance magique, 8 % puissance de soins et boucliers, 50 régén. de mana, 4 % vitesse de déplacement",
+   "effet": "Encensoir : soigner ou protéger un allié le renforce 6 s : +30 % vitesse d'attaque et +25 dégâts magiques sur ses attaques de base."
+  },
+  "Armorcrusher Boots": {
+   "cout": 2200,
+   "stats": "20 dégâts d'attaque, 10 pénétration d'armure, 6 % pénétration d'armure",
+   "effet": "Marche-nuage : +20 vitesse de déplacement hors combat."
+  },
+  "Armored Advance": {
+   "cout": 2200,
+   "stats": "150 PV, 30 armure",
+   "effet": "Blocage : les attaques de base des champions font 10 % de dégâts en moins. Endurance noxienne : subir des dégâts physiques de champions donne un bouclier de 20-140 (selon le niveau) + 5 % de tes PV max (recharge 12 s)."
+  },
+  "Banshee's Veil": {
+   "cout": 3000,
+   "stats": "105 puissance magique, 40 résistance magique",
+   "effet": "Annulation : bouclier magique qui bloque la prochaine compétence ennemie (recharge 30 s)."
+  },
+  "Berserker's Greaves": {
+   "cout": 1200,
+   "stats": "10 dégâts d'attaque, 35 % vitesse d'attaque, 45 vitesse de déplacement",
+   "effet": "Lame bénie : tes attaques de base soignent de 10."
+  },
+  "Black Cleaver": {
+   "cout": 3000,
+   "stats": "40 dégâts d'attaque, 20 hâte de compétence, 400 PV",
+   "effet": "Fissure : chaque coup physique sur un champion réduit son armure de 6 % pendant 6 s (max 5 cumuls, 30 %). Traque : tes attaques donnent +20 (mêlée) / +10 (distance) de vitesse pendant 2 s, doublé contre une cible à 5 cumuls."
+  },
+  "Black Mist Scythe": {
+   "cout": 500,
+   "stats": "10 hâte de compétence",
+   "effet": "+14 dégâts d'attaque ou 28 puissance magique (adaptatif). Toutes les 60 s : 75 or, 25 PV et un petit bonus de dégâts. Vitesse bonus hors combat près de ton allié lié."
+  },
+  "Blackfire Torch": {
+   "cout": 2800,
+   "stats": "80 puissance magique, 500 mana, 20 hâte de compétence",
+   "effet": "Flamme funeste : tes sorts brûlent pour 20 (+2 % PM) dégâts magiques par seconde pendant 3 s. Chaque ennemi en feu te donne +4 % de puissance magique."
+  },
+  "Blade of the Ruined King": {
+   "cout": 3100,
+   "stats": "40 dégâts d'attaque, 30 % vitesse d'attaque, 12 % vol de vie",
+   "effet": "+10 % omnivampirisme. Tes attaques infligent 7 % des PV actuels de la cible (8,5 % en mêlée). 3 attaques sur le même champion le ralentissent de 30 % pendant 1,5 s (recharge 30 s)."
+  },
+  "Bloodletter's Curse": {
+   "cout": 2900,
+   "stats": "65 puissance magique, 350 PV, 15 hâte de compétence",
+   "effet": "Décomposition : tes dégâts magiques réduisent la résistance magique des champions de 7,5 % pendant 6 s (max 30 %)."
+  },
+  "Bloodthirster": {
+   "cout": 3200,
+   "stats": "75 dégâts d'attaque, 15 % vol de vie",
+   "effet": "+8 % vol de vie physique, +4 % de plus sur les coups critiques. Bouclier de sang : le surplus de soin devient un bouclier de 165 à 345 (selon le niveau)."
+  },
+  "Boots of Dynamism": {
+   "cout": 1200,
+   "stats": "15 dégâts d'attaque, 45 vitesse de déplacement, 10 % pénétration d'armure",
+   "effet": "Frappe : +10 pénétration d'armure."
+  },
+  "Boots of Mana": {
+   "cout": 1200,
+   "stats": "25 puissance magique, 75 % régén. de mana, 45 vitesse de déplacement",
+   "effet": "+8 pénétration magique. Tes attaques et sorts font 18 dégâts bonus aux sbires. +50 % de régén. de PV de base si tu n'utilises pas de mana."
+  },
+  "Bulwark of the Mountain": {
+   "cout": 500,
+   "stats": "10 hâte de compétence, 175 PV",
+   "effet": "Toutes les 60 s : +75 or, +25 PV et +2 dégâts d'attaque ou +4 puissance magique (adaptatif), jusqu'à 10 charges. Vitesse bonus hors combat près de ton allié lié."
+  },
+  "Chainlaced Crushers": {
+   "cout": 2200,
+   "stats": "150 PV, 30 résistance magique, 30 % ténacité",
+   "effet": "Persistance noxienne : subir des dégâts magiques de champions donne un bouclier magique de 20-140 (selon le niveau) + 5 % de tes PV max (recharge 12 s)."
+  },
+  "Chempunk Chainsword": {
+   "cout": 2800,
+   "stats": "45 dégâts d'attaque, 15 hâte de compétence, 400 PV",
+   "effet": "Punition : tes dégâts physiques sur les champions appliquent 50 % de réduction des soins pendant 3 s."
+  },
+  "Cosmic Drive": {
+   "cout": 3000,
+   "stats": "70 puissance magique, 25 hâte de compétence, 7 % pénétration magique, 300 PV, 4 % vitesse de déplacement",
+   "effet": "+5 % vitesse de déplacement. Tissage de sorts : tes dégâts magiques sur les champions donnent +30 vitesse de déplacement pendant 4 s."
+  },
+  "Crimson Lucidity": {
+   "cout": 2000,
+   "stats": "75 régén. de mana, 25 hâte de compétence",
+   "effet": "+20 % hâte des sorts d'invocateur. Toucher un champion avec un sort, soigner/protéger un allié ou lancer un sort d'invocateur donne +10 % (mêlée) / 8 % (distance) de vitesse pendant 4 s."
+  },
+  "Crown of the Shattered Queen": {
+   "cout": 3000,
+   "stats": "60 puissance magique, 20 hâte de compétence, 200 mana, 7 % pénétration magique",
+   "effet": "Protection : bouclier qui bloque la prochaine compétence ennemie, puis -40 % de dégâts subis pendant 1 s (recharge 40 s). +20 puissance magique quand il est prêt. Objet retiré au patch 7.2."
+  },
+  "Cryptbloom": {
+   "cout": 3000,
+   "stats": "30 % pénétration magique, 20 hâte de compétence",
+   "effet": "Vie dans la mort : si un champion meurt moins de 3 s après tes dégâts, une nova soigne tes alliés de 100 (+20 % PM) (recharge 60 s)."
+  },
+  "Dawnshroud": {
+   "cout": 2700,
+   "stats": "50 armure, 250 PV, 30 résistance magique",
+   "effet": "Porte-aurore : quand tu immobilises un champion ou en subis une immobilisation à moins de 400 unités, tu infliges 40 (+2,5 % PV bonus) dégâts magiques autour, tu révèles les ennemis 3 s et gagnes +20 % d'armure et de RM bonus."
+  },
+  "Dead Man's Plate": {
+   "cout": 2800,
+   "stats": "70 armure, 350 PV, 4 % vitesse de déplacement",
+   "effet": "+5 % vitesse. Élan : tu accumules de la vitesse en marchant (jusqu'à +40). Ta prochaine attaque consomme l'élan pour des dégâts magiques bonus ; au maximum, en mêlée elle ralentit de 75 % pendant 1 s."
+  },
+  "Death's Dance": {
+   "cout": 3300,
+   "stats": "50 dégâts d'attaque, 15 hâte de compétence, 45 armure",
+   "effet": "Cautérisation : 30 % des dégâts subis (12 % à distance) sont étalés sur 3 s. Défi : si un champion que tu as touché meurt dans les 3 s, le reste est annulé et tu te soignes de 90 % de tes dégâts d'attaque bonus."
+  },
+  "Divine Sunderer": {
+   "cout": 3300,
+   "stats": "25 dégâts d'attaque, 25 hâte de compétence, 425 PV",
+   "effet": "Lame-sort : après un sort, ta prochaine attaque inflige 10 % (mêlée) / 7 % (distance) des PV max de la cible et te soigne de 6 % / 2,5 % de ses PV max."
+  },
+  "Dusk and Dawn": {
+   "cout": 3100,
+   "stats": "60 puissance magique, 300 PV, 20 hâte de compétence, 20 % vitesse d'attaque",
+   "effet": "Lame-sort : après un sort, ta prochaine attaque inflige des dégâts magiques bonus (75 % DA de base + 10 % PM), te soigne et déclenche un effet supplémentaire (recharge 1,5 s)."
+  },
+  "Duskblade of Draktharr": {
+   "cout": 3000,
+   "stats": "55 dégâts d'attaque, 10 hâte de compétence, 18 létalité",
+   "effet": "Traqueur nocturne : ta prochaine attaque sur un champion inflige 60-160 dégâts physiques bonus (selon le niveau) et le ralentit de 99 % pendant 0,35 s. Une élimination réinitialise le délai de 10 s."
+  },
+  "Eclipse": {
+   "cout": 2900,
+   "stats": "65 dégâts d'attaque, 20 hâte de compétence",
+   "effet": "Lune éternelle : 2 coups (attaques ou sorts) sur un champion en 1,8 s infligent 6 % (mêlée) / 3 % (distance) de ses PV max et te donnent un bouclier de 150 (+40 % DA bonus) / 70 (+18 % DA bonus) pendant 2 s."
+  },
+  "Edge of Night": {
+   "cout": 3000,
+   "stats": "50 dégâts d'attaque, 250 PV, 12 létalité",
+   "effet": "+8 létalité. Annulation : bouclier qui bloque la prochaine compétence ennemie."
+  },
+  "Essence Reaver": {
+   "cout": 3000,
+   "stats": "55 dégâts d'attaque, 25 % critique, 20 hâte de compétence",
+   "effet": "Lame-sort : tes sorts donnent une charge (max 2) ; ta prochaine attaque la consomme : +90 % DA bonus en dégâts et +40 vitesse pendant 2 s. Siphon : chaque attaque rend 3 % du mana manquant."
+  },
+  "Experimental Hexplate": {
+   "cout": 3000,
+   "stats": "35 dégâts d'attaque, 20 % vitesse d'attaque, 400 PV",
+   "effet": "+20 hâte d'ulti. Surcharge : après ton ulti, +40 % vitesse d'attaque et +20 % vitesse de déplacement pendant 8 s (moitié à distance), recharge 30 s."
+  },
+  "Force of Nature": {
+   "cout": 2800,
+   "stats": "400 PV, 60 résistance magique",
+   "effet": "+5 % vitesse. Les dégâts magiques subis donnent des cumuls (max 4). Au maximum : +6 % vitesse et +70 résistance magique."
+  },
+  "Frozen Heart": {
+   "cout": 2550,
+   "stats": "80 armure, 400 mana, 20 hâte de compétence",
+   "effet": "Caresse de l'hiver : les champions ennemis à moins de 650 unités perdent 25 % de vitesse d'attaque."
+  },
+  "Galeforce": {
+   "cout": 3100,
+   "stats": "60 dégâts d'attaque, 25 % critique, 4 % vitesse de déplacement",
+   "effet": "Actif : ruée dans une direction puis 3 projectiles sur l'ennemi le plus bas en PV, pour 40-125 (selon le niveau) +35 % DA bonus au total (recharge 60 s)."
+  },
+  "Gargoyle Stoneplate": {
+   "cout": 2900,
+   "stats": "45 armure, 45 résistance magique, 200 PV, 10 hâte de compétence",
+   "effet": "Actif : bouclier de 100 + 90 % de tes PV bonus, qui diminue sur 2,5 s (recharge 60 s)."
+  },
+  "Gluttonous Greaves": {
+   "cout": 1000,
+   "stats": "45 vitesse de déplacement",
+   "effet": "+5 % omnivampirisme, +0,5 % par élimination ou assistance (jusqu'à 10 %). +12 dégâts d'attaque ou +20 puissance magique (adaptatif)."
+  },
+  "Goredrinker": {
+   "cout": 3100,
+   "stats": "40 dégâts d'attaque, 350 PV, 15 hâte de compétence, 8 % omnivampirisme",
+   "effet": "Actif : frappe autour de toi pour 175 % de tes DA et te soigne de 20 % DA + 10 % des PV manquants par ennemi touché (recharge 12 s)."
+  },
+  "Guardian Angel": {
+   "cout": 3200,
+   "stats": "45 dégâts d'attaque, 40 armure",
+   "effet": "Résurrection : quand tu prends un coup mortel, tu passes 4 s en stase puis tu reviens avec 50 % de tes PV de base et tout ton mana (recharge 180 s)."
+  },
+  "Guinsoo's Rageblade": {
+   "cout": 3000,
+   "stats": "30 % vitesse d'attaque, 35 dégâts d'attaque, 30 puissance magique",
+   "effet": "+25 DA ou +50 PM (adaptatif). Tes attaques infligent 30 dégâts magiques bonus. +8 % vitesse d'attaque par attaque (max 4) ; au maximum, une attaque sur 3 déclenche deux fois tes effets à l'impact."
+  },
+  "Gunmetal Greaves": {
+   "cout": 2200,
+   "stats": "50 % vitesse d'attaque, 5 % vol de vie",
+   "effet": "Tes attaques rendent 12 PV. Toucher un champion donne +10 % (mêlée) / 7 % (distance) de vitesse pendant 2 s."
+  },
+  "Harmonic Echo": {
+   "cout": 2500,
+   "stats": "200 PV, 40 puissance magique, 20 hâte de compétence, 50 régén. de mana",
+   "effet": "Tes déplacements et sorts chargent l'Harmonie (100 cumuls). Pleine, ton prochain soin ou bouclier sur un allié soigne en plus 120-180 (+15 % PM), 130 % si l'allié est sous 30 % PV, et 30 % rebondit sur l'allié le plus blessé."
+  },
+  "Heartsteel": {
+   "cout": 2800,
+   "stats": "25 hâte de compétence, 700 PV, 150 % régén. de PV",
+   "effet": "Les champions à moins de 700 unités se chargent en 2,5 s. Ta prochaine attaque sur une cible chargée inflige 140 (+3,5 % PV max) dégâts bonus et te donne 15 % de ces dégâts en PV permanents (recharge 20 s par cible)."
+  },
+  "Hextech Rocketbelt": {
+   "cout": 2700,
+   "stats": "70 puissance magique, 250 PV, 20 hâte de compétence",
+   "effet": "Actif : ruée vers la cible et 7 projectiles qui infligent 100 (+10 % PM) dégâts magiques (recharge 30 s)."
+  },
+  "Hollow Radiance": {
+   "cout": 2800,
+   "stats": "15 hâte de compétence, 400 PV, 40 résistance magique",
+   "effet": "Immolation : en combat, 20-30 (+1 % PV bonus) dégâts magiques par seconde autour de toi (x2 sur les sbires). Tuer un ennemi le fait exploser pour 30 (+2 % PV bonus) dégâts magiques."
+  },
+  "Horizon Focus": {
+   "cout": 2700,
+   "stats": "25 hâte de compétence, 80 puissance magique, 7 % pénétration magique",
+   "effet": "Hypertir : tes sorts lancés à 600 unités ou plus font subir +10 % de dégâts à la cible pendant 8 s et révèlent les ennemis autour (recharge 12 s)."
+  },
+  "Hullbreaker": {
+   "cout": 3100,
+   "stats": "50 dégâts d'attaque, 400 PV, 5 % vitesse de déplacement",
+   "effet": "Toutes les 4 attaques : 160 % DA de base (+5 % PV max) bonus sur les champions, 240 % (+9 %) sur les tours ; 40 % à distance. Tes sbires proches gagnent armure et RM."
+  },
+  "Iceborn Gauntlet": {
+   "cout": 3000,
+   "stats": "30 puissance magique, 50 armure, 300 PV, 250 mana",
+   "effet": "Lame-sort : après un sort, ta prochaine attaque inflige 100 % DA de base (+25 % armure bonus) autour de la cible et crée une zone de givre qui ralentit de 30 % pendant 2 s."
+  },
+  "Immortal Treads": {
+   "cout": 2000,
+   "stats": "12 dégâts d'attaque ou 20 puissance magique, 5 à 10 % omnivampirisme",
+   "effet": "+5 % omnivampirisme, +0,5 % par élimination ou assistance (max 10 %). Au-dessus de 50 % PV : bonus de dégâts ; en dessous : +12 % de soins et boucliers reçus."
+  },
+  "Imperial Mandate": {
+   "cout": 2600,
+   "stats": "20 hâte de compétence, 60 puissance magique, 50 % régén. de mana",
+   "effet": "Tir coordonné : tes ralentissements/immobilisations infligent 47-75 dégâts magiques et marquent la cible 4 s. Un allié qui la frappe déclenche 94-150 dégâts magiques et +20 % de vitesse pour vous deux (recharge 6 s par cible)."
+  },
+  "Infinity Edge": {
+   "cout": 3400,
+   "stats": "75 dégâts d'attaque, 25 % critique",
+   "effet": "Infini : +30 % de dégâts critiques."
+  },
+  "Infinity Orb": {
+   "cout": 3100,
+   "stats": "110 puissance magique, 7 % pénétration magique",
+   "effet": "+5 % vitesse, +15 pénétration magique. Tes sorts et attaques font +20 % de dégâts aux ennemis sous 40 % PV. Un champion tué dans les 3 s subit un éclair de 50-75 (+10 % PM)."
+  },
+  "Ionian Boots of Lucidity": {
+   "cout": 1000,
+   "stats": "15 hâte de compétence, 45 vitesse de déplacement, 50 % régén. de mana de base",
+   "effet": "Invoqué : -15 % de délai de récupération des sorts d'invocateur."
+  },
+  "Kaenic Rookern": {
+   "cout": 2800,
+   "stats": "100 % régén. de PV, 350 PV, 80 résistance magique",
+   "effet": "Fléau des mages : après 12 s sans dégâts magiques subis, tu gagnes un bouclier anti-magie de 50-150 (selon le niveau) + 14 % de tes PV max, qui reste jusqu'à être détruit."
+  },
+  "Knight's Vow": {
+   "cout": 2450,
+   "stats": "10 % vitesse d'attaque, 40 armure, 200 PV",
+   "effet": "Choisis un allié à protéger. Si tu as plus de 30 % PV, tu encaisses 12 % des dégâts qu'il subit et tu te soignes de 10 % des dégâts qu'il inflige aux champions."
+  },
+  "Liandry's Torment": {
+   "cout": 3000,
+   "stats": "70 puissance magique, 7 % pénétration magique, 300 PV",
+   "effet": "Tourment : tes sorts brûlent pour 2 % des PV max de la cible sur 3 s. Folie : +2 % de dégâts par seconde de combat contre les champions (max 6 %)."
+  },
+  "Lich Bane": {
+   "cout": 2800,
+   "stats": "100 puissance magique, 10 hâte de compétence, 7 % pénétration magique",
+   "effet": "+5 % vitesse. Lame-sort : après un sort, ta prochaine attaque dans les 10 s inflige 75 % DA de base (+45 % PM) dégâts magiques bonus."
+  },
+  "Locket of the Iron Solaris": {
+   "cout": 2500,
+   "stats": "300 PV, 30 armure, 30 résistance magique, 10 hâte de compétence",
+   "effet": "Actif : bouclier de 250-370 pour toi et les alliés proches pendant 2,5 s (recharge 60 s, moitié moins si l'allié l'a reçu il y a moins de 20 s)."
+  },
+  "Lord Dominik's Regards": {
+   "cout": 3300,
+   "stats": "35 dégâts d'attaque, 15 % critique, 35 % pénétration d'armure",
+   "effet": "Tueur de géants : +1 % de dégâts aux champions par tranche de 125 PV bonus qu'ils ont de plus, jusqu'à +12 %."
+  },
+  "Luden's Echo": {
+   "cout": 2800,
+   "stats": "100 puissance magique, 10 hâte de compétence, 500 mana, 7 % pénétration magique",
+   "effet": "Ton prochain sort offensif inflige 75 (+8 % PM) dégâts magiques à la cible et jusqu'à 5 ennemis proches ; moins il y a de cibles, plus la cible principale prend (recharge 9 s)."
+  },
+  "Magnetic Blaster": {
+   "cout": 3000,
+   "stats": "30 dégâts d'attaque, 25 % vitesse d'attaque, 25 % critique",
+   "effet": "+5 % vitesse. Tes déplacements et attaques chargent de l'énergie (max 100) ; ta prochaine attaque la consomme pour 40-100 dégâts magiques qui rebondissent sur 4 cibles. Objet retiré au patch 7.3."
+  },
+  "Malignance": {
+   "cout": 2700,
+   "stats": "15 hâte de compétence, 90 puissance magique, 7 % pénétration magique, 500 mana",
+   "effet": "+20 hâte d'ulti. Brouillard de haine : ton ulti brûle le sol 3 s pour 180 (+15 % PM) dégâts magiques et -10 résistance magique aux ennemis touchés."
+  },
+  "Mantle of the Twelfth Hour": {
+   "cout": 2550,
+   "stats": "600 PV, 20 hâte de compétence",
+   "effet": "Sous 30 % PV : +200-300 PV pendant 5 s et un soin de 200-400 (+120 % armure et RM bonus +15 % PV bonus) sur 5 s, avec +10 % vitesse et +20 % ténacité (recharge 75 s)."
+  },
+  "Maw of Malmortius": {
+   "cout": 3000,
+   "stats": "55 dégâts d'attaque, 10 hâte de compétence, 45 résistance magique",
+   "effet": "Ligne de vie : si des dégâts magiques te font passer sous 35 % PV, tu gagnes un bouclier anti-magie de 220-530 pendant 3 s et 10 % d'omnivampirisme jusqu'à la fin du combat (recharge 75 s)."
+  },
+  "Mejai's Soulstealer": {
+   "cout": 1800,
+   "stats": "25 puissance magique, 70 PV",
+   "effet": "Gloire : +3 cumuls (mêlée) / +4 (distance) par élimination, +2 par assistance, max 30 ; -10 à la mort. +5 puissance magique par cumul, +10 % vitesse à partir de 10 cumuls."
+  },
+  "Mercurial Scimitar": {
+   "cout": 3100,
+   "stats": "45 dégâts d'attaque, 40 résistance magique, 12 % vol de vie",
+   "effet": "Actif : retire tous les contrôles et te rend insensible 0,25 s, puis +30 % ténacité et résistance aux ralentissements pendant 1,5 s (recharge 60 s)."
+  },
+  "Mercury's Treads": {
+   "cout": 1200,
+   "stats": "25 résistance magique, 45 vitesse de déplacement, 150 PV, 30 % ténacité",
+   "effet": "Pas d'effet unique (les contrôles durent 30 % moins longtemps grâce à la ténacité)."
+  },
+  "Mikael's Blessing": {
+   "cout": 2500,
+   "stats": "300 PV, 15 puissance magique, 9 % puissance de soins et boucliers, 50 % régén. de mana",
+   "effet": "Actif : retire les contrôles d'un allié (sauf suppression et projection), le rend insensible 0,2 s et le soigne de 150-250 (recharge 75 s)."
+  },
+  "Morellonomicon": {
+   "cout": 2650,
+   "stats": "15 hâte de compétence, 75 puissance magique, 7 % pénétration magique, 300 PV",
+   "effet": "Affliction : tes dégâts magiques sur les champions réduisent leurs soins de 50 % pendant 3 s."
+  },
+  "Mortal Reminder": {
+   "cout": 3000,
+   "stats": "35 dégâts d'attaque, 25 % critique, 30 % pénétration d'armure",
+   "effet": "+6 % pénétration d'armure sur les coups critiques. Septicémie : tes dégâts physiques réduisent les soins des champions de 50 % pendant 3 s."
+  },
+  "Muramana": {
+   "cout": 2900,
+   "stats": "1000 mana, 40 dégâts d'attaque, 15 hâte de compétence",
+   "effet": "+2 % du mana max en dégâts d'attaque, 15 % du mana dépensé remboursé. Tes attaques sur les champions infligent 1,5 % du mana max en bonus ; tes sorts 3,5 % (mêlée) / 3 % (distance)."
+  },
+  "Nashor's Tooth": {
+   "cout": 2900,
+   "stats": "15 hâte de compétence, 50 % vitesse d'attaque, 80 puissance magique",
+   "effet": "Morsure : tes attaques sur les champions infligent 15 (+20 % PM) dégâts magiques bonus."
+  },
+  "Navori Quickblades": {
+   "cout": 2650,
+   "stats": "40 % vitesse d'attaque, 25 % critique, 4 % vitesse de déplacement",
+   "effet": "Frappes habiles : chaque attaque réduit de 15 % le temps de recharge restant de tes compétences de base."
+  },
+  "Oceanid's Trident": {
+   "cout": 2600,
+   "stats": "80 puissance magique, 200 PV, 7 % pénétration magique, 10 hâte de compétence",
+   "effet": "Arme létale : tes sorts réduisent les boucliers de la cible pendant 3 s : -40 % (sort à cible unique, max 60 %) ou -25 % (sort de zone, max 45 %)."
+  },
+  "Overlord's Bloodmail": {
+   "cout": 3200,
+   "stats": "30 dégâts d'attaque, 450 PV",
+   "effet": "Tyrannie : +2,5 % de tes PV bonus en dégâts d'attaque. Représailles : jusqu'à +9 % de DA selon tes PV manquants."
+  },
+  "Phantom Dancer": {
+   "cout": 2650,
+   "stats": "40 % vitesse d'attaque, 25 % critique, 7 % vitesse de déplacement",
+   "effet": "+5 % vitesse. Valse spectrale : ta prochaine attaque sur un champion donne +25 % vitesse d'attaque et +7 % vitesse pendant 3 s (recharge 10 s, réduite par tes attaques)."
+  },
+  "Plated Steelcaps": {
+   "cout": 1200,
+   "stats": "25 armure, 150 PV, 45 vitesse de déplacement",
+   "effet": "Blocage : les attaques de base des champions te font 10 % de dégâts en moins."
+  },
+  "Rabadon's Deathcap": {
+   "cout": 3400,
+   "stats": "130 puissance magique, 7 % pénétration magique",
+   "effet": "Surpuissance : +30 % de puissance magique."
+  },
+  "Radiant Virtue": {
+   "cout": 2650,
+   "stats": "10 hâte de compétence, 30 armure, 300 PV, 30 résistance magique",
+   "effet": "Lumière guide : ton ulti te donne +10 % PV max pendant 6 s et une aura qui soigne les alliés proches de 17,5 % de tes PV max sur la durée (50 % sur les champions à distance) (recharge 30 s)."
+  },
+  "Randuin's Omen": {
+   "cout": 2800,
+   "stats": "75 armure, 400 PV",
+   "effet": "Résilience : -30 % de dégâts des coups critiques subis. Chaque critique subi donne +5 % vitesse et résistance aux ralentissements pendant 5 s (max 4 cumuls)."
+  },
+  "Redemption": {
+   "cout": 2450,
+   "stats": "40 puissance magique, 10 hâte de compétence, 8 % puissance de soins et boucliers, 50 % régén. de mana",
+   "effet": "Actif : zone ciblée à grande distance ; après 2,5 s, soigne les alliés de 150-350 et inflige 10 % des PV max en dégâts purs aux ennemis (recharge 60 s, utilisable mort)."
+  },
+  "Relic Shield": {
+   "cout": 500,
+   "stats": "125 PV",
+   "effet": "Objet de support : -50 % d'or des sbires. 1 charge toutes les 30 s (max 3) : achever un sbire avec une charge donne 65 or et te soigne de 20-80. Évolue après 750 or de quête."
+  },
+  "Riftmaker": {
+   "cout": 3100,
+   "stats": "15 hâte de compétence, 70 puissance magique, 7 % pénétration magique, 350 PV",
+   "effet": "+11 % vol de vie magique. En combat contre les champions : +2 % de dégâts par seconde (max 8 %), puis omnivampirisme 10 % (mêlée) / 6 % (distance). +2 % de tes PV bonus en puissance magique."
+  },
+  "Rod of Ages": {
+   "cout": 2700,
+   "stats": "50 puissance magique, 400 mana, 7 % pénétration magique, 350 PV",
+   "effet": "Éternité : te rend 15 % des dégâts subis des champions en mana et 20 % du mana dépensé en PV. Toutes les 35 s : +15 PV, +30 mana, +4 PM (10 fois max)."
+  },
+  "Runaan's Hurricane": {
+   "cout": 2650,
+   "stats": "40 % vitesse d'attaque, 25 % critique, 4 % vitesse de déplacement",
+   "effet": "Furie du vent : chaque attaque tire aussi sur 2 ennemis devant toi pour 55 % de tes DA ; ces tirs peuvent critiquer et appliquent tes effets à l'impact."
+  },
+  "Rylai's Crystal Scepter": {
+   "cout": 2700,
+   "stats": "65 puissance magique, 7 % pénétration magique, 350 PV",
+   "effet": "Givre : tes sorts de dégâts et attaques renforcées ralentissent de 30 % pendant 0,75 s."
+  },
+  "Searing Crown": {
+   "cout": 2700,
+   "stats": "50 armure, 300 PV",
+   "effet": "Toucher brûlant : tes attaques et sorts brûlent pour 1,4 % (mêlée) / 0,7 % (distance) des PV max de la cible par seconde pendant 3 s (+50 % sur les sbires et monstres). Objet retiré au patch 7.3."
+  },
+  "Seraph's Embrace": {
+   "cout": 1200,
+   "stats": "60 puissance magique, 25 hâte de compétence, 1200 mana, 7 % pénétration magique",
+   "effet": "+2 % du mana max en puissance magique, 25 % du mana dépensé remboursé. Sous 35 % PV : bouclier de 100 (+16 % du mana actuel) pendant 2 s (recharge 70 s)."
+  },
+  "Serpent's Fang": {
+   "cout": 2800,
+   "stats": "10 hâte de compétence, 50 dégâts d'attaque, 15 létalité",
+   "effet": "Brise-bouclier : toucher un champion réduit ses boucliers de 40 % en mêlée (max 60 %) ou 25 % à distance (max 45 %) pendant 3 s."
+  },
+  "Serylda's Grudge": {
+   "cout": 3100,
+   "stats": "50 dégâts d'attaque, 15 hâte de compétence, 35 % pénétration d'armure",
+   "effet": "Glacial : tes sorts et attaques renforcées ralentissent de 30 % pendant 1 s les ennemis sous 60 % PV."
+  },
+  "Shimmering Spark": {
+   "cout": 500,
+   "stats": "50 PV",
+   "effet": "Brûlure : en combat, 5-10 dégâts magiques par seconde aux ennemis proches. Objet de départ des junglers tanks."
+  },
+  "Shurelya's Battlesong": {
+   "cout": 2600,
+   "stats": "35 puissance magique, 20 hâte de compétence, 50 % régén. de mana, 4 % vitesse de déplacement",
+   "effet": "Actif : +30 % de vitesse de déplacement pour toi et tes alliés proches pendant 4 s (recharge 60 s)."
+  },
+  "Spear of Shojin": {
+   "cout": 3100,
+   "stats": "40 dégâts d'attaque, 450 PV",
+   "effet": "+20 hâte de compétence de base. Chaque coup sur un champion ou un monstre augmente les dégâts de tes compétences de 3 % pendant 6 s (max 12 %)."
+  },
+  "Spectral Sickle": {
+   "cout": 500,
+   "stats": "+10 dégâts d'attaque ou +20 puissance magique (adaptatif)",
+   "effet": "Objet de support : -50 % d'or des sbires et monstres. 1 charge toutes les 30 s (max 3) : en consommer une donne 65 or et soigne de 20-80. Évolue en Faux de Brume noire après 750 or de quête."
+  },
+  "Spellslinger's Shoes": {
+   "cout": 2200,
+   "stats": "40 puissance magique, 100 % régén. de mana, 18 pénétration magique, 8 % pénétration magique",
+   "effet": "Gros bras : tes attaques et sorts infligent 22 dégâts purs bonus aux sbires."
+  },
+  "Staff of Flowing Waters": {
+   "cout": 2400,
+   "stats": "10 hâte de compétence, 50 puissance magique, 8 % puissance de soins et boucliers, 50 % régén. de mana",
+   "effet": "Rapides : soigner ou protéger un allié vous donne à tous les deux +15 hâte de compétence et +40 puissance magique pendant 6 s."
+  },
+  "Sterak's Gage": {
+   "cout": 3200,
+   "stats": "400 PV, 20 % ténacité",
+   "effet": "+50 % de tes DA de base en DA bonus. Ligne de vie : sous 35 % PV, bouclier de 75 % de tes PV bonus qui diminue sur 3 s (recharge 75 s)."
+  },
+  "Stridebreaker": {
+   "cout": 3100,
+   "stats": "40 dégâts d'attaque, 400 PV, 25 % vitesse d'attaque",
+   "effet": "Actif : ruée en avant, 100 % DA de dégâts autour et ralentissement de 40 % pendant 3 s (recharge 25 s). Tes dégâts physiques donnent +20 vitesse pendant 2 s."
+  },
+  "Sundered Sky": {
+   "cout": 2900,
+   "stats": "40 dégâts d'attaque, 15 hâte de compétence, 350 PV",
+   "effet": "Frappe lumineuse : ta prochaine attaque sur un champion est un critique à 160 % et te soigne de 125 % DA de base (+6 % PV manquants) (6 s par cible)."
+  },
+  "Sunfire Aegis": {
+   "cout": 2900,
+   "stats": "15 hâte de compétence, 40 armure, 350 PV",
+   "effet": "Immolation : en combat, 20 (+1,5 % PV bonus) dégâts magiques par seconde autour de toi (bonus contre sbires et monstres)."
+  },
+  "Tear of the Goddess": {
+   "cout": 400,
+   "stats": "200 mana",
+   "effet": "Rembourse 10 % du mana dépensé. Chaque sort qui coûte du mana donne +5 mana max (jusqu'à +700)."
+  },
+  "Terminus": {
+   "cout": 3000,
+   "stats": "35 dégâts d'attaque, 35 % vitesse d'attaque",
+   "effet": "Tes attaques infligent 30 dégâts magiques bonus. Juxtaposition : tes coups alternent Lumière (+5-8 armure et RM, max 3) et Ténèbres (+10 % pénétration d'armure et magique, max 3) pendant 5 s."
+  },
+  "The Collector": {
+   "cout": 3000,
+   "stats": "50 dégâts d'attaque, 25 % critique",
+   "effet": "+10 létalité. Mort et impôts : exécute les champions sous 4 % de leurs PV. Chaque élimination rapporte 25 or de plus."
+  },
+  "Thornmail": {
+   "cout": 2850,
+   "stats": "75 armure, 200 PV",
+   "effet": "Épines : quand on te frappe en attaque de base, l'attaquant subit 20 (+6 % armure bonus +1 % PV bonus) dégâts magiques et 50 % de réduction des soins pendant 3 s."
+  },
+  "Titanic Hydra": {
+   "cout": 3000,
+   "stats": "40 dégâts d'attaque, 450 PV",
+   "effet": "Fendoir : ta prochaine attaque inflige 25 (+3 % PV bonus) dégâts à la cible et 80 (+10 % PV bonus) aux ennemis derrière elle (75 % à distance, recharge 1,75 s)."
+  },
+  "Trinity Force": {
+   "cout": 3333,
+   "stats": "36 dégâts d'attaque, 15 hâte de compétence, 30 % vitesse d'attaque, 333 PV",
+   "effet": "+5 % vitesse. Lame-sort : après un sort, ta prochaine attaque dans les 10 s inflige 200 % de tes DA de base en dégâts bonus. Tes attaques donnent +20 (mêlée) / +10 (distance) de vitesse pendant 2 s."
+  },
+  "Unending Despair": {
+   "cout": 3000,
+   "stats": "40 armure, 300 PV, 40 résistance magique, 10 hâte de compétence",
+   "effet": "Angoisse : toutes les 4 s en combat, tu draines les champions proches pour 3 % de tes PV bonus en dégâts magiques et te soignes de 250 % des dégâts infligés."
+  },
+  "Void Staff": {
+   "cout": 3000,
+   "stats": "95 puissance magique, 40 % pénétration magique",
+   "effet": "Dissolution : ignore 40 % de la résistance magique de la cible."
+  },
+  "Warmog's Armor": {
+   "cout": 2850,
+   "stats": "20 hâte de compétence, 700 PV, 100 % régén. de PV",
+   "effet": "Cœur de Warmog : avec au moins 1250 PV bonus, après 5 s sans dégâts, tu régénères 3,5 % de tes PV max par seconde. Béni : soins, boucliers et régénération reçus +30 %."
+  },
+  "Wit's End": {
+   "cout": 2800,
+   "stats": "50 % vitesse d'attaque, 45 résistance magique, 20 % ténacité",
+   "effet": "Tes attaques infligent 10-55 dégâts magiques bonus (selon le niveau). Sous 50 % PV, elles te soignent de 100 % (mêlée) / 66 % (distance) de ces dégâts."
+  },
+  "Youmuu's Ghostblade": {
+   "cout": 2900,
+   "stats": "55 dégâts d'attaque, 15 hâte de compétence, 4 % vitesse de déplacement",
+   "effet": "+15 létalité. Tu accumules de la vitesse en marchant (jusqu'à +40). Après un combat contre des champions : +30 vitesse (+20 à distance) pendant 3 s."
+  },
+  "Zeke's Convergence": {
+   "cout": 2400,
+   "stats": "10 hâte de compétence, 25 armure, 300 PV, 25 résistance magique",
+   "effet": "Présage : ton ulti crée un blizzard autour de toi qui inflige 320-600 dégâts magiques sur 10 s et ralentit de 25 %, et laisse un chemin qui donne +40 vitesse à tes alliés."
+  },
+  "Zhonya's Hourglass": {
+   "cout": 3300,
+   "stats": "110 puissance magique, 40 armure",
+   "effet": "Actif : stase de 2,5 s, invulnérable et intouchable mais immobile (recharge 120 s)."
+  },
+  "Long Sword": {
+   "cout": 500,
+   "stats": "12 dégâts d'attaque",
+   "effet": "Composant de base."
+  },
+  "Amplifying Tome": {
+   "cout": 500,
+   "stats": "20 puissance magique",
+   "effet": "Composant de base."
+  },
+  "Ruby Crystal": {
+   "cout": 500,
+   "stats": "150 PV",
+   "effet": "Composant de base."
+  },
+  "Sapphire Crystal": {
+   "cout": 500,
+   "stats": "5 hâte de compétence, 100 mana",
+   "effet": "Charge de mana : chaque sort qui coûte du mana donne +5 mana max (jusqu'à +250)."
+  },
+  "Dagger": {
+   "cout": 400,
+   "stats": "12 % vitesse d'attaque",
+   "effet": "Composant de base."
+  },
+  "Veil Enchant": {
+   "cout": 500,
+   "stats": "aucune",
+   "effet": "Actif : un allié ciblé reçoit un bouclier anti-sort pendant 3 s (recharge 45 s). Retiré au patch 7.2."
+  },
+  "Soul Transfer": {
+   "cout": 3200,
+   "stats": "25 dégâts d'attaque, 30 % vitesse d'attaque, 25 % critique",
+   "effet": "Danse de l'ombre : tes critiques sur un champion ou un monstre épique invoquent une Ombre (4 s) qui attaque avec 20 % de tes DA (max 2). Retiré au patch 7.3."
+  },
+  "Psychic Projector": {
+   "cout": 3100,
+   "stats": "15 hâte de compétence, 60 puissance magique, 300 PV, 7 % pénétration magique",
+   "effet": "+3,5 % de tes PV bonus en puissance magique. Dès 950 PV bonus : armure (20 % PM, max 80) et RM (10 % PM, max 40) bonus. Retiré au patch 7.2."
+  },
+  "Kraken Slayer": {
+   "cout": 2900,
+   "stats": "45 dégâts d'attaque, 35 % vitesse d'attaque, 4 % vitesse de déplacement",
+   "effet": "+5 vitesse. Abattre : toutes les 3 attaques, dégâts physiques bonus de 150-210 (mêlée) / 120-168 (distance), +0,75 % par 1 % de PV manquants de la cible (jusqu'à +75 %)."
+  }
+ },
+ "removed": {
+  "Crown of the Shattered Queen": "7.2",
+  "Veil Enchant": "7.2",
+  "Psychic Projector": "7.2",
+  "Magnetic Blaster": "7.3",
+  "Searing Crown": "7.3",
+  "Soul Transfer": "7.3"
+ },
+ "vals_source": "RiftPatchNotes, patch 7.3"
 }
