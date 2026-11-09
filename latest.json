@@ -1,5 +1,5 @@
 {
-  "version": "1.2",
-  "apk": "apk/Wildrift_pour_les_noobs-1.2.apk",
-  "notes": "Icônes des objets, runes et sorts dans les builds ; mise à jour automatique corrigée."
+  "version": "1.3",
+  "apk": "apk/Wildrift_pour_les_noobs-1.3.apk",
+  "notes": "Bouton retour : ferme la fiche champion, double appui pour quitter. Icônes des builds."
 }
