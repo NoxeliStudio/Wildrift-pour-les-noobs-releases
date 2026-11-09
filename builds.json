@@ -98,7 +98,9 @@
       "item": "Death's Dance",
       "in_core": false
      }
-    ]
+    ],
+    "active": "",
+    "notes": {}
    },
    "jungle": {
     "start": [
@@ -185,7 +187,9 @@
       "item": "Youmuu's Ghostblade",
       "in_core": true
      }
-    ]
+    ],
+    "active": "",
+    "notes": {}
    }
   },
   "ahri": {
@@ -283,7 +287,11 @@
       "item": "Lich Bane",
       "in_core": true
      }
-    ]
+    ],
+    "active": "Zhonya's Hourglass",
+    "notes": {
+     "Hextech Rocketbelt": "Objet actif : un seul possible, remplace Sablier de Zhonya."
+    }
    }
   },
   "akali": {
@@ -295,12 +303,12 @@
      "Lich Bane",
      "Infinity Orb",
      "Shurelya's Battlesong",
-     "Hextech Rocketbelt",
-     "Zhonya's Hourglass"
+     "Banshee's Veil",
+     "Rabadon's Deathcap"
     ],
     "situational": [
-     "Banshee's Veil",
-     "Rabadon's Deathcap",
+     "Hextech Rocketbelt",
+     "Zhonya's Hourglass",
      "Morellonomicon",
      "Riftmaker",
      "Void Staff"
@@ -344,13 +352,14 @@
       "key": "ad",
       "label": "Contre une équipe AD",
       "item": "Zhonya's Hourglass",
-      "in_core": true
+      "in_core": false,
+      "note": "Objet actif : un seul possible, remplace Chant de guerre de Shurelya."
      },
      {
       "key": "ap",
       "label": "Contre une équipe AP",
       "item": "Banshee's Veil",
-      "in_core": false
+      "in_core": true
      },
      {
       "key": "heal",
@@ -368,21 +377,27 @@
       "key": "cc",
       "label": "Contre beaucoup de contrôles",
       "item": "Banshee's Veil",
-      "in_core": false
+      "in_core": true
      },
      {
       "key": "behind",
       "label": "Si tu meurs souvent",
-      "item": "Banshee's Veil",
-      "in_core": false
+      "item": "Zhonya's Hourglass",
+      "in_core": false,
+      "note": "Objet actif : un seul possible, remplace Chant de guerre de Shurelya."
      },
      {
       "key": "ahead",
       "label": "Si tu es en avance",
-      "item": "Rabadon's Deathcap",
-      "in_core": false
+      "item": "Lich Bane",
+      "in_core": true
      }
-    ]
+    ],
+    "active": "Shurelya's Battlesong",
+    "notes": {
+     "Hextech Rocketbelt": "Objet actif : un seul possible, remplace Chant de guerre de Shurelya.",
+     "Zhonya's Hourglass": "Objet actif : un seul possible, remplace Chant de guerre de Shurelya."
+    }
    },
    "baron": {
     "start": [
@@ -392,12 +407,12 @@
      "Lich Bane",
      "Infinity Orb",
      "Zhonya's Hourglass",
-     "Hextech Rocketbelt",
-     "Banshee's Veil"
+     "Banshee's Veil",
+     "Rabadon's Deathcap"
     ],
     "situational": [
+     "Hextech Rocketbelt",
      "Shurelya's Battlesong",
-     "Rabadon's Deathcap",
      "Morellonomicon",
      "Riftmaker",
      "Void Staff"
@@ -481,10 +496,15 @@
      {
       "key": "ahead",
       "label": "Si tu es en avance",
-      "item": "Rabadon's Deathcap",
-      "in_core": false
+      "item": "Lich Bane",
+      "in_core": true
      }
-    ]
+    ],
+    "active": "Zhonya's Hourglass",
+    "notes": {
+     "Hextech Rocketbelt": "Objet actif : un seul possible, remplace Sablier de Zhonya.",
+     "Shurelya's Battlesong": "Objet actif : un seul possible, remplace Sablier de Zhonya."
+    }
    }
   },
   "akshan": {
@@ -494,13 +514,12 @@
     ],
     "items": [
      "The Collector",
-     "Magnetic Blaster",
      "Lord Dominik's Regards",
      "Mortal Reminder",
-     "Mercurial Scimitar"
+     "Mercurial Scimitar",
+     "Infinity Edge"
     ],
     "situational": [
-     "Infinity Edge",
      "Duskblade of Draktharr",
      "Serpent's Fang",
      "Guardian Angel"
@@ -580,10 +599,12 @@
      {
       "key": "ahead",
       "label": "Si tu es en avance",
-      "item": "Infinity Edge",
+      "item": "Duskblade of Draktharr",
       "in_core": false
      }
-    ]
+    ],
+    "active": "Mercurial Scimitar",
+    "notes": {}
    }
   },
   "alistar": {
@@ -674,7 +695,9 @@
       "item": "Gargoyle Stoneplate",
       "in_core": true
      }
-    ]
+    ],
+    "active": "Gargoyle Stoneplate",
+    "notes": {}
    }
   },
   "ambessa": {
@@ -766,7 +789,9 @@
       "item": "Sterak's Gage",
       "in_core": true
      }
-    ]
+    ],
+    "active": "",
+    "notes": {}
    },
    "jungle": {
     "start": [
@@ -852,7 +877,9 @@
       "item": "Death's Dance",
       "in_core": true
      }
-    ]
+    ],
+    "active": "",
+    "notes": {}
    }
   },
   "amumu": {
@@ -861,14 +888,13 @@
      "Shimmering Spark"
     ],
     "items": [
-     "Searing Crown",
      "Liandry's Torment",
      "Thornmail",
      "Amaranth's Twinguard",
-     "Mantle of the Twelfth Hour"
+     "Mantle of the Twelfth Hour",
+     "Frozen Heart"
     ],
     "situational": [
-     "Frozen Heart",
      "Force of Nature",
      "Kaenic Rookern"
     ],
@@ -922,8 +948,8 @@
      {
       "key": "ad",
       "label": "Contre une équipe AD",
-      "item": "Frozen Heart",
-      "in_core": false
+      "item": "Thornmail",
+      "in_core": true
      },
      {
       "key": "ap",
@@ -949,7 +975,9 @@
       "item": "Mantle of the Twelfth Hour",
       "in_core": true
      }
-    ]
+    ],
+    "active": "",
+    "notes": {}
    }
   },
   "annie": {
@@ -1017,7 +1045,8 @@
       "key": "ad",
       "label": "Contre une équipe AD",
       "item": "Zhonya's Hourglass",
-      "in_core": false
+      "in_core": false,
+      "note": "Objet actif : un seul possible, remplace Ceinture-roquette Hextech."
      },
      {
       "key": "ap",
@@ -1047,7 +1076,8 @@
       "key": "behind",
       "label": "Si tu meurs souvent",
       "item": "Zhonya's Hourglass",
-      "in_core": false
+      "in_core": false,
+      "note": "Objet actif : un seul possible, remplace Ceinture-roquette Hextech."
      },
      {
       "key": "ahead",
@@ -1055,7 +1085,11 @@
       "item": "Rabadon's Deathcap",
       "in_core": false
      }
-    ]
+    ],
+    "active": "Hextech Rocketbelt",
+    "notes": {
+     "Zhonya's Hourglass": "Objet actif : un seul possible, remplace Ceinture-roquette Hextech."
+    }
    }
   },
   "ashe": {
@@ -1148,7 +1182,9 @@
       "item": "Kraken Slayer",
       "in_core": true
      }
-    ]
+    ],
+    "active": "",
+    "notes": {}
    }
   },
   "aurelionsol": {
@@ -1258,7 +1294,9 @@
       "item": "Rabadon's Deathcap",
       "in_core": false
      }
-    ]
+    ],
+    "active": "",
+    "notes": {}
    }
   },
   "aurora": {
@@ -1271,10 +1309,10 @@
      "Infinity Orb",
      "Cryptbloom",
      "Rabadon's Deathcap",
-     "Zhonya's Hourglass"
+     "Banshee's Veil"
     ],
     "situational": [
-     "Banshee's Veil",
+     "Zhonya's Hourglass",
      "Hextech Rocketbelt",
      "Void Staff",
      "Malignance",
@@ -1324,13 +1362,14 @@
       "key": "ad",
       "label": "Contre une équipe AD",
       "item": "Zhonya's Hourglass",
-      "in_core": true
+      "in_core": false,
+      "note": "Objet actif : un seul possible, remplace Chant de guerre de Shurelya."
      },
      {
       "key": "ap",
       "label": "Contre une équipe AP",
       "item": "Banshee's Veil",
-      "in_core": false
+      "in_core": true
      },
      {
       "key": "tank",
@@ -1342,13 +1381,14 @@
       "key": "cc",
       "label": "Contre beaucoup de contrôles",
       "item": "Banshee's Veil",
-      "in_core": false
+      "in_core": true
      },
      {
       "key": "behind",
       "label": "Si tu meurs souvent",
-      "item": "Banshee's Veil",
-      "in_core": false
+      "item": "Zhonya's Hourglass",
+      "in_core": false,
+      "note": "Objet actif : un seul possible, remplace Chant de guerre de Shurelya."
      },
      {
       "key": "ahead",
@@ -1356,7 +1396,12 @@
       "item": "Infinity Orb",
       "in_core": true
      }
-    ]
+    ],
+    "active": "Shurelya's Battlesong",
+    "notes": {
+     "Zhonya's Hourglass": "Objet actif : un seul possible, remplace Chant de guerre de Shurelya.",
+     "Hextech Rocketbelt": "Objet actif : un seul possible, remplace Chant de guerre de Shurelya."
+    }
    }
   },
   "bard": {
@@ -1464,7 +1509,11 @@
       "item": "Lich Bane",
       "in_core": true
      }
-    ]
+    ],
+    "active": "Redemption",
+    "notes": {
+     "Shurelya's Battlesong": "Objet actif : un seul possible, remplace Rédemption."
+    }
    }
   },
   "blitzcrank": {
@@ -1475,12 +1524,12 @@
     "items": [
      "Bulwark of the Mountain",
      "Mikael's Blessing",
-     "Locket of the Iron Solaris",
      "Zeke's Convergence",
-     "Frozen Heart"
+     "Frozen Heart",
+     "Knight's Vow"
     ],
     "situational": [
-     "Knight's Vow",
+     "Locket of the Iron Solaris",
      "Kaenic Rookern",
      "Randuin's Omen",
      "Amaranth's Twinguard"
@@ -1552,9 +1601,13 @@
       "key": "behind",
       "label": "Si tu meurs souvent",
       "item": "Knight's Vow",
-      "in_core": false
+      "in_core": true
      }
-    ]
+    ],
+    "active": "Mikael's Blessing",
+    "notes": {
+     "Locket of the Iron Solaris": "Objet actif : un seul possible, remplace Bénédiction de Mikael."
+    }
    }
   },
   "brand": {
@@ -1654,7 +1707,9 @@
       "item": "Infinity Orb",
       "in_core": true
      }
-    ]
+    ],
+    "active": "",
+    "notes": {}
    },
    "support": {
     "start": [
@@ -1730,7 +1785,9 @@
       "item": "Infinity Orb",
       "in_core": false
      }
-    ]
+    ],
+    "active": "",
+    "notes": {}
    }
   },
   "braum": {
@@ -1813,7 +1870,9 @@
       "item": "Knight's Vow",
       "in_core": true
      }
-    ]
+    ],
+    "active": "Locket of the Iron Solaris",
+    "notes": {}
    }
   },
   "caitlyn": {
@@ -1823,13 +1882,12 @@
     ],
     "items": [
      "The Collector",
-     "Magnetic Blaster",
      "Infinity Edge",
      "Lord Dominik's Regards",
-     "Mortal Reminder"
+     "Mortal Reminder",
+     "Mercurial Scimitar"
     ],
     "situational": [
-     "Mercurial Scimitar",
      "Bloodthirster",
      "Guardian Angel",
      "Blade of the Ruined King"
@@ -1890,7 +1948,7 @@
       "key": "cc",
       "label": "Contre beaucoup de contrôles",
       "item": "Mercurial Scimitar",
-      "in_core": false
+      "in_core": true
      },
      {
       "key": "behind",
@@ -1904,7 +1962,9 @@
       "item": "The Collector",
       "in_core": true
      }
-    ]
+    ],
+    "active": "Mercurial Scimitar",
+    "notes": {}
    }
   },
   "camille": {
@@ -1998,7 +2058,9 @@
       "item": "Gargoyle Stoneplate",
       "in_core": false
      }
-    ]
+    ],
+    "active": "",
+    "notes": {}
    }
   },
   "chogath": {
@@ -2094,21 +2156,22 @@
       "item": "Heartsteel",
       "in_core": true
      }
-    ]
+    ],
+    "active": "",
+    "notes": {}
    },
    "jungle": {
     "start": [
      "Shimmering Spark"
     ],
     "items": [
-     "Searing Crown",
      "Sunfire Aegis",
      "Gargoyle Stoneplate",
      "Hollow Radiance",
-     "Thornmail"
+     "Thornmail",
+     "Dead Man's Plate"
     ],
     "situational": [
-     "Dead Man's Plate",
      "Unending Despair",
      "Warmog's Armor",
      "Kaenic Rookern",
@@ -2157,7 +2220,7 @@
      {
       "key": "ad",
       "label": "Contre une équipe AD",
-      "item": "Dead Man's Plate",
+      "item": "Amaranth's Twinguard",
       "in_core": false
      },
      {
@@ -2178,7 +2241,9 @@
       "item": "Gargoyle Stoneplate",
       "in_core": true
      }
-    ]
+    ],
+    "active": "Gargoyle Stoneplate",
+    "notes": {}
    }
   },
   "corki": {
@@ -2188,13 +2253,12 @@
     ],
     "items": [
      "Essence Reaver",
-     "Magnetic Blaster",
      "Mortal Reminder",
      "Lord Dominik's Regards",
-     "Bloodthirster"
+     "Bloodthirster",
+     "Mercurial Scimitar"
     ],
     "situational": [
-     "Mercurial Scimitar",
      "Infinity Edge",
      "Edge of Night",
      "Trinity Force",
@@ -2255,7 +2319,7 @@
      {
       "key": "cc",
       "label": "Contre beaucoup de contrôles",
-      "item": "Mercurial Scimitar",
+      "item": "Edge of Night",
       "in_core": false
      },
      {
@@ -2270,7 +2334,9 @@
       "item": "Infinity Edge",
       "in_core": false
      }
-    ]
+    ],
+    "active": "Mercurial Scimitar",
+    "notes": {}
    },
    "mid": {
     "start": [
@@ -2278,13 +2344,12 @@
     ],
     "items": [
      "Essence Reaver",
-     "Magnetic Blaster",
      "Mortal Reminder",
      "Lord Dominik's Regards",
-     "Bloodthirster"
+     "Bloodthirster",
+     "Mercurial Scimitar"
     ],
     "situational": [
-     "Mercurial Scimitar",
      "Infinity Edge",
      "Edge of Night",
      "Trinity Force",
@@ -2343,7 +2408,7 @@
      {
       "key": "cc",
       "label": "Contre beaucoup de contrôles",
-      "item": "Mercurial Scimitar",
+      "item": "Edge of Night",
       "in_core": false
      },
      {
@@ -2358,7 +2423,9 @@
       "item": "Infinity Edge",
       "in_core": false
      }
-    ]
+    ],
+    "active": "Mercurial Scimitar",
+    "notes": {}
    }
   },
   "darius": {
@@ -2371,10 +2438,10 @@
      "Spear of Shojin",
      "Gargoyle Stoneplate",
      "Sterak's Gage",
-     "Stridebreaker"
+     "Dead Man's Plate"
     ],
     "situational": [
-     "Dead Man's Plate",
+     "Stridebreaker",
      "Thornmail",
      "Overlord's Bloodmail",
      "Mercurial Scimitar",
@@ -2427,7 +2494,7 @@
      {
       "key": "ad",
       "label": "Contre une équipe AD",
-      "item": "Dead Man's Plate",
+      "item": "Thornmail",
       "in_core": false
      },
      {
@@ -2446,7 +2513,8 @@
       "key": "cc",
       "label": "Contre beaucoup de contrôles",
       "item": "Mercurial Scimitar",
-      "in_core": false
+      "in_core": false,
+      "note": "Objet actif : un seul possible, remplace Lithoplastron de gargouille."
      },
      {
       "key": "behind",
@@ -2454,7 +2522,12 @@
       "item": "Gargoyle Stoneplate",
       "in_core": true
      }
-    ]
+    ],
+    "active": "Gargoyle Stoneplate",
+    "notes": {
+     "Stridebreaker": "Objet actif : un seul possible, remplace Lithoplastron de gargouille.",
+     "Mercurial Scimitar": "Objet actif : un seul possible, remplace Lithoplastron de gargouille."
+    }
    },
    "jungle": {
     "start": [
@@ -2465,10 +2538,10 @@
      "Spear of Shojin",
      "Sterak's Gage",
      "Stridebreaker",
-     "Gargoyle Stoneplate"
+     "Chempunk Chainsword"
     ],
     "situational": [
-     "Chempunk Chainsword",
+     "Gargoyle Stoneplate",
      "Death's Dance",
      "Overlord's Bloodmail",
      "Dead Man's Plate",
@@ -2517,22 +2590,28 @@
      {
       "key": "ad",
       "label": "Contre une équipe AD",
-      "item": "Death's Dance",
-      "in_core": false
+      "item": "Gargoyle Stoneplate",
+      "in_core": false,
+      "note": "Objet actif : un seul possible, remplace Estropieur."
      },
      {
       "key": "heal",
       "label": "Contre beaucoup de soins",
       "item": "Chempunk Chainsword",
-      "in_core": false
+      "in_core": true
      },
      {
       "key": "behind",
       "label": "Si tu meurs souvent",
-      "item": "Death's Dance",
-      "in_core": false
+      "item": "Gargoyle Stoneplate",
+      "in_core": false,
+      "note": "Objet actif : un seul possible, remplace Estropieur."
      }
-    ]
+    ],
+    "active": "Stridebreaker",
+    "notes": {
+     "Gargoyle Stoneplate": "Objet actif : un seul possible, remplace Estropieur."
+    }
    }
   },
   "diana": {
@@ -2544,12 +2623,12 @@
      "Dusk and Dawn",
      "Infinity Orb",
      "Zhonya's Hourglass",
-     "Shurelya's Battlesong",
-     "Hextech Rocketbelt"
+     "Riftmaker",
+     "Rabadon's Deathcap"
     ],
     "situational": [
-     "Riftmaker",
-     "Rabadon's Deathcap",
+     "Shurelya's Battlesong",
+     "Hextech Rocketbelt",
      "Nashor's Tooth",
      "Morellonomicon",
      "Void Staff"
@@ -2621,10 +2700,15 @@
      {
       "key": "ahead",
       "label": "Si tu es en avance",
-      "item": "Rabadon's Deathcap",
-      "in_core": false
+      "item": "Infinity Orb",
+      "in_core": true
      }
-    ]
+    ],
+    "active": "Zhonya's Hourglass",
+    "notes": {
+     "Shurelya's Battlesong": "Objet actif : un seul possible, remplace Sablier de Zhonya.",
+     "Hextech Rocketbelt": "Objet actif : un seul possible, remplace Sablier de Zhonya."
+    }
    }
   },
   "draven": {
@@ -2637,10 +2721,9 @@
      "Essence Reaver",
      "Lord Dominik's Regards",
      "Mortal Reminder",
-     "Magnetic Blaster"
+     "Mercurial Scimitar"
     ],
     "situational": [
-     "Mercurial Scimitar",
      "Infinity Edge",
      "Guardian Angel",
      "Maw of Malmortius",
@@ -2714,7 +2797,7 @@
       "key": "cc",
       "label": "Contre beaucoup de contrôles",
       "item": "Mercurial Scimitar",
-      "in_core": false
+      "in_core": true
      },
      {
       "key": "behind",
@@ -2728,7 +2811,9 @@
       "item": "Infinity Edge",
       "in_core": false
      }
-    ]
+    ],
+    "active": "Mercurial Scimitar",
+    "notes": {}
    }
   },
   "drmundo": {
@@ -2822,7 +2907,9 @@
       "item": "Heartsteel",
       "in_core": true
      }
-    ]
+    ],
+    "active": "",
+    "notes": {}
    },
    "baron": {
     "start": [
@@ -2903,7 +2990,9 @@
       "item": "Heartsteel",
       "in_core": true
      }
-    ]
+    ],
+    "active": "Gargoyle Stoneplate",
+    "notes": {}
    }
   },
   "ekko": {
@@ -2969,7 +3058,8 @@
       "key": "ad",
       "label": "Contre une équipe AD",
       "item": "Zhonya's Hourglass",
-      "in_core": false
+      "in_core": false,
+      "note": "Objet actif : un seul possible, remplace Chant de guerre de Shurelya."
      },
      {
       "key": "ap",
@@ -2999,7 +3089,8 @@
       "key": "behind",
       "label": "Si tu meurs souvent",
       "item": "Zhonya's Hourglass",
-      "in_core": false
+      "in_core": false,
+      "note": "Objet actif : un seul possible, remplace Chant de guerre de Shurelya."
      },
      {
       "key": "ahead",
@@ -3007,7 +3098,12 @@
       "item": "Infinity Orb",
       "in_core": true
      }
-    ]
+    ],
+    "active": "Shurelya's Battlesong",
+    "notes": {
+     "Zhonya's Hourglass": "Objet actif : un seul possible, remplace Chant de guerre de Shurelya.",
+     "Hextech Rocketbelt": "Objet actif : un seul possible, remplace Chant de guerre de Shurelya."
+    }
    },
    "jungle": {
     "start": [
@@ -3067,7 +3163,8 @@
       "key": "ad",
       "label": "Contre une équipe AD",
       "item": "Zhonya's Hourglass",
-      "in_core": false
+      "in_core": false,
+      "note": "Objet actif : un seul possible, remplace Chant de guerre de Shurelya."
      },
      {
       "key": "ap",
@@ -3097,7 +3194,8 @@
       "key": "behind",
       "label": "Si tu meurs souvent",
       "item": "Zhonya's Hourglass",
-      "in_core": false
+      "in_core": false,
+      "note": "Objet actif : un seul possible, remplace Chant de guerre de Shurelya."
      },
      {
       "key": "ahead",
@@ -3105,7 +3203,12 @@
       "item": "Infinity Orb",
       "in_core": true
      }
-    ]
+    ],
+    "active": "Shurelya's Battlesong",
+    "notes": {
+     "Zhonya's Hourglass": "Objet actif : un seul possible, remplace Chant de guerre de Shurelya.",
+     "Hextech Rocketbelt": "Objet actif : un seul possible, remplace Chant de guerre de Shurelya."
+    }
    }
   },
   "evelynn": {
@@ -3118,11 +3221,11 @@
      "Infinity Orb",
      "Rabadon's Deathcap",
      "Shurelya's Battlesong",
-     "Zhonya's Hourglass"
+     "Banshee's Veil"
     ],
     "situational": [
+     "Zhonya's Hourglass",
      "Hextech Rocketbelt",
-     "Banshee's Veil",
      "Void Staff",
      "Cryptbloom",
      "Morellonomicon"
@@ -3171,13 +3274,14 @@
       "key": "ad",
       "label": "Contre une équipe AD",
       "item": "Zhonya's Hourglass",
-      "in_core": true
+      "in_core": false,
+      "note": "Objet actif : un seul possible, remplace Chant de guerre de Shurelya."
      },
      {
       "key": "ap",
       "label": "Contre une équipe AP",
       "item": "Banshee's Veil",
-      "in_core": false
+      "in_core": true
      },
      {
       "key": "heal",
@@ -3195,13 +3299,14 @@
       "key": "cc",
       "label": "Contre beaucoup de contrôles",
       "item": "Banshee's Veil",
-      "in_core": false
+      "in_core": true
      },
      {
       "key": "behind",
       "label": "Si tu meurs souvent",
-      "item": "Banshee's Veil",
-      "in_core": false
+      "item": "Zhonya's Hourglass",
+      "in_core": false,
+      "note": "Objet actif : un seul possible, remplace Chant de guerre de Shurelya."
      },
      {
       "key": "ahead",
@@ -3209,7 +3314,12 @@
       "item": "Lich Bane",
       "in_core": true
      }
-    ]
+    ],
+    "active": "Shurelya's Battlesong",
+    "notes": {
+     "Zhonya's Hourglass": "Objet actif : un seul possible, remplace Chant de guerre de Shurelya.",
+     "Hextech Rocketbelt": "Objet actif : un seul possible, remplace Chant de guerre de Shurelya."
+    }
    }
   },
   "ezreal": {
@@ -3301,7 +3411,9 @@
       "item": "Guardian Angel",
       "in_core": false
      }
-    ]
+    ],
+    "active": "",
+    "notes": {}
    }
   },
   "fiddlesticks": {
@@ -3313,11 +3425,11 @@
      "Malignance",
      "Liandry's Torment",
      "Zhonya's Hourglass",
-     "Hextech Rocketbelt",
-     "Banshee's Veil"
+     "Banshee's Veil",
+     "Infinity Orb"
     ],
     "situational": [
-     "Infinity Orb",
+     "Hextech Rocketbelt",
      "Morellonomicon",
      "Rylai's Crystal Scepter",
      "Void Staff",
@@ -3404,10 +3516,14 @@
      {
       "key": "ahead",
       "label": "Si tu es en avance",
-      "item": "Infinity Orb",
+      "item": "Rabadon's Deathcap",
       "in_core": false
      }
-    ]
+    ],
+    "active": "Zhonya's Hourglass",
+    "notes": {
+     "Hextech Rocketbelt": "Objet actif : un seul possible, remplace Sablier de Zhonya."
+    }
    }
   },
   "fiora": {
@@ -3501,7 +3617,9 @@
       "item": "Guardian Angel",
       "in_core": false
      }
-    ]
+    ],
+    "active": "",
+    "notes": {}
    }
   },
   "fizz": {
@@ -3569,7 +3687,8 @@
       "key": "ad",
       "label": "Contre une équipe AD",
       "item": "Zhonya's Hourglass",
-      "in_core": false
+      "in_core": false,
+      "note": "Objet actif : un seul possible, remplace Chant de guerre de Shurelya."
      },
      {
       "key": "ap",
@@ -3607,7 +3726,12 @@
       "item": "Lich Bane",
       "in_core": true
      }
-    ]
+    ],
+    "active": "Shurelya's Battlesong",
+    "notes": {
+     "Zhonya's Hourglass": "Objet actif : un seul possible, remplace Chant de guerre de Shurelya.",
+     "Hextech Rocketbelt": "Objet actif : un seul possible, remplace Chant de guerre de Shurelya."
+    }
    },
    "jungle": {
     "start": [
@@ -3687,7 +3811,11 @@
       "item": "Rabadon's Deathcap",
       "in_core": false
      }
-    ]
+    ],
+    "active": "Zhonya's Hourglass",
+    "notes": {
+     "Shurelya's Battlesong": "Objet actif : un seul possible, remplace Sablier de Zhonya."
+    }
    }
   },
   "galio": {
@@ -3789,7 +3917,9 @@
       "item": "Infinity Orb",
       "in_core": true
      }
-    ]
+    ],
+    "active": "",
+    "notes": {}
    },
    "support": {
     "start": [
@@ -3870,7 +4000,9 @@
       "item": "Knight's Vow",
       "in_core": true
      }
-    ]
+    ],
+    "active": "Locket of the Iron Solaris",
+    "notes": {}
    }
   },
   "garen": {
@@ -3959,7 +4091,9 @@
       "item": "Death's Dance",
       "in_core": true
      }
-    ]
+    ],
+    "active": "Stridebreaker",
+    "notes": {}
    }
   },
   "gnar": {
@@ -4055,7 +4189,9 @@
       "item": "Guardian Angel",
       "in_core": false
      }
-    ]
+    ],
+    "active": "Gargoyle Stoneplate",
+    "notes": {}
    }
   },
   "gragas": {
@@ -4159,7 +4295,11 @@
       "item": "Lich Bane",
       "in_core": true
      }
-    ]
+    ],
+    "active": "Zhonya's Hourglass",
+    "notes": {
+     "Hextech Rocketbelt": "Objet actif : un seul possible, remplace Sablier de Zhonya."
+    }
    }
   },
   "graves": {
@@ -4259,7 +4399,9 @@
       "item": "Infinity Edge",
       "in_core": false
      }
-    ]
+    ],
+    "active": "",
+    "notes": {}
    }
   },
   "gwen": {
@@ -4365,7 +4507,9 @@
       "item": "Rabadon's Deathcap",
       "in_core": false
      }
-    ]
+    ],
+    "active": "",
+    "notes": {}
    },
    "jungle": {
     "start": [
@@ -4376,11 +4520,11 @@
      "Malignance",
      "Hextech Rocketbelt",
      "Rabadon's Deathcap",
-     "Zhonya's Hourglass"
+     "Infinity Orb"
     ],
     "situational": [
+     "Zhonya's Hourglass",
      "Shurelya's Battlesong",
-     "Infinity Orb",
      "Nashor's Tooth",
      "Banshee's Veil",
      "Void Staff"
@@ -4429,7 +4573,8 @@
       "key": "ad",
       "label": "Contre une équipe AD",
       "item": "Zhonya's Hourglass",
-      "in_core": true
+      "in_core": false,
+      "note": "Objet actif : un seul possible, remplace Ceinture-roquette Hextech."
      },
      {
       "key": "ap",
@@ -4452,16 +4597,22 @@
      {
       "key": "behind",
       "label": "Si tu meurs souvent",
-      "item": "Banshee's Veil",
-      "in_core": false
+      "item": "Zhonya's Hourglass",
+      "in_core": false,
+      "note": "Objet actif : un seul possible, remplace Ceinture-roquette Hextech."
      },
      {
       "key": "ahead",
       "label": "Si tu es en avance",
-      "item": "Infinity Orb",
-      "in_core": false
+      "item": "Lich Bane",
+      "in_core": true
      }
-    ]
+    ],
+    "active": "Hextech Rocketbelt",
+    "notes": {
+     "Zhonya's Hourglass": "Objet actif : un seul possible, remplace Ceinture-roquette Hextech.",
+     "Shurelya's Battlesong": "Objet actif : un seul possible, remplace Ceinture-roquette Hextech."
+    }
    }
   },
   "hecarim": {
@@ -4565,7 +4716,9 @@
       "item": "Death's Dance",
       "in_core": false
      }
-    ]
+    ],
+    "active": "",
+    "notes": {}
    }
   },
   "heimerdinger": {
@@ -4671,7 +4824,9 @@
       "item": "Rabadon's Deathcap",
       "in_core": false
      }
-    ]
+    ],
+    "active": "Zhonya's Hourglass",
+    "notes": {}
    }
   },
   "irelia": {
@@ -4765,7 +4920,9 @@
       "item": "Kraken Slayer",
       "in_core": true
      }
-    ]
+    ],
+    "active": "",
+    "notes": {}
    },
    "mid": {
     "start": [
@@ -4865,7 +5022,9 @@
       "item": "Kraken Slayer",
       "in_core": true
      }
-    ]
+    ],
+    "active": "",
+    "notes": {}
    }
   },
   "janna": {
@@ -4878,11 +5037,11 @@
      "Harmonic Echo",
      "Redemption",
      "Rabadon's Deathcap",
-     "Shurelya's Battlesong"
+     "Ardent Censer"
     ],
     "situational": [
+     "Shurelya's Battlesong",
      "Mikael's Blessing",
-     "Ardent Censer",
      "Oceanid's Trident",
      "Frozen Heart",
      "Zeke's Convergence"
@@ -4943,7 +5102,8 @@
       "key": "cc",
       "label": "Contre beaucoup de contrôles",
       "item": "Mikael's Blessing",
-      "in_core": false
+      "in_core": false,
+      "note": "Objet actif : un seul possible, remplace Rédemption."
      },
      {
       "key": "ahead",
@@ -4951,7 +5111,12 @@
       "item": "Rabadon's Deathcap",
       "in_core": true
      }
-    ]
+    ],
+    "active": "Redemption",
+    "notes": {
+     "Shurelya's Battlesong": "Objet actif : un seul possible, remplace Rédemption.",
+     "Mikael's Blessing": "Objet actif : un seul possible, remplace Rédemption."
+    }
    }
   },
   "jarvaniv": {
@@ -4964,10 +5129,10 @@
      "Black Cleaver",
      "Sterak's Gage",
      "Goredrinker",
-     "Gargoyle Stoneplate"
+     "Unending Despair"
     ],
     "situational": [
-     "Unending Despair",
+     "Gargoyle Stoneplate",
      "Frozen Heart",
      "Thornmail",
      "Force of Nature",
@@ -5018,8 +5183,9 @@
      {
       "key": "ad",
       "label": "Contre une équipe AD",
-      "item": "Frozen Heart",
-      "in_core": false
+      "item": "Gargoyle Stoneplate",
+      "in_core": false,
+      "note": "Objet actif : un seul possible, remplace Buveuse de sang."
      },
      {
       "key": "ap",
@@ -5042,10 +5208,15 @@
      {
       "key": "behind",
       "label": "Si tu meurs souvent",
-      "item": "Sterak's Gage",
-      "in_core": true
+      "item": "Gargoyle Stoneplate",
+      "in_core": false,
+      "note": "Objet actif : un seul possible, remplace Buveuse de sang."
      }
-    ]
+    ],
+    "active": "Goredrinker",
+    "notes": {
+     "Gargoyle Stoneplate": "Objet actif : un seul possible, remplace Buveuse de sang."
+    }
    }
   },
   "jax": {
@@ -5133,7 +5304,9 @@
       "item": "Death's Dance",
       "in_core": false
      }
-    ]
+    ],
+    "active": "Zhonya's Hourglass",
+    "notes": {}
    },
    "jungle": {
     "start": [
@@ -5215,7 +5388,9 @@
       "item": "Death's Dance",
       "in_core": false
      }
-    ]
+    ],
+    "active": "Zhonya's Hourglass",
+    "notes": {}
    }
   },
   "jayce": {
@@ -5321,7 +5496,9 @@
       "item": "Youmuu's Ghostblade",
       "in_core": true
      }
-    ]
+    ],
+    "active": "",
+    "notes": {}
    },
    "mid": {
     "start": [
@@ -5421,7 +5598,9 @@
       "item": "Youmuu's Ghostblade",
       "in_core": true
      }
-    ]
+    ],
+    "active": "",
+    "notes": {}
    }
   },
   "jhin": {
@@ -5431,13 +5610,12 @@
     ],
     "items": [
      "The Collector",
-     "Magnetic Blaster",
      "Galeforce",
      "Lord Dominik's Regards",
-     "Mortal Reminder"
+     "Mortal Reminder",
+     "Infinity Edge"
     ],
     "situational": [
-     "Infinity Edge",
      "Bloodthirster",
      "Guardian Angel",
      "Serpent's Fang"
@@ -5516,10 +5694,12 @@
      {
       "key": "ahead",
       "label": "Si tu es en avance",
-      "item": "Infinity Edge",
-      "in_core": false
+      "item": "The Collector",
+      "in_core": true
      }
-    ]
+    ],
+    "active": "Galeforce",
+    "notes": {}
    }
   },
   "jinx": {
@@ -5528,16 +5708,14 @@
      "Long Sword"
     ],
     "items": [
-     "Magnetic Blaster",
      "Runaan's Hurricane",
      "Galeforce",
-     "Mercurial Scimitar",
-     "Lord Dominik's Regards"
+     "Lord Dominik's Regards",
+     "Mortal Reminder",
+     "Infinity Edge"
     ],
     "situational": [
-     "Mortal Reminder",
-     "Infinity Edge",
-     "Soul Transfer",
+     "Mercurial Scimitar",
      "Guardian Angel"
     ],
     "boots": "Boots of Dynamism",
@@ -5582,7 +5760,7 @@
       "key": "heal",
       "label": "Contre beaucoup de soins",
       "item": "Mortal Reminder",
-      "in_core": false
+      "in_core": true
      },
      {
       "key": "tank",
@@ -5594,7 +5772,8 @@
       "key": "cc",
       "label": "Contre beaucoup de contrôles",
       "item": "Mercurial Scimitar",
-      "in_core": true
+      "in_core": false,
+      "note": "Objet actif : un seul possible, remplace Force du vent."
      },
      {
       "key": "behind",
@@ -5606,9 +5785,13 @@
       "key": "ahead",
       "label": "Si tu es en avance",
       "item": "Infinity Edge",
-      "in_core": false
+      "in_core": true
      }
-    ]
+    ],
+    "active": "Galeforce",
+    "notes": {
+     "Mercurial Scimitar": "Objet actif : un seul possible, remplace Force du vent."
+    }
    }
   },
   "kaisa": {
@@ -5706,7 +5889,9 @@
       "item": "Rabadon's Deathcap",
       "in_core": false
      }
-    ]
+    ],
+    "active": "",
+    "notes": {}
    }
   },
   "kalista": {
@@ -5803,7 +5988,9 @@
       "item": "Zhonya's Hourglass",
       "in_core": false
      }
-    ]
+    ],
+    "active": "",
+    "notes": {}
    },
    "baron": {
     "start": [
@@ -5895,7 +6082,9 @@
       "item": "Guardian Angel",
       "in_core": false
      }
-    ]
+    ],
+    "active": "",
+    "notes": {}
    }
   },
   "karma": {
@@ -5997,7 +6186,11 @@
       "item": "Rabadon's Deathcap",
       "in_core": false
      }
-    ]
+    ],
+    "active": "Zhonya's Hourglass",
+    "notes": {
+     "Shurelya's Battlesong": "Objet actif : un seul possible, remplace Sablier de Zhonya."
+    }
    },
    "support": {
     "start": [
@@ -6008,11 +6201,11 @@
      "Ardent Censer",
      "Harmonic Echo",
      "Redemption",
-     "Mikael's Blessing"
+     "Staff of Flowing Waters"
     ],
     "situational": [
+     "Mikael's Blessing",
      "Shurelya's Battlesong",
-     "Staff of Flowing Waters",
      "Morellonomicon",
      "Oceanid's Trident",
      "Frozen Heart"
@@ -6075,9 +6268,15 @@
       "key": "cc",
       "label": "Contre beaucoup de contrôles",
       "item": "Mikael's Blessing",
-      "in_core": true
+      "in_core": false,
+      "note": "Objet actif : un seul possible, remplace Rédemption."
      }
-    ]
+    ],
+    "active": "Redemption",
+    "notes": {
+     "Mikael's Blessing": "Objet actif : un seul possible, remplace Rédemption.",
+     "Shurelya's Battlesong": "Objet actif : un seul possible, remplace Rédemption."
+    }
    }
   },
   "kassadin": {
@@ -6179,7 +6378,9 @@
       "item": "Infinity Orb",
       "in_core": false
      }
-    ]
+    ],
+    "active": "Zhonya's Hourglass",
+    "notes": {}
    }
   },
   "katarina": {
@@ -6192,10 +6393,10 @@
      "Infinity Orb",
      "Zhonya's Hourglass",
      "Banshee's Veil",
-     "Shurelya's Battlesong"
+     "Rabadon's Deathcap"
     ],
     "situational": [
-     "Rabadon's Deathcap",
+     "Shurelya's Battlesong",
      "Void Staff",
      "Oceanid's Trident",
      "Death's Dance"
@@ -6279,10 +6480,14 @@
      {
       "key": "ahead",
       "label": "Si tu es en avance",
-      "item": "Rabadon's Deathcap",
-      "in_core": false
+      "item": "Lich Bane",
+      "in_core": true
      }
-    ]
+    ],
+    "active": "Zhonya's Hourglass",
+    "notes": {
+     "Shurelya's Battlesong": "Objet actif : un seul possible, remplace Sablier de Zhonya."
+    }
    }
   },
   "kayle": {
@@ -6392,7 +6597,9 @@
       "item": "Rabadon's Deathcap",
       "in_core": true
      }
-    ]
+    ],
+    "active": "",
+    "notes": {}
    },
    "mid": {
     "start": [
@@ -6472,7 +6679,9 @@
       "item": "Lich Bane",
       "in_core": false
      }
-    ]
+    ],
+    "active": "",
+    "notes": {}
    }
   },
   "kayn": {
@@ -6586,7 +6795,9 @@
       "item": "Youmuu's Ghostblade",
       "in_core": true
      }
-    ]
+    ],
+    "active": "",
+    "notes": {}
    }
   },
   "kennen": {
@@ -6597,13 +6808,13 @@
     "items": [
      "Shurelya's Battlesong",
      "Infinity Orb",
-     "Hextech Rocketbelt",
-     "Zhonya's Hourglass",
-     "Banshee's Veil"
+     "Banshee's Veil",
+     "Liandry's Torment",
+     "Rabadon's Deathcap"
     ],
     "situational": [
-     "Liandry's Torment",
-     "Rabadon's Deathcap",
+     "Hextech Rocketbelt",
+     "Zhonya's Hourglass",
      "Cryptbloom",
      "Void Staff",
      "Morellonomicon"
@@ -6659,7 +6870,8 @@
       "key": "ad",
       "label": "Contre une équipe AD",
       "item": "Zhonya's Hourglass",
-      "in_core": true
+      "in_core": false,
+      "note": "Objet actif : un seul possible, remplace Chant de guerre de Shurelya."
      },
      {
       "key": "ap",
@@ -6676,7 +6888,7 @@
      {
       "key": "tank",
       "label": "Contre des tanks",
-      "item": "Liandry's Torment",
+      "item": "Cryptbloom",
       "in_core": false
      },
      {
@@ -6689,15 +6901,21 @@
       "key": "behind",
       "label": "Si tu meurs souvent",
       "item": "Zhonya's Hourglass",
-      "in_core": true
+      "in_core": false,
+      "note": "Objet actif : un seul possible, remplace Chant de guerre de Shurelya."
      },
      {
       "key": "ahead",
       "label": "Si tu es en avance",
-      "item": "Rabadon's Deathcap",
-      "in_core": false
+      "item": "Infinity Orb",
+      "in_core": true
      }
-    ]
+    ],
+    "active": "Shurelya's Battlesong",
+    "notes": {
+     "Hextech Rocketbelt": "Objet actif : un seul possible, remplace Chant de guerre de Shurelya.",
+     "Zhonya's Hourglass": "Objet actif : un seul possible, remplace Chant de guerre de Shurelya."
+    }
    },
    "mid": {
     "start": [
@@ -6706,13 +6924,13 @@
     "items": [
      "Shurelya's Battlesong",
      "Infinity Orb",
-     "Zhonya's Hourglass",
-     "Hextech Rocketbelt",
-     "Banshee's Veil"
+     "Banshee's Veil",
+     "Rabadon's Deathcap",
+     "Cryptbloom"
     ],
     "situational": [
-     "Rabadon's Deathcap",
-     "Cryptbloom",
+     "Zhonya's Hourglass",
+     "Hextech Rocketbelt",
      "Liandry's Torment",
      "Void Staff",
      "Morellonomicon"
@@ -6754,7 +6972,8 @@
       "key": "ad",
       "label": "Contre une équipe AD",
       "item": "Zhonya's Hourglass",
-      "in_core": true
+      "in_core": false,
+      "note": "Objet actif : un seul possible, remplace Chant de guerre de Shurelya."
      },
      {
       "key": "ap",
@@ -6771,7 +6990,7 @@
      {
       "key": "tank",
       "label": "Contre des tanks",
-      "item": "Cryptbloom",
+      "item": "Liandry's Torment",
       "in_core": false
      },
      {
@@ -6784,15 +7003,21 @@
       "key": "behind",
       "label": "Si tu meurs souvent",
       "item": "Zhonya's Hourglass",
-      "in_core": true
+      "in_core": false,
+      "note": "Objet actif : un seul possible, remplace Chant de guerre de Shurelya."
      },
      {
       "key": "ahead",
       "label": "Si tu es en avance",
-      "item": "Rabadon's Deathcap",
-      "in_core": false
+      "item": "Infinity Orb",
+      "in_core": true
      }
-    ]
+    ],
+    "active": "Shurelya's Battlesong",
+    "notes": {
+     "Zhonya's Hourglass": "Objet actif : un seul possible, remplace Chant de guerre de Shurelya.",
+     "Hextech Rocketbelt": "Objet actif : un seul possible, remplace Chant de guerre de Shurelya."
+    }
    }
   },
   "khazix": {
@@ -6907,7 +7132,9 @@
       "item": "Youmuu's Ghostblade",
       "in_core": true
      }
-    ]
+    ],
+    "active": "",
+    "notes": {}
    }
   },
   "kindred": {
@@ -6977,7 +7204,9 @@
       "item": "Kraken Slayer",
       "in_core": true
      }
-    ]
+    ],
+    "active": "",
+    "notes": {}
    }
   },
   "kogmaw": {
@@ -7077,7 +7306,9 @@
       "item": "Kraken Slayer",
       "in_core": true
      }
-    ]
+    ],
+    "active": "",
+    "notes": {}
    }
   },
   "ksante": {
@@ -7166,7 +7397,9 @@
       "item": "Gargoyle Stoneplate",
       "in_core": true
      }
-    ]
+    ],
+    "active": "Gargoyle Stoneplate",
+    "notes": {}
    }
   },
   "leesin": {
@@ -7272,7 +7505,9 @@
       "item": "Youmuu's Ghostblade",
       "in_core": true
      }
-    ]
+    ],
+    "active": "",
+    "notes": {}
    }
   },
   "leona": {
@@ -7356,7 +7591,9 @@
       "item": "Thornmail",
       "in_core": true
      }
-    ]
+    ],
+    "active": "Locket of the Iron Solaris",
+    "notes": {}
    }
   },
   "lillia": {
@@ -7460,7 +7697,9 @@
       "item": "Rabadon's Deathcap",
       "in_core": false
      }
-    ]
+    ],
+    "active": "Zhonya's Hourglass",
+    "notes": {}
    }
   },
   "lissandra": {
@@ -7472,11 +7711,11 @@
      "Malignance",
      "Infinity Orb",
      "Zhonya's Hourglass",
-     "Shurelya's Battlesong",
-     "Banshee's Veil"
+     "Banshee's Veil",
+     "Rabadon's Deathcap"
     ],
     "situational": [
-     "Rabadon's Deathcap",
+     "Shurelya's Battlesong",
      "Cryptbloom",
      "Liandry's Torment",
      "Void Staff",
@@ -7565,10 +7804,14 @@
      {
       "key": "ahead",
       "label": "Si tu es en avance",
-      "item": "Rabadon's Deathcap",
-      "in_core": false
+      "item": "Infinity Orb",
+      "in_core": true
      }
-    ]
+    ],
+    "active": "Zhonya's Hourglass",
+    "notes": {
+     "Shurelya's Battlesong": "Objet actif : un seul possible, remplace Sablier de Zhonya."
+    }
    }
   },
   "lucian": {
@@ -7578,13 +7821,12 @@
     ],
     "items": [
      "Essence Reaver",
-     "Magnetic Blaster",
      "Mortal Reminder",
      "Lord Dominik's Regards",
-     "Infinity Edge"
+     "Infinity Edge",
+     "Bloodthirster"
     ],
     "situational": [
-     "Bloodthirster",
      "Guardian Angel",
      "Serpent's Fang",
      "Mercurial Scimitar"
@@ -7667,7 +7909,9 @@
       "item": "Infinity Edge",
       "in_core": true
      }
-    ]
+    ],
+    "active": "",
+    "notes": {}
    }
   },
   "lulu": {
@@ -7679,11 +7923,11 @@
      "Bulwark of the Mountain",
      "Ardent Censer",
      "Mikael's Blessing",
-     "Redemption",
-     "Harmonic Echo"
+     "Harmonic Echo",
+     "Staff of Flowing Waters"
     ],
     "situational": [
-     "Staff of Flowing Waters",
+     "Redemption",
      "Knight's Vow",
      "Frozen Heart",
      "Morellonomicon"
@@ -7750,7 +7994,11 @@
       "item": "Knight's Vow",
       "in_core": false
      }
-    ]
+    ],
+    "active": "Mikael's Blessing",
+    "notes": {
+     "Redemption": "Objet actif : un seul possible, remplace Bénédiction de Mikael."
+    }
    }
   },
   "lux": {
@@ -7853,7 +8101,9 @@
       "item": "Infinity Orb",
       "in_core": true
      }
-    ]
+    ],
+    "active": "Shurelya's Battlesong",
+    "notes": {}
    },
    "mid": {
     "start": [
@@ -7913,7 +8163,8 @@
       "key": "ad",
       "label": "Contre une équipe AD",
       "item": "Zhonya's Hourglass",
-      "in_core": false
+      "in_core": false,
+      "note": "Objet actif : un seul possible, remplace Chant de guerre de Shurelya."
      },
      {
       "key": "ap",
@@ -7943,7 +8194,8 @@
       "key": "behind",
       "label": "Si tu meurs souvent",
       "item": "Zhonya's Hourglass",
-      "in_core": false
+      "in_core": false,
+      "note": "Objet actif : un seul possible, remplace Chant de guerre de Shurelya."
      },
      {
       "key": "ahead",
@@ -7951,7 +8203,11 @@
       "item": "Rabadon's Deathcap",
       "in_core": false
      }
-    ]
+    ],
+    "active": "Shurelya's Battlesong",
+    "notes": {
+     "Zhonya's Hourglass": "Objet actif : un seul possible, remplace Chant de guerre de Shurelya."
+    }
    }
   },
   "malphite": {
@@ -8036,7 +8292,9 @@
       "item": "Gargoyle Stoneplate",
       "in_core": false
      }
-    ]
+    ],
+    "active": "",
+    "notes": {}
    },
    "support": {
     "start": [
@@ -8117,7 +8375,9 @@
       "item": "Gargoyle Stoneplate",
       "in_core": false
      }
-    ]
+    ],
+    "active": "",
+    "notes": {}
    }
   },
   "maokai": {
@@ -8213,7 +8473,9 @@
       "item": "Zhonya's Hourglass",
       "in_core": false
      }
-    ]
+    ],
+    "active": "",
+    "notes": {}
    },
    "support": {
     "start": [
@@ -8294,7 +8556,9 @@
       "item": "Knight's Vow",
       "in_core": false
      }
-    ]
+    ],
+    "active": "Locket of the Iron Solaris",
+    "notes": {}
    }
   },
   "masteryi": {
@@ -8396,7 +8660,9 @@
       "item": "Kraken Slayer",
       "in_core": true
      }
-    ]
+    ],
+    "active": "",
+    "notes": {}
    }
   },
   "mel": {
@@ -8408,11 +8674,11 @@
      "Blackfire Torch",
      "Infinity Orb",
      "Zhonya's Hourglass",
-     "Hextech Rocketbelt",
-     "Banshee's Veil"
+     "Banshee's Veil",
+     "Rabadon's Deathcap"
     ],
     "situational": [
-     "Rabadon's Deathcap",
+     "Hextech Rocketbelt",
      "Cryptbloom",
      "Morellonomicon",
      "Void Staff",
@@ -8503,10 +8769,14 @@
      {
       "key": "ahead",
       "label": "Si tu es en avance",
-      "item": "Rabadon's Deathcap",
-      "in_core": false
+      "item": "Infinity Orb",
+      "in_core": true
      }
-    ]
+    ],
+    "active": "Zhonya's Hourglass",
+    "notes": {
+     "Hextech Rocketbelt": "Objet actif : un seul possible, remplace Sablier de Zhonya."
+    }
    }
   },
   "milio": {
@@ -8518,11 +8788,11 @@
      "Bulwark of the Mountain",
      "Ardent Censer",
      "Redemption",
-     "Mikael's Blessing",
-     "Harmonic Echo"
+     "Harmonic Echo",
+     "Rabadon's Deathcap"
     ],
     "situational": [
-     "Rabadon's Deathcap",
+     "Mikael's Blessing",
      "Frozen Heart",
      "Zeke's Convergence",
      "Oceanid's Trident"
@@ -8583,15 +8853,20 @@
       "key": "cc",
       "label": "Contre beaucoup de contrôles",
       "item": "Mikael's Blessing",
-      "in_core": true
+      "in_core": false,
+      "note": "Objet actif : un seul possible, remplace Rédemption."
      },
      {
       "key": "ahead",
       "label": "Si tu es en avance",
       "item": "Rabadon's Deathcap",
-      "in_core": false
+      "in_core": true
      }
-    ]
+    ],
+    "active": "Redemption",
+    "notes": {
+     "Mikael's Blessing": "Objet actif : un seul possible, remplace Rédemption."
+    }
    }
   },
   "missfortune": {
@@ -8691,7 +8966,9 @@
       "item": "Infinity Edge",
       "in_core": false
      }
-    ]
+    ],
+    "active": "",
+    "notes": {}
    }
   },
   "mordekaiser": {
@@ -8789,7 +9066,11 @@
       "item": "Banshee's Veil",
       "in_core": false
      }
-    ]
+    ],
+    "active": "Zhonya's Hourglass",
+    "notes": {
+     "Hextech Rocketbelt": "Objet actif : un seul possible, remplace Sablier de Zhonya."
+    }
    }
   },
   "morgana": {
@@ -8889,7 +9170,9 @@
       "item": "Rabadon's Deathcap",
       "in_core": false
      }
-    ]
+    ],
+    "active": "Zhonya's Hourglass",
+    "notes": {}
    },
    "mid": {
     "start": [
@@ -8981,7 +9264,9 @@
       "item": "Rabadon's Deathcap",
       "in_core": false
      }
-    ]
+    ],
+    "active": "Zhonya's Hourglass",
+    "notes": {}
    }
   },
   "nami": {
@@ -8994,10 +9279,10 @@
      "Harmonic Echo",
      "Ardent Censer",
      "Redemption",
-     "Mikael's Blessing"
+     "Staff of Flowing Waters"
     ],
     "situational": [
-     "Staff of Flowing Waters",
+     "Mikael's Blessing",
      "Morellonomicon",
      "Oceanid's Trident",
      "Rabadon's Deathcap"
@@ -9056,7 +9341,8 @@
       "key": "cc",
       "label": "Contre beaucoup de contrôles",
       "item": "Mikael's Blessing",
-      "in_core": true
+      "in_core": false,
+      "note": "Objet actif : un seul possible, remplace Rédemption."
      },
      {
       "key": "ahead",
@@ -9064,7 +9350,11 @@
       "item": "Rabadon's Deathcap",
       "in_core": false
      }
-    ]
+    ],
+    "active": "Redemption",
+    "notes": {
+     "Mikael's Blessing": "Objet actif : un seul possible, remplace Rédemption."
+    }
    }
   },
   "nasus": {
@@ -9161,7 +9451,9 @@
       "item": "Gargoyle Stoneplate",
       "in_core": false
      }
-    ]
+    ],
+    "active": "",
+    "notes": {}
    }
   },
   "nautilus": {
@@ -9247,7 +9539,9 @@
       "item": "Knight's Vow",
       "in_core": false
      }
-    ]
+    ],
+    "active": "Locket of the Iron Solaris",
+    "notes": {}
    }
   },
   "nidalee": {
@@ -9355,7 +9649,9 @@
       "item": "Lich Bane",
       "in_core": true
      }
-    ]
+    ],
+    "active": "",
+    "notes": {}
    }
   },
   "nilah": {
@@ -9456,7 +9752,9 @@
       "item": "The Collector",
       "in_core": true
      }
-    ]
+    ],
+    "active": "",
+    "notes": {}
    }
   },
   "nocturne": {
@@ -9559,7 +9857,9 @@
       "item": "Duskblade of Draktharr",
       "in_core": true
      }
-    ]
+    ],
+    "active": "",
+    "notes": {}
    }
   },
   "norra": {
@@ -9663,7 +9963,9 @@
      "1",
      "3",
      "2"
-    ]
+    ],
+    "active": "",
+    "notes": {}
    }
   },
   "nunuwillump": {
@@ -9672,14 +9974,13 @@
      "Shimmering Spark"
     ],
     "items": [
-     "Searing Crown",
      "Thornmail",
      "Force of Nature",
      "Hollow Radiance",
-     "Kaenic Rookern"
+     "Kaenic Rookern",
+     "Dead Man's Plate"
     ],
     "situational": [
-     "Dead Man's Plate",
      "Frozen Heart",
      "Unending Despair",
      "Amaranth's Twinguard",
@@ -9735,7 +10036,7 @@
      {
       "key": "ad",
       "label": "Contre une équipe AD",
-      "item": "Dead Man's Plate",
+      "item": "Frozen Heart",
       "in_core": false
      },
      {
@@ -9750,7 +10051,9 @@
       "item": "Thornmail",
       "in_core": true
      }
-    ]
+    ],
+    "active": "",
+    "notes": {}
    }
   },
   "olaf": {
@@ -9835,7 +10138,9 @@
       "item": "Death's Dance",
       "in_core": false
      }
-    ]
+    ],
+    "active": "Stridebreaker",
+    "notes": {}
    },
    "baron": {
     "start": [
@@ -9919,7 +10224,9 @@
       "item": "Death's Dance",
       "in_core": false
      }
-    ]
+    ],
+    "active": "Stridebreaker",
+    "notes": {}
    }
   },
   "orianna": {
@@ -9931,11 +10238,11 @@
      "Blackfire Torch",
      "Infinity Orb",
      "Zhonya's Hourglass",
-     "Hextech Rocketbelt",
-     "Banshee's Veil"
+     "Banshee's Veil",
+     "Cryptbloom"
     ],
     "situational": [
-     "Cryptbloom",
+     "Hextech Rocketbelt",
      "Rabadon's Deathcap",
      "Void Staff",
      "Oceanid's Trident",
@@ -10006,7 +10313,7 @@
      {
       "key": "tank",
       "label": "Contre des tanks",
-      "item": "Cryptbloom",
+      "item": "Void Staff",
       "in_core": false
      },
      {
@@ -10033,7 +10340,11 @@
       "item": "Rabadon's Deathcap",
       "in_core": false
      }
-    ]
+    ],
+    "active": "Zhonya's Hourglass",
+    "notes": {
+     "Hextech Rocketbelt": "Objet actif : un seul possible, remplace Sablier de Zhonya."
+    }
    }
   },
   "ornn": {
@@ -10122,7 +10433,9 @@
       "item": "Heartsteel",
       "in_core": true
      }
-    ]
+    ],
+    "active": "",
+    "notes": {}
    },
    "support": {
     "start": [
@@ -10191,7 +10504,9 @@
       "item": "Abyssal Mask",
       "in_core": false
      }
-    ]
+    ],
+    "active": "Locket of the Iron Solaris",
+    "notes": {}
    }
   },
   "pantheon": {
@@ -10299,7 +10614,9 @@
       "item": "The Collector",
       "in_core": false
      }
-    ]
+    ],
+    "active": "",
+    "notes": {}
    },
    "baron": {
     "start": [
@@ -10402,7 +10719,9 @@
       "item": "Sterak's Gage",
       "in_core": false
      }
-    ]
+    ],
+    "active": "",
+    "notes": {}
    }
   },
   "poppy": {
@@ -10496,7 +10815,9 @@
       "item": "Heartsteel",
       "in_core": true
      }
-    ]
+    ],
+    "active": "",
+    "notes": {}
    }
   },
   "pyke": {
@@ -10608,7 +10929,9 @@
       "item": "Youmuu's Ghostblade",
       "in_core": true
      }
-    ]
+    ],
+    "active": "",
+    "notes": {}
    }
   },
   "rakan": {
@@ -10620,13 +10943,13 @@
      "Bulwark of the Mountain",
      "Zeke's Convergence",
      "Redemption",
-     "Locket of the Iron Solaris",
-     "Shurelya's Battlesong"
+     "Imperial Mandate",
+     "Oceanid's Trident"
     ],
     "situational": [
+     "Locket of the Iron Solaris",
+     "Shurelya's Battlesong",
      "Mikael's Blessing",
-     "Imperial Mandate",
-     "Oceanid's Trident",
      "Morellonomicon",
      "Abyssal Mask"
     ],
@@ -10686,15 +11009,22 @@
       "key": "shield",
       "label": "Contre des boucliers",
       "item": "Oceanid's Trident",
-      "in_core": false
+      "in_core": true
      },
      {
       "key": "cc",
       "label": "Contre beaucoup de contrôles",
       "item": "Mikael's Blessing",
-      "in_core": false
+      "in_core": false,
+      "note": "Objet actif : un seul possible, remplace Rédemption."
      }
-    ]
+    ],
+    "active": "Redemption",
+    "notes": {
+     "Locket of the Iron Solaris": "Objet actif : un seul possible, remplace Rédemption.",
+     "Shurelya's Battlesong": "Objet actif : un seul possible, remplace Rédemption.",
+     "Mikael's Blessing": "Objet actif : un seul possible, remplace Rédemption."
+    }
    }
   },
   "rammus": {
@@ -10703,14 +11033,13 @@
      "Shimmering Spark"
     ],
     "items": [
-     "Searing Crown",
      "Thornmail",
      "Gargoyle Stoneplate",
      "Iceborn Gauntlet",
-     "Hollow Radiance"
+     "Hollow Radiance",
+     "Frozen Heart"
     ],
     "situational": [
-     "Frozen Heart",
      "Unending Despair",
      "Dawnshroud",
      "Amaranth's Twinguard",
@@ -10759,7 +11088,7 @@
      {
       "key": "ad",
       "label": "Contre une équipe AD",
-      "item": "Frozen Heart",
+      "item": "Amaranth's Twinguard",
       "in_core": false
      },
      {
@@ -10780,7 +11109,9 @@
       "item": "Gargoyle Stoneplate",
       "in_core": true
      }
-    ]
+    ],
+    "active": "Gargoyle Stoneplate",
+    "notes": {}
    }
   },
   "rell": {
@@ -10868,7 +11199,8 @@
       "key": "cc",
       "label": "Contre beaucoup de contrôles",
       "item": "Mikael's Blessing",
-      "in_core": false
+      "in_core": false,
+      "note": "Objet actif : un seul possible, remplace Médaillon de l'Iron Solari."
      },
      {
       "key": "behind",
@@ -10876,7 +11208,11 @@
       "item": "Knight's Vow",
       "in_core": false
      }
-    ]
+    ],
+    "active": "Locket of the Iron Solaris",
+    "notes": {
+     "Mikael's Blessing": "Objet actif : un seul possible, remplace Médaillon de l'Iron Solari."
+    }
    }
   },
   "renekton": {
@@ -10972,7 +11308,9 @@
       "item": "Death's Dance",
       "in_core": false
      }
-    ]
+    ],
+    "active": "Goredrinker",
+    "notes": {}
    }
   },
   "rengar": {
@@ -11086,7 +11424,9 @@
       "item": "Infinity Edge",
       "in_core": false
      }
-    ]
+    ],
+    "active": "",
+    "notes": {}
    }
   },
   "riven": {
@@ -11188,7 +11528,9 @@
       "item": "Guardian Angel",
       "in_core": false
      }
-    ]
+    ],
+    "active": "Goredrinker",
+    "notes": {}
    },
    "jungle": {
     "start": [
@@ -11283,7 +11625,9 @@
       "item": "Death's Dance",
       "in_core": false
      }
-    ]
+    ],
+    "active": "Goredrinker",
+    "notes": {}
    }
   },
   "rumble": {
@@ -11295,11 +11639,11 @@
      "Liandry's Torment",
      "Bloodletter's Curse",
      "Zhonya's Hourglass",
-     "Hextech Rocketbelt",
-     "Infinity Orb"
+     "Infinity Orb",
+     "Banshee's Veil"
     ],
     "situational": [
-     "Banshee's Veil",
+     "Hextech Rocketbelt",
      "Rabadon's Deathcap",
      "Riftmaker",
      "Void Staff",
@@ -11360,7 +11704,7 @@
       "key": "ap",
       "label": "Contre une équipe AP",
       "item": "Banshee's Veil",
-      "in_core": false
+      "in_core": true
      },
      {
       "key": "heal",
@@ -11378,13 +11722,13 @@
       "key": "cc",
       "label": "Contre beaucoup de contrôles",
       "item": "Banshee's Veil",
-      "in_core": false
+      "in_core": true
      },
      {
       "key": "behind",
       "label": "Si tu meurs souvent",
-      "item": "Banshee's Veil",
-      "in_core": false
+      "item": "Zhonya's Hourglass",
+      "in_core": true
      },
      {
       "key": "ahead",
@@ -11392,7 +11736,11 @@
       "item": "Rabadon's Deathcap",
       "in_core": false
      }
-    ]
+    ],
+    "active": "Zhonya's Hourglass",
+    "notes": {
+     "Hextech Rocketbelt": "Objet actif : un seul possible, remplace Sablier de Zhonya."
+    }
    },
    "baron": {
     "start": [
@@ -11403,10 +11751,10 @@
      "Bloodletter's Curse",
      "Infinity Orb",
      "Zhonya's Hourglass",
-     "Hextech Rocketbelt"
+     "Banshee's Veil"
     ],
     "situational": [
-     "Banshee's Veil",
+     "Hextech Rocketbelt",
      "Rabadon's Deathcap",
      "Riftmaker",
      "Void Staff",
@@ -11462,7 +11810,7 @@
       "key": "ap",
       "label": "Contre une équipe AP",
       "item": "Banshee's Veil",
-      "in_core": false
+      "in_core": true
      },
      {
       "key": "heal",
@@ -11480,13 +11828,13 @@
       "key": "cc",
       "label": "Contre beaucoup de contrôles",
       "item": "Banshee's Veil",
-      "in_core": false
+      "in_core": true
      },
      {
       "key": "behind",
       "label": "Si tu meurs souvent",
-      "item": "Banshee's Veil",
-      "in_core": false
+      "item": "Zhonya's Hourglass",
+      "in_core": true
      },
      {
       "key": "ahead",
@@ -11494,7 +11842,11 @@
       "item": "Rabadon's Deathcap",
       "in_core": false
      }
-    ]
+    ],
+    "active": "Zhonya's Hourglass",
+    "notes": {
+     "Hextech Rocketbelt": "Objet actif : un seul possible, remplace Sablier de Zhonya."
+    }
    }
   },
   "ryze": {
@@ -11610,7 +11962,11 @@
       "item": "Rabadon's Deathcap",
       "in_core": true
      }
-    ]
+    ],
+    "active": "Zhonya's Hourglass",
+    "notes": {
+     "Hextech Rocketbelt": "Objet actif : un seul possible, remplace Sablier de Zhonya."
+    }
    }
   },
   "samira": {
@@ -11713,7 +12069,9 @@
       "item": "The Collector",
       "in_core": true
      }
-    ]
+    ],
+    "active": "",
+    "notes": {}
    }
   },
   "senna": {
@@ -11723,13 +12081,12 @@
     ],
     "items": [
      "Black Mist Scythe",
-     "Magnetic Blaster",
      "Essence Reaver",
      "Serpent's Fang",
-     "Guardian Angel"
+     "Guardian Angel",
+     "Edge of Night"
     ],
     "situational": [
-     "Edge of Night",
      "Black Cleaver",
      "Iceborn Gauntlet"
     ],
@@ -11795,7 +12152,7 @@
       "key": "cc",
       "label": "Contre beaucoup de contrôles",
       "item": "Edge of Night",
-      "in_core": false
+      "in_core": true
      },
      {
       "key": "behind",
@@ -11803,7 +12160,9 @@
       "item": "Guardian Angel",
       "in_core": true
      }
-    ]
+    ],
+    "active": "",
+    "notes": {}
    }
   },
   "seraphine": {
@@ -11815,11 +12174,11 @@
      "Black Mist Scythe",
      "Ardent Censer",
      "Redemption",
-     "Mikael's Blessing",
-     "Harmonic Echo"
+     "Harmonic Echo",
+     "Staff of Flowing Waters"
     ],
     "situational": [
-     "Staff of Flowing Waters",
+     "Mikael's Blessing",
      "Oceanid's Trident",
      "Morellonomicon",
      "Frozen Heart"
@@ -11886,9 +12245,14 @@
       "key": "cc",
       "label": "Contre beaucoup de contrôles",
       "item": "Mikael's Blessing",
-      "in_core": true
+      "in_core": false,
+      "note": "Objet actif : un seul possible, remplace Rédemption."
      }
-    ]
+    ],
+    "active": "Redemption",
+    "notes": {
+     "Mikael's Blessing": "Objet actif : un seul possible, remplace Rédemption."
+    }
    },
    "mid": {
     "start": [
@@ -11987,7 +12351,9 @@
       "item": "Infinity Orb",
       "in_core": true
      }
-    ]
+    ],
+    "active": "Zhonya's Hourglass",
+    "notes": {}
    }
   },
   "sett": {
@@ -12076,7 +12442,9 @@
       "item": "Black Cleaver",
       "in_core": true
      }
-    ]
+    ],
+    "active": "Stridebreaker",
+    "notes": {}
    },
    "support": {
     "start": [
@@ -12159,7 +12527,9 @@
       "item": "Divine Sunderer",
       "in_core": true
      }
-    ]
+    ],
+    "active": "",
+    "notes": {}
    }
   },
   "shen": {
@@ -12249,7 +12619,9 @@
       "item": "Heartsteel",
       "in_core": true
      }
-    ]
+    ],
+    "active": "",
+    "notes": {}
    }
   },
   "shyvana": {
@@ -12345,7 +12717,9 @@
       "item": "Sterak's Gage",
       "in_core": false
      }
-    ]
+    ],
+    "active": "",
+    "notes": {}
    }
   },
   "singed": {
@@ -12444,7 +12818,9 @@
       "item": "Banshee's Veil",
       "in_core": false
      }
-    ]
+    ],
+    "active": "Zhonya's Hourglass",
+    "notes": {}
    }
   },
   "sion": {
@@ -12529,7 +12905,9 @@
       "item": "Heartsteel",
       "in_core": true
      }
-    ]
+    ],
+    "active": "",
+    "notes": {}
    }
   },
   "sivir": {
@@ -12623,7 +13001,9 @@
       "item": "Infinity Edge",
       "in_core": true
      }
-    ]
+    ],
+    "active": "",
+    "notes": {}
    }
   },
   "skarner": {
@@ -12632,14 +13012,13 @@
      "Shimmering Spark"
     ],
     "items": [
-     "Searing Crown",
      "Hollow Radiance",
      "Dead Man's Plate",
      "Gargoyle Stoneplate",
-     "Unending Despair"
+     "Unending Despair",
+     "Thornmail"
     ],
     "situational": [
-     "Thornmail",
      "Frozen Heart",
      "Kaenic Rookern",
      "Knight's Vow",
@@ -12693,7 +13072,7 @@
      {
       "key": "ad",
       "label": "Contre une équipe AD",
-      "item": "Thornmail",
+      "item": "Frozen Heart",
       "in_core": false
      },
      {
@@ -12706,7 +13085,7 @@
       "key": "heal",
       "label": "Contre beaucoup de soins",
       "item": "Thornmail",
-      "in_core": false
+      "in_core": true
      },
      {
       "key": "behind",
@@ -12714,7 +13093,9 @@
       "item": "Knight's Vow",
       "in_core": false
      }
-    ]
+    ],
+    "active": "Gargoyle Stoneplate",
+    "notes": {}
    }
   },
   "smolder": {
@@ -12725,12 +13106,11 @@
     "items": [
      "Essence Reaver",
      "Spear of Shojin",
-     "Magnetic Blaster",
      "Black Cleaver",
-     "Bloodthirster"
+     "Bloodthirster",
+     "Infinity Edge"
     ],
     "situational": [
-     "Infinity Edge",
      "Guardian Angel",
      "Mortal Reminder",
      "Lord Dominik's Regards",
@@ -12806,9 +13186,11 @@
       "key": "ahead",
       "label": "Si tu es en avance",
       "item": "Infinity Edge",
-      "in_core": false
+      "in_core": true
      }
-    ]
+    ],
+    "active": "",
+    "notes": {}
    }
   },
   "sona": {
@@ -12821,10 +13203,10 @@
      "Seraph's Embrace",
      "Ardent Censer",
      "Redemption",
-     "Mikael's Blessing"
+     "Oceanid's Trident"
     ],
     "situational": [
-     "Oceanid's Trident",
+     "Mikael's Blessing",
      "Harmonic Echo",
      "Rabadon's Deathcap"
     ],
@@ -12874,13 +13256,14 @@
       "key": "shield",
       "label": "Contre des boucliers",
       "item": "Oceanid's Trident",
-      "in_core": false
+      "in_core": true
      },
      {
       "key": "cc",
       "label": "Contre beaucoup de contrôles",
       "item": "Mikael's Blessing",
-      "in_core": true
+      "in_core": false,
+      "note": "Objet actif : un seul possible, remplace Rédemption."
      },
      {
       "key": "ahead",
@@ -12888,7 +13271,11 @@
       "item": "Rabadon's Deathcap",
       "in_core": false
      }
-    ]
+    ],
+    "active": "Redemption",
+    "notes": {
+     "Mikael's Blessing": "Objet actif : un seul possible, remplace Rédemption."
+    }
    }
   },
   "soraka": {
@@ -12901,10 +13288,10 @@
      "Harmonic Echo",
      "Ardent Censer",
      "Redemption",
-     "Mikael's Blessing"
+     "Oceanid's Trident"
     ],
     "situational": [
-     "Oceanid's Trident",
+     "Mikael's Blessing",
      "Staff of Flowing Waters",
      "Frozen Heart",
      "Rabadon's Deathcap"
@@ -12961,13 +13348,14 @@
       "key": "shield",
       "label": "Contre des boucliers",
       "item": "Oceanid's Trident",
-      "in_core": false
+      "in_core": true
      },
      {
       "key": "cc",
       "label": "Contre beaucoup de contrôles",
       "item": "Mikael's Blessing",
-      "in_core": true
+      "in_core": false,
+      "note": "Objet actif : un seul possible, remplace Rédemption."
      },
      {
       "key": "ahead",
@@ -12975,7 +13363,11 @@
       "item": "Rabadon's Deathcap",
       "in_core": false
      }
-    ]
+    ],
+    "active": "Redemption",
+    "notes": {
+     "Mikael's Blessing": "Objet actif : un seul possible, remplace Rédemption."
+    }
    }
   },
   "swain": {
@@ -13077,7 +13469,9 @@
       "item": "Zhonya's Hourglass",
       "in_core": true
      }
-    ]
+    ],
+    "active": "Zhonya's Hourglass",
+    "notes": {}
    },
    "support": {
     "start": [
@@ -13173,7 +13567,9 @@
       "item": "Zhonya's Hourglass",
       "in_core": false
      }
-    ]
+    ],
+    "active": "",
+    "notes": {}
    }
   },
   "syndra": {
@@ -13243,7 +13639,8 @@
       "key": "ad",
       "label": "Contre une équipe AD",
       "item": "Zhonya's Hourglass",
-      "in_core": false
+      "in_core": false,
+      "note": "Objet actif : un seul possible, remplace Chant de guerre de Shurelya."
      },
      {
       "key": "ap",
@@ -13273,7 +13670,8 @@
       "key": "behind",
       "label": "Si tu meurs souvent",
       "item": "Zhonya's Hourglass",
-      "in_core": false
+      "in_core": false,
+      "note": "Objet actif : un seul possible, remplace Chant de guerre de Shurelya."
      },
      {
       "key": "ahead",
@@ -13281,7 +13679,12 @@
       "item": "Infinity Orb",
       "in_core": true
      }
-    ]
+    ],
+    "active": "Shurelya's Battlesong",
+    "notes": {
+     "Zhonya's Hourglass": "Objet actif : un seul possible, remplace Chant de guerre de Shurelya.",
+     "Hextech Rocketbelt": "Objet actif : un seul possible, remplace Chant de guerre de Shurelya."
+    }
    }
   },
   "taliyah": {
@@ -13389,7 +13792,9 @@
       "item": "Infinity Orb",
       "in_core": true
      }
-    ]
+    ],
+    "active": "",
+    "notes": {}
    }
   },
   "talon": {
@@ -13489,7 +13894,9 @@
       "item": "Youmuu's Ghostblade",
       "in_core": true
      }
-    ]
+    ],
+    "active": "",
+    "notes": {}
    },
    "jungle": {
     "start": [
@@ -13585,7 +13992,9 @@
       "item": "Youmuu's Ghostblade",
       "in_core": true
      }
-    ]
+    ],
+    "active": "",
+    "notes": {}
    }
   },
   "teemo": {
@@ -13679,7 +14088,9 @@
      "1",
      "3",
      "2"
-    ]
+    ],
+    "active": "Zhonya's Hourglass",
+    "notes": {}
    },
    "mid": {
     "start": [
@@ -13765,7 +14176,9 @@
      "1",
      "3",
      "2"
-    ]
+    ],
+    "active": "Zhonya's Hourglass",
+    "notes": {}
    }
   },
   "thresh": {
@@ -13844,7 +14257,9 @@
       "item": "Knight's Vow",
       "in_core": false
      }
-    ]
+    ],
+    "active": "Locket of the Iron Solaris",
+    "notes": {}
    }
   },
   "tristana": {
@@ -13854,13 +14269,12 @@
     ],
     "items": [
      "Bloodthirster",
-     "Magnetic Blaster",
      "Navori Quickblades",
      "Terminus",
-     "Mortal Reminder"
+     "Mortal Reminder",
+     "Lord Dominik's Regards"
     ],
     "situational": [
-     "Lord Dominik's Regards",
      "Infinity Edge",
      "Guardian Angel",
      "Maw of Malmortius",
@@ -13921,7 +14335,7 @@
      {
       "key": "tank",
       "label": "Contre des tanks",
-      "item": "Lord Dominik's Regards",
+      "item": "Blade of the Ruined King",
       "in_core": false
      },
      {
@@ -13936,7 +14350,9 @@
       "item": "Infinity Edge",
       "in_core": false
      }
-    ]
+    ],
+    "active": "",
+    "notes": {}
    },
    "mid": {
     "start": [
@@ -13945,12 +14361,11 @@
     "items": [
      "Bloodthirster",
      "Navori Quickblades",
-     "Magnetic Blaster",
      "Lord Dominik's Regards",
-     "Terminus"
+     "Terminus",
+     "Mortal Reminder"
     ],
     "situational": [
-     "Mortal Reminder",
      "Infinity Edge",
      "Maw of Malmortius",
      "Guardian Angel",
@@ -14002,7 +14417,7 @@
       "key": "heal",
       "label": "Contre beaucoup de soins",
       "item": "Mortal Reminder",
-      "in_core": false
+      "in_core": true
      },
      {
       "key": "tank",
@@ -14022,7 +14437,9 @@
       "item": "Infinity Edge",
       "in_core": false
      }
-    ]
+    ],
+    "active": "",
+    "notes": {}
    }
   },
   "tryndamere": {
@@ -14032,13 +14449,12 @@
     ],
     "items": [
      "Blade of the Ruined King",
-     "Magnetic Blaster",
      "Serpent's Fang",
      "Lord Dominik's Regards",
-     "Mortal Reminder"
+     "Mortal Reminder",
+     "Serylda's Grudge"
     ],
     "situational": [
-     "Serylda's Grudge",
      "Infinity Edge",
      "Guardian Angel",
      "Mercurial Scimitar",
@@ -14101,8 +14517,8 @@
      {
       "key": "tank",
       "label": "Contre des tanks",
-      "item": "Serylda's Grudge",
-      "in_core": false
+      "item": "Blade of the Ruined King",
+      "in_core": true
      },
      {
       "key": "shield",
@@ -14128,7 +14544,9 @@
       "item": "Infinity Edge",
       "in_core": false
      }
-    ]
+    ],
+    "active": "",
+    "notes": {}
    },
    "jungle": {
     "start": [
@@ -14136,13 +14554,12 @@
     ],
     "items": [
      "Blade of the Ruined King",
-     "Magnetic Blaster",
      "Lord Dominik's Regards",
      "Mortal Reminder",
-     "Serylda's Grudge"
+     "Serylda's Grudge",
+     "Serpent's Fang"
     ],
     "situational": [
-     "Serpent's Fang",
      "Infinity Edge",
      "Mercurial Scimitar",
      "Edge of Night",
@@ -14210,7 +14627,7 @@
       "key": "shield",
       "label": "Contre des boucliers",
       "item": "Serpent's Fang",
-      "in_core": false
+      "in_core": true
      },
      {
       "key": "cc",
@@ -14224,7 +14641,9 @@
       "item": "Infinity Edge",
       "in_core": false
      }
-    ]
+    ],
+    "active": "",
+    "notes": {}
    }
   },
   "twistedfate": {
@@ -14235,13 +14654,12 @@
     "items": [
      "Rod of Ages",
      "Lich Bane",
-     "Magnetic Blaster",
      "Nashor's Tooth",
-     "Zhonya's Hourglass"
+     "Zhonya's Hourglass",
+     "Banshee's Veil"
     ],
     "situational": [
      "Hextech Rocketbelt",
-     "Banshee's Veil",
      "Void Staff",
      "Morellonomicon",
      "Rabadon's Deathcap"
@@ -14298,7 +14716,7 @@
       "key": "ap",
       "label": "Contre une équipe AP",
       "item": "Banshee's Veil",
-      "in_core": false
+      "in_core": true
      },
      {
       "key": "heal",
@@ -14316,13 +14734,13 @@
       "key": "cc",
       "label": "Contre beaucoup de contrôles",
       "item": "Banshee's Veil",
-      "in_core": false
+      "in_core": true
      },
      {
       "key": "behind",
       "label": "Si tu meurs souvent",
-      "item": "Banshee's Veil",
-      "in_core": false
+      "item": "Zhonya's Hourglass",
+      "in_core": true
      },
      {
       "key": "ahead",
@@ -14330,7 +14748,11 @@
       "item": "Rabadon's Deathcap",
       "in_core": false
      }
-    ]
+    ],
+    "active": "Zhonya's Hourglass",
+    "notes": {
+     "Hextech Rocketbelt": "Objet actif : un seul possible, remplace Sablier de Zhonya."
+    }
    }
   },
   "twitch": {
@@ -14424,7 +14846,9 @@
       "item": "The Collector",
       "in_core": true
      }
-    ]
+    ],
+    "active": "",
+    "notes": {}
    }
   },
   "urgot": {
@@ -14516,7 +14940,9 @@
       "item": "Sterak's Gage",
       "in_core": true
      }
-    ]
+    ],
+    "active": "",
+    "notes": {}
    }
   },
   "varus": {
@@ -14608,7 +15034,9 @@
       "item": "Zhonya's Hourglass",
       "in_core": false
      }
-    ]
+    ],
+    "active": "",
+    "notes": {}
    }
   },
   "vayne": {
@@ -14708,7 +15136,9 @@
       "item": "Kraken Slayer",
       "in_core": true
      }
-    ]
+    ],
+    "active": "",
+    "notes": {}
    },
    "baron": {
     "start": [
@@ -14802,7 +15232,9 @@
       "item": "Kraken Slayer",
       "in_core": true
      }
-    ]
+    ],
+    "active": "",
+    "notes": {}
    }
   },
   "veigar": {
@@ -14815,10 +15247,10 @@
      "Shurelya's Battlesong",
      "Rabadon's Deathcap",
      "Cryptbloom",
-     "Zhonya's Hourglass"
+     "Banshee's Veil"
     ],
     "situational": [
-     "Banshee's Veil",
+     "Zhonya's Hourglass",
      "Hextech Rocketbelt",
      "Void Staff",
      "Morellonomicon",
@@ -14868,13 +15300,14 @@
       "key": "ad",
       "label": "Contre une équipe AD",
       "item": "Zhonya's Hourglass",
-      "in_core": true
+      "in_core": false,
+      "note": "Objet actif : un seul possible, remplace Chant de guerre de Shurelya."
      },
      {
       "key": "ap",
       "label": "Contre une équipe AP",
       "item": "Banshee's Veil",
-      "in_core": false
+      "in_core": true
      },
      {
       "key": "heal",
@@ -14898,13 +15331,14 @@
       "key": "cc",
       "label": "Contre beaucoup de contrôles",
       "item": "Banshee's Veil",
-      "in_core": false
+      "in_core": true
      },
      {
       "key": "behind",
       "label": "Si tu meurs souvent",
-      "item": "Banshee's Veil",
-      "in_core": false
+      "item": "Zhonya's Hourglass",
+      "in_core": false,
+      "note": "Objet actif : un seul possible, remplace Chant de guerre de Shurelya."
      },
      {
       "key": "ahead",
@@ -14912,7 +15346,12 @@
       "item": "Rabadon's Deathcap",
       "in_core": true
      }
-    ]
+    ],
+    "active": "Shurelya's Battlesong",
+    "notes": {
+     "Zhonya's Hourglass": "Objet actif : un seul possible, remplace Chant de guerre de Shurelya.",
+     "Hextech Rocketbelt": "Objet actif : un seul possible, remplace Chant de guerre de Shurelya."
+    }
    },
    "support": {
     "start": [
@@ -14974,7 +15413,8 @@
       "key": "ad",
       "label": "Contre une équipe AD",
       "item": "Zhonya's Hourglass",
-      "in_core": false
+      "in_core": false,
+      "note": "Objet actif : un seul possible, remplace Chant de guerre de Shurelya."
      },
      {
       "key": "ap",
@@ -14998,7 +15438,8 @@
       "key": "behind",
       "label": "Si tu meurs souvent",
       "item": "Zhonya's Hourglass",
-      "in_core": false
+      "in_core": false,
+      "note": "Objet actif : un seul possible, remplace Chant de guerre de Shurelya."
      },
      {
       "key": "ahead",
@@ -15006,7 +15447,12 @@
       "item": "Rabadon's Deathcap",
       "in_core": false
      }
-    ]
+    ],
+    "active": "Shurelya's Battlesong",
+    "notes": {
+     "Zhonya's Hourglass": "Objet actif : un seul possible, remplace Chant de guerre de Shurelya.",
+     "Hextech Rocketbelt": "Objet actif : un seul possible, remplace Chant de guerre de Shurelya."
+    }
    }
   },
   "velkoz": {
@@ -15110,7 +15556,9 @@
       "item": "Infinity Orb",
       "in_core": true
      }
-    ]
+    ],
+    "active": "",
+    "notes": {}
    },
    "support": {
     "start": [
@@ -15210,7 +15658,9 @@
       "item": "Rabadon's Deathcap",
       "in_core": false
      }
-    ]
+    ],
+    "active": "",
+    "notes": {}
    }
   },
   "vex": {
@@ -15280,7 +15730,8 @@
       "key": "ad",
       "label": "Contre une équipe AD",
       "item": "Zhonya's Hourglass",
-      "in_core": false
+      "in_core": false,
+      "note": "Objet actif : un seul possible, remplace Chant de guerre de Shurelya."
      },
      {
       "key": "ap",
@@ -15304,7 +15755,8 @@
       "key": "behind",
       "label": "Si tu meurs souvent",
       "item": "Zhonya's Hourglass",
-      "in_core": false
+      "in_core": false,
+      "note": "Objet actif : un seul possible, remplace Chant de guerre de Shurelya."
      },
      {
       "key": "ahead",
@@ -15312,7 +15764,12 @@
       "item": "Infinity Orb",
       "in_core": true
      }
-    ]
+    ],
+    "active": "Shurelya's Battlesong",
+    "notes": {
+     "Zhonya's Hourglass": "Objet actif : un seul possible, remplace Chant de guerre de Shurelya.",
+     "Hextech Rocketbelt": "Objet actif : un seul possible, remplace Chant de guerre de Shurelya."
+    }
    }
   },
   "vi": {
@@ -15403,7 +15860,9 @@
      "1",
      "3",
      "2"
-    ]
+    ],
+    "active": "",
+    "notes": {}
    }
   },
   "viego": {
@@ -15508,7 +15967,9 @@
       "item": "Kraken Slayer",
       "in_core": true
      }
-    ]
+    ],
+    "active": "",
+    "notes": {}
    }
   },
   "viktor": {
@@ -15608,7 +16069,9 @@
       "item": "Infinity Orb",
       "in_core": false
      }
-    ]
+    ],
+    "active": "Zhonya's Hourglass",
+    "notes": {}
    }
   },
   "vladimir": {
@@ -15676,7 +16139,8 @@
       "key": "ad",
       "label": "Contre une équipe AD",
       "item": "Zhonya's Hourglass",
-      "in_core": false
+      "in_core": false,
+      "note": "Objet actif : un seul possible, remplace Chant de guerre de Shurelya."
      },
      {
       "key": "ap",
@@ -15712,7 +16176,8 @@
       "key": "behind",
       "label": "Si tu meurs souvent",
       "item": "Zhonya's Hourglass",
-      "in_core": false
+      "in_core": false,
+      "note": "Objet actif : un seul possible, remplace Chant de guerre de Shurelya."
      },
      {
       "key": "ahead",
@@ -15720,7 +16185,11 @@
       "item": "Infinity Orb",
       "in_core": true
      }
-    ]
+    ],
+    "active": "Shurelya's Battlesong",
+    "notes": {
+     "Zhonya's Hourglass": "Objet actif : un seul possible, remplace Chant de guerre de Shurelya."
+    }
    },
    "baron": {
     "start": [
@@ -15734,9 +16203,7 @@
      "Cosmic Drive"
     ],
     "situational": [
-     "Crown of the Shattered Queen",
      "Oceanid's Trident",
-     "Psychic Projector",
      "Liandry's Torment"
     ],
     "boots": "Boots of Mana",
@@ -15793,7 +16260,9 @@
       "item": "Infinity Orb",
       "in_core": true
      }
-    ]
+    ],
+    "active": "",
+    "notes": {}
    }
   },
   "volibear": {
@@ -15882,7 +16351,9 @@
       "item": "Heartsteel",
       "in_core": true
      }
-    ]
+    ],
+    "active": "",
+    "notes": {}
    },
    "jungle": {
     "start": [
@@ -15953,7 +16424,9 @@
       "item": "Thornmail",
       "in_core": true
      }
-    ]
+    ],
+    "active": "",
+    "notes": {}
    }
   },
   "warwick": {
@@ -16053,7 +16526,9 @@
       "item": "Guardian Angel",
       "in_core": false
      }
-    ]
+    ],
+    "active": "",
+    "notes": {}
    }
   },
   "wukong": {
@@ -16149,7 +16624,9 @@
      "1",
      "3",
      "2"
-    ]
+    ],
+    "active": "",
+    "notes": {}
    },
    "jungle": {
     "start": [
@@ -16249,7 +16726,9 @@
      "1",
      "3",
      "2"
-    ]
+    ],
+    "active": "",
+    "notes": {}
    }
   },
   "xayah": {
@@ -16260,12 +16739,11 @@
     "items": [
      "Essence Reaver",
      "Navori Quickblades",
-     "Magnetic Blaster",
      "Bloodthirster",
-     "Mercurial Scimitar"
+     "Mercurial Scimitar",
+     "Lord Dominik's Regards"
     ],
     "situational": [
-     "Lord Dominik's Regards",
      "Mortal Reminder",
      "Infinity Edge",
      "Guardian Angel",
@@ -16316,7 +16794,7 @@
       "key": "tank",
       "label": "Contre des tanks",
       "item": "Lord Dominik's Regards",
-      "in_core": false
+      "in_core": true
      },
      {
       "key": "cc",
@@ -16336,7 +16814,9 @@
       "item": "Infinity Edge",
       "in_core": false
      }
-    ]
+    ],
+    "active": "Mercurial Scimitar",
+    "notes": {}
    }
   },
   "xinzhao": {
@@ -16430,7 +16910,9 @@
       "item": "Sterak's Gage",
       "in_core": false
      }
-    ]
+    ],
+    "active": "",
+    "notes": {}
    }
   },
   "yasuo": {
@@ -16528,7 +17010,9 @@
       "item": "Infinity Edge",
       "in_core": true
      }
-    ]
+    ],
+    "active": "",
+    "notes": {}
    },
    "baron": {
     "start": [
@@ -16622,7 +17106,9 @@
       "item": "Infinity Edge",
       "in_core": false
      }
-    ]
+    ],
+    "active": "Mercurial Scimitar",
+    "notes": {}
    }
   },
   "yone": {
@@ -16730,7 +17216,9 @@
       "item": "Infinity Edge",
       "in_core": true
      }
-    ]
+    ],
+    "active": "",
+    "notes": {}
    },
    "baron": {
     "start": [
@@ -16827,7 +17315,9 @@
       "item": "Infinity Edge",
       "in_core": false
      }
-    ]
+    ],
+    "active": "",
+    "notes": {}
    }
   },
   "yunara": {
@@ -16915,7 +17405,9 @@
       "item": "Infinity Edge",
       "in_core": false
      }
-    ]
+    ],
+    "active": "Mercurial Scimitar",
+    "notes": {}
    }
   },
   "yuumi": {
@@ -16928,11 +17420,11 @@
      "Harmonic Echo",
      "Ardent Censer",
      "Redemption",
-     "Mikael's Blessing"
+     "Staff of Flowing Waters"
     ],
     "situational": [
+     "Mikael's Blessing",
      "Shurelya's Battlesong",
-     "Staff of Flowing Waters",
      "Oceanid's Trident",
      "Knight's Vow",
      "Morellonomicon"
@@ -16988,7 +17480,8 @@
       "key": "cc",
       "label": "Contre beaucoup de contrôles",
       "item": "Mikael's Blessing",
-      "in_core": true
+      "in_core": false,
+      "note": "Objet actif : un seul possible, remplace Rédemption."
      },
      {
       "key": "behind",
@@ -16996,7 +17489,12 @@
       "item": "Knight's Vow",
       "in_core": false
      }
-    ]
+    ],
+    "active": "Redemption",
+    "notes": {
+     "Mikael's Blessing": "Objet actif : un seul possible, remplace Rédemption.",
+     "Shurelya's Battlesong": "Objet actif : un seul possible, remplace Rédemption."
+    }
    }
   },
   "zed": {
@@ -17099,7 +17597,9 @@
       "item": "Duskblade of Draktharr",
       "in_core": false
      }
-    ]
+    ],
+    "active": "",
+    "notes": {}
    },
    "jungle": {
     "start": [
@@ -17198,7 +17698,9 @@
       "item": "Duskblade of Draktharr",
       "in_core": false
      }
-    ]
+    ],
+    "active": "",
+    "notes": {}
    }
   },
   "zeri": {
@@ -17293,7 +17795,9 @@
       "item": "Infinity Edge",
       "in_core": false
      }
-    ]
+    ],
+    "active": "Mercurial Scimitar",
+    "notes": {}
    }
   },
   "ziggs": {
@@ -17407,7 +17911,11 @@
       "item": "Infinity Orb",
       "in_core": true
      }
-    ]
+    ],
+    "active": "Zhonya's Hourglass",
+    "notes": {
+     "Shurelya's Battlesong": "Objet actif : un seul possible, remplace Sablier de Zhonya."
+    }
    }
   },
   "zilean": {
@@ -17423,7 +17931,6 @@
      "Imperial Mandate"
     ],
     "situational": [
-     "Crown of the Shattered Queen",
      "Morellonomicon",
      "Frozen Heart"
     ],
@@ -17477,7 +17984,9 @@
      "1",
      "3",
      "2"
-    ]
+    ],
+    "active": "Redemption",
+    "notes": {}
    }
   },
   "zoe": {
@@ -17580,7 +18089,9 @@
       "item": "Lich Bane",
       "in_core": true
      }
-    ]
+    ],
+    "active": "",
+    "notes": {}
    }
   },
   "zyra": {
@@ -17666,7 +18177,9 @@
       "item": "Rabadon's Deathcap",
       "in_core": true
      }
-    ]
+    ],
+    "active": "",
+    "notes": {}
    },
    "mid": {
     "start": [
@@ -17769,7 +18282,9 @@
       "item": "Rabadon's Deathcap",
       "in_core": true
      }
-    ]
+    ],
+    "active": "Zhonya's Hourglass",
+    "notes": {}
    }
   }
  },
@@ -18975,5 +19490,18 @@
   "Searing Crown": "7.3",
   "Soul Transfer": "7.3"
  },
- "vals_source": "RiftPatchNotes, patch 7.3"
+ "vals_source": "RiftPatchNotes, patch 7.3",
+ "actives": [
+  "Galeforce",
+  "Gargoyle Stoneplate",
+  "Goredrinker",
+  "Hextech Rocketbelt",
+  "Locket of the Iron Solaris",
+  "Mercurial Scimitar",
+  "Mikael's Blessing",
+  "Redemption",
+  "Shurelya's Battlesong",
+  "Stridebreaker",
+  "Zhonya's Hourglass"
+ ]
 }
