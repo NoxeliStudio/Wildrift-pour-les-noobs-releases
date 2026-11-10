@@ -1,0 +1,138 @@
+aatrox|Posture du massacreur|Épée des Darkin|Chaînes infernales|Ruée obscure|Fossoyeur des mondes
+ahri|Vol essentiel|Orbe d'illusion|Lucioles|Charme|Assaut spirituel
+akali|Marque d'assassin|Vague de kunais|Linceul nébuleux|Lancer acrobatique|Maîtrise absolue
+akshan|Fourberie|Vengerang|Cavalier seul|Envolée héroïque|Bien mérité !
+alistar|Cri triomphant|Atomisation|Coup de tête|Piétinement|Volonté de fer
+ambessa|Ruée des chiens-dragons|Frappe fourbe / Frappe fracassante|Égide dévastatrice|Lacération|Exécution publique
+amumu|Toucher maudit|Jet de bandelette|Désespoir|Colère|Malédiction d'Amumu
+annie|Pyromanie|Désintégration|Incinération|Bouclier en fusion|Invocation : Tibbers
+ashe|Tir givrant|Concentration du ranger|Salve|Rapace|Flèche de cristal enchantée
+aurelionsol|Créateur cosmique|Souffle de lumière|Vol astral|Trou noir|Étoile finale / Apocalypse
+aurora|Abjuration spirituelle|Maléfice|Derrière le voile|Sortilège|Entre les mondes
+bard|Instinct du voyageur|Lien cosmique|Don du gardien|Route magique|Destin tempéré
+blitzcrank|Barrière de mana|Grappin propulsé|Surcharge|Poing d'acier|Champ de stase
+brand|Flammes|Brûlure|Colonne de flammes|Conflagration|Pyrolyse
+braum|Coups étourdissants|Morsure de l'hiver|Bouclier humain|Incassable|Fissure glaciale
+chogath|Carnivore|Rupture|Cri sauvage|Piques vorpales|Festin
+corki|Munitions Hextech|Bombe au phosphore|Valkyrie|Gatling|Barrage de projectiles
+darius|Plaie béante|Décimation|Estropiaison|Crampon|Guillotine noxienne
+diana|Lame sélène|Croissant lunaire|Corps célestes|Rush lunaire|Attraction lunaire
+draven|League of Draven|Hache tournoyante|Pulsion sanguinaire|Division|Volée mortelle
+drmundo|Il va où il veut|Scie souillée|Défibrillateur|Contusion|Dosage maximal
+ekko|RéZonance|Rétrobang|Convergence parallèle|Rush déphasé|Chronofracture
+ezreal|Force grandissante|Tir mystique|Flux essentiel|Transfert arcanique|Arc térébrant
+fiddlesticks|Épouvantable épouvantail|Terreur|Moisson fructueuse|Fauchaison|Rafale de corbeaux
+fiora|Danse de la duelliste|Fente|Riposte|Botte secrète|Défi suprême
+fizz|Combattant agile|Frappe de l'oursin|Trident marin|Joueur / Filou|Pêche au gros
+galio|Frappe colossale|Vents de guerre|Bouclier de Durand|Horion de la justice|Entrée héroïque
+garen|Persévérance|Coup décisif|Courage|Jugement|Justice de Demacia
+gnar|Rage génique|Jet de boomerang / Jet de rocher|Agitation / Beigne|Rebond / Aplatissement|GNAR !
+gragas|Tournée|Fût roulant|Rage d'ivrogne|Coup de bidon|Fût explosif
+graves|Nouvelle destinée|Terminus|Écran de fumée|Ruée vers l'or|Dégâts collatéraux
+gwen|Mille coupures|Tchac, tchac !|Brume sacrée|Élan incisif|Piqûre
+hecarim|Galop|Carnage|Essence de la peur|Charge dévastatrice|Légion des ombres
+heimerdinger|Affinité Hextech|Tourelle H-28G Évolution|Micro-roquettes Hextech|Grenade électro-tempête CH-2|AMÉLIORATION !
+irelia|Ferveur ionienne|Rush fatal|Danse de défi|Duo parfait|Pointe de l'avant-garde
+janna|Zéphyr|Vent hurlant|Alizé|Œil du cyclone|Mousson
+jarvaniv|Cadence martiale|Frappe du dragon|Égide dorée|Étendard demacien|Cataclysme
+jayce|Capaciteur Hextech|Direction le ciel ! / Orbe électrique|Champ électrique / Hypercharge|Coup foudroyant / Portail d'accélération|Canon Mercury / Marteau Mercury
+jhin|Murmure|Grenade dansante|Floraison mortelle|Public captif|Rappel de rideau
+jinx|Enthousiasme !|Flip flap !|Zap !|Pyromâcheurs !|Super roquette de la mort !
+kaisa|Seconde peau|Pluie d'Icathia|Rayon du Néant|Surpresseur|Instinct meurtrier
+kalista|Maintien martial|Perforation|Sentinelle|Extirpation|Appel du destin
+karma|Concentration ardente|Flamme intérieure|Volonté concentrée|Exaltation|Mantra
+kassadin|Pierre du Néant|Orbe du Néant|Lame éthérée|Pulsation|Fissure
+katarina|Voracité|Lame rebondissante|Préparation|Shunpo|Lotus mortel
+kayle|Ascension divine|Incandescence|Bénédiction céleste|Lame de feu stellaire|Jugement divin
+kennen|Marque de tempête|Shuriken foudroyant|Surtension|Rush foudroyant|Maelström
+khazix|Menace invisible|Goût de la peur|Pique du Néant|Bond|Assaut du Néant
+kindred|Marque de Kindred|Danse des flèches|Frénésie de Loup|Terreur mortelle|Repos d'Agneau
+kogmaw|Surprise d'Icathia|Bave caustique|Barrage bio-arcanique|Limon du Néant|Artillerie vivante
+ksante|Instinct intrépide|Coups de ntofo|Pour Nazumah !|Jeu de jambes|Grand jeu
+leesin|Rafale|Onde sonore / Coup résonant|Rempart / Force d'âme|Trombe / Fracture|Rage du dragon
+leona|Rayon de soleil|Bouclier de l'aube|Éclipse|Lame du zénith|Éruption solaire
+lissandra|Emprise de la Sublimée|Éclat de glace|Cercle de givre|Chemin glacial|Tombeau polaire
+lucian|Pistolero|Lumière perforante|Flamboiement|Poursuite inlassable|Déluge de balles
+lulu|Pix, le Compagnon féérique|Duo éclatant|Fantaisie|Pix à la rescousse !|Croissance prodigieuse
+lux|Illumination|Entrave de lumière|Barrière prismatique|Anomalie radieuse|Éclat final
+malphite|Bouclier de granit|Éclat sismique|Coup de tonnerre|Choc au sol|Force indomptable
+maokai|Sève magique|Coup de ronces|Croissance torturée|Jet d'arbrisseau|Emprise de la nature
+masteryi|Coup double|Assaut éclair|Méditation|Style Wuju|Highlander
+milio|Tout feu tout flamme|Ultra méga boule de feu|Feu de camp|Chaud devant !|Flammes vitales
+missfortune|Cœur volage|Doublé|Fanfaronne|Pluie de balles|Barrage de plomb
+wukong|Peau de pierre|Écrasement|Guerrier espiègle|Nimbus|Cyclone
+mordekaiser|Vortex de ténèbres|Oblitération|Indestructible|Emprise funeste|Royaume des morts
+morgana|Siphon d'âme|Entrave sombre|Tourment ténébreux|Bouclier noir|Chaînes spirituelles
+nami|Déferlantes|Prison aqueuse|Flux et reflux|Bénédiction de l'Aquamancienne|Raz-de-marée
+nasus|Mangeur d'âmes|Buveuse d'âmes|Flétrissement|Esprit enflammé|Fureur des sables
+nautilus|Coup écrasant|Abordage|Colère du titan|Répliques|Grenade ASM
+nidalee|Prédateur|Javelot / Mise à terre|Guérilla / Bond|Charge primale / Taillade|Aspect du Couguar
+nilah|Joie éternelle|Lame fluide|Voile de liesse|Torrent|Apothéose
+nunuwillump|Appel de Freljord|Voracité|Boule de neige géante !|Rafale de boules de neige|Zéro absolu
+olaf|Rage du berzerker|Déchireuse|Force décuplée|Frappe sauvage|Ragnarok
+orianna|Remontoir|Ordre : Attaque|Ordre : Dissonance|Ordre : Protection|Ordre : Onde de choc
+ornn|Forgeron ambulant|Fracture magmatique|Fournaise|Ruée ardente|Appel du dieu de la forge
+pantheon|Ardeur mortelle|Lance astrale|Assaut martial|Égide impénétrable|Météore
+poppy|Ambassadrice de fer|Commotion|Présence immuable|Charge héroïque|Verdict de la gardienne
+pyke|Don des noyés|Harponnage|Plongée spectrale|Ressac fantôme|Exécution abyssale
+rakan|Plumes enchantées|Rémige rayonnante|Entrée triomphale|Valse guerrière|Danse ultime
+rammus|Carapace cloutée|Démolisseur|Boule défensive|Provocation frénétique|Frappe ascendante
+rell|Mise en pièces|Frappe dislocatrice|Ferromancie : Descendre en piqué|Joute endiablée|Tempête magnétique
+renekton|Règne de la colère|Destruction des faibles|Prédateur impitoyable|Tranche et coupe|Dominus
+rengar|Prédateur invisible|Esprit sauvage|Rugissement|Bolas|Chasseur-né
+riven|Lame runique|Ailes brisées|Décharge de ki|Bravoure|Lame de l'exilée
+rumble|Titan de bric-à-brac|Lance-flammes|Bouclier recyclé|Harpon électrique|Éradication
+ryze|Maîtrise des arcanes|Court-circuit|Prison runique|Flux envoûtant|Portail transdimensionnel
+samira|Élan téméraire|Panache|Tourbillon de lame|Charge sauvage|Gâchette infernale
+senna|Absolution|Ombre perforante|Dernière étreinte|Malédiction de la Brume noire|Ténèbres aveuglantes
+seraphine|Présence sur scène|Note aiguë|Son ambiophonique|Battement|Bis
+sett|Roi de l'arène|Rogne|Coup cathartique|Casse-tête|Le Clou du spectacle
+shen|Barrière de ki|Assaut crépusculaire|Refuge spirituel|Rush des ombres|Soutien indéfectible
+shyvana|Fureur d'enfant de dragon|Morsure double|Combustion|Souffle de flammes|Vol du dragon
+singed|Sillage toxique|Piste empoisonnée|Attrape-mouche|Projection|Potion de démence
+sion|Gloire posthume|Fracas meurtrier|Feu intérieur|Cri du tueur|Assaut inarrêtable
+sivir|Mille-pattes|Lame boomerang|Ricochet|Bouclier magique|En chasse
+skarner|Échos des vibrations|Terre brisée / Soulèvement|Bastion sismique|Impact d'Ixtal|Empalement
+smolder|Dragon en herbe|Boule de feu draconique|Atchoum !|Flap, flap, flap !|MAMAAAN !
+sona|Accord de puissance|Hymne à la bravoure|Aria de persévérance|Mélodie de vélocité|Crescendo
+soraka|Salut|Appel de l'étoile|Infusion astrale|Équinoxe|Souhait
+swain|Nuée de corbeaux|Poigne mortifère|Œil de l'empire|Capture|Incarnation démoniaque
+syndra|Transcendance|Sphère noire|Force de la volonté|Dispersion des faibles|Déchaînement de puissance
+taliyah|Surf tellurique|Rafale filée|Poussée sismique|Défilage tellurique|Mur de la tisseuse
+talon|Saignée fatale|Diplomatie noxienne|Ratissage|Voie de l'assassin|Assaut ténébreux
+thresh|Damnation|Peine capitale|Lien des ténèbres|Fauchage|La cage
+tristana|Tir de précision|Tir rapide|Saut roquette|Charge explosive|Tir à impact
+tryndamere|Vague de violence|Soif de sang|Moquerie|Balafre|Rage inépuisable
+twistedfate|Dé pipé|Atouts|Bonne pioche|Paquet|Destinée
+twitch|Venin mortel|Embuscade|Dose de venin|Contamination|Panique
+urgot|Flammes purificatrices|Torpille corrosive|Géhenne|Mépris|Règne de la terreur
+varus|Vengeance incarnée|Flèche perforante|Carquois meurtri|Pluie de flèches|Chaîne corruptrice
+vayne|Chasseresse nocturne|Roulade|Carreaux d'argent|Condamnation|Combat ultime
+veigar|Pouvoir maléfique phénoménal|Coup malin|Matière noire|Profanation|Explosion primordiale
+velkoz|Décomposition organique|Fission du plasma|Ouverture de faille|Dislocation tectonique|Désintégrateur de formes de vie
+vex|Malheur et Désespoir|Mistral perdant|Lâchez-moi !|Ténèbres imminentes|Déferlement d'Ombre
+vi|Bouclier antichoc|Brise-coffre|Coups fracassants|Force implacable|Mise en demeure
+viego|Assujettissement|Lame du roi déchu|Gueule spectrale|Chemin tourmenté|Cœur brisé
+viktor|Glorieuse évolution|Siphonnage|Champ gravitationnel|Rayon Hextech|Tempête arcanique
+vladimir|Pacte de sang|Transfusion|Bain de sang|Vagues de sang|Peste sanguine
+volibear|Tempête impitoyable|Coup fulgurant|Folie mutilatrice|Foudroiement|Tempête incarnée
+warwick|Soif inextinguible|Dents de la bête|Traque sanguinaire|Hurlement bestial|Contrainte infinie
+xayah|Plumes perçantes|Dagues jumelles|Plumage mortel|Appel des lames|Rafale de plumes
+xinzhao|Détermination|Frappe des trois serres|Vent et foudre|Charge audacieuse|Garde circulaire
+yasuo|Voie du vagabond|Tempête d'acier|Mur de vent|Cercle tranchant|Dernier soupir
+yone|Voie du chasseur|Acier mortel|Fendoir spirituel|Libération spirituelle|Destin scellé
+yuumi|Chat-maraderie|Tête chat-sseuse|Félin pour l'autre !|Zouuu !|Chat-pitre final
+zed|Mépris des faibles|Shuriken-rasoir|Ombre vivante|Taillade des ombres|Marque de la mort
+zeri|Batterie vivante|Rafale|Laser électrocuteur|Charge ionique|Éruption électrique
+ziggs|Mèche courte|Bombe rebondissante|Charge explosive|Mines Hexplosives|Méga bombe infernale
+zilean|Temps dans une bouteille|Bombe à retardement|Retour rapide|Distorsion temporelle|Retour temporel
+zoe|Plus d'étincelles !|Astro-pong !|Voleuse de sorts|Bulle soporifique|Bond dimensionnel
+zyra|Jardin de ronces|Épines funestes|Croissance incontrôlée|Racines fixatrices|Ronces étrangleuses
+caitlyn|Tir dans la tête|Pacificateur de Piltover|Piège-yordle|Filet de calibre 90|Tir chirurgical
+camille|Protection modulable|Protocole de précision|Balayage tactique|Grappin|Ultimatum Hextech
+evelynn|Ombre démoniaque|Piques de haine|Séduction|Coup de fouet|Faiseuse de veuves
+jax|Acharnement|Frappe bondissante|Élargissement|Contre-attaque|Maître d'armes
+kayn|Faux des Darkin|Moisson cruelle|Entaille sombre|Passe-muraille|Intrusion obscure
+lillia|Bâton chargé de rêves|Frappe fleurie|Attention, désolée !|Graine tournoyante|Douce berceuse
+nocturne|Lames d'ombre|Crépuscule|Linceul des ténèbres|Horreur indicible|Paranoïa
+teemo|Guérilla|Fléchette aveuglante|Vélocité|Tir toxique|Piège nocif

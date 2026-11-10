@@ -1,0 +1,60 @@
+{
+ "fr": {
+  "Stormsurge": "Onde orageuse",
+  "Stormrazor": "Lame tempête",
+  "Statikk Shiv": "Poignard de Statikk",
+  "Rapid Firecannon": "Canon ultrarapide",
+  "Fimbulwinter": "Fimbulvetr",
+  "Yun Tal Wildarrows": "Flèches des Yun Tal",
+  "Echoes of Helia": "Échos d'Helia",
+  "Diadem of Songs": "Diadème des chants",
+  "Fiendhunter Bolts": "Carreaux du chasseur de démons"
+ },
+ "vals": {
+  "Stormsurge": {
+   "cout": 2800,
+   "stats": "90 puissance, 15 pénétration magique, 6 % vitesse",
+   "effet": "Infliger 25 % des PV max d'un champion en 2,5 s déclenche une bourrasque (125 +10 % puissance après 2 s) et +25 % de vitesse. Recharge 25 s. Si la cible meurt avant : dégâts autour et 25 or."
+  },
+  "Stormrazor": {
+   "cout": 3000,
+   "stats": "50 DA, 25 % critique, 20 % vitesse d'attaque",
+   "effet": "Se déplacer et attaquer charge une attaque énergisée : 100 dégâts magiques bonus et +35 % de vitesse pendant 1,5 s."
+  },
+  "Diadem of Songs": {
+   "cout": null,
+   "stats": "200 PV, 1200 mana, 50 régén. de mana, +6 % soins et boucliers",
+   "effet": "Soins et boucliers renforcés selon le mana max ; rembourse 25 % du mana dépensé. En combat, soigne chaque seconde l'allié le plus blessé (0,8 % du mana max)."
+  },
+  "Echoes of Helia": {
+   "cout": 2400,
+   "stats": "200 PV, 40 PA, 20 accélération, 50 régén. de mana",
+   "effet": "30 % des dégâts infligés aux champions sont stockés en fragments d'âme ; soigner ou protéger un allié les consomme en soins."
+  },
+  "Fiendhunter Bolts": {
+   "cout": 2650,
+   "stats": "45 % vitesse d'attaque, 25 % critique, 4 % vitesse",
+   "effet": "+20 accélération d'ultime. Après ton ultime, tes 3 prochaines attaques gagnent 50 % de vitesse d'attaque et sont critiques (85 % des dégâts critiques). Recharge 45 s."
+  },
+  "Fimbulwinter": {
+   "cout": 2600,
+   "stats": "500 PV, 1200 mana, 15 accélération",
+   "effet": "+15 % du mana max en PV ; rembourse 15 % du mana dépensé. Ralentir ou immobiliser un ennemi donne un bouclier (120 + 4,5 % du mana max), +80 % contre plusieurs ennemis."
+  },
+  "Rapid Firecannon": {
+   "cout": 2650,
+   "stats": "40 % vitesse d'attaque, 25 % critique, 4 % vitesse",
+   "effet": "Se déplacer et attaquer charge une attaque énergisée : 80 dégâts magiques bonus et +35 % de portée (max +150)."
+  },
+  "Statikk Shiv": {
+   "cout": 2900,
+   "stats": "40 DA, 40 PA, 30 % vitesse d'attaque, 4 % vitesse",
+   "effet": "Attaque énergisée : éclair qui rebondit sur 3 à 6 cibles, 60 dégâts magiques (90 contre sbires et monstres)."
+  },
+  "Yun Tal Wildarrows": {
+   "cout": 3000,
+   "stats": "50 DA, 35 % vitesse d'attaque",
+   "effet": "Chaque attaque donne +0,4 % (mêlée) ou +0,2 % (distance) de critique, jusqu'à 25 %. Attaquer un champion : +35 % vitesse d'attaque 6 s (recharge 25 s)."
+  }
+ }
+}
