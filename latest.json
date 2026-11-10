@@ -1,5 +1,5 @@
 {
-  "version": "1.16",
-  "apk": "apk/Wildrift_pour_les_noobs-1.16.apk",
-  "notes": "Fiche cohérente avec la lane choisie : si un champion n'a pas de build pour cette lane, son build principal est adapté (Châtiment en jungle…) et c'est indiqué clairement."
+  "version": "1.17",
+  "apk": "apk/Wildrift_pour_les_noobs-1.17.apk",
+  "notes": "Barre du haut avec le nom du champion quand on fait défiler la fiche : le bouton retour ne cache plus rien."
 }
