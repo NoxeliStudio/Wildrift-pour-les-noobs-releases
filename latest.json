@@ -1,5 +1,5 @@
 {
-  "version": "1.11",
-  "apk": "apk/Wildrift_pour_les_noobs-1.11.apk",
-  "notes": "Un seul objet actif par build, objets retirés remplacés, bottes et améliorations clarifiées."
+  "version": "1.12",
+  "apk": "apk/Wildrift_pour_les_noobs-1.12.apk",
+  "notes": "Autorisation d installation corrigée : les mises à jour peuvent enfin s installer depuis l appli."
 }
