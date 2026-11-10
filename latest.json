@@ -1,5 +1,5 @@
 {
-  "version": "1.12",
-  "apk": "apk/Wildrift_pour_les_noobs-1.12.apk",
-  "notes": "Autorisation d installation corrigée : les mises à jour peuvent enfin s installer depuis l appli."
+  "version": "1.13",
+  "apk": "apk/Wildrift_pour_les_noobs-1.13.apk",
+  "notes": "Section Compétences (passif + touches 1 à 4 avec effets), builds méta Diamant+ du serveur chinois avec winrate, actualisation automatique toutes les heures."
 }
