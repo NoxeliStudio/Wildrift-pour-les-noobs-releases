@@ -8,7 +8,8 @@
   "Yun Tal Wildarrows": "Flèches des Yun Tal",
   "Echoes of Helia": "Échos d'Helia",
   "Diadem of Songs": "Diadème des chants",
-  "Fiendhunter Bolts": "Carreaux du chasseur de démons"
+  "Fiendhunter Bolts": "Carreaux du chasseur de démons",
+  "Whispering Circlet": "Diadème murmurant"
  },
  "vals": {
   "Stormsurge": {
@@ -55,6 +56,11 @@
    "cout": 3000,
    "stats": "50 DA, 35 % vitesse d'attaque",
    "effet": "Chaque attaque donne +0,4 % (mêlée) ou +0,2 % (distance) de critique, jusqu'à 25 %. Attaquer un champion : +35 % vitesse d'attaque 6 s (recharge 25 s)."
+  },
+  "Whispering Circlet": {
+   "cout": 2400,
+   "stats": "200 PV, 500 mana, 50 régén. de mana, 6 % puissance de soin et de bouclier",
+   "effet": "Harmonie : +0,25 % du mana max en puissance de soin et de bouclier ; rembourse 25 % du mana dépensé. Charge de mana : dépenser du mana donne jusqu'à 700 mana max, puis se transforme en Diadème des chants."
   }
  },
  "icon_fix": {
@@ -69,6 +75,7 @@
   "Stormrazor": "https://www.riftpatchnotes.com/items/stormrazor.png",
   "Ixtali Seedjar": "https://www.riftpatchnotes.com/runes/ixtali-seedjar.png",
   "Legend: Haste": "https://ddragon.leagueoflegends.com/cdn/img/perk-images/Styles/Precision/LegendHaste/LegendHaste.png",
-  "Relentless Hunter": "https://ddragon.leagueoflegends.com/cdn/img/perk-images/Styles/Domination/RelentlessHunter/RelentlessHunter.png"
+  "Relentless Hunter": "https://ddragon.leagueoflegends.com/cdn/img/perk-images/Styles/Domination/RelentlessHunter/RelentlessHunter.png",
+  "Whispering Circlet": "https://www.riftpatchnotes.com/items/whispering-circlet.png"
  }
 }

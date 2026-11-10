@@ -16,7 +16,8 @@ for k, c in d['champions'].items():
         if b.get('meta') and (len(ru) != 5 or ru[0] not in KEYSTONES): bad.append((k, ln, 'runes', ru))
 G = [{'Bulwark of the Mountain', 'Black Mist Scythe'}, {"Lord Dominik's Regards", "Serylda's Grudge", 'Mortal Reminder', 'Black Cleaver'},
      {'Trinity Force', 'Divine Sunderer', 'Essence Reaver', 'Iceborn Gauntlet', 'Lich Bane'}, {'Maw of Malmortius', "Sterak's Gage"},
-     {'Muramana', "Seraph's Embrace", 'Fimbulwinter', 'Manamune', "Archangel's Staff", "Winter's Approach"},
+     {'Muramana', "Seraph's Embrace", 'Fimbulwinter', 'Manamune', "Archangel's Staff", "Winter's Approach", 'Diadem of Songs', 'Whispering Circlet'},
+     {'Maw of Malmortius', "Sterak's Gage", "Seraph's Embrace"},
      {'Ravenous Hydra', 'Titanic Hydra', 'Profane Hydra'}]
 for k, c in d['champions'].items():
     for ln, b in c.items():

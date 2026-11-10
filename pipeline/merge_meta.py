@@ -50,8 +50,9 @@ GROUPS = {
     'support': {'Bulwark of the Mountain', 'Black Mist Scythe'},
     'antiarmor': {"Lord Dominik's Regards", "Serylda's Grudge", 'Mortal Reminder', 'Black Cleaver'},
     'spellblade': {'Trinity Force', 'Divine Sunderer', 'Essence Reaver', 'Iceborn Gauntlet', 'Lich Bane'},
-    'lifeline': {'Maw of Malmortius', "Sterak's Gage"},
-    'mana': {'Muramana', "Seraph's Embrace", 'Fimbulwinter', 'Manamune', "Archangel's Staff", "Winter's Approach"},
+    'lifeline': {'Maw of Malmortius', "Sterak's Gage", "Seraph's Embrace"},
+    'mana': {'Muramana', "Seraph's Embrace", 'Fimbulwinter', 'Manamune', "Archangel's Staff", "Winter's Approach",
+             'Diadem of Songs', 'Whispering Circlet'},
     'hydra': {'Ravenous Hydra', 'Titanic Hydra', 'Profane Hydra'},
 }
 SUPPORT_START = {'Bulwark of the Mountain': 'Relic Shield', 'Black Mist Scythe': 'Spectral Sickle'}
@@ -63,15 +64,19 @@ def group_of(i):
     return next((g for g, items in GROUPS.items() if i in items), None)
 
 
+def groups_of(i):
+    return {g for g, items in GROUPS.items() if i in items}
+
+
 def conflict(i, items):
     """Objet de `items` incompatible avec `i` (même actif, même effet unique), sinon None."""
     if i in ACTIVES:
         a = next((x for x in items if x != i and x in ACTIVES), None)
         if a:
             return a
-    g = group_of(i)
-    if g:
-        return next((x for x in items if x != i and group_of(x) == g), None)
+    gs = groups_of(i)
+    if gs:
+        return next((x for x in items if x != i and gs & groups_of(x)), None)
     return None
 
 
