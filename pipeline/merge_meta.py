@@ -91,12 +91,20 @@ def coherence(b, best_core):
     items = []
     keep = 3 if b.get('meta') else 0  # le cœur de la source chinoise est gardé tel quel
     for i in b.get('items', []):
-        if i not in items and i not in REMOVED and (len(items) < keep or not conflict(i, items)):
-            items.append(i)
+        if i in items or i in REMOVED or (len(items) >= keep and conflict(i, items)):
+            continue
+        # Au-delà du cœur, un objet actif est un choix de situation : il va dans les options
+        if len(items) >= 3 and i in ACTIVES and i not in best_core:
+            continue
+        items.append(i)
     for i in list(b.pop('_base_items', [])) + list(best_core) + list(b.get('situational', [])):
         if len(items) >= 5:
             break
         if i in items or i in REMOVED or i in BOOTS or not known(i) or conflict(i, items):
+            continue
+        # Un objet actif est un choix de situation : on ne l'ajoute pas en complément
+        # d'un cœur chinois, sauf s'il vient de la variante chinoise ; il reste dans les options.
+        if i in ACTIVES and i not in best_core:
             continue
         items.append(i)
     b['items'] = items
@@ -131,10 +139,16 @@ def active_logic(b):
             notes[i] = 'Même effet unique que %s : remplace-le plutôt que de cumuler.' % fr(c)
     b['notes'] = notes
     ad = adapt(b['items'], b.get('situational', []))
+    merged = []
     for a in ad:
         if a['item'] in notes:
             a['note'] = notes[a['item']]
-    b['adapt'] = ad
+        same = next((m for m in merged if m['item'] == a['item']), None)
+        if same:  # même objet pour deux situations : une seule ligne
+            same['label'] = same['label'] + ' · ' + a['label'][:1].lower() + a['label'][1:]
+        else:
+            merged.append(a)
+    b['adapt'] = merged
 
 
 KNOWN = set(d['fr']) | set(d['vals']) | set(d.get('desc', {})) | BOOTS
