@@ -45,15 +45,90 @@ def fr(n):
     return d['fr'].get(n, n)
 
 
+# Objets qui ne se combinent pas : même effet unique (ou un seul objet de soutien).
+GROUPS = {
+    'support': {'Bulwark of the Mountain', 'Black Mist Scythe'},
+    'lastwhisper': {"Lord Dominik's Regards", "Serylda's Grudge", 'Mortal Reminder'},
+    'spellblade': {'Trinity Force', 'Divine Sunderer', 'Essence Reaver', 'Iceborn Gauntlet', 'Lich Bane'},
+    'lifeline': {'Maw of Malmortius', "Sterak's Gage"},
+}
+SUPPORT_START = {'Bulwark of the Mountain': 'Relic Shield', 'Black Mist Scythe': 'Spectral Sickle'}
+STARTER = {'ad': 'Long Sword', 'ap': 'Amplifying Tome', 'tank': 'Ruby Crystal'}
+START_CLASS = {'Long Sword': 'ad', 'Dagger': 'ad', 'Amplifying Tome': 'ap', 'Ruby Crystal': 'tank'}
+
+
+def group_of(i):
+    return next((g for g, items in GROUPS.items() if i in items), None)
+
+
+def conflict(i, items):
+    """Objet de `items` incompatible avec `i` (même actif, même effet unique), sinon None."""
+    if i in ACTIVES:
+        a = next((x for x in items if x != i and x in ACTIVES), None)
+        if a:
+            return a
+    g = group_of(i)
+    if g:
+        return next((x for x in items if x != i and group_of(x) == g), None)
+    return None
+
+
+def item_class(i):
+    st = str(d['vals'].get(i, {}).get('stats', ''))
+    ad = "dégâts d'attaque" in st or re.search(r'\bDA\b', st)
+    ap = 'puissance' in st or re.search(r'\bPA\b', st)
+    if ad and not ap:
+        return 'ad'
+    if ap and not ad:
+        return 'ap'
+    if not ad and not ap:
+        return 'tank'
+    return 'hybrid'
+
+
+def coherence(b, best_core):
+    """Build cohérent : 5 objets sans doublon d'effet, objet de départ assorti, notes sur les options."""
+    items = []
+    keep = 3 if b.get('meta') else 0  # le cœur de la source chinoise est gardé tel quel
+    for i in b.get('items', []):
+        if i not in items and i not in REMOVED and (len(items) < keep or not conflict(i, items)):
+            items.append(i)
+    for i in list(b.pop('_base_items', [])) + list(best_core) + list(b.get('situational', [])):
+        if len(items) >= 5:
+            break
+        if i in items or i in REMOVED or i in BOOTS or not known(i) or conflict(i, items):
+            continue
+        items.append(i)
+    b['items'] = items
+    sup = next((i for i in items if i in SUPPORT_START), None)
+    situ = [i for i in b.get('situational', []) if i not in items and i not in REMOVED and group_of(i) != 'support']
+    b['situational'] = situ
+    if sup:
+        b['start'] = [SUPPORT_START[sup]]
+    elif items:
+        # Départ assorti au build : on ne corrige que les contresens nets (objet AD pour un build AP, etc.)
+        classes = [item_class(i) for i in items[:3]]
+        ad, ap = classes.count('ad'), classes.count('ap')
+        want = 'ad' if ad >= 2 and ap == 0 else 'ap' if ap >= 2 and ad == 0 else 'tank'
+        start = b.get('start', [])
+        if not start:
+            b['start'] = [STARTER[want]]
+        elif START_CLASS.get(start[0]) in ('ad', 'ap') and want in ('ad', 'ap') and START_CLASS[start[0]] != want:
+            b['start'] = [STARTER[want]]
+    active_logic(b)
+
+
 def active_logic(b):
-    """Un seul objet actif par joueur : notes sur les options qui en remplaceraient un autre."""
+    """Un seul objet actif, pas deux effets uniques identiques : notes sur les options concernées."""
     active = next((i for i in b['items'] if i in ACTIVES), None)
     b['active'] = active
     notes = {}
-    if active:
-        for i in b.get('situational', []):
-            if i in ACTIVES and i != active:
-                notes[i] = 'Objet actif : un seul possible, remplace %s.' % fr(active)
+    for i in b.get('situational', []):
+        c = conflict(i, b['items'])
+        if c and i in ACTIVES and c in ACTIVES:
+            notes[i] = 'Objet actif : un seul possible, remplace %s.' % fr(c)
+        elif c:
+            notes[i] = 'Même effet unique que %s : remplace-le plutôt que de cumuler.' % fr(c)
     b['notes'] = notes
     ad = adapt(b['items'], b.get('situational', []))
     for a in ad:
@@ -77,18 +152,9 @@ def merge(b, cn):
     core = [i for i in cn.get('core', []) if i and known(i)]
     if len(core) < 2:
         return False
-    has_active = any(i in ACTIVES for i in core)
-    items = list(core)
-    for i in b.get('items', []):
-        if len(items) >= 5:
-            break
-        if i in items or i in REMOVED or i in BOOTS:
-            continue
-        if i in ACTIVES and (has_active or any(x in ACTIVES for x in items)):
-            continue
-        items.append(i)
-    b['items'] = items
-    b['situational'] = [i for i in b.get('situational', []) if i not in items]
+    b['_base_items'] = list(b.get('items', []))
+    b['items'] = list(core)
+    b['situational'] = [i for i in b.get('situational', []) if i not in b['items']]
     boots = (cn.get('boots') or '').strip()
     if boots and known(boots):
         if boots != b.get('boots'):
@@ -106,7 +172,6 @@ def merge(b, cn):
     if len(spells) == 2:
         b['spells'] = spells
     b['meta'] = {'src': 'Diamant+ (serveur chinois)', 'wr': num(cn.get('wr')), 'pr': num(cn.get('pr'))}
-    active_logic(b)
     return True
 
 
@@ -164,6 +229,23 @@ for k, r in seen.items():
                 b['meta']['best'] = {'core': bc, 'wr': num(best.get('wr')), 'pr': num(best.get('pr'))}
     if not champ:
         del d['champions'][k]
+
+# Règles de cohérence sur toutes les builds (objets, départ, sorts, bottes, notes)
+for champ in d['champions'].values():
+    for ln, b in champ.items():
+        coherence(b, b.get('meta', {}).get('best', {}).get('core', []))
+        sp = list(b.get('spells', []))
+        if ln == 'jungle' and sp and 'Smite' not in sp:
+            sp[-1 if sp[-1] != 'Flash' else 0] = 'Smite'
+        if ln != 'jungle' and 'Smite' in sp:
+            sp[sp.index('Smite')] = 'Ignite'
+        b['spells'] = sp
+        if not b.get('boots'):
+            other = next((x.get('boots') for x in champ.values() if x.get('boots')), '')
+            if not other:
+                cls = [item_class(i) for i in b['items'][:3]]
+                other = 'Ionian Boots of Lucidity' if cls.count('ap') >= 2 else "Berserker's Greaves" if ln == 'dragon' else 'Plated Steelcaps'
+            b['boots'] = other
 
 d['abilities'] = abilities
 # Identifiants Data Dragon (Riot) : icônes, noms et descriptions officiels en français.

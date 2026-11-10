@@ -56,5 +56,16 @@
    "stats": "50 DA, 35 % vitesse d'attaque",
    "effet": "Chaque attaque donne +0,4 % (mêlée) ou +0,2 % (distance) de critique, jusqu'à 25 %. Attaquer un champion : +35 % vitesse d'attaque 6 s (recharge 25 s)."
   }
+ },
+ "icon_fix": {
+  "Diadem of Songs": "https://www.riftpatchnotes.com/items/diadem-of-songs.png",
+  "Echoes of Helia": "https://www.riftpatchnotes.com/items/echoes-of-helia.png",
+  "Fiendhunter Bolts": "https://www.riftpatchnotes.com/items/fiendhunter-bolts.png",
+  "Fimbulwinter": "https://www.riftpatchnotes.com/items/fimbulwinter.png",
+  "Rapid Firecannon": "https://www.riftpatchnotes.com/items/rapid-firecannon.png",
+  "Statikk Shiv": "https://www.riftpatchnotes.com/items/statikk-shiv.png",
+  "Yun Tal Wildarrows": "https://www.riftpatchnotes.com/items/yun-tal-wildarrows.png",
+  "Stormsurge": "https://www.riftpatchnotes.com/items/stormsurge.png",
+  "Stormrazor": "https://www.riftpatchnotes.com/items/stormrazor.png"
  }
 }
