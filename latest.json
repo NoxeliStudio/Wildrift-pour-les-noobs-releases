@@ -1,5 +1,5 @@
 {
-  "version": "1.14",
-  "apk": "apk/Wildrift_pour_les_noobs-1.14.apk",
-  "notes": "Nouveau design (bannière du champion, onglets Build / Compétences / Stats), icônes et textes officiels des compétences en français."
+  "version": "1.15",
+  "apk": "apk/Wildrift_pour_les_noobs-1.15.apk",
+  "notes": "Défilement fluide partout dans les fiches, icônes d'objets manquantes corrigées, plus de sauts d'écran pendant les actualisations."
 }
