@@ -166,6 +166,13 @@ for k, r in seen.items():
         del d['champions'][k]
 
 d['abilities'] = abilities
+# Identifiants Data Dragon (Riot) : icônes, noms et descriptions officiels en français.
+DD_FIX = {'aurelionsol': 'AurelionSol', 'chogath': 'Chogath', 'drmundo': 'DrMundo', 'jarvaniv': 'JarvanIV',
+          'kaisa': 'Kaisa', 'khazix': 'Khazix', 'kogmaw': 'KogMaw', 'ksante': 'KSante', 'leblanc': 'Leblanc',
+          'leesin': 'LeeSin', 'masteryi': 'MasterYi', 'missfortune': 'MissFortune', 'nunuwillump': 'Nunu',
+          'tahmkench': 'TahmKench', 'twistedfate': 'TwistedFate', 'velkoz': 'Velkoz', 'wukong': 'MonkeyKing',
+          'xinzhao': 'XinZhao', 'reksai': 'RekSai', 'belveth': 'Belveth', 'norra': ''}
+d['dd_ids'] = {k: DD_FIX.get(k, k[:1].upper() + k[1:]) for k in d['slugs']}
 if meta_date:
     d['meta_updated'] = meta_date
     d['updated'] = meta_date
