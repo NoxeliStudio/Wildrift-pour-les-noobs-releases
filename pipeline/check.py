@@ -14,13 +14,15 @@ for k, c in d['champions'].items():
         if len(set(it)) != len(it): bad.append((k, ln, 'doublon'))
         ru = b.get('runes', [])
         if b.get('meta') and (len(ru) != 5 or ru[0] not in KEYSTONES): bad.append((k, ln, 'runes', ru))
-G = [{'Bulwark of the Mountain', 'Black Mist Scythe'}, {"Lord Dominik's Regards", "Serylda's Grudge", 'Mortal Reminder'},
-     {'Trinity Force', 'Divine Sunderer', 'Essence Reaver', 'Iceborn Gauntlet', 'Lich Bane'}, {'Maw of Malmortius', "Sterak's Gage"}]
+G = [{'Bulwark of the Mountain', 'Black Mist Scythe'}, {"Lord Dominik's Regards", "Serylda's Grudge", 'Mortal Reminder', 'Black Cleaver'},
+     {'Trinity Force', 'Divine Sunderer', 'Essence Reaver', 'Iceborn Gauntlet', 'Lich Bane'}, {'Maw of Malmortius', "Sterak's Gage"},
+     {'Muramana', "Seraph's Embrace", 'Fimbulwinter', 'Manamune', "Archangel's Staff", "Winter's Approach"},
+     {'Ravenous Hydra', 'Titanic Hydra', 'Profane Hydra'}]
 for k, c in d['champions'].items():
     for ln, b in c.items():
         it = b.get('items', [])
         if len(it) < 5: bad.append((k, ln, 'moins de 5 objets'))
-        if not b.get('meta'):
+        if True:
             for g in G:
                 if len(g & set(it)) > 1: bad.append((k, ln, 'même effet unique', sorted(g & set(it))))
         sp = b.get('spells', [])

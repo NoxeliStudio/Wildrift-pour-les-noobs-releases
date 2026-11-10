@@ -48,9 +48,11 @@ def fr(n):
 # Objets qui ne se combinent pas : même effet unique (ou un seul objet de soutien).
 GROUPS = {
     'support': {'Bulwark of the Mountain', 'Black Mist Scythe'},
-    'lastwhisper': {"Lord Dominik's Regards", "Serylda's Grudge", 'Mortal Reminder'},
+    'antiarmor': {"Lord Dominik's Regards", "Serylda's Grudge", 'Mortal Reminder', 'Black Cleaver'},
     'spellblade': {'Trinity Force', 'Divine Sunderer', 'Essence Reaver', 'Iceborn Gauntlet', 'Lich Bane'},
     'lifeline': {'Maw of Malmortius', "Sterak's Gage"},
+    'mana': {'Muramana', "Seraph's Embrace", 'Fimbulwinter', 'Manamune', "Archangel's Staff", "Winter's Approach"},
+    'hydra': {'Ravenous Hydra', 'Titanic Hydra', 'Profane Hydra'},
 }
 SUPPORT_START = {'Bulwark of the Mountain': 'Relic Shield', 'Black Mist Scythe': 'Spectral Sickle'}
 STARTER = {'ad': 'Long Sword', 'ap': 'Amplifying Tome', 'tank': 'Ruby Crystal'}
