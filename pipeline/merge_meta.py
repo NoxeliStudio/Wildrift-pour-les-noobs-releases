@@ -268,6 +268,15 @@ for champ in d['champions'].values():
                 other = 'Ionian Boots of Lucidity' if cls.count('ap') >= 2 else "Berserker's Greaves" if ln == 'dragon' else 'Plated Steelcaps'
             b['boots'] = other
 
+# Type de dégâts par champion et par lane (pour la draft) : ap, ad, tank ou mixte
+dmg = {}
+for k, champ in d['champions'].items():
+    for ln, b in champ.items():
+        cls = [item_class(i) for i in b.get('items', [])[:3]]
+        t = 'ap' if cls.count('ap') >= 2 else 'ad' if cls.count('ad') >= 2 else 'tank' if cls.count('tank') >= 2 else 'mixed'
+        dmg.setdefault(k, {})[ln] = t
+d['dmg'] = dmg
+
 d['abilities'] = abilities
 # Identifiants Data Dragon (Riot) : icônes, noms et descriptions officiels en français.
 DD_FIX = {'aurelionsol': 'AurelionSol', 'chogath': 'Chogath', 'drmundo': 'DrMundo', 'jarvaniv': 'JarvanIV',
