@@ -247,7 +247,7 @@
  {
   "name": "Split push",
   "style": "1-3-1",
-  "plan": "Fiora ou Jax poussent seuls une lane sur le côté pendant que les quatre autres tiennent le mid sans se battre. Si un combat éclate, Twisted Fate ou Galio rejoignent avec leur ulti. Forcez l'adversaire à se diviser et évitez le 5v5.",
+  "plan": "Fiora ou Jax split push seuls en top ou en bot pendant que les quatre autres tiennent le mid sans se battre. Si un combat éclate, Twisted Fate ou Galio rejoignent avec leur ulti. Forcez l'adversaire à se diviser et évitez le 5v5.",
   "slots": {
    "2": [
     "fiora",
@@ -324,7 +324,7 @@
  {
   "name": "Duo Xayah et Rakan",
   "style": "Duo",
-  "plan": "Le duo porte la partie : Rakan engage et Xayah immobilise avec ses plumes. Le jungler et le mid viennent souvent en lane Dragon pour donner de l'avance au duo, puis l'équipe transforme cette avance en drakes.",
+  "plan": "Le duo porte la partie : Rakan engage et Xayah immobilise avec ses plumes. Le jungler et le mid viennent souvent en bot pour donner de l'avance au duo, puis l'équipe transforme cette avance en drakes.",
   "slots": {
    "2": [
     "ksante",

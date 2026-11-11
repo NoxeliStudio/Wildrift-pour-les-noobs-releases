@@ -1,5 +1,5 @@
 {
-  "version": "1.20",
-  "apk": "apk/Wildrift_pour_les_noobs-1.20.apk",
-  "notes": "Onglet Draft simplifié : des drafts toutes faites, et sous chaque champion, son remplaçant s'il est banni. Bans conseillés pour chaque draft."
+  "version": "1.21",
+  "apk": "apk/Wildrift_pour_les_noobs-1.21.apk",
+  "notes": "Lanes renommées comme en jeu : Top, Jungle, Mid, Bot, Support."
 }
