@@ -1,5 +1,5 @@
 {
-  "version": "1.27",
-  "apk": "apk/Wildrift_pour_les_noobs-1.27.apk",
-  "notes": "Mises à jour et données lues directement chez GitHub, sans cache : plus de retard. « Actualiser » indique si l'appli est à jour."
+  "version": "1.28",
+  "apk": "apk/Wildrift_pour_les_noobs-1.28.apk",
+  "notes": "Nouvel onglet Matchups sur chaque champion (counters mesurés, serveur chinois Diamant+) et flèches de hausse / baisse du winrate dans la tier list."
 }

@@ -307,6 +307,16 @@ else:
 with open(os.path.join(HERE, 'rpn.jsonl'), 'w') as f:
     for r in seen.values():
         f.write(json.dumps(r, ensure_ascii=False, separators=(',', ':')) + '\n')
+# Matchups (counters.py) : conservés d'une fusion à l'autre
+cpath = os.path.join(HERE, 'counters.json')
+if os.path.exists(cpath):
+    d['counters'] = json.load(open(cpath))
+    prev = os.path.join(HERE, '..', 'builds.json')
+    if os.path.exists(prev):
+        old = json.load(open(prev))
+        for k in ('counters_source', 'counters_updated'):
+            if k in old:
+                d[k] = old[k]
 d['meta_source'] = 'RiftPatchNotes'
 d['source'] = 'JunglerGG + WR-META'
 json.dump(d, open(out_path, 'w'), ensure_ascii=False, separators=(',', ':'))
