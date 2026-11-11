@@ -124,7 +124,7 @@
  {
   "name": "Poke & siege",
   "style": "Poke",
-  "plan": "Pokez avant chaque objectif et sous leurs tours. Ne prenez pas le 5v5 de face : quand ils sont à mi-vie, prenez le drake ou la tour gratuitement. S'ils engagent, reculez et repokez.",
+  "plan": "Pokez avant chaque objectif et sous leurs tours. Ne prenez pas le 5v5 de face : quand ils sont mid life, prenez le drake ou la tour gratuitement. S'ils engagent, reculez et repokez.",
   "slots": {
    "2": [
     "jayce",
@@ -207,7 +207,7 @@
  {
   "name": "Early game",
   "style": "Snowball",
-  "plan": "Tout se joue sur les 10 premières minutes : ganks level 2-3, invade de la jungle adverse, Héraut et premiers drakes. Snowballez et closez la game avant 20 minutes : cette compo est faible en late game.",
+  "plan": "Tout se joue sur les 10 premières minutes : ganks level 2-3, invade de la jungle adverse, Héraut et premiers drakes. Snowball et finish la game avant 20 minutes : cette compo est faible en late game.",
   "slots": {
    "2": [
     "renekton",
