@@ -1,8 +1,8 @@
 [
  {
   "name": "Engage de zone",
-  "style": "Combats à 5",
-  "plan": "Groupez-vous à 5 autour des dragons et du Baron. Attendez l'engage (ultime de Malphite ou de Jarvan IV), puis enchaînez l'ultime d'Orianna et la pluie de balles de Miss Fortune sur les ennemis bloqués.",
+  "style": "Teamfight",
+  "plan": "Jouez full groupés sur les drakes et le Nash. Le flash ulti de Malpha ou de J4 lance le fight, Orianna balance son ulti sur le pack, MF finit avec sa Pluie de balles. Un wombo réussi = un objectif gratuit.",
   "slots": {
    "2": [
     "malphite",
@@ -39,12 +39,12 @@
    "vex",
    "braum"
   ],
-  "bans_why": "ils annulent ou repoussent l'engage"
+  "bans_why": "disengage et anti-engage : ils cassent le wombo"
  },
  {
   "name": "Projections pour Yasuo",
-  "style": "Combo",
-  "plan": "Chaque ennemi projeté en l'air permet l'ultime de Yasuo ou de Yone. Malphite ou Alistar lancent le combat, Yasuo enchaîne sur toute l'équipe touchée, Samira finit le travail.",
+  "style": "Combo knock-up",
+  "plan": "Chaque knock-up = un ulti de Yasuo. Malpha ou Alistar engagent, Yasuo suit sur tous les mecs en l'air, Samira clean derrière. Jouez autour des CD des knock-ups, pas avant.",
   "slots": {
    "2": [
     "malphite",
@@ -77,12 +77,12 @@
    "janna",
    "vex"
   ],
-  "bans_why": "ils bloquent les ruées et les projections"
+  "bans_why": "anti-dash et peel : ils bloquent Yasuo et les knock-ups"
  },
  {
   "name": "Protéger le tireur",
-  "style": "Fin de partie",
-  "plan": "Tout tourne autour du tireur : il récupère l'or tranquillement, puis Lulu ou Janna le gardent en vie pendant qu'il tape. Ne prenez jamais un combat sans lui. Cette compo devient très forte après 20 minutes.",
+  "style": "Hypercarry",
+  "plan": "Tout pour l'ADC : il farme safe, et Lulu ou Janna le peel en fight pendant qu'il DPS. Pas de fight sans lui, jouez safe l'early et scalez. Après 20 minutes, c'est vous les patrons.",
   "slots": {
    "2": [
     "shen",
@@ -119,12 +119,12 @@
    "rengar",
    "nocturne"
   ],
-  "bans_why": "ils tuent le tireur avant qu'il ne joue"
+  "bans_why": "assassins et divers : ils one-shot l'ADC avant qu'il joue"
  },
  {
   "name": "Poke et siège",
-  "style": "Harcèlement",
-  "plan": "Usez l'adversaire de loin avant chaque objectif et sous ses tours. Ne forcez pas le combat à 5 : quand l'ennemi est à moitié vie, prenez le dragon ou la tour sans vous battre.",
+  "style": "Poke",
+  "plan": "Pokez de loin avant chaque objectif et sous les tours. Ne prenez jamais le 5v5 de face : quand ils sont à moitié vie, prenez le drake ou la tour gratuitement. Si ils engagent, reculez et repokez.",
   "slots": {
    "2": [
     "jayce",
@@ -160,12 +160,12 @@
    "hecarim",
    "camille"
   ],
-  "bans_why": "ils engagent trop vite pour le poke"
+  "bans_why": "hard engage : ils vous tombent dessus avant que le poke serve"
  },
  {
   "name": "Plongeon sur l'arrière",
-  "style": "Assassinat",
-  "plan": "Visez le tireur et le mage adverses : Vi ou Leona bloquent la cible, tout le monde plonge dessus. Les combats doivent être courts ; évitez les longues batailles de position.",
+  "style": "Dive",
+  "plan": "Focus la backline : Vi ou Leona lock l'ADC ou le mid, tout le monde dive dessus. Fights courts et explosifs, on ne laisse pas le temps de peel. Évitez les longs fights de position.",
   "slots": {
    "2": [
     "camille",
@@ -202,12 +202,12 @@
    "lissandra",
    "janna"
   ],
-  "bans_why": "ils punissent les plongeons"
+  "bans_why": "anti-dive : ils punissent chaque dive"
  },
  {
   "name": "Domination du début",
-  "style": "Fin rapide",
-  "plan": "Gagnez les 10 premières minutes : gank tôt, envahissez la jungle adverse, prenez le Héraut et les premiers dragons. Cherchez à finir avant 20 minutes : cette compo perd de la force ensuite.",
+  "style": "Early game",
+  "plan": "Tout se joue sur les 10 premières minutes : ganks level 2-3, invade la jungle adverse, Héraut et premiers drakes. Snowballez et closez avant 20 minutes, cette compo tombe en late.",
   "slots": {
    "2": [
     "renekton",
@@ -242,12 +242,12 @@
    "nidalee",
    "graves"
   ],
-  "bans_why": "ils envahissent la jungle et cassent le début de partie"
+  "bans_why": "junglers d'invade : ils vous cassent l'early"
  },
  {
   "name": "Split push",
   "style": "1-3-1",
-  "plan": "Le baron pousse seul une lane pendant que les autres tiennent le milieu sans se battre. Twisted Fate ou Galio rejoignent les combats avec leur ultime. Forcez l'adversaire à se diviser.",
+  "plan": "Fiora ou Jax split en side lane pendant que les autres tiennent le mid sans fight. TF ou Galio rejoignent avec l'ulti si ça part. Forcez-les à se diviser, ne prenez jamais le 5v5.",
   "slots": {
    "2": [
     "fiora",
@@ -281,12 +281,12 @@
    "malphite",
    "jarvaniv"
   ],
-  "bans_why": "ils défendent partout ou forcent le 5 contre 4"
+  "bans_why": "ils défendent la side ou punissent en 5v4"
  },
  {
   "name": "Contre-engage",
-  "style": "Anti-plongeon",
-  "plan": "Laissez l'adversaire engager : ralentissements, sommeil et ruées bloquées punissent chaque plongeon. Dès qu'il a utilisé ses sorts, contre-attaquez avec l'ultime de Fiddlesticks ou de Lissandra.",
+  "style": "Anti-dive",
+  "plan": "Laissez-les engager : slows, sleep et anti-dash punissent chaque dive. Une fois leurs CD claqués, vous re-engagez avec l'ulti de Fiddle ou de Lissandra. Patience, c'est eux qui doivent venir.",
   "slots": {
    "2": [
     "poppy",
@@ -319,12 +319,12 @@
    "jayce",
    "caitlyn"
   ],
-  "bans_why": "ils usent de loin sans jamais engager"
+  "bans_why": "poke : ils vous usent sans jamais engager"
  },
  {
   "name": "Duo Xayah et Rakan",
-  "style": "Duo",
-  "plan": "Xayah et Rakan sont faits l'un pour l'autre : Rakan engage et Xayah suit avec ses plumes qui immobilisent. Le reste de l'équipe protège ce duo et joue autour de la voie du dragon.",
+  "style": "Botlane",
+  "plan": "Le duo fait la game : Rakan engage, Xayah root avec ses plumes. La jungle et le mid jouent bot pour faire snowball le duo, puis vous convertissez en drakes.",
   "slots": {
    "2": [
     "ksante",
@@ -357,12 +357,12 @@
    "blitzcrank",
    "pyke"
   ],
-  "bans_why": "ils attrapent le duo en voie du dragon"
+  "bans_why": "hooks et CC : ils attrapent le duo bot"
  },
  {
   "name": "Combattants increvables",
-  "style": "Combats longs",
-  "plan": "Des combattants qui encaissent et se soignent : gagnez les combats qui durent, avancez ensemble et ignorez le poke adverse en regagnant de la vie entre deux échanges.",
+  "style": "Bruisers",
+  "plan": "Des bruisers qui tankent et sustain : gagnez les longs fights et les extended trades. Avancez ensemble, ignorez le poke en régénérant, et rush l'anti-heal adverse si besoin.",
   "slots": {
    "2": [
     "darius",
@@ -396,6 +396,6 @@
    "kogmaw",
    "fiora"
   ],
-  "bans_why": "ils tiennent les combattants à distance"
+  "bans_why": "kite et anti-tank : ils tiennent les bruisers à distance"
  }
 ]
