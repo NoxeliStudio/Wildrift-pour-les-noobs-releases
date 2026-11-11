@@ -1,5 +1,5 @@
 {
-  "version": "1.25",
-  "apk": "apk/Wildrift_pour_les_noobs-1.25.apk",
-  "notes": "Les nouvelles versions sont détectées à chaque retour dans l'appli. Tier list plus fiable : winrate corrigé pour les champions peu joués, stats fragiles signalées."
+  "version": "1.26",
+  "apk": "apk/Wildrift_pour_les_noobs-1.26.apk",
+  "notes": "Notes plus justes : le taux de ban compte, et la popularité tient compte des bans. Winrate corrigé pour les champions peu joués."
 }
