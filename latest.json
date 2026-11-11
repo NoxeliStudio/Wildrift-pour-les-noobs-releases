@@ -1,5 +1,5 @@
 {
-  "version": "1.17",
-  "apk": "apk/Wildrift_pour_les_noobs-1.17.apk",
-  "notes": "Barre du haut avec le nom du champion quand on fait défiler la fiche : le bouton retour ne cache plus rien."
+  "version": "1.18",
+  "apk": "apk/Wildrift_pour_les_noobs-1.18.apk",
+  "notes": "Nouvel onglet Draft : la meilleure équipe du moment par lane, les bans conseillés, et une draft qui s'adapte aux bans et aux champions déjà pris."
 }
