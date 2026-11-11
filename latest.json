@@ -1,5 +1,5 @@
 {
-  "version": "1.23",
-  "apk": "apk/Wildrift_pour_les_noobs-1.23.apk",
-  "notes": "L'onglet Draft se met à jour tout seul quand de nouvelles drafts arrivent."
+  "version": "1.24",
+  "apk": "apk/Wildrift_pour_les_noobs-1.24.apk",
+  "notes": "Tier list plus fiable : le winrate des champions peu joués est corrigé, la note tient plus compte de la popularité, et les stats fragiles sont signalées."
 }
