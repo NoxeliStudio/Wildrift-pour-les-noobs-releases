@@ -1,32 +1,401 @@
 [
- {"name": "Engage de zone", "style": "Combats à 5",
+ {
+  "name": "Engage de zone",
+  "style": "Combats à 5",
   "plan": "Groupez-vous à 5 autour des dragons et du Baron. Attendez l'engage (ultime de Malphite ou de Jarvan IV), puis enchaînez l'ultime d'Orianna et la pluie de balles de Miss Fortune sur les ennemis bloqués.",
-  "slots": {"2": ["malphite", "gragas", "sion", "ornn"], "5": ["jarvaniv", "amumu", "diana", "hecarim"], "1": ["orianna", "galio", "seraphine", "aurelionsol"], "3": ["missfortune", "samira", "kaisa"], "4": ["rakan", "leona", "nautilus", "alistar"]}},
- {"name": "Projections pour Yasuo", "style": "Combo",
+  "slots": {
+   "2": [
+    "malphite",
+    "gragas",
+    "sion",
+    "ornn"
+   ],
+   "5": [
+    "jarvaniv",
+    "amumu",
+    "diana",
+    "hecarim"
+   ],
+   "1": [
+    "orianna",
+    "galio",
+    "seraphine",
+    "aurelionsol"
+   ],
+   "3": [
+    "missfortune",
+    "samira",
+    "kaisa"
+   ],
+   "4": [
+    "rakan",
+    "leona",
+    "nautilus",
+    "alistar"
+   ]
+  },
+  "bans": [
+   "janna",
+   "vex",
+   "braum"
+  ],
+  "bans_why": "ils annulent ou repoussent l'engage"
+ },
+ {
+  "name": "Projections pour Yasuo",
+  "style": "Combo",
   "plan": "Chaque ennemi projeté en l'air permet l'ultime de Yasuo ou de Yone. Malphite ou Alistar lancent le combat, Yasuo enchaîne sur toute l'équipe touchée, Samira finit le travail.",
-  "slots": {"2": ["malphite", "gragas", "ornn"], "5": ["jarvaniv", "xinzhao", "nunuwillump"], "1": ["yasuo", "yone"], "3": ["samira", "missfortune", "kaisa"], "4": ["alistar", "rakan", "nautilus", "rell"]}},
- {"name": "Protéger le tireur", "style": "Fin de partie",
+  "slots": {
+   "2": [
+    "malphite",
+    "gragas",
+    "ornn"
+   ],
+   "5": [
+    "jarvaniv",
+    "xinzhao",
+    "nunuwillump"
+   ],
+   "1": [
+    "yasuo",
+    "yone"
+   ],
+   "3": [
+    "samira",
+    "missfortune",
+    "kaisa"
+   ],
+   "4": [
+    "alistar",
+    "rakan",
+    "nautilus",
+    "rell"
+   ]
+  },
+  "bans": [
+   "poppy",
+   "janna",
+   "vex"
+  ],
+  "bans_why": "ils bloquent les ruées et les projections"
+ },
+ {
+  "name": "Protéger le tireur",
+  "style": "Fin de partie",
   "plan": "Tout tourne autour du tireur : il récupère l'or tranquillement, puis Lulu ou Janna le gardent en vie pendant qu'il tape. Ne prenez jamais un combat sans lui. Cette compo devient très forte après 20 minutes.",
-  "slots": {"2": ["shen", "ornn", "poppy", "ksante"], "5": ["amumu", "rammus", "skarner", "nunuwillump"], "1": ["orianna", "lissandra", "seraphine"], "3": ["kogmaw", "jinx", "twitch", "vayne"], "4": ["lulu", "janna", "yuumi", "milio"]}},
- {"name": "Poke et siège", "style": "Harcèlement",
+  "slots": {
+   "2": [
+    "shen",
+    "ornn",
+    "poppy",
+    "ksante"
+   ],
+   "5": [
+    "amumu",
+    "rammus",
+    "skarner",
+    "nunuwillump"
+   ],
+   "1": [
+    "orianna",
+    "lissandra",
+    "seraphine"
+   ],
+   "3": [
+    "kogmaw",
+    "jinx",
+    "twitch",
+    "vayne"
+   ],
+   "4": [
+    "lulu",
+    "janna",
+    "yuumi",
+    "milio"
+   ]
+  },
+  "bans": [
+   "zed",
+   "rengar",
+   "nocturne"
+  ],
+  "bans_why": "ils tuent le tireur avant qu'il ne joue"
+ },
+ {
+  "name": "Poke et siège",
+  "style": "Harcèlement",
   "plan": "Usez l'adversaire de loin avant chaque objectif et sous ses tours. Ne forcez pas le combat à 5 : quand l'ennemi est à moitié vie, prenez le dragon ou la tour sans vous battre.",
-  "slots": {"2": ["jayce", "gnar", "teemo"], "5": ["nidalee", "kindred", "graves"], "1": ["ziggs", "velkoz", "mel", "lux"], "3": ["ezreal", "caitlyn", "varus", "jhin"], "4": ["karma", "lux", "senna", "zyra"]}},
- {"name": "Plongeon sur l'arrière", "style": "Assassinat",
+  "slots": {
+   "2": [
+    "jayce",
+    "gnar",
+    "teemo"
+   ],
+   "5": [
+    "nidalee",
+    "kindred",
+    "graves"
+   ],
+   "1": [
+    "ziggs",
+    "velkoz",
+    "mel",
+    "lux"
+   ],
+   "3": [
+    "ezreal",
+    "caitlyn",
+    "varus",
+    "jhin"
+   ],
+   "4": [
+    "karma",
+    "lux",
+    "senna",
+    "zyra"
+   ]
+  },
+  "bans": [
+   "malphite",
+   "hecarim",
+   "camille"
+  ],
+  "bans_why": "ils engagent trop vite pour le poke"
+ },
+ {
+  "name": "Plongeon sur l'arrière",
+  "style": "Assassinat",
   "plan": "Visez le tireur et le mage adverses : Vi ou Leona bloquent la cible, tout le monde plonge dessus. Les combats doivent être courts ; évitez les longues batailles de position.",
-  "slots": {"2": ["camille", "irelia", "renekton", "jax"], "5": ["vi", "diana", "hecarim", "xinzhao"], "1": ["akali", "katarina", "ekko", "fizz"], "3": ["kaisa", "samira", "lucian"], "4": ["leona", "nautilus", "rell", "pyke"]}},
- {"name": "Domination du début", "style": "Fin rapide",
+  "slots": {
+   "2": [
+    "camille",
+    "irelia",
+    "renekton",
+    "jax"
+   ],
+   "5": [
+    "vi",
+    "diana",
+    "hecarim",
+    "xinzhao"
+   ],
+   "1": [
+    "akali",
+    "katarina",
+    "ekko",
+    "fizz"
+   ],
+   "3": [
+    "kaisa",
+    "samira",
+    "lucian"
+   ],
+   "4": [
+    "leona",
+    "nautilus",
+    "rell",
+    "pyke"
+   ]
+  },
+  "bans": [
+   "poppy",
+   "lissandra",
+   "janna"
+  ],
+  "bans_why": "ils punissent les plongeons"
+ },
+ {
+  "name": "Domination du début",
+  "style": "Fin rapide",
   "plan": "Gagnez les 10 premières minutes : gank tôt, envahissez la jungle adverse, prenez le Héraut et les premiers dragons. Cherchez à finir avant 20 minutes : cette compo perd de la force ensuite.",
-  "slots": {"2": ["renekton", "darius", "sett"], "5": ["leesin", "olaf", "xinzhao", "kayn"], "1": ["talon", "ahri", "twistedfate"], "3": ["draven", "lucian", "caitlyn"], "4": ["pyke", "blitzcrank", "thresh", "nautilus"]}},
- {"name": "Split push", "style": "1-3-1",
+  "slots": {
+   "2": [
+    "renekton",
+    "darius",
+    "sett"
+   ],
+   "5": [
+    "leesin",
+    "olaf",
+    "xinzhao",
+    "kayn"
+   ],
+   "1": [
+    "talon",
+    "ahri",
+    "twistedfate"
+   ],
+   "3": [
+    "draven",
+    "lucian",
+    "caitlyn"
+   ],
+   "4": [
+    "pyke",
+    "blitzcrank",
+    "thresh",
+    "nautilus"
+   ]
+  },
+  "bans": [
+   "kindred",
+   "nidalee",
+   "graves"
+  ],
+  "bans_why": "ils envahissent la jungle et cassent le début de partie"
+ },
+ {
+  "name": "Split push",
+  "style": "1-3-1",
   "plan": "Le baron pousse seul une lane pendant que les autres tiennent le milieu sans se battre. Twisted Fate ou Galio rejoignent les combats avec leur ultime. Forcez l'adversaire à se diviser.",
-  "slots": {"2": ["fiora", "jax", "camille", "tryndamere"], "5": ["nocturne", "kindred", "warwick"], "1": ["twistedfate", "ryze", "galio"], "3": ["sivir", "ezreal", "varus"], "4": ["thresh", "karma", "janna"]}},
- {"name": "Contre-engage", "style": "Anti-plongeon",
+  "slots": {
+   "2": [
+    "fiora",
+    "jax",
+    "camille",
+    "tryndamere"
+   ],
+   "5": [
+    "nocturne",
+    "kindred",
+    "warwick"
+   ],
+   "1": [
+    "twistedfate",
+    "ryze",
+    "galio"
+   ],
+   "3": [
+    "sivir",
+    "ezreal",
+    "varus"
+   ],
+   "4": [
+    "thresh",
+    "karma",
+    "janna"
+   ]
+  },
+  "bans": [
+   "shen",
+   "malphite",
+   "jarvaniv"
+  ],
+  "bans_why": "ils défendent partout ou forcent le 5 contre 4"
+ },
+ {
+  "name": "Contre-engage",
+  "style": "Anti-plongeon",
   "plan": "Laissez l'adversaire engager : ralentissements, sommeil et ruées bloquées punissent chaque plongeon. Dès qu'il a utilisé ses sorts, contre-attaquez avec l'ultime de Fiddlesticks ou de Lissandra.",
-  "slots": {"2": ["poppy", "ksante", "ornn"], "5": ["lillia", "fiddlesticks", "rammus"], "1": ["vex", "lissandra", "galio"], "3": ["ashe", "varus", "jhin"], "4": ["janna", "braum", "lulu"]}},
- {"name": "Duo Xayah et Rakan", "style": "Duo",
+  "slots": {
+   "2": [
+    "poppy",
+    "ksante",
+    "ornn"
+   ],
+   "5": [
+    "lillia",
+    "fiddlesticks",
+    "rammus"
+   ],
+   "1": [
+    "vex",
+    "lissandra",
+    "galio"
+   ],
+   "3": [
+    "ashe",
+    "varus",
+    "jhin"
+   ],
+   "4": [
+    "janna",
+    "braum",
+    "lulu"
+   ]
+  },
+  "bans": [
+   "ziggs",
+   "jayce",
+   "caitlyn"
+  ],
+  "bans_why": "ils usent de loin sans jamais engager"
+ },
+ {
+  "name": "Duo Xayah et Rakan",
+  "style": "Duo",
   "plan": "Xayah et Rakan sont faits l'un pour l'autre : Rakan engage et Xayah suit avec ses plumes qui immobilisent. Le reste de l'équipe protège ce duo et joue autour de la voie du dragon.",
-  "slots": {"2": ["ksante", "ornn", "shen"], "5": ["viego", "leesin", "jarvaniv"], "1": ["ahri", "orianna", "syndra"], "3": ["xayah", "kalista", "kaisa"], "4": ["rakan", "alistar", "thresh"]}},
- {"name": "Combattants increvables", "style": "Combats longs",
+  "slots": {
+   "2": [
+    "ksante",
+    "ornn",
+    "shen"
+   ],
+   "5": [
+    "viego",
+    "leesin",
+    "jarvaniv"
+   ],
+   "1": [
+    "ahri",
+    "orianna",
+    "syndra"
+   ],
+   "3": [
+    "xayah",
+    "kalista",
+    "kaisa"
+   ],
+   "4": [
+    "rakan",
+    "alistar",
+    "thresh"
+   ]
+  },
+  "bans": [
+   "morgana",
+   "blitzcrank",
+   "pyke"
+  ],
+  "bans_why": "ils attrapent le duo en voie du dragon"
+ },
+ {
+  "name": "Combattants increvables",
+  "style": "Combats longs",
   "plan": "Des combattants qui encaissent et se soignent : gagnez les combats qui durent, avancez ensemble et ignorez le poke adverse en regagnant de la vie entre deux échanges.",
-  "slots": {"2": ["darius", "sett", "mordekaiser", "garen"], "5": ["warwick", "olaf", "volibear"], "1": ["swain", "vladimir", "rumble"], "3": ["jinx", "kaisa", "twitch"], "4": ["braum", "alistar", "leona"]}}
+  "slots": {
+   "2": [
+    "darius",
+    "sett",
+    "mordekaiser",
+    "garen"
+   ],
+   "5": [
+    "warwick",
+    "olaf",
+    "volibear"
+   ],
+   "1": [
+    "swain",
+    "vladimir",
+    "rumble"
+   ],
+   "3": [
+    "jinx",
+    "kaisa",
+    "twitch"
+   ],
+   "4": [
+    "braum",
+    "alistar",
+    "leona"
+   ]
+  },
+  "bans": [
+   "vayne",
+   "kogmaw",
+   "fiora"
+  ],
+  "bans_why": "ils tiennent les combattants à distance"
+ }
 ]

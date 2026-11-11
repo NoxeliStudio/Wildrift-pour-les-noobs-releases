@@ -283,6 +283,8 @@ for c in comps:
     for ln, keys in c['slots'].items():
         bad = [k for k in keys if k not in d['slugs']]
         assert not bad, ('champion inconnu dans', c['name'], bad)
+    bad = [k for k in c.get('bans', []) if k not in d['slugs']]
+    assert not bad, ('ban inconnu dans', c['name'], bad)
 d['comps'] = comps
 
 d['abilities'] = abilities

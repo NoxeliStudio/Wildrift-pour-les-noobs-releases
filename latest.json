@@ -1,5 +1,5 @@
 {
-  "version": "1.19",
-  "apk": "apk/Wildrift_pour_les_noobs-1.19.apk",
-  "notes": "Compos types dans l'onglet Draft : 10 équipes pensées pour jouer ensemble, avec remplaçants automatiques si un champion est banni."
+  "version": "1.20",
+  "apk": "apk/Wildrift_pour_les_noobs-1.20.apk",
+  "notes": "Onglet Draft simplifié : des drafts toutes faites, et sous chaque champion, son remplaçant s'il est banni. Bans conseillés pour chaque draft."
 }
