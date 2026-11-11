@@ -163,9 +163,9 @@
   "bans_why": "hard engage : ils vous tombent dessus avant que le poke serve"
  },
  {
-  "name": "Dive backline",
-  "style": "Dive",
-  "plan": "Focus la backline : Vi ou Leona lock l'ADC ou le mid adverse, et toute l'équipe dive dessus. Les fights doivent être courts et explosifs, sans laisser à l'adversaire le temps de peel. Évitez les longs fights de position.",
+  "name": "Focus backline",
+  "style": "Assassins",
+  "plan": "Focus la backline : Vi ou Leona lock l'ADC ou le mid adverse, et toute l'équipe engage dessus. Les fights doivent être courts et explosifs, sans laisser à l'adversaire le temps de peel. Évitez les longs fights de position.",
   "slots": {
    "2": [
     "camille",
@@ -202,7 +202,7 @@
    "lissandra",
    "janna"
   ],
-  "bans_why": "anti-dive : ils punissent chaque dive"
+  "bans_why": "peel et anti-engage : ils protègent leur backline"
  },
  {
   "name": "Early game",
@@ -285,8 +285,8 @@
  },
  {
   "name": "Contre-engage",
-  "style": "Anti-dive",
-  "plan": "Laissez l'adversaire engager : slows, sleep et anti-dash punissent chaque dive. Une fois leurs gros sorts utilisés, re-engagez avec l'ulti de Fiddlesticks ou de Lissandra. Soyez patients, c'est à eux de venir.",
+  "style": "Disengage",
+  "plan": "Laissez l'adversaire engager : slows, sleep et anti-dash punissent chaque engage. Une fois leurs gros sorts utilisés, re-engagez avec l'ulti de Fiddlesticks ou de Lissandra. Soyez patients, c'est à eux de venir.",
   "slots": {
    "2": [
     "poppy",
