@@ -1,5 +1,17 @@
 # Mise à jour des builds (builds.json)
 
+Deux sources, toutes deux du serveur chinois de Wild Rift :
+- **wrchina.gg** (source principale) : pour chaque lane, les 3 cœurs d'objets et 2 pages de runes
+  les plus joués en Diamant+ (winrate + part des parties), et les objets / runes des vraies builds
+  du top ~25 du classement chinois de chaque champion.
+- **RiftPatchNotes** : bottes et sorts d'invocateur (et secours si wrchina n'a pas le champion).
+
+Choix de la build (merge_meta.py) : les ordres d'achat d'un même cœur sont fusionnés ; winrate corrigé
+de l'échantillon (un set joué dans 15 % des parties garde la moitié de son écart) ; le set le plus joué
+n'est remplacé que pour +0,3 point corrigé, et jamais par un set que le top joueurs utilise moins.
+Objets 4-5 et bottes améliorées : ceux du top joueurs (≥ 30 %, bottes ≥ 50 %), si leur build
+correspond à la lane. Puis les règles de cohérence (un actif, pas d'effets uniques en double…).
+
 Données : RiftPatchNotes, pages `https://riftpatchnotes.com/champion/<slug>`
 (builds les plus joués en Diamant+ sur le serveur chinois de Wild Rift).
 Les slugs sont dans `builds.json` → `slugs` (clé champion → slug).
@@ -23,6 +35,20 @@ Les slugs sont dans `builds.json` → `slugs` (clé champion → slug).
 4. Si « objets inconnus ignorés » n'est pas vide : ajouter nom français + valeurs
    dans `extra_items.json` (page `https://riftpatchnotes.com/item/<slug>`), relancer l'étape 3.
 5. Vérifier (aucun build à 2 objets actifs, aucun objet retiré, runes à 5 éléments), puis commit + push.
+
+## wrchina.gg — chaque jour
+Pages : `https://wrchina.gg/c/<slug>/` (même slug que RiftPatchNotes : `builds.json` → `slugs`).
+1. Lire la date « stats updated AAAA-MM-JJ » sur `https://wrchina.gg/c/lee-sin/`. Si elle est égale à
+   `wrchina_updated` dans `../builds.json` : rien à faire.
+2. Sinon, pour chaque slug, WebFetch avec ce prompt (lots de 8 en parallèle) :
+   `Extract as compact JSON one line, no notes: {"date": "<stats updated date>", "lanes": {"<lane label exactly as written>": {"cores": [[[3 items], wr, use], ...every core item set listed for this lane, in page order], "runes": [[[runes], wr, use], ...every rune set for this lane]}}, "top": {"n": <number of real builds counted>, "date": "<builds captured date>", "items": [[item, pct], ...], "runes": [[rune, pct], ...]}}. Names exactly as written. Numbers as numbers. Do not invent anything.`
+   Ajouter `{"k": <clé champion>, ...réponse}` comme nouvelle ligne de `wrchina.jsonl`
+   (la dernière ligne d'un champion gagne). Page en erreur : garder l'ancienne ligne.
+3. `python3 -I merge_meta.py ../builds.json <meta_updated actuel ou nouvelle date RPN>` puis
+   `python3 -I check.py`, et mettre `wrchina_updated` (date de l'étape 1) dans `../builds.json` :
+   `python3 -I -c "import json;p='../builds.json';d=json.load(open(p));d['wrchina_updated']='AAAA-MM-JJ';json.dump(d,open(p,'w'),ensure_ascii=False,separators=(',',':'))"`
+4. Si « objets inconnus ignorés » n'est pas vide : nom anglais différent d'un objet connu → l'ajouter
+   à `ITEM_ALIAS` dans merge_meta.py ; objet nouveau → `extra_items.json`. Relancer l'étape 3.
 
 ## Matchups (counters) — chaque jour aussi
 Source : `https://seemeta.com/en/wild-rift/champions` (serveur chinois, Diamant+,

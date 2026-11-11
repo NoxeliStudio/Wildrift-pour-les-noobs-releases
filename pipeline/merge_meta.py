@@ -22,7 +22,8 @@ ACTIVES = set(d['actives'])
 REMOVED = set(d['removed'])
 LANES = {'mid': 'mid', 'top': 'baron', 'baron': 'baron', 'solo': 'baron', 'jungle': 'jungle',
          'adc': 'dragon', 'dragon': 'dragon', 'bot': 'dragon', 'duo': 'dragon', 'support': 'support'}
-RUNE_FIX = {'Hexflash': 'Hextech Flash', 'Grasp of the Undying': 'Grasp of Undying', 'Legend: BloodLine': 'Legend: Bloodline'}
+RUNE_FIX = {'Hexflash': 'Hextech Flash', 'Grasp of the Undying': 'Grasp of Undying', 'Legend: BloodLine': 'Legend: Bloodline',
+            'Unflinching': 'Perseverance'}  # wrchina.gg appelle Perseverance « Unflinching »
 BOOTS = {"Gluttonous Greaves", "Plated Steelcaps", "Mercury's Treads", "Berserker's Greaves", "Ionian Boots of Lucidity",
          "Boots of Mana", "Boots of Dynamism", "Boots of Swiftness", "Immortal Treads"}
 
@@ -97,6 +98,8 @@ def coherence(b, best_core):
     """Build cohérent : 5 objets sans doublon d'effet, objet de départ assorti, notes sur les options."""
     items = []
     keep = 3 if b.get('meta') else 0  # le cœur de la source chinoise est gardé tel quel
+    top = list(b.pop('_top', []))  # objets des meilleurs joueurs du champion (classement chinois)
+    best_core = list(best_core) + top
     for i in b.get('items', []):
         if i in items or i in REMOVED or (len(items) >= keep and conflict(i, items)):
             continue
@@ -104,7 +107,7 @@ def coherence(b, best_core):
         if len(items) >= 3 and i in ACTIVES and i not in best_core:
             continue
         items.append(i)
-    for i in list(b.pop('_base_items', [])) + list(best_core) + list(b.get('situational', [])):
+    for i in top + list(b.pop('_base_items', [])) + list(best_core) + list(b.get('situational', [])):
         if len(items) >= 5:
             break
         if i in items or i in REMOVED or i in BOOTS or not known(i) or conflict(i, items):
@@ -208,6 +211,127 @@ for line in open(os.path.join(HERE, 'rpn.jsonl')):
             r['builds'], r['best'] = old['builds'], old.get('best')
         seen[r['k']] = r  # la dernière ligne d'un champion gagne
 
+# wrchina.gg : cœurs et runes par lane (Diamant+ CN) + vraies builds du top ~25 du classement
+# chinois de chaque champion. Une ligne par champion dans wrchina.jsonl (la dernière gagne).
+WRC = {}
+if os.path.exists(os.path.join(HERE, 'wrchina.jsonl')):
+    for line in open(os.path.join(HERE, 'wrchina.jsonl'), encoding='utf-8'):
+        line = line.strip()
+        if line:
+            r = json.loads(line)
+            if isinstance(r.get('lanes'), dict) and r['lanes']:
+                WRC[r['k']] = r
+
+# Choix d'un set (cœur ou runes) : winrate corrigé de la taille d'échantillon, comme la tier list.
+MIN_SHARE = 5.0     # % des parties du champion dans la lane : en dessous, jamais build principale
+SWITCH = 0.3        # points de winrate corrigé qu'il faut gagner pour remplacer le set le plus joué
+PRIOR_SHARE = 15.0  # un set joué dans 15 % des parties garde la moitié de son écart à la moyenne
+TIER3 = {'Gunmetal Greaves': "Berserker's Greaves", 'Armored Advance': 'Plated Steelcaps',
+         'Immortal Treads': 'Gluttonous Greaves', "Spellslinger's Shoes": 'Boots of Mana',
+         'Crimson Lucidity': 'Ionian Boots of Lucidity', 'Chainlaced Crushers': "Mercury's Treads",
+         'Armorcrusher Boots': 'Boots of Dynamism'}
+STARTERS = {'Relic Shield', 'Spectral Sickle', 'Long Sword', 'Amplifying Tome', 'Ruby Crystal', 'Dagger',
+            "Doran's Blade", "Doran's Ring", "Doran's Shield"}
+
+
+def norm(n):
+    return re.sub(r'[^a-z0-9]', '', str(n).lower())
+
+
+KNOWN_NORM = {norm(x): x for x in KNOWN}
+
+
+ITEM_ALIAS = {'amaranthtwinguard': "Amaranth's Twinguard"}
+
+
+def item_name(n):
+    return ITEM_ALIAS.get(norm(n)) or KNOWN_NORM.get(norm(n), n)
+
+
+def lane_of(label):
+    l = str(label).lower()
+    for key, ln in (('adc', 'dragon'), ('duo', 'dragon'), ('dragon', 'dragon'), ('bot', 'dragon'),
+                    ('support', 'support'), ('jungle', 'jungle'), ('mid', 'mid'),
+                    ('baron', 'baron'), ('top', 'baron'), ('solo', 'baron')):
+        if key in l:
+            return ln
+    return None
+
+
+def pick_sets(sets, prefer=()):
+    """[[noms, wr, part]] -> sets fusionnés (même contenu, ordre différent), le meilleur en premier."""
+    merged = {}
+    for names, wr, use in sets:
+        if not names or wr is None or not use:
+            continue
+        m = merged.setdefault(frozenset(names), {'items': list(names), 'w': 0.0, 'use': 0.0, 'top': -1.0})
+        m['w'] += wr * use
+        m['use'] += use
+        if use > m['top']:
+            m['items'], m['top'] = list(names), use  # ordre d'achat le plus joué
+    out = [{'items': m['items'], 'wr': round(m['w'] / m['use'], 2), 'use': round(m['use'], 2)} for m in merged.values()]
+    if not out:
+        return []
+    total = sum(x['use'] for x in out)
+    base = sum(x['wr'] * x['use'] for x in out) / total
+    for x in out:
+        x['adj'] = base + (x['wr'] - base) * x['use'] / (x['use'] + PRIOR_SHARE)
+    elig = [x for x in out if x['use'] >= MIN_SHARE] or [max(out, key=lambda x: x['use'])]
+    # Le set le plus joué est le plus fiable : on ne le remplace que pour un vrai gain,
+    # ou à égalité quand les meilleurs joueurs du champion construisent davantage le challenger.
+    ref = max(elig, key=lambda x: x['use'])
+    fav = lambda x: len(set(x['items']) & set(prefer))
+    best = ref
+    for x in elig:
+        if x is ref:
+            continue
+        # jamais vers un set que les meilleurs joueurs utilisent moins
+        if (x['adj'] >= best['adj'] + SWITCH and fav(x) >= fav(best)) or (x['adj'] >= best['adj'] and fav(x) > fav(best)):
+            best = x
+    rest = sorted([x for x in out if x is not best], key=lambda x: -x['adj'])
+    return [best] + rest
+
+
+def wrc_lanes(k, rpn_lanes):
+    """Builds par lane depuis wrchina.gg ; bottes et sorts repris de RiftPatchNotes."""
+    w = WRC.get(k)
+    if not w:
+        return []
+    top = w.get('top') or {}
+    top_items = [(item_name(i), num(p) or 0) for i, p in top.get('items', []) if isinstance(i, str)]
+    top_runes = [RUNE_FIX.get(i, i) for i, p in top.get('runes', []) if isinstance(i, str) and (num(p) or 0) >= 50]
+    top_set = [i for i, p in top_items if p >= 50]
+    out = []
+    for label, L in w['lanes'].items():
+        lane = lane_of(label)
+        if not lane or not isinstance(L, dict):
+            continue
+        cores = pick_sets([([item_name(i) for i in c[0]], num(c[1]), num(c[2]))
+                           for c in L.get('cores', []) if isinstance(c, list) and len(c) >= 3 and len(c[0]) >= 2], top_set)
+        if not cores:
+            continue
+        runes = pick_sets([([RUNE_FIX.get(x, x) for x in c[0]], num(c[1]), num(c[2]))
+                           for c in L.get('runes', []) if isinstance(c, list) and len(c) >= 3], top_runes)
+        rp = rpn_lanes.get(lane, {})
+        cn = {'lane': lane, 'core': cores[0]['items'], 'wr': cores[0]['wr'], 'pr': cores[0]['use'],
+              'boots': rp.get('boots', ''), 'spells': rp.get('spells', []),
+              'runes': runes[0]['items'] if runes else rp.get('runes', [])}
+        alt = [c for c in cores[1:] if c['use'] >= 3 and c['wr'] > cores[0]['wr']]
+        if alt:
+            a = max(alt, key=lambda c: c['wr'])
+            cn['best'] = {'core': a['items'], 'wr': a['wr'], 'pr': a['use']}
+        # Objets du top joueurs : seulement si leur build correspond à cette lane
+        tops = {i for i, _ in top_items}
+        if top_items and (len(set(cn['core']) & tops) >= 2 or len(w['lanes']) == 1):
+            cn['top'] = [i for i, p in top_items if p >= 30 and i not in STARTERS and i not in TIER3]
+            cn['top_info'] = {'n': top.get('n'), 'date': top.get('date')}
+            t3 = next((i for i, p in top_items if i in TIER3 and p >= 50), None)
+            if t3:
+                cn['tier3'] = t3
+        out.append(cn)
+    return out
+
+
 # Noms officiels français (Data Dragon de Riot) : remplacent ceux de la source.
 NAMES = {}
 for line in open(os.path.join(HERE, 'ddnames.txt'), encoding='utf-8'):
@@ -217,6 +341,7 @@ for line in open(os.path.join(HERE, 'ddnames.txt'), encoding='utf-8'):
 
 abilities = {}
 merged = created = 0
+wrc_used = set()
 for k, r in seen.items():
     if r.get('abilities'):
         ab = {}
@@ -231,6 +356,31 @@ for k, r in seen.items():
     best = r.get('best') or {}
     lanes_done = set()
     cn_lanes = {LANES.get(str(x.get('lane', '')).lower().strip()) for x in r.get('builds') or []} - {None}
+    rpn_lanes = {}
+    for x in r.get('builds') or []:
+        rpn_lanes.setdefault(LANES.get(str(x.get('lane', '')).lower().strip()), x)
+    for cn in wrc_lanes(k, rpn_lanes):
+        lane = cn['lane']
+        lanes_done.add(lane)
+        b = champ.get(lane)
+        if b is None:
+            other = next(iter(champ.values()), {})
+            b = {'start': [], 'items': [], 'situational': list(other.get('situational', [])),
+                 'keys': list(other.get('keys', []))}
+            champ[lane] = b
+            created += 1
+        if merge(b, cn):
+            merged += 1
+            wrc_used.add(k)
+            b['meta']['src'] = 'Diamant+ (serveur chinois)'
+            bc = [i for i in (cn.get('best') or {}).get('core', []) if known(i)]
+            if bc:
+                b['meta']['best'] = dict(cn['best'], core=bc)
+            if cn.get('top'):
+                b['_top'] = [i for i in cn['top'] if known(i)]
+                b['meta']['top'] = cn['top_info']
+            if cn.get('tier3') and known(cn['tier3']):
+                b['boots'], b['enchant'] = TIER3[cn['tier3']], cn['tier3']
     for cn in r.get('builds') or []:
         lane = LANES.get(str(cn.get('lane', '')).lower().strip())
         if not lane or lane in lanes_done:
@@ -317,7 +467,12 @@ if os.path.exists(cpath):
         for k in ('counters_source', 'counters_updated'):
             if k in old:
                 d[k] = old[k]
-d['meta_source'] = 'RiftPatchNotes'
+prev = os.path.join(HERE, '..', 'builds.json')
+if os.path.exists(prev):
+    old = json.load(open(prev))
+    if 'wrchina_updated' in old:
+        d['wrchina_updated'] = old['wrchina_updated']
+d['meta_source'] = 'wrchina.gg + RiftPatchNotes' if wrc_used else 'RiftPatchNotes'
 d['source'] = 'JunglerGG + WR-META'
 json.dump(d, open(out_path, 'w'), ensure_ascii=False, separators=(',', ':'))
 
@@ -332,7 +487,7 @@ for ch in d['champions'].values():
         names.update(b.get('runes', []))
 missing_fr = sorted(n for n in names if n not in d['fr'])
 missing_vals = sorted(n for n in names if n not in d['vals'] and n not in d.get('desc', {}) and n not in d.get('keystone_why', {}))
-print('champions', len(seen), 'builds fusionnés', merged, 'créés', created, 'compétences', len(abilities))
+print('champions', len(seen), 'builds fusionnés', merged, 'créés', created, 'compétences', len(abilities), 'wrchina', len(wrc_used))
 print('sans fr :', missing_fr)
 print('objets inconnus ignorés :', sorted(UNKNOWN))
 print('sans valeurs :', missing_vals[:60])
