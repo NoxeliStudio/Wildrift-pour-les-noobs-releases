@@ -1,5 +1,5 @@
 {
-  "version": "1.18",
-  "apk": "apk/Wildrift_pour_les_noobs-1.18.apk",
-  "notes": "Nouvel onglet Draft : la meilleure équipe du moment par lane, les bans conseillés, et une draft qui s'adapte aux bans et aux champions déjà pris."
+  "version": "1.19",
+  "apk": "apk/Wildrift_pour_les_noobs-1.19.apk",
+  "notes": "Compos types dans l'onglet Draft : 10 équipes pensées pour jouer ensemble, avec remplaçants automatiques si un champion est banni."
 }

@@ -277,6 +277,14 @@ for k, champ in d['champions'].items():
         dmg.setdefault(k, {})[ln] = t
 d['dmg'] = dmg
 
+# Compositions types (théorie de draft) : remplaçants dans l'ordre si un champion est banni
+comps = json.load(open(os.path.join(HERE, 'comps.json')))
+for c in comps:
+    for ln, keys in c['slots'].items():
+        bad = [k for k in keys if k not in d['slugs']]
+        assert not bad, ('champion inconnu dans', c['name'], bad)
+d['comps'] = comps
+
 d['abilities'] = abilities
 # Identifiants Data Dragon (Riot) : icônes, noms et descriptions officiels en français.
 DD_FIX = {'aurelionsol': 'AurelionSol', 'chogath': 'Chogath', 'drmundo': 'DrMundo', 'jarvaniv': 'JarvanIV',
