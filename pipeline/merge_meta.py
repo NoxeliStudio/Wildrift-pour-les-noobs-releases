@@ -306,6 +306,23 @@ def fresh(date):
     return (b - a).days <= MAX_AGE
 
 
+def apply_top(b, k):
+    """Lane sans données wrchina (ex. Gragas mid) : objets et bottes des meilleurs joueurs du
+    champion quand même, si leur build correspond à celle de la lane (2 objets du cœur en commun)."""
+    w = WRC.get(k)
+    if not w or not fresh(w.get('date')) or not b.get('meta'):
+        return
+    top = w.get('top') or {}
+    top_items = [(item_name(i), num(p) or 0) for i, p in top.get('items', []) if isinstance(i, str)]
+    if len(set(b.get('items', [])[:3]) & {i for i, _ in top_items}) < 2:
+        return
+    b['_top'] = [i for i, p in top_items if p >= 30 and i not in STARTERS and i not in TIER3 and known(i)]
+    b['meta']['top'] = {'n': top.get('n'), 'date': top.get('date')}
+    t3 = next((i for i, p in top_items if i in TIER3 and p >= 50), None)
+    if t3 and known(t3):
+        b['boots'], b['enchant'] = TIER3[t3], t3
+
+
 def wrc_lanes(k, rpn_lanes):
     """Builds par lane depuis wrchina.gg ; bottes et sorts repris de RiftPatchNotes."""
     w = WRC.get(k)
@@ -416,6 +433,7 @@ for k, r in seen.items():
             bc = [i for i in best.get('core', []) if i and known(i)]
             if bc and set(bc) != set(cn.get('core', [])) and len(cn_lanes) == 1:
                 b['meta']['best'] = {'core': bc, 'wr': num(best.get('wr')), 'pr': num(best.get('pr'))}
+            apply_top(b, k)
     if not champ:
         del d['champions'][k]
 
