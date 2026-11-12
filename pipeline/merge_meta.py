@@ -23,7 +23,7 @@ REMOVED = set(d['removed'])
 LANES = {'mid': 'mid', 'top': 'baron', 'baron': 'baron', 'solo': 'baron', 'jungle': 'jungle',
          'adc': 'dragon', 'dragon': 'dragon', 'bot': 'dragon', 'duo': 'dragon', 'support': 'support'}
 RUNE_FIX = {'Hexflash': 'Hextech Flash', 'Grasp of the Undying': 'Grasp of Undying', 'Legend: BloodLine': 'Legend: Bloodline',
-            'Unflinching': 'Perseverance'}  # wrchina.gg appelle Perseverance « Unflinching »
+            'Unflinching': 'Perseverance', 'Summon Aery': 'Aery'}  # noms wrchina.gg
 BOOTS = {"Gluttonous Greaves", "Plated Steelcaps", "Mercury's Treads", "Berserker's Greaves", "Ionian Boots of Lucidity",
          "Boots of Mana", "Boots of Dynamism", "Boots of Swiftness", "Immortal Treads"}
 
@@ -292,11 +292,25 @@ def pick_sets(sets, prefer=()):
     return [best] + rest
 
 
+MAX_AGE = 10  # jours : une page wrchina plus vieille que les stats RiftPatchNotes - 10 j est ignorée
+
+
+def fresh(date):
+    import datetime
+    ref = meta_date or d.get('meta_updated', '')
+    try:
+        a = datetime.date.fromisoformat(str(date)[:10])
+        b = datetime.date.fromisoformat(str(ref)[:10])
+    except ValueError:
+        return bool(date)  # pas de date de référence : on fait confiance
+    return (b - a).days <= MAX_AGE
+
+
 def wrc_lanes(k, rpn_lanes):
     """Builds par lane depuis wrchina.gg ; bottes et sorts repris de RiftPatchNotes."""
     w = WRC.get(k)
-    if not w:
-        return []
+    if not w or not fresh(w.get('date')):
+        return []  # page wrchina pas mise à jour depuis longtemps : RiftPatchNotes est plus récent
     top = w.get('top') or {}
     top_items = [(item_name(i), num(p) or 0) for i, p in top.get('items', []) if isinstance(i, str)]
     top_runes = [RUNE_FIX.get(i, i) for i, p in top.get('runes', []) if isinstance(i, str) and (num(p) or 0) >= 50]
@@ -307,11 +321,14 @@ def wrc_lanes(k, rpn_lanes):
         if not lane or not isinstance(L, dict):
             continue
         cores = pick_sets([([item_name(i) for i in c[0]], num(c[1]), num(c[2]))
-                           for c in L.get('cores', []) if isinstance(c, list) and len(c) >= 3 and len(c[0]) >= 2], top_set)
+                           for c in L.get('cores', []) if isinstance(c, list) and len(c) >= 3 and len(c[0]) >= 2
+                           and all(known(item_name(i)) for i in c[0])], top_set)  # set complet seulement
         if not cores:
             continue
+        # pages complètes et en anglais seulement (la source laisse parfois un nom chinois)
         runes = pick_sets([([RUNE_FIX.get(x, x) for x in c[0]], num(c[1]), num(c[2]))
-                           for c in L.get('runes', []) if isinstance(c, list) and len(c) >= 3], top_runes)
+                           for c in L.get('runes', []) if isinstance(c, list) and len(c) >= 3
+                           and len(page([RUNE_FIX.get(x, x) for x in c[0]])[0]) == 5], top_runes)
         rp = rpn_lanes.get(lane, {})
         cn = {'lane': lane, 'core': cores[0]['items'], 'wr': cores[0]['wr'], 'pr': cores[0]['use'],
               'boots': rp.get('boots', ''), 'spells': rp.get('spells', []),
@@ -322,7 +339,8 @@ def wrc_lanes(k, rpn_lanes):
             cn['best'] = {'core': a['items'], 'wr': a['wr'], 'pr': a['use']}
         # Objets du top joueurs : seulement si leur build correspond à cette lane
         tops = {i for i, _ in top_items}
-        if top_items and (len(set(cn['core']) & tops) >= 2 or len(w['lanes']) == 1):
+        common = len(set(cn['core']) & tops)
+        if top_items and common >= 2:
             cn['top'] = [i for i, p in top_items if p >= 30 and i not in STARTERS and i not in TIER3]
             cn['top_info'] = {'n': top.get('n'), 'date': top.get('date')}
             t3 = next((i for i, p in top_items if i in TIER3 and p >= 50), None)
@@ -406,6 +424,8 @@ for champ in d['champions'].values():
     for ln, b in champ.items():
         coherence(b, b.get('meta', {}).get('best', {}).get('core', []))
         sp = list(b.get('spells', []))
+        if len(sp) < 2:  # lane créée sans sorts connus : ceux d'une autre lane du champion, sinon Flash + Embrasement
+            sp = list(next((x.get('spells') for x in champ.values() if len(x.get('spells', [])) == 2), ['Flash', 'Ignite']))
         if ln == 'jungle' and sp and 'Smite' not in sp:
             sp[-1 if sp[-1] != 'Flash' else 0] = 'Smite'
         if ln != 'jungle' and 'Smite' in sp:

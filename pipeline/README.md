@@ -44,6 +44,8 @@ Pages : `https://wrchina.gg/c/<slug>/` (même slug que RiftPatchNotes : `builds.
    `Extract as compact JSON one line, no notes: {"date": "<stats updated date>", "lanes": {"<lane label exactly as written>": {"cores": [[[3 items], wr, use], ...every core item set listed for this lane, in page order], "runes": [[[runes], wr, use], ...every rune set for this lane]}}, "top": {"n": <number of real builds counted>, "date": "<builds captured date>", "items": [[item, pct], ...], "runes": [[rune, pct], ...]}}. Names exactly as written. Numbers as numbers. Do not invent anything.`
    Ajouter `{"k": <clé champion>, ...réponse}` comme nouvelle ligne de `wrchina.jsonl`
    (la dernière ligne d'un champion gagne). Page en erreur : garder l'ancienne ligne.
+   Beaucoup de pages wrchina ne sont pas rafraîchies (date « stats updated » vieille de plusieurs
+   semaines) : merge_meta.py ignore toute page de plus de 10 jours avant la date RiftPatchNotes.
 3. `python3 -I merge_meta.py ../builds.json <meta_updated actuel ou nouvelle date RPN>` puis
    `python3 -I check.py`, et mettre `wrchina_updated` (date de l'étape 1) dans `../builds.json` :
    `python3 -I -c "import json;p='../builds.json';d=json.load(open(p));d['wrchina_updated']='AAAA-MM-JJ';json.dump(d,open(p,'w'),ensure_ascii=False,separators=(',',':'))"`
