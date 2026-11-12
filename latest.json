@@ -1,5 +1,5 @@
 {
-  "version": "1.29",
-  "apk": "apk/Wildrift_pour_les_noobs-1.29.apk",
-  "notes": "Builds plus proches du vrai top méta : meilleur cœur choisi au winrate fiable et objets 4-5 / bottes repris des meilleurs joueurs chinois de chaque champion."
+  "version": "1.30",
+  "apk": "apk/Wildrift_pour_les_noobs-1.30.apk",
+  "notes": "Mise à jour plus fiable : le téléchargement affiche les Mo reçus et repart tout seul s'il bloque."
 }
