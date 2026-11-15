@@ -18,6 +18,17 @@ extra = json.load(open(os.path.join(HERE, 'extra_items.json'))) if os.path.exist
 for k in ('fr', 'vals', 'icon_fix', 'when'):
     d.setdefault(k, {}).update(extra.get(k, {}))
 
+# Champions trop récents pour les sources de builds (new_champions.json) : ajoutés s'ils manquent
+NEW = json.load(open(os.path.join(HERE, 'new_champions.json'))) if os.path.exists(os.path.join(HERE, 'new_champions.json')) else {}
+for k, v in NEW.items():
+    if k.startswith('_') or not isinstance(v, dict):
+        continue
+    d['slugs'].setdefault(k, v['slug'])
+    champ = d['champions'].setdefault(k, {})
+    for ln, b in v['lanes'].items():
+        if ln not in champ:
+            champ[ln] = json.loads(json.dumps(b))
+
 ACTIVES = set(d['actives'])
 REMOVED = set(d['removed'])
 LANES = {'mid': 'mid', 'top': 'baron', 'baron': 'baron', 'solo': 'baron', 'jungle': 'jungle',

@@ -1,0 +1,21 @@
+{
+ "_note": "Champions trop récents pour avoir des stats de build (ex. Sylas, sorti en 7.3f le 11/11/2026). Builds tirées des vraies builds du top joueurs chinois relevées par wrchina.gg ; remplacées automatiquement dès que RiftPatchNotes ou wrchina publient des cœurs d'objets.",
+ "sylas": {
+  "slug": "sylas",
+  "lanes": {
+   "mid": {"start": ["Amplifying Tome"], "items": ["Hextech Rocketbelt", "Infinity Orb", "Rabadon's Deathcap", "Lich Bane", "Riftmaker"],
+           "situational": ["Zhonya's Hourglass", "Void Staff", "Banshee's Veil", "Morellonomicon"],
+           "boots": "Boots of Mana", "enchant": "Spellslinger's Shoes",
+           "runes": ["Electrocute", "Sudden Impact", "Chain Assault", "Eyeball Collection", "Bone Plating"],
+           "spells": ["Flash", "Ignite"], "keys": ["Q", "W", "E"], "rune_path": "Domination", "keystone": "Electrocute",
+           "patch": "7.3f"},
+   "jungle": {"start": ["Amplifying Tome"], "items": ["Hextech Rocketbelt", "Infinity Orb", "Rabadon's Deathcap", "Lich Bane", "Riftmaker"],
+              "situational": ["Zhonya's Hourglass", "Void Staff", "Banshee's Veil", "Morellonomicon"],
+              "boots": "Boots of Mana", "enchant": "Spellslinger's Shoes",
+              "runes": ["Electrocute", "Sudden Impact", "Chain Assault", "Eyeball Collection", "Absolute Focus"],
+              "spells": ["Flash", "Smite"], "keys": ["Q", "W", "E"], "rune_path": "Domination", "keystone": "Electrocute",
+              "patch": "7.3f"}
+  },
+  "top": {"n": 18, "date": "2026-11-14"}
+ }
+}
