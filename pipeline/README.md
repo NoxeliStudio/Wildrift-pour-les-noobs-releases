@@ -1,5 +1,10 @@
 # Mise à jour des builds (builds.json)
 
+> **Exécution automatique (tâche planifiée)** : WebFetch y refuse toute adresse tapée à la main
+> (erreur PROVENANCE_REQUIRED, personne pour approuver). Toujours partir d'un WebSearch
+> (ex. « wrchina Wild Rift China builds site:wrchina.gg », mode extended), puis WebFetch de la page
+> trouvée en demandant de recopier les liens, puis WebFetch de ces liens. Journal : pipeline/last_run.md.
+
 Deux sources, toutes deux du serveur chinois de Wild Rift :
 - **wrchina.gg** (source principale) : pour chaque lane, les 3 cœurs d'objets et 2 pages de runes
   les plus joués en Diamant+ (winrate + part des parties), et les objets / runes des vraies builds
