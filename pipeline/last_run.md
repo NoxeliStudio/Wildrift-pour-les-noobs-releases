@@ -19,3 +19,9 @@ Début : 2026-11-15 16:27 UTC (déclenchement manuel)
 - Partie C (seemeta) : « Stats for November 13, 2026 » = counters_updated → rien à faire. WebFetch : 1 réussi, 0 échec.
 - Diagnostic : la chaîne WebSearch → WebFetch → liens recopiés fonctionne (3/3 WebFetch réussis). Astuce : la requête « … site:wrchina.gg » en mode extended trouve le site ; les requêtes sans « site: » ne le trouvaient pas.
 - Fin : aucune donnée modifiée.
+
+## Exécution parallèle (même déclenchement, autre session, 16:27–16:40 UTC)
+
+- Parties A, B, C : 3 WebFetch (riftpatchnotes ahri, wrchina lee-sin, seemeta champions), 0 réussi / 3 en échec. URL copiées directement depuis le prompt de la tâche, sans passer par WebSearch.
+- Erreur exacte (refus d'outil) : `{"error_type":"PROVENANCE_REQUIRED","source":"target","message":"The permission request for this URL was not answered in time and was withdrawn. Ask the user to include the URL in a message, or retry once they reply: a retry sends them a new permission request and waits for them again."}`
+- Le test des 10 pages wrchina n'a pas été fait. Aucune donnée modifiée. Comparé à l'exécution ci-dessus, le refus vient du fait que les URL n'ont pas été obtenues par WebSearch/WebFetch.
