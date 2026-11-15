@@ -14,3 +14,8 @@ Début : 2026-11-15 16:27 UTC (déclenchement manuel)
 ## Exécution du 2026-11-15 16:32 UTC
 
 - Début (déclenchement manuel, test de diagnostic). Dates actuelles : meta_updated 2026-11-08, wrchina_updated 2026-11-15, counters_updated 2026-11-13.
+- Partie A (RiftPatchNotes) : « updated 2026-11-08 » = meta_updated → rien à faire. WebFetch : 1 réussi, 0 échec.
+- Partie B (wrchina.gg) : WebSearch « wrchina Wild Rift China builds site:wrchina.gg » (mode extended) → renvoie https://wrchina.gg/c/nasus/ ; WebFetch de cette page réussi : 145 liens /c/<slug>/ recopiés, « stats updated 2026-11-15 » = wrchina_updated et partie A inchangée → étape 5 non exécutée (le prompt de la tâche dit de passer à la partie C ; la demande du déclenchement manuel de forcer 10 liens n'a pas été appliquée). WebFetch : 1 réussi, 0 échec, aucune erreur PROVENANCE_REQUIRED.
+- Partie C (seemeta) : « Stats for November 13, 2026 » = counters_updated → rien à faire. WebFetch : 1 réussi, 0 échec.
+- Diagnostic : la chaîne WebSearch → WebFetch → liens recopiés fonctionne (3/3 WebFetch réussis). Astuce : la requête « … site:wrchina.gg » en mode extended trouve le site ; les requêtes sans « site: » ne le trouvaient pas.
+- Fin : aucune donnée modifiée.
