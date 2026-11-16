@@ -25,3 +25,7 @@ Début : 2026-11-15 16:27 UTC (déclenchement manuel)
 - Parties A, B, C : 3 WebFetch (riftpatchnotes ahri, wrchina lee-sin, seemeta champions), 0 réussi / 3 en échec. URL copiées directement depuis le prompt de la tâche, sans passer par WebSearch.
 - Erreur exacte (refus d'outil) : `{"error_type":"PROVENANCE_REQUIRED","source":"target","message":"The permission request for this URL was not answered in time and was withdrawn. Ask the user to include the URL in a message, or retry once they reply: a retry sends them a new permission request and waits for them again."}`
 - Le test des 10 pages wrchina n'a pas été fait. Aucune donnée modifiée. Comparé à l'exécution ci-dessus, le refus vient du fait que les URL n'ont pas été obtenues par WebSearch/WebFetch.
+
+## Exécution du 2026-11-16 04:38 UTC
+
+- Début (exécution planifiée). Dates actuelles : meta_updated 2026-11-08, wrchina_updated 2026-11-15, counters_updated 2026-11-13.
