@@ -37,3 +37,4 @@ Début : 2026-11-15 16:27 UTC (déclenchement manuel)
 ## Exécution du 2026-11-17 04:38 UTC
 
 - Début (exécution planifiée). Dates actuelles : meta_updated 2026-11-08, wrchina_updated 2026-11-15, counters_updated 2026-11-14.
+- Dates lues : RPN « Updated 2026-11-15 » (≠ meta_updated 2026-11-08), wrchina « stats updated 2026-11-17 » (≠ 2026-11-15), SeeMeta « Stats for November 15, 2026 » (≠ 2026-11-14) → les trois parties sont à faire. Liens : 143 pages /champion/ (riftpatchnotes.com/champions) et 143 /c/ (wrchina.gg/c/nasus/) recopiés ; hwei absent de builds.json → slugs, ignoré. WebFetch : 6 réussis, 0 échec. Remote git mis à jour (dépôt renommé en Wildrift-pour-les-noobs-releases).
