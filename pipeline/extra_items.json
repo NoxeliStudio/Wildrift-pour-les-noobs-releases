@@ -9,7 +9,10 @@
   "Echoes of Helia": "Échos d'Helia",
   "Diadem of Songs": "Diadème des chants",
   "Fiendhunter Bolts": "Carreaux du chasseur de démons",
-  "Whispering Circlet": "Diadème murmurant"
+  "Whispering Circlet": "Diadème murmurant",
+  "Immortal Shieldbow": "Arc-bouclier immortel",
+  "Hexoptics C44": "Hexoptique C44",
+  "Yordle Trap": "Piège yordle"
  },
  "vals": {
   "Stormsurge": {
@@ -61,6 +64,21 @@
    "cout": 2400,
    "stats": "200 PV, 500 mana, 50 régén. de mana, 6 % puissance de soin et de bouclier",
    "effet": "Harmonie : +0,25 % du mana max en puissance de soin et de bouclier ; rembourse 25 % du mana dépensé. Charge de mana : dépenser du mana donne jusqu'à 700 mana max, puis se transforme en Diadème des chants."
+  },
+  "Immortal Shieldbow": {
+   "cout": 3000,
+   "stats": "55 DA, 25 % critique",
+   "effet": "Ligne de vie : si des dégâts vous font passer sous 35 % PV, bouclier de 350-650 (mêlée) ou 300-550 (distance) pendant 3 s. Recharge 70 s."
+  },
+  "Hexoptics C44": {
+   "cout": 2900,
+   "stats": "55 DA, 25 % critique",
+   "effet": "Grossissement : les attaques infligent 0-10 % de dégâts bonus selon la distance (max à 550 unités). Visée arcanique : quand un champion touché dans les 3 dernières s meurt, +100 portée d'attaque pendant 8 s."
+  },
+  "Yordle Trap": {
+   "cout": 2400,
+   "stats": "200 PV, 20 armure, 20 résistance magique, 15 accélération",
+   "effet": "Objet de support. Attrapeur : immobiliser ou ralentir un champion ennemi donne de la vitesse de déplacement et de la vitesse d'attaque à vous et aux alliés proches, et de l'or bonus sur les éliminations."
   }
  },
  "icon_fix": {
@@ -76,6 +94,9 @@
   "Ixtali Seedjar": "https://www.riftpatchnotes.com/runes/ixtali-seedjar.png",
   "Legend: Haste": "https://ddragon.leagueoflegends.com/cdn/img/perk-images/Styles/Precision/LegendHaste/LegendHaste.png",
   "Relentless Hunter": "https://ddragon.leagueoflegends.com/cdn/img/perk-images/Styles/Domination/RelentlessHunter/RelentlessHunter.png",
-  "Whispering Circlet": "https://www.riftpatchnotes.com/items/whispering-circlet.png"
+  "Whispering Circlet": "https://www.riftpatchnotes.com/items/whispering-circlet.png",
+  "Immortal Shieldbow": "https://www.riftpatchnotes.com/items/immortal-shieldbow.png",
+  "Hexoptics C44": "https://www.riftpatchnotes.com/items/hexoptics-c44.png",
+  "Yordle Trap": "https://www.riftpatchnotes.com/items/yordle-trap.png"
  }
 }

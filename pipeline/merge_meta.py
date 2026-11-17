@@ -252,7 +252,7 @@ def norm(n):
 KNOWN_NORM = {norm(x): x for x in KNOWN}
 
 
-ITEM_ALIAS = {'amaranthtwinguard': "Amaranth's Twinguard"}
+ITEM_ALIAS = {'amaranthtwinguard': "Amaranth's Twinguard", 'staffofflowingwater': 'Staff of Flowing Waters'}
 
 
 def item_name(n):
