@@ -3,14 +3,6 @@
 Début : 2026-11-15 16:27 UTC (déclenchement manuel)
 
 
-## Exécution du 2026-11-15 16:31 UTC
-
-- Début (exécution planifiée). Dates actuelles : meta_updated 2026-11-08, wrchina_updated 2026-11-15, counters_updated 2026-11-13.
-- Partie A (RiftPatchNotes) : page Ahri WR lue — « updated 2026-11-08 » = meta_updated → rien à faire. WebFetch : 2 réussis (ahri, lee-sin), 0 échec.
-- Partie B (wrchina.gg) : 3 WebSearch (« wrchina.gg Wild Rift China builds », « wrchina.gg », « wrchina.gg lee sin… ») n'ont renvoyé aucune adresse wrchina.gg, et la page RPN n'y renvoie pas → aucune adresse autorisée, aucun WebFetch tenté (règle de provenance). wrchina_updated vaut déjà 2026-11-15 (mise à jour du jour) et la partie A n'a rien changé → rien à faire. WebFetch : 0 réussi, 0 échec.
-- Partie C (seemeta) : « Stats for November 13, 2026 » = counters_updated → rien à faire. WebFetch : 1 réussi, 0 échec.
-- Fin : aucune donnée modifiée (builds.json inchangé).
-
 ## Exécution du 2026-11-15 16:32 UTC
 
 - Début (déclenchement manuel, test de diagnostic). Dates actuelles : meta_updated 2026-11-08, wrchina_updated 2026-11-15, counters_updated 2026-11-13.
@@ -43,3 +35,7 @@ Début : 2026-11-15 16:27 UTC (déclenchement manuel)
 - Partie C (SeeMeta, Stats for November 15, 2026) : 4 morceaux OK (34+36+41+12 champions), counters.py 2026-11-15 : contrôle croisé 878/878, 123 champions, 148 lanes ; check.py OK. WebFetch : 4 réussis, 0 échec.
 - Partie B, 2e passe (session principale) sur les pages wrchina en échec : 39 pages complètes de plus, 6 trop anciennes (kaisa, kogmaw, norra, urgot, veigar, yone, xayah), 6 en échec PROVENANCE_REQUIRED (« …was not answered in time and was withdrawn… »). merge_meta.py relancé → 109 champions avec données wrchina ; counters.py 878/878 ; check.py OK.
 - Fin : builds.json mis à jour (meta_updated 2026-11-15, wrchina_updated 2026-11-17, counters_updated 2026-11-15). Pages encore en échec : RPN ~45 (anciennes lignes gardées), wrchina : sett (+ quelques pages de la tranche 3 non identifiées).
+
+## Exécution du 2026-11-18 04:38 UTC
+
+- Début (exécution planifiée). Dates actuelles : meta_updated 2026-11-15, wrchina_updated 2026-11-17, counters_updated 2026-11-15.
