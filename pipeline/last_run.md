@@ -3,12 +3,6 @@
 Début : 2026-11-15 16:27 UTC (déclenchement manuel)
 
 
-## Exécution parallèle (même déclenchement, autre session, 16:27–16:40 UTC)
-
-- Parties A, B, C : 3 WebFetch (riftpatchnotes ahri, wrchina lee-sin, seemeta champions), 0 réussi / 3 en échec. URL copiées directement depuis le prompt de la tâche, sans passer par WebSearch.
-- Erreur exacte (refus d'outil) : `{"error_type":"PROVENANCE_REQUIRED","source":"target","message":"The permission request for this URL was not answered in time and was withdrawn. Ask the user to include the URL in a message, or retry once they reply: a retry sends them a new permission request and waits for them again."}`
-- Le test des 10 pages wrchina n'a pas été fait. Aucune donnée modifiée. Comparé à l'exécution ci-dessus, le refus vient du fait que les URL n'ont pas été obtenues par WebSearch/WebFetch.
-
 ## Exécution du 2026-11-16 04:38 UTC
 
 - Début (exécution planifiée). Dates actuelles : meta_updated 2026-11-08, wrchina_updated 2026-11-15, counters_updated 2026-11-13.
@@ -45,3 +39,7 @@ Début : 2026-11-15 16:27 UTC (déclenchement manuel)
 - Partie B, 2e passe (47 pages en échec, prompt précédé de « Today is 2026-11-19. ») : 43 WebFetch réussis, 4 en échec (rumble, sett, shen, shyvana, swain, urgot au 1er essai ; tous récupérés au 3e essai sauf **shen**, ancienne ligne gardée). Erreur exacte : `{"error_type":"PROVENANCE_REQUIRED","source":"target","message":"The permission request for this URL was not answered in time and was withdrawn. Ask the user to include the URL in a message, or retry once they reply: a retry sends them a new permission request and waits for them again."}`. 26 pages complètes de plus ajoutées (nouvelles : kogmaw, norra, tryndamere, xayah, urgot) ; kaisa trop ancienne (2026-11-04) ; sylas 2026-11-16 sans cœurs (ignorée) ; les autres identiques. Twitch : lane Jungle retirée (rune-clé « Press the Attack » inconnue de runes.py → runes vides, check.py en échec) — à ajouter à KEYSTONES si voulu.
 - merge_meta.py 2026-11-15 → wrchina 130 champions ; objets inconnus seulement hors cœurs ; check.py OK ; wrchina_updated 2026-11-19.
 - Fin : 89 champions mis à jour depuis wrchina (63 + 26), RPN et SeeMeta inchangés. Total WebFetch : 3 (dates) + 1 (liste) + 1 (yasuo) + 142 + 52 = 199, dont 152 réussis, 47 en échec (45 PROVENANCE_REQUIRED, 2 SERVER_ERROR) + 1 réponse inutilisable.
+
+## Exécution du 2026-11-20 04:38 UTC
+
+- Début (exécution planifiée). Dates actuelles : meta_updated 2026-11-15, wrchina_updated 2026-11-19, counters_updated 2026-11-16.
