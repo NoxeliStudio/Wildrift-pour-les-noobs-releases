@@ -3,14 +3,6 @@
 Début : 2026-11-15 16:27 UTC (déclenchement manuel)
 
 
-## Exécution du 2026-11-16 04:38 UTC
-
-- Début (exécution planifiée). Dates actuelles : meta_updated 2026-11-08, wrchina_updated 2026-11-15, counters_updated 2026-11-13.
-- Partie A (RiftPatchNotes) : WebSearch → https://www.riftpatchnotes.com/champion/ahri ; « updated 2026-11-08 » = meta_updated → rien à faire. WebFetch : 1 réussi, 0 échec.
-- Partie B (wrchina.gg) : WebSearch extended → https://wrchina.gg/c/nasus/ ; 143 liens /c/<slug>/ recopiés, « stats updated 2026-11-15 » = wrchina_updated et partie A inchangée → rien à faire. WebFetch : 1 réussi, 0 échec.
-- Partie C (seemeta) : WebSearch → https://seemeta.com/en/wild-rift/champions ; « Stats for November 14, 2026 » ≠ counters_updated (2026-11-13) → 4 extractions (offsets 0/100000/200000/300000) → seemeta/1-4.json, counters.py 2026-11-14 : contrôle croisé 840/840 paires cohérentes, 120 champions, 144 lanes ; check.py OK. WebFetch : 5 réussis (1 date + 4 morceaux), 0 échec.
-- Fin : matchups mis à jour (counters_updated 2026-11-14) ; builds inchangés. Total WebFetch : 7 réussis, 0 échec, aucune erreur.
-
 ## Exécution du 2026-11-17 04:38 UTC
 
 - Début (exécution planifiée). Dates actuelles : meta_updated 2026-11-08, wrchina_updated 2026-11-15, counters_updated 2026-11-14.
@@ -48,3 +40,7 @@ Début : 2026-11-15 16:27 UTC (déclenchement manuel)
 - Partie C (SeeMeta) : WebSearch → https://seemeta.com/en/wild-rift/champions ; « Stats for November 18, 2026 » ≠ counters_updated (2026-11-16) → extraction des 4 morceaux en cours. WebFetch : 1 réussi, 0 échec.
 - Partie C : WebFetch ne renvoie plus le prompt appliqué à tout le morceau : les ~40 000 premiers caractères de chaque fenêtre arrivent en texte brut, le reste en résumé JSON tronqué (coupé à Kindred, Sett, Yone). Les champions manquants ont été extraits par les sous-agents depuis le texte brut déjà reçu (Aatrox→Caitlyn, Kindred→Leona, Sett→Sivir, Yone→Zyra), sans nouvel appel. Re-fetch à l'offset 255000 pour Tristana : la page n'a plus de tableau de matchups pour elle (source). Jinx revérifiée sur le texte brut (identique) : les 6 écarts Jinx/Draven/Samira/Varus viennent de la source. counters.py 2026-11-18 : contrôle croisé 876/882 (seuil OK), 122 champions, 145 lanes ; check.py OK. WebFetch : 5 réussis (4 morceaux + Tristana), 0 échec.
 - Fin : matchups mis à jour (counters_updated 2026-11-18) ; builds inchangés. Total WebFetch : 8 réussis, 0 échec, aucune erreur.
+
+## Exécution du 2026-11-21 04:38 UTC
+
+- Début (exécution planifiée). Dates actuelles : meta_updated 2026-11-15, wrchina_updated 2026-11-19, counters_updated 2026-11-18.
