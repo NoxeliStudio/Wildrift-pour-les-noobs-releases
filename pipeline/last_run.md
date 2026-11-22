@@ -45,3 +45,5 @@ Début : 2026-11-15 16:27 UTC (déclenchement manuel)
 ## Exécution du 2026-11-22 04:37 UTC
 
 - Début (exécution planifiée). Dates actuelles : meta_updated 2026-11-15, wrchina_updated 2026-11-21, counters_updated 2026-11-19.
+- Partie B (wrchina.gg) : WebSearch extended → https://wrchina.gg/c/nasus/ ; 143 liens /c/<slug>/ recopiés, « stats updated 2026-11-21 » = wrchina_updated. WebFetch : 1 réussi, 0 échec.
+- Partie C (SeeMeta) : WebSearch → https://seemeta.com/en/wild-rift/champions ; « Stats for November 20, 2026 » ≠ counters_updated (2026-11-19) → 4 morceaux à extraire. WebFetch : 1 réussi, 0 échec.
