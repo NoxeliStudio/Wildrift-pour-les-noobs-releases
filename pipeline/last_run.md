@@ -2,17 +2,6 @@
 
 Début : 2026-11-15 16:27 UTC (déclenchement manuel)
 
-
-## Exécution du 2026-11-17 04:38 UTC
-
-- Début (exécution planifiée). Dates actuelles : meta_updated 2026-11-08, wrchina_updated 2026-11-15, counters_updated 2026-11-14.
-- Dates lues : RPN « Updated 2026-11-15 » (≠ meta_updated 2026-11-08), wrchina « stats updated 2026-11-17 » (≠ 2026-11-15), SeeMeta « Stats for November 15, 2026 » (≠ 2026-11-14) → les trois parties sont à faire. Liens : 143 pages /champion/ (riftpatchnotes.com/champions) et 143 /c/ (wrchina.gg/c/nasus/) recopiés ; hwei absent de builds.json → slugs, ignoré. WebFetch : 6 réussis, 0 échec. Remote git mis à jour (dépôt renommé en Wildrift-pour-les-noobs-releases).
-- Partie A (RPN, date 2026-11-15) : 97 pages lues et ajoutées à rpn.jsonl (dont jayce), ~45 en échec (anciennes lignes gardées). WebFetch : ~110 réussis, ~50 en échec. Erreurs exactes : `{"error_type":"PROVENANCE_REQUIRED","source":"target","message":"The permission request for this URL was not answered in time and was withdrawn. Ask the user to include the URL in a message, or retry once they reply: a retry sends them a new permission request and waits for them again."}` (session principale) ; dans les sous-agents : `{"error_type":"PROVENANCE_REQUIRED","source":"target","message":"The permission request for this URL was not answered in time. Do not retry. Continue without this page and report the blocked URL in your findings."}` et `{"error_type":"PROVENANCE_REQUIRED","source":"target","message":"The user did not answer an earlier permission request in time, so the request for this URL was not sent to them. Do not retry. Continue without this page and report the blocked URL in your findings."}`. Le refus est intermittent (~1 lien sur 2 recopiés, même dans la session principale) ; les forks échouent plus souvent.
-- Partie B (wrchina, date 2026-11-17) : 69 pages complètes ajoutées à wrchina.jsonl, ~27 pages trop anciennes (> 10 j), ~47 en échec (mêmes erreurs PROVENANCE_REQUIRED). Nouveaux objets dans extra_items.json : Immortal Shieldbow, Hexoptics C44, Yordle Trap (pages /item/ RPN) ; ITEM_ALIAS : Staff of Flowing Water → Staff of Flowing Waters. Twitch jungle : rune-clé « Press the Attack » inconnue de runes.py (fichier hors périmètre) → lane Jungle retirée de la ligne Twitch ; à ajouter à KEYSTONES/PATHS si la rune existe. merge_meta.py 2026-11-15 → 100 champions avec données wrchina ; check.py OK ; wrchina_updated 2026-11-17.
-- Partie C (SeeMeta, Stats for November 15, 2026) : 4 morceaux OK (34+36+41+12 champions), counters.py 2026-11-15 : contrôle croisé 878/878, 123 champions, 148 lanes ; check.py OK. WebFetch : 4 réussis, 0 échec.
-- Partie B, 2e passe (session principale) sur les pages wrchina en échec : 39 pages complètes de plus, 6 trop anciennes (kaisa, kogmaw, norra, urgot, veigar, yone, xayah), 6 en échec PROVENANCE_REQUIRED (« …was not answered in time and was withdrawn… »). merge_meta.py relancé → 109 champions avec données wrchina ; counters.py 878/878 ; check.py OK.
-- Fin : builds.json mis à jour (meta_updated 2026-11-15, wrchina_updated 2026-11-17, counters_updated 2026-11-15). Pages encore en échec : RPN ~45 (anciennes lignes gardées), wrchina : sett (+ quelques pages de la tranche 3 non identifiées).
-
 ## Exécution du 2026-11-18 04:38 UTC
 
 - Début (exécution planifiée). Dates actuelles : meta_updated 2026-11-15, wrchina_updated 2026-11-17, counters_updated 2026-11-15.
@@ -52,3 +41,7 @@ Début : 2026-11-15 16:27 UTC (déclenchement manuel)
 - Partie B, 3e passe (24 pages ; 3 sous-agents de 8) : 20 WebFetch réussis, 4 en échec (master-yi, sett, xayah, yunara : anciennes lignes gardées). Erreur exacte : `{"error_type":"PROVENANCE_REQUIRED","source":"target","message":"The permission request for this URL was not answered in time. Do not retry. Continue without this page and report the blocked URL in your findings."}`. 5 pages complètes ajoutées (kayn kennen maokai mel nocturne), 13 identiques, sylas ignoré (lanes sans cœurs ni runes). merge_meta.py 2026-11-15 → wrchina 132 champions ; objets inconnus seulement hors cœurs ; check.py OK ; wrchina_updated 2026-11-21.
 - Partie C, morceaux 2 et 3 refaits (offsets 100000/200000) : aucune table de matchups pour Olaf, Kayle, Talon, Vladimir → absents de la source ce jour ; contrôle croisé 890/890 OK donc résultat gardé (120 champions, 143 lanes ; olaf, talon, vladimir sans matchups). WebFetch : 2 réussis, 0 échec. counters_updated 2026-11-19.
 - Fin : builds.json mis à jour (meta_updated 2026-11-15 inchangé, wrchina_updated 2026-11-21, counters_updated 2026-11-19). 43 lignes wrchina ajoutées (38 champions + normalisation des runes chinoises). Total WebFetch : 3 (dates/liste) + 142 + 78 + 24 + 6 (SeeMeta) = 253 appels, 166 réussis (+ 1 RPN), 86 en échec (tous PROVENANCE_REQUIRED). Pages wrchina encore en échec : master-yi, sett, xayah, yunara.
+
+## Exécution du 2026-11-22 04:37 UTC
+
+- Début (exécution planifiée). Dates actuelles : meta_updated 2026-11-15, wrchina_updated 2026-11-21, counters_updated 2026-11-19.
