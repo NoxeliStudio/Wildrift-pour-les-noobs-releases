@@ -2,15 +2,6 @@
 
 Début : 2026-11-15 16:27 UTC (déclenchement manuel)
 
-## Exécution du 2026-11-20 04:38 UTC
-
-- Début (exécution planifiée). Dates actuelles : meta_updated 2026-11-15, wrchina_updated 2026-11-19, counters_updated 2026-11-16.
-- Partie A (RPN) : WebSearch → https://www.riftpatchnotes.com/champion/ahri ; « updated 2026-11-15 » = meta_updated → rien à faire. WebFetch : 1 réussi, 0 échec.
-- Partie B (wrchina.gg) : WebSearch extended → https://wrchina.gg/c/nasus/ ; liens /c/<slug>/ recopiés, « stats updated 2026-11-19 » = wrchina_updated et partie A inchangée → rien à faire. WebFetch : 1 réussi, 0 échec.
-- Partie C (SeeMeta) : WebSearch → https://seemeta.com/en/wild-rift/champions ; « Stats for November 18, 2026 » ≠ counters_updated (2026-11-16) → extraction des 4 morceaux en cours. WebFetch : 1 réussi, 0 échec.
-- Partie C : WebFetch ne renvoie plus le prompt appliqué à tout le morceau : les ~40 000 premiers caractères de chaque fenêtre arrivent en texte brut, le reste en résumé JSON tronqué (coupé à Kindred, Sett, Yone). Les champions manquants ont été extraits par les sous-agents depuis le texte brut déjà reçu (Aatrox→Caitlyn, Kindred→Leona, Sett→Sivir, Yone→Zyra), sans nouvel appel. Re-fetch à l'offset 255000 pour Tristana : la page n'a plus de tableau de matchups pour elle (source). Jinx revérifiée sur le texte brut (identique) : les 6 écarts Jinx/Draven/Samira/Varus viennent de la source. counters.py 2026-11-18 : contrôle croisé 876/882 (seuil OK), 122 champions, 145 lanes ; check.py OK. WebFetch : 5 réussis (4 morceaux + Tristana), 0 échec.
-- Fin : matchups mis à jour (counters_updated 2026-11-18) ; builds inchangés. Total WebFetch : 8 réussis, 0 échec, aucune erreur.
-
 ## Exécution du 2026-11-21 04:38 UTC
 
 - Début (exécution planifiée). Dates actuelles : meta_updated 2026-11-15, wrchina_updated 2026-11-19, counters_updated 2026-11-18.
@@ -52,3 +43,7 @@ Début : 2026-11-15 16:27 UTC (déclenchement manuel)
 - Partie C (SeeMeta) : WebSearch → https://seemeta.com/en/wild-rift/champions ; « Stats for November 22, 2026 » ≠ counters_updated (2026-11-21) → 4 morceaux à extraire. WebFetch : 1 réussi, 0 échec.
 - Partie C (SeeMeta, Stats for November 22, 2026) : 4 morceaux (offsets 0/100000/200000/300000, 4 sous-agents) ; chaque réponse = ~40 000 caractères en texte brut + résumé JSON (morceau 1 : Aatrox→Kindred, 2 : Jayce→Sett, 3 : Pyke→Yasuo, 4 : Volibear→Zyra) ; chevauchements recollés (Kindred et Yasuo complétés par le morceau suivant, doublons retirés des fichiers seemeta/*.json). Orianna, Riven, Sion, Ziggs absents des réponses → recherche ciblée (offsets 140000, 175000) : Orianna et Riven présents sans tableau de matchups (source) ; Sion et Ziggs se trouvaient dans le texte brut des morceaux 3 et 4 sans matchups. Leona : liste « faciles » limitée à 2 adversaires. counters.py 2026-11-22 : contrôle croisé 846/846, 118 champions, 142 lanes ; check.py OK. WebFetch : 6 réussis (4 morceaux + 2 ciblés), 0 échec.
 - Fin : matchups mis à jour (counters_updated 2026-11-22) ; builds inchangés (meta_updated 2026-11-15, wrchina_updated 2026-11-23). Total WebFetch : 9 réussis (date RPN, liens+date wrchina, date SeeMeta, 4 morceaux, 2 ciblés), 0 échec, aucune erreur.
+
+## Exécution du 2026-11-25 04:38 UTC
+
+- Début (exécution planifiée). Dates actuelles : meta_updated 2026-11-15, wrchina_updated 2026-11-23, counters_updated 2026-11-22.
