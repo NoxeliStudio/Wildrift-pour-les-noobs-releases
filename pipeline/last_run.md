@@ -46,3 +46,4 @@ Début : 2026-11-15 16:27 UTC (déclenchement manuel)
 ## Exécution du 2026-11-27 04:38 UTC
 
 - Début (exécution planifiée). Dates actuelles : meta_updated 2026-11-22, wrchina_updated 2026-11-25, counters_updated 2026-11-23.
+- Dates lues (WebSearch → WebFetch) : RPN https://www.riftpatchnotes.com/champion/ahri « updated 2026-11-22 » = meta_updated → partie A rien à faire ; wrchina https://wrchina.gg/c/nasus/ en échec (`{"error_type":"SERVER_ERROR","source":"target","message":"There was an error while fetching."}`), puis https://wrchina.gg/c/yasuo/ « stats updated 2026-11-27 » ≠ 2026-11-25 → partie B à faire ; SeeMeta https://seemeta.com/en/wild-rift/champions « Stats for November 25, 2026 » ≠ 2026-11-23 → partie C à faire. WebFetch : 3 réussis, 1 en échec (SERVER_ERROR).
