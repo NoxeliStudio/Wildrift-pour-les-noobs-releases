@@ -2,16 +2,6 @@
 
 Début : 2026-11-15 16:27 UTC (déclenchement manuel)
 
-## Exécution du 2026-11-22 04:37 UTC
-
-- Début (exécution planifiée). Dates actuelles : meta_updated 2026-11-15, wrchina_updated 2026-11-21, counters_updated 2026-11-19.
-- Partie B (wrchina.gg) : WebSearch extended → https://wrchina.gg/c/nasus/ ; 143 liens /c/<slug>/ recopiés, « stats updated 2026-11-21 » = wrchina_updated. WebFetch : 1 réussi, 0 échec.
-- Partie C (SeeMeta) : WebSearch → https://seemeta.com/en/wild-rift/champions ; « Stats for November 20, 2026 » ≠ counters_updated (2026-11-19) → 4 morceaux à extraire. WebFetch : 1 réussi, 0 échec.
-- Partie A (RPN) : WebSearch extended → https://www.riftpatchnotes.com/champion/ahri ; « Updated 2026-11-15 » = meta_updated → rien à faire. WebFetch : 1 réussi, 0 échec.
-- Partie B : date wrchina inchangée et partie A inchangée → rien à faire.
-- Partie C (SeeMeta, Stats for November 20, 2026) : 4 morceaux (offsets 0/100000/200000/300000) ; chaque réponse = ~40 000 caractères en texte brut + résumé JSON tronqué, les chevauchements ont été recollés (Lee Sin, Seraphine, Yone complétés par le morceau suivant). Draven, Shen, Twisted Fate, Vex absents des réponses → recherche ciblée (offsets 45000, 230000, 275000, 269500) : aucune table de matchups pour eux sur la page (source). counters.py 2026-11-20 : contrôle croisé 866/866, 119 champions, 143 lanes ; check.py OK. WebFetch : 8 réussis (4 morceaux + 4 ciblés), 0 échec.
-- Fin : matchups mis à jour (counters_updated 2026-11-20) ; builds inchangés. Total WebFetch : 11 réussis (date wrchina+liens, date SeeMeta, date RPN, 4 morceaux, 4 ciblés), 0 échec, aucune erreur.
-
 ## Exécution du 2026-11-23 04:38 UTC
 
 - Début (exécution planifiée). Dates actuelles : meta_updated 2026-11-15, wrchina_updated 2026-11-21, counters_updated 2026-11-20.
@@ -52,3 +42,7 @@ Début : 2026-11-15 16:27 UTC (déclenchement manuel)
 - Partie B (wrchina.gg) : WebSearch extended → https://wrchina.gg/c/nasus/ ; 143 liens /c/<slug>/ recopiés, « stats updated 2026-11-25 » = wrchina_updated et partie A inchangée → rien à faire. WebFetch : 1 réussi, 0 échec.
 - Partie C (SeeMeta) : WebSearch → https://seemeta.com/en/wild-rift/champions ; « Stats for November 23, 2026 » = counters_updated → rien à faire. WebFetch : 1 réussi, 0 échec.
 - Fin : aucune donnée modifiée (meta_updated 2026-11-22, wrchina_updated 2026-11-25, counters_updated 2026-11-23). Total WebFetch : 3 réussis, 0 échec, aucune erreur.
+
+## Exécution du 2026-11-27 04:38 UTC
+
+- Début (exécution planifiée). Dates actuelles : meta_updated 2026-11-22, wrchina_updated 2026-11-25, counters_updated 2026-11-23.
