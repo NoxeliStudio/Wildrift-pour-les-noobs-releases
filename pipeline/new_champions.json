@@ -1,21 +1,176 @@
 {
- "_note": "Champions trop récents pour avoir des stats de build (ex. Sylas, sorti en 7.3f le 11/11/2026). Builds tirées des vraies builds du top joueurs chinois relevées par wrchina.gg ; remplacées automatiquement dès que RiftPatchNotes ou wrchina publient des cœurs d'objets.",
+ "_note": "Champions absents de la liste des slugs (ex. Sylas, sorti en 7.3f le 11/11/2026 ; Hwei). Builds tirées de wrchina.gg ; remplacées automatiquement dès que RiftPatchNotes ou wrchina publient des cœurs d'objets.",
  "sylas": {
   "slug": "sylas",
   "lanes": {
-   "mid": {"start": ["Amplifying Tome"], "items": ["Hextech Rocketbelt", "Infinity Orb", "Rabadon's Deathcap", "Lich Bane", "Riftmaker"],
-           "situational": ["Zhonya's Hourglass", "Void Staff", "Banshee's Veil", "Morellonomicon"],
-           "boots": "Boots of Mana", "enchant": "Spellslinger's Shoes",
-           "runes": ["Electrocute", "Sudden Impact", "Chain Assault", "Eyeball Collection", "Bone Plating"],
-           "spells": ["Flash", "Ignite"], "keys": ["Q", "W", "E"], "rune_path": "Domination", "keystone": "Electrocute",
-           "patch": "7.3f"},
-   "jungle": {"start": ["Amplifying Tome"], "items": ["Hextech Rocketbelt", "Infinity Orb", "Rabadon's Deathcap", "Lich Bane", "Riftmaker"],
-              "situational": ["Zhonya's Hourglass", "Void Staff", "Banshee's Veil", "Morellonomicon"],
-              "boots": "Boots of Mana", "enchant": "Spellslinger's Shoes",
-              "runes": ["Electrocute", "Sudden Impact", "Chain Assault", "Eyeball Collection", "Absolute Focus"],
-              "spells": ["Flash", "Smite"], "keys": ["Q", "W", "E"], "rune_path": "Domination", "keystone": "Electrocute",
-              "patch": "7.3f"}
+   "mid": {
+    "start": [
+     "Amplifying Tome"
+    ],
+    "items": [
+     "Hextech Rocketbelt",
+     "Infinity Orb",
+     "Rabadon's Deathcap",
+     "Lich Bane",
+     "Riftmaker"
+    ],
+    "situational": [
+     "Zhonya's Hourglass",
+     "Void Staff",
+     "Banshee's Veil",
+     "Morellonomicon"
+    ],
+    "boots": "Boots of Mana",
+    "enchant": "Spellslinger's Shoes",
+    "runes": [
+     "Electrocute",
+     "Sudden Impact",
+     "Chain Assault",
+     "Eyeball Collection",
+     "Bone Plating"
+    ],
+    "spells": [
+     "Flash",
+     "Ignite"
+    ],
+    "keys": [
+     "Q",
+     "W",
+     "E"
+    ],
+    "rune_path": "Domination",
+    "keystone": "Electrocute",
+    "patch": "7.3f"
+   },
+   "jungle": {
+    "start": [
+     "Amplifying Tome"
+    ],
+    "items": [
+     "Hextech Rocketbelt",
+     "Infinity Orb",
+     "Rabadon's Deathcap",
+     "Lich Bane",
+     "Riftmaker"
+    ],
+    "situational": [
+     "Zhonya's Hourglass",
+     "Void Staff",
+     "Banshee's Veil",
+     "Morellonomicon"
+    ],
+    "boots": "Boots of Mana",
+    "enchant": "Spellslinger's Shoes",
+    "runes": [
+     "Electrocute",
+     "Sudden Impact",
+     "Chain Assault",
+     "Eyeball Collection",
+     "Absolute Focus"
+    ],
+    "spells": [
+     "Flash",
+     "Smite"
+    ],
+    "keys": [
+     "Q",
+     "W",
+     "E"
+    ],
+    "rune_path": "Domination",
+    "keystone": "Electrocute",
+    "patch": "7.3f"
+   }
   },
-  "top": {"n": 18, "date": "2026-11-14"}
+  "top": {
+   "n": 18,
+   "date": "2026-11-14"
+  }
+ },
+ "hwei": {
+  "slug": "hwei",
+  "lanes": {
+   "mid": {
+    "start": [
+     "Amplifying Tome"
+    ],
+    "items": [
+     "Blackfire Torch",
+     "Infinity Orb",
+     "Liandry's Torment",
+     "Rabadon's Deathcap",
+     "Cryptbloom"
+    ],
+    "situational": [
+     "Zhonya's Hourglass",
+     "Void Staff",
+     "Banshee's Veil",
+     "Morellonomicon"
+    ],
+    "boots": "Boots of Mana",
+    "enchant": "Spellslinger's Shoes",
+    "runes": [
+     "Arcane Comet",
+     "Manaflow Band",
+     "Transcendence",
+     "Scorch",
+     "Legend: Haste"
+    ],
+    "spells": [
+     "Flash",
+     "Ignite"
+    ],
+    "keys": [
+     "Q",
+     "E",
+     "W"
+    ],
+    "rune_path": "Sorcellerie",
+    "keystone": "Arcane Comet",
+    "patch": "7.3f"
+   },
+   "support": {
+    "start": [
+     "Spectral Sickle"
+    ],
+    "items": [
+     "Black Mist Scythe",
+     "Blackfire Torch",
+     "Horizon Focus",
+     "Infinity Orb",
+     "Rabadon's Deathcap"
+    ],
+    "situational": [
+     "Morellonomicon",
+     "Zhonya's Hourglass",
+     "Banshee's Veil"
+    ],
+    "boots": "Boots of Mana",
+    "enchant": "Spellslinger's Shoes",
+    "runes": [
+     "Arcane Comet",
+     "Axiom Arcanist",
+     "Absolute Focus",
+     "Scorch",
+     "Legend: Haste"
+    ],
+    "spells": [
+     "Flash",
+     "Ignite"
+    ],
+    "keys": [
+     "Q",
+     "E",
+     "W"
+    ],
+    "rune_path": "Sorcellerie",
+    "keystone": "Arcane Comet",
+    "patch": "7.3f"
+   }
+  },
+  "top": {
+   "n": 24,
+   "date": "2026-11-14"
+  }
  }
 }
